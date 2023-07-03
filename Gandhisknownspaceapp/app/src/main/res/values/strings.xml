@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gandhi\'s known space app</string>
+    <string name="elsy_name">Elsy Dayany Guerrero</string>
+    <string name="gilberto_name">Gilberto David Garcia</string>
+    <string name="paola_name">Genesis Paola Hernandez</string>
+    <string name="pepe_name">Pepe</string>
+    <string name="alejandro_name">Alejandro Estrada Balderas</string>
+    <string name="alin_name">Dulce Alin Mendez</string>
+    <string name="daniel_name">Daniel Hernandez</string>
+    <string name="david_name">Juan David Betancourt</string>
+    <string name="daza_name">Angel Daza Morales</string>
+    <string name="karla_name">Karla Alejandra Aradillas</string>
+    <string name="marco_name">Marco Hernandez</string>
+
+    <string name="elsy_year">2004</string>
+    <string name="gilberto_year">2004</string>
+    <string name="paola_year">2004</string>
+    <string name="pepe_year">2010</string>
+    <string name="alejandro_year">2003</string>
+    <string name="alin_year">2002</string>
+    <string name="daniel_year">1995</string>
+    <string name="david_year">2004</string>
+    <string name="daza_year">2004</string>
+    <string name="karla_year">2004</string>
+    <string name="marco_year">1997</string>
+</resources>
