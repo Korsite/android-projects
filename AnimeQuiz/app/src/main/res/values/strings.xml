@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">Anime Quiz</string>
+    <string name="welcome_message">Welcome!, using hints will subtract %d points from your total score
+    </string>
+
+    <string name="instructions">Look at the picture and write the name (last names might also work)</string>
+    <string name="submit">Submit</string>
+    <string name="skip">Skip</string>
+    <string name="points_count">Points: %d</string>
+    <string name="picture_count">%d/10</string>
+    <string name="enter_name">Character name</string>
+    <string name="click_me_hints_info">Click me, hints/info!</string>
+
+    <string name="you_are_otaku">You are a truly otaku!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="well_done">Well done!</string>
+    <string name="cant_blame_you">Meh, can\'t blame you</string>
+    <string name="very_bad">Very bad!</string>
+    <string name="negative_score">Negative score? Why did you even try?</string>
+    <string name="hit_a_hint">hit a hint if problems!</string>
+    <string name="previous_character_message">the previos character was %s</string>
+    <string name="appears_in">Appears in the anime </string>
+
+    <string name="kokushibo">Kokushibo</string>
+    <string name="kokushibo_hint_1">demon slayer (2019), his</string>
+    <string name="kokushibo_hint_2">He is yorichi\'s brother</string>
+    <string name="kokushibo_hint_3">He is the 1st upper moon</string>
+
+    <string name="muzan">Muzan</string>
+    <string name="muzan_hint_1">demon slayer (2019), his</string>
+    <string name="muzan_hint_2">He is the most powerful villain in the serie</string>
+    <string name="muzan_hint_3">He is a demon</string>
+
+    <string name="giyu">Giyu</string>
+    <string name="giyu_hint_1">demon slayer (2019), his</string>
+    <string name="giyu_hint_2">He is the water hashira</string>
+    <string name="giyu_hint_3">It\'s the 1st hashira appearing in the anime</string>
+
+    <string name="akaza">Akaza</string>
+    <string name="akaza_hint_1">demon slayer (2019), his</string>
+    <string name="akaza_hint_2">He is the 3rd upper moon</string>
+    <string name="akaza_hint_3">(Spoiler) -> He killed Rengoku</string>
+
+    <string name="doma">Doma</string>
+    <string name="doma_hint_1">demon slayer (2019), his</string>
+    <string name="doma_hint_2">He is the 2nd upper moon</string>
+    <string name="doma_hint_3">As demon, he only eats women</string>
+
+    <string name="inosuke">Inosuke</string>
+    <string name="inosuke_hint_1">demon slayer (2019), his</string>
+    <string name="inosuke_hint_2">He is one Tanjiro\'s friend</string>
+    <string name="inosuke_hint_3">He uses beast breathing</string>
+
+    <string name="nezuko">Nezuko</string>
+    <string name="nezuko_hint_1">demon slayer (2019), her</string>
+    <string name="nezuko_hint_2">She is Tanjiro\'s sister</string>
+    <string name="nezuko_hint_3">She turns into a demon, but she doesn\'t behave like one</string>
+
+    <string name="rengoku">Rengoku</string>
+    <string name="rengoku_hint_1">demon slayer (2019), his</string>
+    <string name="rengoku_hint_2">He is the fire hashira</string>
+    <string name="rengoku_hint_3">He loves eating</string>
+
+    <string name="tanjiro">Tanjiro</string>
+    <string name="tanjiro_hint_1">demon slayer (2019), his</string>
+    <string name="tanjiro_hint_2">He is the main character</string>
+    <string name="tanjiro_hint_3">He uses 2 breathing styles</string>
+
+    <string name="zenitsu">Zenitsu</string>
+    <string name="zenitsu_hint_1">demon slayer (2019), his</string>
+    <string name="zenitsu_hint_2">He is one Tanjiro\'s friend</string>
+    <string name="zenitsu_hint_3">He uses thunder breathing</string>
+
+
+    <string name="koro">Koro</string>
+    <string name="koro_hint_1">assassination classroom (2015), his</string>
+    <string name="koro_hint_2">He is the teacher of anime</string>
+    <string name="koro_hint_3">He was the assassin known as "The Reaper"</string>
+
+    <string name="nagisa">Nagisa</string>
+    <string name="nagisa_hint_1">assassination classroom (2015), her</string>
+    <string name="nagisa_hint_2">She is one Koro\'s student</string>
+    <string name="nagisa_hint_3">She is the main student in the serie</string>
+
+    <string name="tomoya">Tomoya</string>
+    <string name="tomoya_hint_1">assassination classroom (2015), his</string>
+    <string name="tomoya_hint_2">He is a rude and arrogant person</string>
+    <string name="tomoya_hint_3">He is a student of 3-A class</string>
+
+
+    <string name="annie">Annie</string>
+    <string name="annie_hint_1">attack on titan (2009), her</string>
+    <string name="annie_hint_2">(Spoiler) -> She is a titan</string>
+    <string name="annie_hint_3">She has a exceptional skill in fighting</string>
+
+    <string name="armin">Armin</string>
+    <string name="armin_hint_1">attack on titan (2009), his</string>
+    <string name="armin_hint_2">He is one Eren\'s friend</string>
+    <string name="armin_hint_3">He always desired to know what was beyond walls</string>
+
+    <string name="connie">Connie</string>
+    <string name="connie_hint_1">attack on titan (2009), his</string>
+    <string name="connie_hint_2">He is one friend of the main character</string>
+    <string name="connie_hint_3">He is a soldier</string>
+
+    <string name="eren">Eren</string>
+    <string name="eren_hint_1">attack on titan (2009), his</string>
+    <string name="eren_hint_2">He is the main character</string>
+    <string name="eren_hint_3">A baby cry at the beginning</string>
+
+    <string name="erwin">Erwin</string>
+    <string name="erwin_hint_1">attack on titan (2009), his</string>
+    <string name="erwin_hint_2">His strategy is impeccable</string>
+    <string name="erwin_hint_3">He is the best leader</string>
+
+    <string name="hange">Hange</string>
+    <string name="hange_hint_1">attack on titan (2009), her</string>
+    <string name="hange_hint_2">She loves titans, in spite of the dangerous that they are</string>
+    <string name="hange_hint_3">She is often a comedian</string>
+
+    <string name="levi">Levi</string>
+    <string name="levi_hint_1">attack on titan (2009), his</string>
+    <string name="levi_hint_2">He is one the best fighters</string>
+    <string name="levi_hint_3">He is an Ackerman</string>
+
+    <string name="mikasa">Mikasa</string>
+    <string name="mikasa_hint_1">attack on titan (2009), her</string>
+    <string name="mikasa_hint_2">She is the main character\'s sister</string>
+    <string name="mikasa_hint_3">She is an Ackerman</string>
+
+
+    <string name="baldroy">Baldroy</string>
+    <string name="baldroy_hint_1">black butler (2007), his</string>
+    <string name="baldroy_hint_2">He is not very good at cooking</string>
+    <string name="baldroy_hint_3">Baldroy</string>
+
+    <string name="ciel">Ciel</string>
+    <string name="ciel_hint_1">black butler (2007), his</string>
+    <string name="ciel_hint_2">He only looks for answers about his pain</string>
+    <string name="ciel_hint_3">He thinks with the heart and not the head</string>
+
+    <string name="grell">Grell</string>
+    <string name="grell_hint_1">black butler (2007), her</string>
+    <string name="grell_hint_2">She has a lot of patience</string>
+    <string name="grell_hint_3">She doesn\'t know how to say no when help is needed</string>
+
+    <string name="madam">Madam</string>
+    <string name="madam_hint_1">black butler (2007), her</string>
+    <string name="madam_hint_2">She killed women who had something she didn\'t</string>
+    <string name="madam_hint_3">She is very sensitive</string>
+
+    <string name="mey">Mey</string>
+    <string name="mey_hint_1">black butler (2007), her</string>
+    <string name="mey_hint_2">She appears to be a "fool" girl</string>
+    <string name="mey_hint_3">She is the best at sniper</string>
+
+    <string name="sebastian">Sebastian</string>
+    <string name="sebastian_hint_1">black butler (2007), his</string>
+    <string name="sebastian_hint_2">He is a demon</string>
+    <string name="sebastian_hint_3">He is a mysterious man</string>
+
+    <string name="undertaker">Undertaker</string>
+    <string name="undertaker_hint_1">black butler (2007), his</string>
+    <string name="undertaker_hint_2">He has a lot of secrets which can not be revealed</string>
+    <string name="undertaker_hint_3">He is a good seeker</string>
+
+
+    <string name="l">L</string>
+    <string name="l_hint_1">death note (2004), his</string>
+    <string name="l_hint_2">He is one the best detectives</string>
+    <string name="l_hint_3">He loves eating</string>
+
+    <string name="light">Light</string>
+    <string name="light_hint_1">death note (2004), his</string>
+    <string name="light_hint_2">He is an intelligent boy</string>
+    <string name="light_hint_3">He is the main character</string>
+
+    <string name="misa">Misa</string>
+    <string name="misa_hint_1">Death note (2004), her</string>
+    <string name="misa_hint_2">She is the main character\'s girlfriend</string>
+    <string name="misa_hint_3">She is a popular girl</string>
+
+    <string name="near">Near</string>
+    <string name="near_hint_1">death note (2004), his</string>
+    <string name="near_hint_2">He loves playing with toys</string>
+    <string name="near_hint_3">He is a great detective</string>
+
+    <string name="rem">Rem</string>
+    <string name="rem_hint_1">death note (2004), her</string>
+    <string name="rem_hint_2">She is takes care of Misa</string>
+    <string name="rem_hint_3">She is Misa\'s shinigami</string>
+
+    <string name="ryuk">Ryuk</string>
+    <string name="ryuk_hint_1">death note (2004), his</string>
+    <string name="ryuk_hint_2">He is the main character\'s shinigami</string>
+    <string name="ryuk_hint_3">He loves apples</string>
+
+    <string name="soichiro">Soichiro</string>
+    <string name="soichiro_hint_1">death note (2004), his</string>
+    <string name="soichiro_hint_2">He is a detective</string>
+    <string name="soichiro_hint_3">He is the main character\'s father</string>
+
+
+    <string name="eva">Eva</string>
+    <string name="eva_hint_1">monster (1994), her</string>
+    <string name="eva_hint_2">She is the main character\'s girlfriend</string>
+    <string name="eva_hint_3">She is the hospital director\'s daughter</string>
+
+    <string name="johan">Johan</string>
+    <string name="johan_hint_1">monster (1994), his</string>
+    <string name="johan_hint_2">He is the main antagonist</string>
+    <string name="johan_hint_3"> He is the older twin brother of Nina Fortner</string>
+
+    <string name="nina">Nina</string>
+    <string name="nina_hint_1">monster (1994), her</string>
+    <string name="nina_hint_2">She is one of the two deuteragonists in the serie</string>
+    <string name="nina_hint_3">She is one the main characters</string>
+
+    <string name="tenma">Tenma</string>
+    <string name="tenma_hint_1">monster (1994), his</string>
+    <string name="tenma_hint_2">He is a great neurosurgeon</string>
+    <string name="tenma_hint_3">He is the main character</string>
+
+
+    <string name="dabi">Dabi</string>
+    <string name="dabi_hint_1">my hero academy (2014), his</string>
+    <string name="dabi_hint_2">He is an obsessed psychopath</string>
+    <string name="dabi_hint_3">He is a villain</string>
+
+    <string name="izuku">Izuku</string>
+    <string name="izuku_hint_1">my hero academy (2014), his</string>
+    <string name="izuku_hint_2">He is the main character</string>
+    <string name="izuku_hint_3">He has a strength sense of justice</string>
+
+    <string name="katsuki">Katsuki</string>
+    <string name="katsuki_hint_1">my hero academy (2014), his</string>
+    <string name="katsuki_hint_2">He is an intelligent boy</string>
+    <string name="katsuki_hint_3">He knows the kitchen stuff</string>
+
+    <string name="ochaco">Ochaco</string>
+    <string name="ochaco_hint_1">my hero academy (2014), her</string>
+    <string name="ochaco_hint_2">She is a student of 1-A class</string>
+    <string name="ochaco_hint_3">She is one of the main characters</string>
+
+    <string name="shoto">Shoto</string>
+    <string name="shoto_hint_1">my hero academy (2014), his</string>
+    <string name="shoto_hint_2">He is a serious person</string>
+    <string name="shoto_hint_3">He loves soba</string>
+
+
+    <string name="gaara">Gaara</string>
+    <string name="gaara_hint_1">naruto (1999), his</string>
+    <string name="gaara_hint_2">He has a serious personality</string>
+    <string name="gaara_hint_3">He is one friend of Naruto</string>
+
+    <string name="hinata">Hinata</string>
+    <string name="hinata_hint_1">naruto (1999), her</string>
+    <string name="hinata_hint_2">She is in love with the main character</string>
+    <string name="hinata_hint_3">Her strength comes from "Byakugan" </string>
+
+    <string name="kakashi">Kakashi</string>
+    <string name="kakashi_hint_1">naruto (1999), his</string>
+    <string name="kakashi_hint_2">He is the main character\'s teacher</string>
+    <string name="kakashi_hint_3">He loves romance reading</string>
+
+    <string name="naruto">Naruto</string>
+    <string name="naruto_hint_1">naruto (1999), his</string>
+    <string name="naruto_hint_2">He loves orange color</string>
+    <string name="naruto_hint_3">He loves saying "dattebayo"</string>
+
+    <string name="orochimaru">Orochimaru</string>
+    <string name="orochimaru_hint_1">naruto (1999), his</string>
+    <string name="orochimaru_hint_2">He is one of the main antagonist</string>
+    <string name="orochimaru_hint_3">He looks for learning all of the spells</string>
+
+    <string name="sakura">Sakura</string>
+    <string name="sakura_hint_1">naruto (1999), her</string>
+    <string name="sakura_hint_2">She is one of the main characters</string>
+    <string name="sakura_hint_3">She is in love with Sasuke</string>
+
+    <string name="sasuke">Sasuke</string>
+    <string name="sasuke_hint_1">naruto (1999), his</string>
+    <string name="sasuke_hint_2">He is the best friend of Naruto</string>
+    <string name="sasuke_hint_3">He sometimes tries to kill Naruto</string>
+
+    <string name="tsunade">Tsunade</string>
+    <string name="tsunade_hint_1">naruto (1999), her</string>
+    <string name="tsunade_hint_2">One of the three sannin</string>
+    <string name="tsunade_hint_3">She ons the hokages</string>
+
+
+    <string name="beast">Beast</string>
+    <string name="beast_hint_1">over the garden (2016), its</string>
+    <string name="beast_hint_2">He is a mysterious character</string>
+    <string name="beast_hint_3">He is the main antagonist</string>
+
+    <string name="beatrice">Beatrice</string>
+    <string name="beatrice_hint_1">over the garden (2016), her</string>
+    <string name="beatrice_hint_2">She is too brave</string>
+    <string name="beatrice_hint_3">She is a good counselor</string>
+
+    <string name="greg">Greg</string>
+    <string name="greg_hint_1">over the garden (2016), his</string>
+    <string name="greg_hint_2">He is the brother of Wirt</string>
+    <string name="greg_hint_3">He always has a smile</string>
+
+    <string name="jason">Jason</string>
+    <string name="jason_hint_1">over the garden (2016), his</string>
+    <string name="jason_hint_2">He plays piano, in spite of being a frog</string>
+    <string name="jason_hint_3">He is the story teller</string>
+
+    <string name="wirt">Wirt</string>
+    <string name="wirt_hint_1">over the garden (2016), his</string>
+    <string name="wirt_hint_2">He is the main character</string>
+    <string name="wirt_hint_3">He is an intelligent boy</string>
+
+    <string name="woodsman">Woodsman</string>
+    <string name="woodsman_hint_1">over the garden (2016), his</string>
+    <string name="woodsman_hint_2">He is an ex-follower of the beast</string>
+    <string name="woodsman_hint_3">He only chopped Edelwood trees</string>
+
+
+    <string name="ban">Ban</string>
+    <string name="ban_hint_1">the seven deadly sins (2013), his</string>
+    <string name="ban_hint_2">He is immortal</string>
+    <string name="ban_hint_3">He loves Elaine</string>
+
+    <string name="elizabeth">Elizabeth</string>
+    <string name="elizabeth_hint_1">the seven deadly sins (2013), her</string>
+    <string name="elizabeth_hint_2">She is in love with Meliodas</string>
+    <string name="elizabeth_hint_3">She becomes a waitress to be along Meliodas</string>
+
+    <string name="escanor">Escanor</string>
+    <string name="escanor_hint_1">the seven deadly sins (2013), his</string>
+    <string name="escanor_hint_2">He is the most powerful of the seven deadly sins</string>
+    <string name="escanor_hint_3">He loves Merlin</string>
+
+    <string name="estarossa">Estarossa</string>
+    <string name="estarossa_hint_1">the seven deadly sins (2013), his</string>
+    <string name="estarossa_hint_2">The is one of main character\'s brothers</string>
+    <string name="estarossa_hint_3">He is a demon</string>
+
+    <string name="gowther">Gowther</string>
+    <string name="gowther_hint_1">the seven deadly sins (2013), his</string>
+    <string name="gowther_hint_2">He is one of the seven</string>
+    <string name="gowther_hint_3">He is not a human</string>
+
+    <string name="meliodas">Meliodas</string>
+    <string name="meliodas_hint_1">the seven deadly sins (2013), his</string>
+    <string name="meliodas_hint_2">He is the main character</string>
+    <string name="meliodas_hint_3">He is the leader of the seven deadly sins</string>
+
+    <string name="merlin">Merlin</string>
+    <string name="merlin_hint_1">the seven deadly sins (2013), his</string>
+    <string name="merlin_hint_2">She is a magician</string>
+    <string name="merlin_hint_3">Her name can not be pronounced by humans</string>
+
+    <string name="zeldris">Zeldris</string>
+    <string name="zeldris_hint_1">the seven deadly sins (2013), his</string>
+    <string name="zeldris_hint_2">He is one of main character\'s brothers</string>
+    <string name="zeldris_hint_3">He wants to be the demon king</string>
+
+
+    <string name="mitsuha">Mitsuha</string>
+    <string name="mitsuha_hint_1">your name (2016), her</string>
+    <string name="mitsuha_hint_2">She is a 17-year-old-student who lives in Itomori</string>
+    <string name="mitsuha_hint_3">She desires to live in Tokyo</string>
+
+    <string name="taki">Taki</string>
+    <string name="taki_hint_1">your name (2016), his</string>
+    <string name="taki_hint_2">He is the mai character</string>
+    <string name="taki_hint_3">He lives in Tokyo</string>
+
+</resources>
