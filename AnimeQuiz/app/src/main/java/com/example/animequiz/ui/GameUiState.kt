@@ -1,4 +1,4 @@
-package com.example.animequiz
+package com.example.animequiz.ui
 
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
@@ -14,4 +14,7 @@ data class GameUiState(
     var wordIsWrong : Boolean = false,
     var totalScore : Int = 0,
     var gameIsOver : Boolean = false,
+    var messageAtTheEnd : Int = 0,
+    var messageEitherSucceedOrFailed : Int = 0,
+    var needingPointsToReachNextLevel : Int = 0
 )

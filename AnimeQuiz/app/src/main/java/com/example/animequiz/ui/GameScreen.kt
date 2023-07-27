@@ -1,4 +1,4 @@
-package com.example.animequiz
+package com.example.animequiz.ui
 import android.app.Activity
 import android.widget.Toast
 import androidx.annotation.DrawableRes
@@ -11,7 +11,6 @@ import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -24,32 +23,28 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.ExitToApp
+import androidx.compose.material.icons.rounded.KeyboardArrowRight
+import androidx.compose.material.icons.rounded.Person
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.MaterialTheme.shapes
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
@@ -59,99 +54,68 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.animequiz.data.MAX_POINTS
-import com.example.animequiz.data.animeData
+import com.example.animequiz.Difficulty
+import com.example.animequiz.R
+import com.example.animequiz.data.MINIMUM_POINTS_REACH_DIFFICULT
+import com.example.animequiz.data.MINIMUM_POINTS_REACH_MEDIUM
+import com.example.animequiz.data.MINIMUM_POINTS_WIN_GAME
 import com.example.animequiz.ui.theme.AnimeQuizTheme
 import com.example.animequiz.ui.theme.Shapes
-// this gets the key of a value
+
 
 
 @Preview(showSystemUi = true)
 @Composable
 fun AnimeQuizLayoutPreviewDarkMode(){
     AnimeQuizTheme{
-        Column(
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ){
-            AnimeQuizLayout(
-                hint1 = R.string.kokushibo_hint_1,
-                name_shuffled = "a",
-                hint2 = R.string.kokushibo_hint_2,
-                hint3 = R.string.kokushibo_hint_2,
-                visibleAnimation = true,
+        AnimeQuizScreen(
+            gameViewModel = viewModel(),
+            gameUiState = GameUiState(
                 currentPicture = R.drawable.kokushibo,
-                picturesShowed = 1,
-                CheckWord = "",
-                onValueChanged = {},
-                onDoneFunction = { /*TODO*/ },
-                wordIsWrong = false
-            )
-        }
-    }
-}
 
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun AnimeTopBar() {
-    CenterAlignedTopAppBar(
-        title = {
-            Text(
-                text = stringResource(R.string.app_name),
-                modifier = Modifier.padding(dimensionResource(R.dimen.padding_20)),
-                style = MaterialTheme.typography.displayMedium
-            )
-        }
-    )
-}
+                hint1 = R.string.kokushibo_hint_1,
+                hint2 = R.string.kokushibo_hint_2,
+                hint3 = R.string.kokushibo_hint_3
+            ),
+            onClickNextLevel = {},
+            currentScreen = Difficulty.EASY
 
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun AnimeApp(){
-    Scaffold (
-        topBar = {
-            AnimeTopBar()
-        }
-    ){
-        AnimeQuizScreen(paddingValues = it)
+        )
     }
 }
 
 @Composable
 fun AnimeQuizScreen(
+    gameViewModel : GameViewModel,
+    gameUiState: GameUiState,
+    onClickNextLevel: () -> Unit,
+    currentScreen: Difficulty,
     modifier : Modifier = Modifier,
-    paddingValues: PaddingValues,
-    gameViewModel : GameViewModel = viewModel(),
-){
-    val gameUiState by gameViewModel.uiState.collectAsState()
-    val activity = LocalContext.current as Activity
-    val previousCharacterMessage = Toast.makeText(activity, stringResource(R.string.previous_character_message, gameViewModel.previousAnswer), Toast.LENGTH_SHORT)
+
+    ){
+    val activity = LocalContext.current
+    val previousCharacterMessage = Toast.makeText(activity, stringResource(R.string.previous_character_message, gameViewModel.currentAnswer), Toast.LENGTH_SHORT)
 
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = Modifier
-            .padding(paddingValues = paddingValues)
-            .verticalScroll(
+        modifier = Modifier.verticalScroll(
                 rememberScrollState()
             )
     ){
 
         AnimeQuizLayout(
-
-            hint1 = gameUiState.hint1,
-            name_shuffled = gameUiState.answered_shuffled,
-            hint2 = gameUiState.hint2,
-            hint3 = gameUiState.hint3,
-
-            visibleAnimation = gameViewModel.showHints,
-            currentPicture = gameUiState.currentPicture,
             picturesShowed = gameUiState.picturesShowed,
+            currentPicture = gameUiState.currentPicture,
             CheckWord = gameViewModel.userCheckWord,
             onValueChanged = { gameViewModel.updateUserWordCheck(it) },
-            onDoneFunction = { gameViewModel.checkUserWord() },
             wordIsWrong = gameUiState.wordIsWrong,
-
+            onDoneFunction = { gameViewModel.checkUserWord() },
+            visibleAnimation = gameViewModel.showHints,
+            name_shuffled = gameUiState.answered_shuffled,
+            hint1 = gameUiState.hint1,
+            hint2 = gameUiState.hint2,
+            hint3 = gameUiState.hint3,
             modifier = Modifier.padding(dimensionResource(R.dimen.padding_30))
         )
 
@@ -173,7 +137,6 @@ fun AnimeQuizScreen(
                 onClick = {
                     gameViewModel.skipPicture()
                     previousCharacterMessage.show()
-
                 },
                 modifier = Modifier.fillMaxWidth()
             ) {
@@ -197,7 +160,7 @@ fun AnimeQuizScreen(
                         onShowHints = {
                             gameViewModel.findHints()
                             gameViewModel.showHints()
-                        },
+                        }
                     )
                 }
             }
@@ -208,25 +171,29 @@ fun AnimeQuizScreen(
 
     if(gameUiState.gameIsOver) {
         AnimeAlertDialog(
-            totalScore = gameUiState.totalScore,
+            messageEitherSucceedOrFailed = gameUiState.messageEitherSucceedOrFailed,
+            gameUiState = gameUiState,
             onClickConfirm = { gameViewModel.resetGame() },
+            onClickOutOfConfirm = { gameViewModel.resetGame() },
+            onClickNextLevel = onClickNextLevel,
+            currentScreen = currentScreen
         )
     }
 
 }
 @Composable
 fun AnimeQuizLayout(
-    @StringRes hint1 : Int,
-    name_shuffled: String,
-    hint2 : Int,
-    hint3 : Int,
-    visibleAnimation : Boolean,
-    currentPicture: Int,
     picturesShowed: Int,
+    currentPicture: Int,
     CheckWord: String,
     onValueChanged: (String) -> Unit,
-    onDoneFunction: () -> Unit,
     wordIsWrong : Boolean,
+    onDoneFunction: () -> Unit,
+    visibleAnimation : Boolean,
+    name_shuffled : String,
+    @StringRes hint1 : Int,
+    @StringRes hint2 : Int,
+    @StringRes hint3 : Int,
     modifier : Modifier = Modifier
 ){
     Card(
@@ -250,17 +217,17 @@ fun AnimeQuizLayout(
 
             ) {
             PrincipalLayout(
-                visibleAnimation = visibleAnimation,
-                currentPicture = currentPicture,
                 picturesShowed = picturesShowed,
-                hint1 = hint1,
-                name_shuffled = name_shuffled,
-                hint2 = hint2,
-                hint3 = hint3,
+                currentPicture = currentPicture,
                 CheckWord = CheckWord,
                 onValueChanged = onValueChanged,
-                onDoneFunction = onDoneFunction,
                 wordIsWrong = wordIsWrong,
+                onDoneFunction = onDoneFunction,
+                visibleAnimation = visibleAnimation,
+                name_shuffled = name_shuffled,
+                hint1 = hint1,
+                hint2 = hint2,
+                hint3 = hint3,
             )
         }
     }
@@ -268,30 +235,30 @@ fun AnimeQuizLayout(
 
 @Composable
 fun PrincipalLayout(
-    visibleAnimation : Boolean,
-    currentPicture: Int,
     picturesShowed: Int,
-    @StringRes hint1 : Int,
-    name_shuffled : String,
-    hint2 : Int,
-    hint3 : Int,
+    currentPicture: Int,
     CheckWord: String,
     onValueChanged: (String) -> Unit,
-    onDoneFunction: () -> Unit,
     wordIsWrong : Boolean,
+    onDoneFunction: () -> Unit,
+    visibleAnimation : Boolean,
+    name_shuffled : String,
+    @StringRes hint1 : Int,
+    @StringRes hint2 : Int,
+    @StringRes hint3 : Int,
 ){
 
-    CountPicture(picturesShowed)
+    CountPicture(picturesShowed = picturesShowed)
 
     AnimePicture(picture = currentPicture)
 
     AnimeInstructions()
 
     AnimeFieldToWrite(
-        CheckWord,
-        onValueChanged,
+        userCheckWord =  CheckWord,
+        onValueChanged =  onValueChanged,
+        wordIsWrong = wordIsWrong,
         onDoneFunction = onDoneFunction,
-        wordIsWrong,
     )
 
     AnimatedVisibility(
@@ -342,6 +309,22 @@ fun HintsOfPicture(
 }
 
 @Composable
+fun CountPicture(
+    picturesShowed : Int
+){
+    Card(
+        colors = CardDefaults.cardColors(
+            containerColor = colorScheme.primary
+        )
+    ){
+        Text(
+            text = stringResource(R.string.picture_count, picturesShowed),
+            modifier = Modifier.padding(dimensionResource(R.dimen.padding_10))
+        )
+    }
+}
+
+@Composable
 fun AnimePicture(
     @DrawableRes picture : Int,
 ){
@@ -369,45 +352,31 @@ fun AnimeInstructions(){
 fun AnimeFieldToWrite(
     userCheckWord : String,
     onValueChanged : (String) -> Unit,
+    wordIsWrong : Boolean,
     onDoneFunction : () -> Unit,
-    wordIsWrong : Boolean
 ){
 
     OutlinedTextField(
         value = userCheckWord,
-        singleLine = true,
-        shape = shapes.large,
+        onValueChange = onValueChanged,
         label = { Text(text = stringResource(R.string.enter_name))},
         placeholder ={ Text(text = stringResource(R.string.hit_a_hint))},
-        onValueChange = onValueChanged,
+        leadingIcon = { Icon(imageVector = Icons.Rounded.Person, contentDescription = null)},
         isError = wordIsWrong,
-        colors = TextFieldDefaults.outlinedTextFieldColors(
-            containerColor = colorScheme.onPrimary
-        ),
         keyboardOptions = KeyboardOptions.Default.copy(
             imeAction = ImeAction.Done
         ),
         keyboardActions = KeyboardActions(
             onDone = { onDoneFunction() }
+        ),
+        singleLine = true,
+        shape = shapes.large,
+        colors = TextFieldDefaults.outlinedTextFieldColors(
+            containerColor = colorScheme.onPrimary
         )
     )
 }
 
-@Composable
-fun CountPicture(
-    picturesShowed : Int
-){
-    Card(
-        colors = CardDefaults.cardColors(
-            containerColor = colorScheme.primary
-        )
-    ){
-        Text(
-            text = stringResource(R.string.picture_count, picturesShowed),
-            modifier = Modifier.padding(dimensionResource(R.dimen.padding_10))
-        )
-    }
-}
 
 @Composable
 fun PointStatus(
@@ -423,7 +392,6 @@ fun PointStatus(
 @Composable
 fun ClickMeHintsButton(
     onShowHints : () -> Unit,
-    modifier : Modifier = Modifier
 ){
     OutlinedButton(
         modifier = Modifier.fillMaxWidth(),
@@ -438,32 +406,28 @@ fun ClickMeHintsButton(
 
 @Composable
 fun AnimeAlertDialog(
-    totalScore : Int,
+    @StringRes messageEitherSucceedOrFailed : Int,
+    gameUiState: GameUiState,
     onClickConfirm : () -> Unit,
-){
-    val activity = (LocalContext.current as Activity)
+    onClickOutOfConfirm: () -> Unit,
+    onClickNextLevel : () -> Unit,
+    currentScreen : Difficulty,
 
-    val MAX_POINTS : Double = MAX_POINTS
+    ){
+    val activity = LocalContext.current as Activity
+    val totalScore = gameUiState.totalScore
 
-    val message_at_the_end = if(totalScore >= 0){
-        when ((totalScore.toDouble()) / MAX_POINTS) {
-            in 0.0 .. 0.29 -> R.string.very_bad
-            in 0.3 .. 0.49 -> R.string.cant_blame_you
-            in 0.5 .. 0.69 -> R.string.well_done
-            in 0.7 .. 0.89 -> R.string.congratulations
-            else -> R.string.you_are_otaku
-        }
-    }else
-        R.string.negative_score
 
     AlertDialog(
-        onDismissRequest = {},
+        onDismissRequest =  onClickOutOfConfirm ,
         title = {
-                Text(text = stringResource(message_at_the_end))
+                Text(text = stringResource(gameUiState.messageAtTheEnd))
         },
 
         text = {
-               Text(text = "Total points: $totalScore")
+            Text(
+                text = "Total points: $totalScore\n" + stringResource(messageEitherSucceedOrFailed, gameUiState.needingPointsToReachNextLevel)
+            )
         },
 
         confirmButton = {
@@ -472,6 +436,19 @@ fun AnimeAlertDialog(
                     imageVector = Icons.Rounded.Refresh, contentDescription = null,
                     modifier = Modifier.fillMaxSize()
                 )
+            }
+
+            if(
+                (currentScreen == Difficulty.EASY && totalScore >= MINIMUM_POINTS_REACH_MEDIUM) or
+                (currentScreen == Difficulty.MEDIUM && totalScore >= MINIMUM_POINTS_REACH_DIFFICULT) or
+                (currentScreen == Difficulty.DIFFICULT && totalScore >= MINIMUM_POINTS_WIN_GAME)
+            ){
+                IconButton(onClick = onClickNextLevel) {
+                    Icon(
+                        imageVector = Icons.Rounded.KeyboardArrowRight, contentDescription = null,
+                        modifier = Modifier.fillMaxSize()
+                    )
+                }
             }
         },
 
@@ -485,4 +462,3 @@ fun AnimeAlertDialog(
         }
     )
 }
-

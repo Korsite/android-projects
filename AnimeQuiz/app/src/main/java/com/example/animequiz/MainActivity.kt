@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val alertOfUsingHints = Toast.makeText(this, stringResource(R.string.welcome_message, POINTS_IF_HINTS_WATCHED), Toast.LENGTH_LONG)
 
-            AnimeQuizTheme(darkTheme = true){
+            AnimeQuizTheme{
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

@@ -20,6 +20,16 @@
     <string name="hit_a_hint">hit a hint if problems!</string>
     <string name="previous_character_message">the previos character was %s</string>
     <string name="appears_in">Appears in the anime </string>
+    <string name="DifficultyEasy_messageRoundSucceed">DifficultyEasy_messageRoundSucceed</string>
+    <string name="DifficultyEasy_messageRoundFailed">DifficultyEasy_messageRoundFailed you need %d points</string>
+
+    <string name="DifficultyMedium_messageRoundSucceed">DifficultyMedium_messageRoundSucceed</string>
+    <string name="DifficultyMedium_messageRoundFailed">DifficultyMedium_messageRoundFailed you need %d points</string>
+
+    <string name="DifficultyDifficult_messageRoundSucceed">DifficultyDifficult_messageRoundSucceed</string>
+    <string name="DifficultyDifficult_messageRoundFailed">DifficultyDifficult_messageRoundFailed you need %d points</string>
+
+
 
     <string name="kokushibo">Kokushibo</string>
     <string name="kokushibo_hint_1">demon slayer (2019), his</string>
@@ -370,5 +380,6 @@
     <string name="taki_hint_1">your name (2016), his</string>
     <string name="taki_hint_2">He is the mai character</string>
     <string name="taki_hint_3">He lives in Tokyo</string>
+
 
 </resources>

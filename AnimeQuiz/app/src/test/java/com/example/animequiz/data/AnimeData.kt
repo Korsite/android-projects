@@ -3,6 +3,7 @@ package com.example.animequiz.data
 import androidx.annotation.StringRes
 import com.example.animequiz.R
 
+
 const val MAX_PICTURES_PER_ROUND = 10.0
 const val POINTS_PER_ROUND = 10.0
 const val POINTS_IF_HINTS_WATCHED = 2

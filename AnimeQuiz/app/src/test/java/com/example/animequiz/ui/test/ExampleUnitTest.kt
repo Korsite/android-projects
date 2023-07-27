@@ -1,10 +1,11 @@
 package com.example.animequiz.ui.test
 
-import com.example.animequiz.GameViewModel
+import com.example.animequiz.ui.GameViewModel
 import com.example.animequiz.data.MAX_PICTURES_PER_ROUND
 import com.example.animequiz.data.POINTS_PER_ROUND
 import com.example.animequiz.data.animeData
-import com.example.animequiz.getKey
+import com.example.animequiz.ui.GameUiState
+import com.example.animequiz.ui.getKey
 import org.junit.Test
 
 import org.junit.Assert.*
