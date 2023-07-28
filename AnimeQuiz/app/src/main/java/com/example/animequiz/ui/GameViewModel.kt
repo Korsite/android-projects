@@ -233,7 +233,7 @@ class GameViewModel : ViewModel() {
         val scoreAtTheEndOfTheRound = _uiState.value.totalScore
 
         return if(scoreAtTheEndOfTheRound >= 0)
-                when (_uiState.value.totalScore / MAX_POINTS){
+                when (scoreAtTheEndOfTheRound / MAX_POINTS){
                     in 0.0 .. 0.29 -> R.string.very_bad
                     in 0.3 .. 0.49 -> R.string.cant_blame_you
                     in 0.5 .. 0.69 -> R.string.well_done

@@ -1,4 +1,5 @@
 package com.example.animequiz.ui
+
 import android.app.Activity
 import android.widget.Toast
 import androidx.annotation.DrawableRes
@@ -63,11 +64,10 @@ import com.example.animequiz.ui.theme.AnimeQuizTheme
 import com.example.animequiz.ui.theme.Shapes
 
 
-
 @Preview(showSystemUi = true)
 @Composable
-fun AnimeQuizLayoutPreviewDarkMode(){
-    AnimeQuizTheme{
+fun AnimeQuizLayoutPreviewDarkMode() {
+    AnimeQuizTheme {
         AnimeQuizScreen(
             gameViewModel = viewModel(),
             gameUiState = GameUiState(
@@ -79,30 +79,33 @@ fun AnimeQuizLayoutPreviewDarkMode(){
             ),
             onClickNextLevel = {},
             currentScreen = Difficulty.EASY
-
         )
     }
 }
 
 @Composable
 fun AnimeQuizScreen(
-    gameViewModel : GameViewModel,
+    gameViewModel: GameViewModel,
     gameUiState: GameUiState,
     onClickNextLevel: () -> Unit,
     currentScreen: Difficulty,
-    modifier : Modifier = Modifier,
+    modifier: Modifier = Modifier,
 
-    ){
+    ) {
     val activity = LocalContext.current
-    val previousCharacterMessage = Toast.makeText(activity, stringResource(R.string.previous_character_message, gameViewModel.currentAnswer), Toast.LENGTH_SHORT)
+    val previousCharacterMessage = Toast.makeText(
+        activity,
+        stringResource(R.string.previous_character_message, gameViewModel.currentAnswer),
+        Toast.LENGTH_SHORT
+    )
 
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier.verticalScroll(
-                rememberScrollState()
-            )
-    ){
+            rememberScrollState()
+        )
+    ) {
 
         AnimeQuizLayout(
             picturesShowed = gameUiState.picturesShowed,
@@ -125,9 +128,8 @@ fun AnimeQuizScreen(
         ) {
 
 
-
             Button(
-                onClick =  { gameViewModel.checkUserWord() },
+                onClick = { gameViewModel.checkUserWord() },
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(text = stringResource(R.string.submit))
@@ -147,7 +149,7 @@ fun AnimeQuizScreen(
                 colors = CardDefaults.cardColors(
                     containerColor = colorScheme.secondaryContainer
                 )
-            ){
+            ) {
                 Row(
                     modifier = modifier,
                     verticalAlignment = Alignment.CenterVertically
@@ -169,7 +171,7 @@ fun AnimeQuizScreen(
 
     }
 
-    if(gameUiState.gameIsOver) {
+    if (gameUiState.gameIsOver) {
         AnimeAlertDialog(
             messageEitherSucceedOrFailed = gameUiState.messageEitherSucceedOrFailed,
             gameUiState = gameUiState,
@@ -181,21 +183,22 @@ fun AnimeQuizScreen(
     }
 
 }
+
 @Composable
 fun AnimeQuizLayout(
     picturesShowed: Int,
     currentPicture: Int,
     CheckWord: String,
     onValueChanged: (String) -> Unit,
-    wordIsWrong : Boolean,
+    wordIsWrong: Boolean,
     onDoneFunction: () -> Unit,
-    visibleAnimation : Boolean,
-    name_shuffled : String,
-    @StringRes hint1 : Int,
-    @StringRes hint2 : Int,
-    @StringRes hint3 : Int,
-    modifier : Modifier = Modifier
-){
+    visibleAnimation: Boolean,
+    name_shuffled: String,
+    @StringRes hint1: Int,
+    @StringRes hint2: Int,
+    @StringRes hint3: Int,
+    modifier: Modifier = Modifier
+) {
     Card(
         modifier = Modifier.padding(
             start = 35.dp,
@@ -215,7 +218,7 @@ fun AnimeQuizLayout(
                     )
                 )
 
-            ) {
+        ) {
             PrincipalLayout(
                 picturesShowed = picturesShowed,
                 currentPicture = currentPicture,
@@ -239,14 +242,14 @@ fun PrincipalLayout(
     currentPicture: Int,
     CheckWord: String,
     onValueChanged: (String) -> Unit,
-    wordIsWrong : Boolean,
+    wordIsWrong: Boolean,
     onDoneFunction: () -> Unit,
-    visibleAnimation : Boolean,
-    name_shuffled : String,
-    @StringRes hint1 : Int,
-    @StringRes hint2 : Int,
-    @StringRes hint3 : Int,
-){
+    visibleAnimation: Boolean,
+    name_shuffled: String,
+    @StringRes hint1: Int,
+    @StringRes hint2: Int,
+    @StringRes hint3: Int,
+) {
 
     CountPicture(picturesShowed = picturesShowed)
 
@@ -255,8 +258,8 @@ fun PrincipalLayout(
     AnimeInstructions()
 
     AnimeFieldToWrite(
-        userCheckWord =  CheckWord,
-        onValueChanged =  onValueChanged,
+        userCheckWord = CheckWord,
+        onValueChanged = onValueChanged,
         wordIsWrong = wordIsWrong,
         onDoneFunction = onDoneFunction,
     )
@@ -277,18 +280,16 @@ fun PrincipalLayout(
 }
 
 
-
-
 @Composable
 fun HintsOfPicture(
-    @StringRes hint1 : Int,
-    hint2 : Int,
-    hint3 : Int,
-    name_shuffled : String
-){
+    @StringRes hint1: Int,
+    hint2: Int,
+    hint3: Int,
+    name_shuffled: String
+) {
     Column(
         verticalArrangement = Arrangement.spacedBy(15.dp)
-    ){
+    ) {
 
         Text(
             text = stringResource(R.string.appears_in) + " " + stringResource(hint1) + " name shuffled is \"$name_shuffled\"",
@@ -310,13 +311,13 @@ fun HintsOfPicture(
 
 @Composable
 fun CountPicture(
-    picturesShowed : Int
-){
+    picturesShowed: Int
+) {
     Card(
         colors = CardDefaults.cardColors(
             containerColor = colorScheme.primary
         )
-    ){
+    ) {
         Text(
             text = stringResource(R.string.picture_count, picturesShowed),
             modifier = Modifier.padding(dimensionResource(R.dimen.padding_10))
@@ -326,8 +327,8 @@ fun CountPicture(
 
 @Composable
 fun AnimePicture(
-    @DrawableRes picture : Int,
-){
+    @DrawableRes picture: Int,
+) {
     Image(
         painter = painterResource(picture),
         modifier = Modifier
@@ -340,7 +341,7 @@ fun AnimePicture(
 }
 
 @Composable
-fun AnimeInstructions(){
+fun AnimeInstructions() {
     Text(
         text = stringResource(R.string.instructions),
         textAlign = TextAlign.Center
@@ -350,18 +351,18 @@ fun AnimeInstructions(){
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AnimeFieldToWrite(
-    userCheckWord : String,
-    onValueChanged : (String) -> Unit,
-    wordIsWrong : Boolean,
-    onDoneFunction : () -> Unit,
-){
+    userCheckWord: String,
+    onValueChanged: (String) -> Unit,
+    wordIsWrong: Boolean,
+    onDoneFunction: () -> Unit,
+) {
 
     OutlinedTextField(
         value = userCheckWord,
         onValueChange = onValueChanged,
-        label = { Text(text = stringResource(R.string.enter_name))},
-        placeholder ={ Text(text = stringResource(R.string.hit_a_hint))},
-        leadingIcon = { Icon(imageVector = Icons.Rounded.Person, contentDescription = null)},
+        label = { Text(text = stringResource(R.string.enter_name)) },
+        placeholder = { Text(text = stringResource(R.string.hit_a_hint)) },
+        leadingIcon = { Icon(imageVector = Icons.Rounded.Person, contentDescription = null) },
         isError = wordIsWrong,
         keyboardOptions = KeyboardOptions.Default.copy(
             imeAction = ImeAction.Done
@@ -381,7 +382,7 @@ fun AnimeFieldToWrite(
 @Composable
 fun PointStatus(
     totalScore: Int,
-){
+) {
     Text(
         text = stringResource(R.string.points_count, totalScore),
         modifier = Modifier.padding(dimensionResource(R.dimen.padding_10))
@@ -391,11 +392,11 @@ fun PointStatus(
 
 @Composable
 fun ClickMeHintsButton(
-    onShowHints : () -> Unit,
-){
+    onShowHints: () -> Unit,
+) {
     OutlinedButton(
         modifier = Modifier.fillMaxWidth(),
-        onClick =  onShowHints,
+        onClick = onShowHints,
         colors = ButtonDefaults.buttonColors(
             containerColor = colorScheme.inversePrimary
         )
@@ -406,46 +407,51 @@ fun ClickMeHintsButton(
 
 @Composable
 fun AnimeAlertDialog(
-    @StringRes messageEitherSucceedOrFailed : Int,
+    @StringRes messageEitherSucceedOrFailed: Int,
     gameUiState: GameUiState,
-    onClickConfirm : () -> Unit,
+    onClickConfirm: () -> Unit,
     onClickOutOfConfirm: () -> Unit,
-    onClickNextLevel : () -> Unit,
-    currentScreen : Difficulty,
+    onClickNextLevel: () -> Unit,
+    currentScreen: Difficulty,
 
-    ){
+    ) {
     val activity = LocalContext.current as Activity
     val totalScore = gameUiState.totalScore
 
 
     AlertDialog(
-        onDismissRequest =  onClickOutOfConfirm ,
+        onDismissRequest = onClickOutOfConfirm,
         title = {
-                Text(text = stringResource(gameUiState.messageAtTheEnd))
+            Text(text = stringResource(gameUiState.messageAtTheEnd))
         },
 
         text = {
             Text(
-                text = "Total points: $totalScore\n" + stringResource(messageEitherSucceedOrFailed, gameUiState.needingPointsToReachNextLevel)
+                text = "Total points: $totalScore\n" + stringResource(
+                    messageEitherSucceedOrFailed,
+                    gameUiState.needingPointsToReachNextLevel
+                ),
             )
         },
 
         confirmButton = {
             IconButton(onClick = onClickConfirm) {
                 Icon(
-                    imageVector = Icons.Rounded.Refresh, contentDescription = null,
+                    imageVector = Icons.Rounded.Refresh,
+                    contentDescription = stringResource(R.string.refresh),
                     modifier = Modifier.fillMaxSize()
                 )
             }
 
-            if(
+            if (
                 (currentScreen == Difficulty.EASY && totalScore >= MINIMUM_POINTS_REACH_MEDIUM) or
                 (currentScreen == Difficulty.MEDIUM && totalScore >= MINIMUM_POINTS_REACH_DIFFICULT) or
                 (currentScreen == Difficulty.DIFFICULT && totalScore >= MINIMUM_POINTS_WIN_GAME)
-            ){
+            ) {
                 IconButton(onClick = onClickNextLevel) {
                     Icon(
-                        imageVector = Icons.Rounded.KeyboardArrowRight, contentDescription = null,
+                        imageVector = Icons.Rounded.KeyboardArrowRight,
+                        contentDescription = stringResource(R.string.next),
                         modifier = Modifier.fillMaxSize()
                     )
                 }

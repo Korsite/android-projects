@@ -1,5 +1,6 @@
 package com.example.animequiz.ui.test
 
+import com.example.animequiz.Difficulty
 import com.example.animequiz.ui.GameViewModel
 import com.example.animequiz.data.MAX_PICTURES_PER_ROUND
 import com.example.animequiz.data.POINTS_PER_ROUND
@@ -16,7 +17,7 @@ class ExampleUnitTest {
     @Test // Success/happy test
     fun gameViewModel_CorrectPictureGuessed_ScoreUpdatedPicturesShowedIncrementedAndErrorFlagUnset(){
         var currentUiState = viewModel.uiState.value
-        var currentAnswer = getKey(animeData, currentUiState.currentPicture).toString()
+        var currentAnswer = getKey(animeData[Difficulty.EASY] ?: emptyMap(), currentUiState.currentPicture).toString()
         var previousNoOfPicture = currentUiState.picturesShowed
 
         viewModel.updateUserWordCheck(currentAnswer)
@@ -58,7 +59,7 @@ class ExampleUnitTest {
     fun gameViewModel_AllPicturesCorrect_MaxScore(){
         var maxScoreExpected = 0
         var currentUiState = viewModel.uiState.value
-        var currentAnswer = getKey(animeData, currentUiState.currentPicture).toString()
+        var currentAnswer = getKey(animeData[Difficulty.EASY] ?: emptyMap(), currentUiState.currentPicture).toString()
 
         viewModel.updateUserWordCheck(currentAnswer)
         repeat(MAX_NO_PICTURES_PER_ROUND){
@@ -67,7 +68,7 @@ class ExampleUnitTest {
             maxScoreExpected += SCORE_AFTER_1ST_GUESSED_CORRECT
 
 
-            currentAnswer = getKey(animeData, currentUiState.currentPicture).toString()
+            currentAnswer = getKey(animeData[Difficulty.EASY] ?: emptyMap(), currentUiState.currentPicture).toString()
             viewModel.updateUserWordCheck(currentAnswer)                                    // preparing for the next loop to checkUserWord() method to be correct
 
 

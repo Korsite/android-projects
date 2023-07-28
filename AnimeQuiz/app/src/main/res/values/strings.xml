@@ -380,6 +380,8 @@
     <string name="taki_hint_1">your name (2016), his</string>
     <string name="taki_hint_2">He is the mai character</string>
     <string name="taki_hint_3">He lives in Tokyo</string>
+    <string name="next">next</string>
+    <string name="refresh">refresh</string>
 
 
 </resources>
