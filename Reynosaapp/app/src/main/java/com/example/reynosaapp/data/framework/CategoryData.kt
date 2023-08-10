@@ -1,4 +1,4 @@
-package com.example.reynosaapp.data
+package com.example.reynosaapp.data.framework
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

@@ -1,3 +1,24 @@
 package com.example.reynosaapp.data.framework
 
-data class SubCategoryData()
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+import com.example.reynosaapp.R
+import com.example.reynosaapp.data.returnIfShopIsCurrentlyOpenedOrClosed
+
+data class SubCategoryData(
+    @StringRes val subCategoryName: Int,
+    @DrawableRes val subCategoryPicture: Int,
+    @StringRes val subCategoryContentDescription: Int = R.string.useForNoThing,
+    @StringRes val subCategorySchedule: Int = R.string.useForNoThing,
+    @StringRes val subCategoryClickHere: Int = R.string.useForNoThing,
+    @StringRes val subCategoryAvailableNow: Int = R.string.useForNoThing,
+    val openTime: Double = 0.0,
+    val closeTime: Double = 0.0,
+
+    @StringRes val isOpenedOrClosed: Int =
+        if (openTime == 0.0) R.string.useForNoThing
+        else returnIfShopIsCurrentlyOpenedOrClosed(
+            openTime,
+            closeTime
+        )
+)
