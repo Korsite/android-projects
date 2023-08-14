@@ -1,4 +1,4 @@
-package com.example.reynosaapp.data.opportunities.extraCategories
+package com.example.reynosaapp.data.opportunities.extraCategories.subCategory
 
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.SubCategoryData
@@ -10,7 +10,7 @@ object Education {
             subCategoryPicture = R.drawable.mitsuha,
             subCategoryContentDescription = R.string.opportunitiesSubCategoryContentDescription1,
             subCategoryIsPrivateOrPublic = R.string.theSchoolIsPublic,
-            subCategoryWebsite = R.string.opportunitiesSubCategoryItemWebsite1
+            subCategoryGoogleMaps = R.string.opportunitiesSubCategoryItemGoogleMaps1
         ),
 
         SubCategoryData(
@@ -18,7 +18,7 @@ object Education {
             subCategoryPicture = R.drawable.mitsuha,
             subCategoryContentDescription = R.string.opportunitiesSubCategoryContentDescription1,
             subCategoryIsPrivateOrPublic = R.string.theSchoolIsPublic,
-            subCategoryWebsite = R.string.opportunitiesSubCategoryItemWebsite1
+            subCategoryGoogleMaps = R.string.opportunitiesSubCategoryItemGoogleMaps1
         ),
     )
     internal val elementarySchoolSubCategory = listOf(
@@ -27,7 +27,8 @@ object Education {
             subCategoryPicture = R.drawable.mitsuha,
             subCategoryContentDescription = R.string.opportunitiesSubCategoryContentDescription1,
             subCategoryIsPrivateOrPublic = R.string.theSchoolIsPublic,
-            subCategoryWebsite = R.string.opportunitiesSubCategoryItemWebsite1
+            subCategoryGoogleMaps = R.string.opportunitiesSubCategoryItemGoogleMaps1
+
         ),
 
         SubCategoryData(
@@ -35,7 +36,7 @@ object Education {
             subCategoryPicture = R.drawable.mitsuha,
             subCategoryContentDescription = R.string.opportunitiesSubCategoryContentDescription1,
             subCategoryIsPrivateOrPublic = R.string.theSchoolIsPublic,
-            subCategoryWebsite = R.string.opportunitiesSubCategoryItemWebsite1
+            subCategoryGoogleMaps = R.string.opportunitiesSubCategoryItemGoogleMaps1
         ),
     )
 
@@ -46,7 +47,7 @@ object Education {
             subCategoryPicture = R.drawable.mitsuha,
             subCategoryContentDescription = R.string.opportunitiesSubCategoryContentDescription1,
             subCategoryIsPrivateOrPublic = R.string.theSchoolIsPublic,
-            subCategoryWebsite = R.string.opportunitiesSubCategoryItemWebsite1
+            subCategoryGoogleMaps = R.string.opportunitiesSubCategoryItemGoogleMaps1
         ),
 
         SubCategoryData(
@@ -54,7 +55,7 @@ object Education {
             subCategoryPicture = R.drawable.mitsuha,
             subCategoryContentDescription = R.string.opportunitiesSubCategoryContentDescription1,
             subCategoryIsPrivateOrPublic = R.string.theSchoolIsPublic,
-            subCategoryWebsite = R.string.opportunitiesSubCategoryItemWebsite1
+            subCategoryGoogleMaps = R.string.opportunitiesSubCategoryItemGoogleMaps1
         ),
     )
 }

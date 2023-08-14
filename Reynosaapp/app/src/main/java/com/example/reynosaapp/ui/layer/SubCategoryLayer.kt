@@ -1,5 +1,6 @@
-package com.example.reynosaapp.ui
+package com.example.reynosaapp.ui.layer
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -15,6 +16,13 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.toMutableStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -26,34 +34,56 @@ import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.checkHowMinutesLefToClose
 import com.example.reynosaapp.data.checkHowMuchTimeLeftToClose
+import com.example.reynosaapp.data.checkHowMuchTimeLeftToOpen
 import com.example.reynosaapp.data.dangerousplaces.DangerousPlacesProviderSubCategories
 import com.example.reynosaapp.data.framework.SubCategoryData
+import com.example.reynosaapp.data.framework.extraOptions.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderSubCategories
+import com.example.reynosaapp.data.mainProvider
 import com.example.reynosaapp.data.opportunities.OpportunitiesProviderSubCategories
-import com.example.reynosaapp.ui.layer.ReynosaUiState
+import com.example.reynosaapp.ui.HyperText
+import com.example.reynosaapp.ui.choicesToFilterGoodPlaces
+import com.example.reynosaapp.ui.data.ReynosaUiState
+import com.example.reynosaapp.ui.data.ReynosaViewModel
 import com.example.reynosaapp.ui.theme.ReynosaAppTheme
+import kotlinx.coroutines.flow.MutableStateFlow
 import java.util.Calendar
 
 @Composable
 fun subCategoryLayerLazyColumn(
     subCategories: List<SubCategoryData>,
     reynosaUiState: ReynosaUiState,
+    reynosaViewModel: ReynosaViewModel,
     currentItem: (Int) -> Unit,
+    onClickExtraOption: (Boolean, ExtraCategoriesForGoodPlaces) -> Unit,
     modifier: Modifier
 ) {
 
-    LazyColumn(
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+    Column(
         modifier = modifier
-            .padding(10.dp)
-
     ) {
-        items(subCategories) { subCategory ->
-            subCategoryLayer(
-                subCategory = subCategory,
-                reynosaUiState = reynosaUiState,
-                currentItem = { currentItem(subCategory.subCategoryName) }
-            )
+
+
+        choicesToFilterGoodPlaces(
+            reynosaUiState = reynosaUiState,
+            onClickExtraOption = onClickExtraOption
+        )
+
+        LazyColumn(
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+            modifier = modifier
+                .padding(10.dp)
+
+        ) {
+            items(
+                subCategories
+            ) { subCategory ->
+                subCategoryLayer(
+                    subCategory = subCategory,
+                    reynosaUiState = reynosaUiState,
+                    currentItem = { currentItem(subCategory.subCategoryName) }
+                )
+            }
         }
     }
 }
@@ -130,7 +160,7 @@ fun subCategoryLayerForGoodPlaces(
 
 
                 Text(
-                    text = stringResource(subCategory.subCategorySchedule),
+                    text = stringResource(subCategory.subCategoryDaysShopOpened),
                 )
 
                 HyperText(
@@ -141,12 +171,26 @@ fun subCategoryLayerForGoodPlaces(
                 Spacer(modifier = Modifier.height(20.dp))
 
                 Text(
-                    text = stringResource(
-                        subCategory.isOpenedOrClosed,
-                        checkHowMuchTimeLeftToClose(
-                            checkHowMinutesLefToClose(currentTime, subCategory.closeTime)
-                        ),
-                    )
+                    text =
+                    if (subCategory.isOpenedOrClosed == R.string.openedNow) // if shop is opened
+                        stringResource(
+                            subCategory.isOpenedOrClosed,
+                            checkHowMuchTimeLeftToClose(
+                                checkHowMinutesLefToClose(currentTime, subCategory.closeTime)
+                            )
+                        )
+                    else { // if shop is closed
+                        val resourcesToDisplay =
+                            checkHowMuchTimeLeftToOpen(
+                                reynosaUiState.currentTime,
+                                subCategory.subCategoryCompleteSchedule
+                            )
+                        stringResource(
+                            subCategory.isOpenedOrClosed,
+                            resourcesToDisplay.component1(),
+                            resourcesToDisplay.component2()
+                            )
+                    }
                 )
             }
         }

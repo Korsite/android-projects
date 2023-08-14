@@ -8,7 +8,12 @@ data class ItemData(
     @StringRes val itemName: Int,
     @DrawableRes val itemPicture: Int,
     @StringRes val itemDescription: Int = R.string.useForNoThing,
-    @StringRes val schedule: Int = R.string.useForNoThing,
-    @StringRes val clickHere: Int = R.string.useForNoThing
+    @StringRes val itemDescriptionOptional : Int = R.string.useForNoThing,
+    @StringRes val itemDaysShopOpened: Int = R.string.useForNoThing,
+    @StringRes val itemGoogleMaps: Int = R.string.useForNoThing,
+    @StringRes val itemWebsite: Int = R.string.useForNoThing,
+    @DrawableRes val itemPictureOptional :Int = R.drawable.usefornothing,
+    @DrawableRes val itemPictureOptional2 :Int = R.drawable.usefornothing,
 
+    val itemSchedule : List<Pair<String, Any>> = emptyList(),
 )

@@ -1,42 +1,99 @@
 package com.example.reynosaapp.data
 
-import com.example.reynosaapp.data.dangerousplaces.DangerousPlacesProvider
+import com.example.reynosaapp.R
+import com.example.reynosaapp.data.dangerousplaces.DangerousPlacesProviderCategories
+import com.example.reynosaapp.data.dangerousplaces.DangerousPlacesProviderItems
+import com.example.reynosaapp.data.dangerousplaces.DangerousPlacesProviderSubCategories
+import com.example.reynosaapp.data.extrainfo.ExtraInformationProviderCategories
+import com.example.reynosaapp.data.extrainfo.ExtraInformationProviderSubCategories
+import com.example.reynosaapp.data.framework.ExtraCategoriesForOpportunities
+import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderCategories
+import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderItems
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderSubCategories
+import com.example.reynosaapp.data.opportunities.OpportunitiesProviderCategories
+import com.example.reynosaapp.data.opportunities.OpportunitiesProviderItems
+import com.example.reynosaapp.data.opportunities.OpportunitiesProviderSubCategories
 
 object mainProvider {
     private val goodPlacesCategories = GoodPlacesProviderCategories.Categories
-    private val badPlacesCategories = DangerousPlacesProvider.Categories
-    private val extraInformationCategories = extraInformationProvider.Categories
+    private val dangerousPlacesCategories = DangerousPlacesProviderCategories.Categories
+    private val opportunitiesCategories = OpportunitiesProviderCategories.Categories
+    private val extraInformationCategories = ExtraInformationProviderCategories.Categories
 
-    private val allCategories = goodPlacesCategories.plus(badPlacesCategories)
+    private val allCategories =
+        goodPlacesCategories // 3
+            .plus(dangerousPlacesCategories) // 2
+            .plus(opportunitiesCategories) //2
+            .plus(extraInformationCategories) //3
+
 
     private val goodPlacesSubCategories = GoodPlacesProviderSubCategories.SubCategories
-    private val dangerousPlacesSubCategories = DangerousPlacesProvider.SubCategories
+    private val dangerousPlacesSubCategories = DangerousPlacesProviderSubCategories.subCategories
+    private val opportunitiesSubCategories = OpportunitiesProviderSubCategories.subCategories
+    private val extraInfoSubCategories = ExtraInformationProviderSubCategories.subCategories
 
-    private val allSubCategories = goodPlacesSubCategories.plus(dangerousPlacesSubCategories)
+    private val allSubCategories =
+        goodPlacesSubCategories
+            .plus(dangerousPlacesSubCategories)
+            .plus(opportunitiesSubCategories)
+            .plus(extraInfoSubCategories)
 
-    val allPlacesSubCategories = mapOf(
+
+    private val goodPlacesAllItems = GoodPlacesProviderItems.Items
+    private val dangerousPlacesAllItems = DangerousPlacesProviderItems.Items
+    private val opportunitiesAllItems = OpportunitiesProviderItems.Items
+
+    val Categories = mapOf(
         MainCategories.GoodPlaces to goodPlacesCategories,
-        MainCategories.DangerousPlaces to badPlacesCategories,
+        MainCategories.DangerousPlaces to dangerousPlacesCategories,
+        MainCategories.Opportunities to opportunitiesCategories,
         MainCategories.ExtraInfo to extraInformationCategories
     )
 
-    val allPlaces = buildMap {
+    val SubCategories = buildMap {
         val subCategories = buildList {
-            MainCategories.GoodPlaces.Categories.forEach {
-                add(it)
-            }
-
-            MainCategories.DangerousPlaces.Categories.forEach {
-                add(it)
-            }
-
+            MainCategories.GoodPlaces.Categories.forEach { add(it) }
+            MainCategories.DangerousPlaces.Categories.forEach { add(it) }
+            MainCategories.Opportunities.Categories.forEach { add(it) }
+            MainCategories.ExtraInfo.Categories.forEach { add(it) }
         }
-            allCategories.forEachIndexed{ index, category ->
-            put(category.categoryName, allSubCategories[subCategories[index]])
+        allCategories.forEachIndexed { index, category ->
+            val education = R.string.opportunitiesCategoryName1
+            val work = R.string.opportunitiesCategoryName2
+
+
+            if (category.categoryName == education) {
+                val extraCategoriesForOpportunities =
+                    ExtraCategoriesForOpportunities.Education.extraCategories
+                extraCategoriesForOpportunities.forEachIndexed { index, extraCategory ->
+                    put(
+                        extraCategory,
+                        opportunitiesSubCategories[extraCategoriesForOpportunities[index]].orEmpty()
+                    )
+                }
+                return@forEachIndexed
+            } else if (category.categoryName == work) {
+                val extraCategoriesForOpportunities =
+                    ExtraCategoriesForOpportunities.Work.extraCategories
+                extraCategoriesForOpportunities.forEachIndexed { index, extraCategory ->
+                    put(
+                        extraCategory,
+                        opportunitiesSubCategories[extraCategoriesForOpportunities[index]].orEmpty()
+                    )
+                }
+                return@forEachIndexed
+            }
+
+            put(category.categoryName, allSubCategories[subCategories[index]].orEmpty())
         }
     }
+
+    val Items =
+        goodPlacesAllItems
+            .plus(dangerousPlacesAllItems)
+            .plus(opportunitiesAllItems)
+
 }
 /*
 

@@ -14,12 +14,11 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import com.example.reynosaapp.data.framework.CategoryData
-import com.example.reynosaapp.ui.choicesToFilterGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun categoryLayerLazyColumnForGoodPlacesBadPlaces(
+fun categoryLayerForGoodPlacesBadPlaces(
     category: CategoryData,
     reynosaViewModel: ReynosaViewModel,
     onClick: () -> Unit

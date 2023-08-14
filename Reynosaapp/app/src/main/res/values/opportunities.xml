@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="theSchoolIsPublic">Public</string>
+    <string name="theSchoolIsPrivate">Private</string>
+
+    <string name="opportunitiesCategoryName1">Education</string>
+    <string name="opportunitiesCategoryName2">Work</string>
+
+    <string name="opportunitiesCategoryDescription1">papa</string>
+    <string name="opportunitiesCategoryDescription2">pepe</string>
+
+    <string name="opportunitiesEducationExtraCategoryName1">Education1</string>
+    <string name="opportunitiesEducationExtraCategoryName2">Education2</string>
+    <string name="opportunitiesEducationExtraCategoryName3">Education3</string>
+    <string name="opportunitiesWorkExtraCategoryName1">Work1</string>
+    <string name="opportunitiesWorkExtraCategoryName2">Work2</string>
+    <string name="opportunitiesWorkExtraCategoryName3">Work3</string>
+
+
+    <string name="opportunitiesSubCategoryName1">Ethel Sutton</string>
+    <string name="opportunitiesSubCategoryContentDescription1">kinder</string>
+    <string name="opportunitiesSubCategoryItemGoogleMaps1">https://www.google.com.mx/maps/place/Colegio+Ethel+Sutton+de+Reynosa/@26.070683,-98.2683723,17z/data=!4m6!3m5!1s0x86650f2737570ead:0xd53540d6b9c40e6f!8m2!3d26.0709625!4d-98.2666557!16s%2Fg%2F1tdq1kky?entry=ttu</string>
+    <string name="opportunitiesSubCategory1ItemDescription">this is an example of item description</string>
+    <string name="opportunitiesSubCategory1ItemWebsite">https://colegioethelsutton.edu.mx</string>
+
 </resources>

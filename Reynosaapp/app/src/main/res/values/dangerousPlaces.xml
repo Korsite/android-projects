@@ -1,3 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="dangerousPlacesSubCategoryName1">Papa Caliente</string>
+    <string name="dangerousPlacesSubCategoryName2">Me como mi kk</string>
+    <string name="dangerousPlacesSubCategoryName3">Papa Caliente</string>
+
+    <string name="dangerousPlacesSubCategoryContentDescription1">Papa Caliente</string>
+    <string name="dangerousPlacesSubCategoryContentDescription2">Me como mi kk</string>
+    <string name="dangerousPlacesSubCategoryContentDescription3">Papa Caliente</string>
+
+
+    <string name="dangerousPlacesCategoryName1">Colonies</string>
+    <string name="dangerousPlacesCategoryName2">Places</string>
+
+    <string name="dangerousPlacesSubCategory1ItemDescription">this is some description for dangerous places</string>
+    <string name="dangerousPlacesSubCategory1ItemDescriptionOptional">this is some EXTRA description for dangerous places</string>
+
+
 </resources>

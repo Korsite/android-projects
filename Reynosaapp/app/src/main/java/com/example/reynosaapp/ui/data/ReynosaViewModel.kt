@@ -1,51 +1,92 @@
-package com.example.reynosaapp.ui.layer
+package com.example.reynosaapp.ui.data
 
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.ExtraCategoriesForOpportunities
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.framework.ItemData
+import com.example.reynosaapp.data.framework.SubCategoryData
+import com.example.reynosaapp.data.framework.extraOptions.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.data.mainProvider
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlin.math.absoluteValue
+
 
 class ReynosaViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(ReynosaUiState())
     val uiState = _uiState.asStateFlow()
 
-    fun updateMainCategory(subject : Int, currentMainCategory: MainCategories){
-        _uiState.update {currentState ->
+    fun updateMainCategory(subject: Int, currentMainCategory: MainCategories) {
+        _uiState.update { currentState ->
+            currentState.extraOptionsForGoodPlaces.clear() // this is for clearing the filter
             currentState.copy(
                 subject = subject,
                 currentMainCategory = currentMainCategory,
                 currentMainCategoryName = subject,
                 currentCategory = 0, // this means that no category is shown
-         )
-        }
-    }
-
-    fun updateCategory(currentCategory : Int){
-        _uiState.update {currentState ->
-            currentState.copy(
-                currentCategory = currentCategory,
-                subject = currentCategory,
-                currentItem = ItemData(R.string.useForNoThing, R.drawable.usefornothing) // this means that no item  is shown
+                filter = emptyList() // this is for clearing the filter
             )
         }
     }
 
-    fun updateSubCategory(currentSubCategory : Int){
+    fun updateCategory(currentCategory: Int) {
         _uiState.update { currentState ->
             currentState.copy(
-                currentItem = mainProvider.Items[currentSubCategory] ?: ItemData(R.string.useForNoThing, R.drawable.usefornothing),
+                currentCategory = currentCategory,
+                subject = currentCategory,
+                currentItem = ItemData(
+                    R.string.useForNoThing,
+                    R.drawable.usefornothing
+                ) // this means that no item  is shown
+            )
+        }
+    }
+
+    fun updateSubCategory(currentSubCategory: Int) {
+        _uiState.update { currentState ->
+            currentState.extraOptionsForGoodPlaces.clear() // this is for clearing the filter
+
+            currentState.copy(
+                currentItem = mainProvider.Items[currentSubCategory]
+                    ?: ItemData(R.string.useForNoThing, R.drawable.usefornothing),
                 subject = mainProvider.Items[currentSubCategory]?.itemName ?: R.string.useForNoThing
             )
         }
     }
 
-    fun takeExtraCategories(extraCategoriesForOpportunities: ExtraCategoriesForOpportunities) : List<Int>{
-        return extraCategoriesForOpportunities.extraCategories
+    fun addOrRemoveExtraCategory(
+        check: Boolean,
+        currentExtraCategory: ExtraCategoriesForGoodPlaces
+    ) {
+        val currentCategory = _uiState.value.currentSubCategories
+
+        _uiState.update { currentState ->
+            val updateExtraOptionsForGoodPlaces = currentState.extraOptionsForGoodPlaces
+
+            if(check) updateExtraOptionsForGoodPlaces.add(currentExtraCategory)
+            else updateExtraOptionsForGoodPlaces.remove(currentExtraCategory)
+
+            currentState.copy(
+                extraOptionsForGoodPlaces = updateExtraOptionsForGoodPlaces,
+                filter = currentCategory.filter { updateExtraOptionsForGoodPlaces.contains(it.subCategoryTypeOfRestaurant) }
+            )
+        }
+    }
+
+    fun updateFilterIsShow(){
+        _uiState.update { currentState->
+            currentState.copy(
+                isShowingFilters = !currentState.isShowingFilters
+            )
+        }
     }
 
 }

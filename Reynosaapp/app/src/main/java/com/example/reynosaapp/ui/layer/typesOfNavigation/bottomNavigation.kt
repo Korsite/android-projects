@@ -1,4 +1,4 @@
-package com.example.reynosaapp.ui.typesOfNavigation
+package com.example.reynosaapp.ui.layer.typesOfNavigation
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar

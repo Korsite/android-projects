@@ -7,12 +7,9 @@
     <string name="back">back</string>
     <string name="clickHere">Click here to google maps</string>
     <string name="openedNow">Opened \nCloses in %1$s</string>
-    <string name="closedNow">Closed</string>
+    <string name="closedNow">Closed \nOpens %1$s at %2$s</string>
     <string name="useForNoThing" />
 
-    <string name="extraInformationCategory1">thing1</string>
-    <string name="extraInformationCategory2">thing2</string>
-    <string name="extraInformationCategory3">thing3</string>
-    <string name="extraInformationSubCategory1Name">HELLO WORLD</string>
+
 
 </resources>

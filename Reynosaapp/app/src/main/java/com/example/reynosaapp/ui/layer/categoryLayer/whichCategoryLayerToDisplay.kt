@@ -33,22 +33,30 @@ fun categoryLayerLazyColumn(
     onClickExtraCategory: (Int) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val currentListOfSubCategory = reynosaUiState.currentCategories
-    LazyColumn(
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+    Column(
         modifier = modifier
-            .padding(10.dp)
-            .fillMaxWidth()
-    ) {
-        items(currentListOfSubCategory, key = { category -> category.categoryName }) { category ->
-            categoryLayer(
-                category = category,
-                onClick = { currentCategory(category.categoryName) },
-                extraCategories = category.extraCategoriesType,
-                reynosaViewModel = reynosaViewModel,
-                onClickExtraCategory = onClickExtraCategory,
-                reynosaUiState = reynosaUiState
-            )
+    ){
+        val currentListOfSubCategory = reynosaUiState.currentCategories
+
+
+        LazyColumn(
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+            modifier = modifier
+                .padding(10.dp)
+                .fillMaxWidth()
+        ) {
+            items(
+                currentListOfSubCategory,
+                key = { category -> category.categoryName }) { category ->
+                categoryLayer(
+                    category = category,
+                    onClick = { currentCategory(category.categoryName) },
+                    extraCategories = category.extraCategoriesType,
+                    reynosaViewModel = reynosaViewModel,
+                    onClickExtraCategory = onClickExtraCategory,
+                    reynosaUiState = reynosaUiState
+                )
+            }
         }
     }
 }
@@ -78,7 +86,7 @@ fun categoryLayer(
             onClick = onClick
         )
 
-        else -> categoryLayerLazyColumnForGoodPlacesBadPlaces(
+        else -> categoryLayerForGoodPlacesBadPlaces(
             category = category,
             reynosaViewModel = reynosaViewModel,
             onClick = onClick
@@ -96,7 +104,7 @@ fun previewCategoryLayerLazyColumnForGoodPlacesBadPlaces() {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            categoryLayerLazyColumnForGoodPlacesBadPlaces(
+            categoryLayerForGoodPlacesBadPlaces(
                 GoodPlacesProviderCategories.Categories[0],
                 reynosaViewModel = reynosaViewModel,
                 onClick = {}

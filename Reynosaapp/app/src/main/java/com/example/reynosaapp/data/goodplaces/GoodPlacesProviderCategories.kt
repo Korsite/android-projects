@@ -1,9 +1,7 @@
 package com.example.reynosaapp.data.goodplaces
 
 import com.example.reynosaapp.R
-import com.example.reynosaapp.data.MainCategories
 import com.example.reynosaapp.data.framework.CategoryData
-import com.example.reynosaapp.data.framework.SubCategoryData
 
 object GoodPlacesProviderCategories {
     val Categories = listOf(

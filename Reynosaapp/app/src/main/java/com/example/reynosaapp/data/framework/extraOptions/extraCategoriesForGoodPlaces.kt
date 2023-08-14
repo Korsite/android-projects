@@ -1,4 +1,7 @@
 package com.example.reynosaapp.data.framework.extraOptions
 
-enum class extraCategoriesForGoodPlaces {
+import java.util.function.Predicate
+
+enum class ExtraCategoriesForGoodPlaces{
+    American, Italian, None
 }
