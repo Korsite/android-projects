@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Reynosa app</string>
+    <string name="good_places">Good places</string>
+    <string name="dangerous_places">Dangerous places</string>
+    <string name="opportunities">Opportunities</string>
+    <string name="extra_info">Extra Info</string>
+    <string name="back">back</string>
+    <string name="clickHere">Click here to google maps</string>
+    <string name="openedNow">Opened \nCloses in %1$s</string>
+    <string name="closedNow">Closed</string>
+    <string name="useForNoThing" />
+
+    <string name="extraInformationCategory1">thing1</string>
+    <string name="extraInformationCategory2">thing2</string>
+    <string name="extraInformationCategory3">thing3</string>
+    <string name="extraInformationSubCategory1Name">HELLO WORLD</string>
+
+</resources>

@@ -1,4 +1,4 @@
-package com.example.reynosaapp.ui
+package com.example.reynosaapp.ui.typesOfNavigation
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -7,14 +7,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.example.reynosaapp.data.framework.MainCategories
-import com.example.reynosaapp.ui.layer.ReynosaViewModel
+import com.example.reynosaapp.ui.NavigationToDisplay
 
 @Composable
 fun bottomNavigation(
     selected: MainCategories,
     navigationIcon: List<NavigationToDisplay>,
     onClick: (Int, MainCategories) -> Unit,
-    reynosaViewModel: ReynosaViewModel,
     modifier: Modifier
 ) {
     NavigationBar(
