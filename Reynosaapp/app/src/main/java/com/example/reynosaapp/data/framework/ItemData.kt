@@ -5,7 +5,7 @@ import androidx.annotation.StringRes
 import com.example.reynosaapp.R
 
 data class ItemData(
-    @StringRes val itemName: Int,
+    @StringRes val itemName: Int = R.string.useForNoThing,
     @DrawableRes val itemPicture: Int,
     @StringRes val itemDescription: Int = R.string.useForNoThing,
     @StringRes val itemDescriptionOptional : Int = R.string.useForNoThing,

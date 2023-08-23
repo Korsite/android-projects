@@ -6,24 +6,19 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyGridState
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.reynosaapp.data.extrainfo.ExtraInformationProviderCategories
 import com.example.reynosaapp.data.framework.CategoryData
-import com.example.reynosaapp.data.framework.ExtraCategoriesForOpportunities
 import com.example.reynosaapp.data.framework.MainCategories
-import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderCategories
-import com.example.reynosaapp.data.opportunities.OpportunitiesProviderCategories
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
-import com.example.reynosaapp.ui.theme.ReynosaAppTheme
 
 @Composable
 fun categoryLayerLazyColumn(
@@ -31,6 +26,7 @@ fun categoryLayerLazyColumn(
     reynosaViewModel: ReynosaViewModel,
     currentCategory: (Int) -> Unit,
     onClickExtraCategory: (Int) -> Unit,
+    windowsSize: WindowWidthSizeClass,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -39,22 +35,27 @@ fun categoryLayerLazyColumn(
         val currentListOfSubCategory = reynosaUiState.currentCategories
 
 
-        LazyColumn(
-            verticalArrangement = Arrangement.spacedBy(10.dp),
+        LazyVerticalGrid(
+            columns = GridCells.Adaptive(250.dp),
+            verticalArrangement = Arrangement.spacedBy(5.dp),
+            horizontalArrangement = Arrangement.spacedBy(5.dp),
             modifier = modifier
                 .padding(10.dp)
                 .fillMaxWidth()
         ) {
             items(
                 currentListOfSubCategory,
-                key = { category -> category.categoryName }) { category ->
+                key = { category -> category.categoryName }
+            ) { category ->
                 categoryLayer(
                     category = category,
                     onClick = { currentCategory(category.categoryName) },
                     extraCategories = category.extraCategoriesType,
                     reynosaViewModel = reynosaViewModel,
                     onClickExtraCategory = onClickExtraCategory,
-                    reynosaUiState = reynosaUiState
+                    reynosaUiState = reynosaUiState,
+                    windowsSize = windowsSize,
+                    cardSelected = category.categoryName == reynosaUiState.currentCategory
                 )
             }
         }
@@ -62,7 +63,6 @@ fun categoryLayerLazyColumn(
 }
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun categoryLayer(
     @StringRes extraCategories: List<Int>,
@@ -71,6 +71,8 @@ fun categoryLayer(
     reynosaViewModel: ReynosaViewModel,
     onClick: () -> Unit,
     onClickExtraCategory: (Int) -> Unit,
+    windowsSize: WindowWidthSizeClass,
+    cardSelected: Boolean,
     modifier: Modifier = Modifier
 ) {
     when (reynosaUiState.currentMainCategory) {
@@ -78,15 +80,17 @@ fun categoryLayer(
             category = category,
             extraCategories = extraCategories,
             onClickExtraCategory = onClickExtraCategory,
-            reynosaViewModel = reynosaViewModel
+            windowsSize = windowsSize,
         )
 
         MainCategories.ExtraInfo -> categoryLayerForExtraInfo(
             category = category,
+            cardSelected = cardSelected,
             onClick = onClick
         )
 
         else -> categoryLayerForGoodPlacesBadPlaces(
+            cardSelected = cardSelected,
             category = category,
             reynosaViewModel = reynosaViewModel,
             onClick = onClick
@@ -94,60 +98,7 @@ fun categoryLayer(
     }
 }
 
-@Composable
-@Preview(showSystemUi = true)
-fun previewCategoryLayerLazyColumnForGoodPlacesBadPlaces() {
-    val reynosaViewModel: ReynosaViewModel = viewModel()
-    val reynosaUiState = reynosaViewModel.uiState.collectAsState().value
-    ReynosaAppTheme {
-        Column(
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            categoryLayerForGoodPlacesBadPlaces(
-                GoodPlacesProviderCategories.Categories[0],
-                reynosaViewModel = reynosaViewModel,
-                onClick = {}
-            )
-        }
-    }
-}
 
-@Composable
-@Preview(showSystemUi = true)
-fun previewCategoryLayerLazyColumnForOpportunities() {
-    val reynosaViewModel: ReynosaViewModel = viewModel()
-    val reynosaUiState = reynosaViewModel.uiState.collectAsState().value
-    ReynosaAppTheme {
-        Column(
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            categoryLayerForOpportunities(
-                ExtraCategoriesForOpportunities.Work.extraCategories,
-                category = OpportunitiesProviderCategories.Categories[0],
-                onClickExtraCategory = {},
-                reynosaViewModel = reynosaViewModel
-            )
-        }
-    }
-}
 
-@Composable
-@Preview(showSystemUi = true)
-fun previewCategoryLayerLazyColumnForExtraInfo() {
-    val reynosaViewModel: ReynosaViewModel = viewModel()
-    val reynosaUiState = reynosaViewModel.uiState.collectAsState().value
-    ReynosaAppTheme {
-        Column(
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            categoryLayerForExtraInfo(
-                ExtraInformationProviderCategories.Categories[0],
-                onClick = {}
-            )
-        }
-    }
-}
+
 

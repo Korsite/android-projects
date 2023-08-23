@@ -7,6 +7,16 @@ import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.layer.itemLayers.DAYS_OF_THE_WEEK
 import java.util.Calendar
 
+val dayOfTodayInNumber = when (ReynosaUiState().currentTime[Calendar.DAY_OF_WEEK]) {
+    1 -> 6 // Sunday (6)
+    2 -> 0 // Monday (0)
+    3 -> 1 // Tuesday (1)
+    4 -> 2 // Wednesday (2)
+    5 -> 3 // Thursday (3)
+    6 -> 4 // Friday (4)
+    else -> 5 // Saturday (5)
+}
+
 fun returnIfShopIsCurrentlyOpenedOrClosed(openTime: Double, closeTime: Double): Int {
     val reynosaUiState = ReynosaUiState()
     val getInstance = reynosaUiState.currentTime
@@ -17,6 +27,28 @@ fun returnIfShopIsCurrentlyOpenedOrClosed(openTime: Double, closeTime: Double): 
         R.string.openedNow
     else
         R.string.closedNow
+}
+
+fun returnCloseAndOpenTimeOfTheShop(completeScheduleOfTheShop: List<Pair<String, Any>>) : Pair<Double, Double> {
+    var openTime = 0.0
+    var closeTime = 0.0
+    for(dayOfTomorrowAndSoOn in returnAListToCheckDaysAfter())
+        if(completeScheduleOfTheShop[dayOfTomorrowAndSoOn].component2() is String){
+            openTime = completeScheduleOfTheShop[dayOfTomorrowAndSoOn].component2()
+                .toString()
+                .split("-")
+                .component1()
+                .replace(":", ".") // 9:00 -> 9.00 (for example)
+                .toDouble() // 9.00 -> 9.0
+            closeTime = completeScheduleOfTheShop[dayOfTomorrowAndSoOn].component2()
+                .toString()
+                .split("-")
+                .component2()
+                .replace(":", ".")
+                .toDouble()
+            break
+        }
+    return Pair(openTime, closeTime)
 }
 
 fun checkHowMuchTimeLeftToClose(minutesLeft: Int): String {
@@ -33,29 +65,18 @@ fun checkHowMinutesLefToClose(currentTime: Double, closeTime: Double): Int {
     val closeTimeInMinutes = convertTimeInMinutes(closeTime)
     return closeTimeInMinutes - currentTimeInMinutes
 }
+fun returnAListToCheckDaysAfter(removeDayOfToday: Int = dayOfTodayInNumber): List<Int> {
+    var daysOfTheWeekInNumbers = List(7) { i -> i } // creates (0, 1, 2, 3, 4, 5, 6)
+    val (list1, list2) = daysOfTheWeekInNumbers.partition { it > removeDayOfToday }
+    val someList = list1.plus(list2).toMutableList()
+    someList.removeAt(6) // removes the day of today
+    return someList
+}
 
 fun checkHowMuchTimeLeftToOpen(
-    currentTime: Calendar,
     completeSchedule: List<Pair<String, Any>>
 ): Pair<String, String> {
 
-    fun returnAListToCheckDaysAfter(removeDayOfToday: Int): List<Int> {
-        var daysOfTheWeekInNumbers = List(7) { i -> i } // creates (0, 1, 2, 3, 4, 5, 6)
-        val (list1, list2) = daysOfTheWeekInNumbers.partition { it > removeDayOfToday }
-        val someList = list1.plus(list2).toMutableList()
-        someList.removeAt(6) // removes the day of today
-        return someList
-    }
-
-    val dayOfTodayInNumber = when (currentTime[Calendar.DAY_OF_WEEK]) {
-        1 -> 6 // Sunday (6)
-        2 -> 0 // Monday (0)
-        3 -> 1 // Tuesday (1)
-        4 -> 2 // Wednesday (2)
-        5 -> 3 // Thursday (3)
-        6 -> 4 // Friday (4)
-        else -> 5 // Saturday (5)
-    }
 
     val dayOfTomorrowName = when (dayOfTodayInNumber + 1) {
         0 -> "Monday"
@@ -69,7 +90,7 @@ fun checkHowMuchTimeLeftToOpen(
 
     val listCollector = mutableListOf<String>()
 
-    for (day in returnAListToCheckDaysAfter(dayOfTodayInNumber))
+    for (day in returnAListToCheckDaysAfter())
         if (completeSchedule[day].component2() is String) {
             val closesDayToBeOpened = completeSchedule[day]
             listCollector.add(closesDayToBeOpened.component1())
@@ -101,6 +122,7 @@ fun takeAListOfSubCategoriesAndItemInstanceAndReturnAMap(
         allSubCategories.forEachIndexed { index, subCategory ->
             val currentItem = allItems[index]
 
+            var itemPicture = currentItem.itemPicture
             var itemDescription = currentItem.itemDescription
             var itemDescriptionOptional = currentItem.itemDescriptionOptional
             var itemDaysShopOpened: Int = currentItem.itemDaysShopOpened
@@ -114,10 +136,10 @@ fun takeAListOfSubCategoriesAndItemInstanceAndReturnAMap(
                 subCategory.subCategoryName,
                 ItemData(
                     itemName = subCategory.subCategoryName,
-                    itemPicture = subCategory.subCategoryPicture,
+                    itemPicture = itemPicture,
                     itemDescription = itemDescription,
                     itemDescriptionOptional = itemDescriptionOptional,
-                    itemDaysShopOpened = itemDaysShopOpened,
+                    itemDaysShopOpened = subCategory.subCategoryDaysShopOpened,
                     itemGoogleMaps = subCategory.subCategoryGoogleMaps,
                     itemWebsite = itemWebSite,
                     itemPictureOptional = itemPictureOptional,
@@ -159,7 +181,7 @@ fun returnAPairDataTypeAboutTheScheduleOfAShop(
             completeSchedule.add(
                 Pair(
                     aDayOfAWeek.name,
-                    scheduleOfEachDay.elementAtOrNull(index) ?: R.string.closedNow
+                    scheduleOfEachDay.elementAtOrNull(index) ?: R.string.closed
                 )
             )
         }
@@ -181,7 +203,7 @@ fun returnAPairDataTypeAboutTheScheduleOfAShop(
             completeSchedule.add(
                 Pair(
                     aDayOfAWeek,
-                    if (exceptionDayTrue) R.string.closedNow else timeFormat
+                    if (exceptionDayTrue) R.string.closed else timeFormat
                 )
             )
         }
@@ -190,3 +212,19 @@ fun returnAPairDataTypeAboutTheScheduleOfAShop(
 
 }
 
+fun main() {
+
+    val som = returnCloseAndOpenTimeOfTheShop(
+        returnAPairDataTypeAboutTheScheduleOfAShop(
+            "8:00 - 15:00",
+            null,
+            "7:00 - 22:00",
+            "9:00 - 23:00",
+            "8:00 - 15:00",
+            "8:00 - 15:00",
+            "9:00  - 14:00"
+        )
+    )
+
+    println(som)
+}

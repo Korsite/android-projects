@@ -11,5 +11,9 @@
     <string name="useForNoThing" />
 
 
+    <array name="hola">
+        <item>Hola</item>
+        <item>pepe</item>
+    </array>
 
 </resources>

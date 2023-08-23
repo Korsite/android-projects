@@ -13,23 +13,23 @@ import com.example.reynosaapp.ui.NavigationToDisplay
 fun railNavigation(
     selected: MainCategories,
     onClickNavigationIcon: (Int, MainCategories) -> Unit,
-    listOfIcons: List<NavigationToDisplay>,
+    listOfNavigationIcons: List<NavigationToDisplay>,
     modifier : Modifier
 ) {
     NavigationRail(modifier = modifier) {
-        for (listOfIcon in listOfIcons)
+        for (navigationIcon in listOfNavigationIcons)
             NavigationRailItem(
-                selected = selected == listOfIcon.category,
+                selected = selected == navigationIcon.category,
                 onClick = {
                     onClickNavigationIcon(
-                        listOfIcon.contentDescription,
-                        listOfIcon.category
+                        navigationIcon.contentDescription,
+                        navigationIcon.category
                     )
                 },
                 icon = {
                     Icon(
-                        imageVector = listOfIcon.imageIcon, contentDescription = stringResource(
-                            listOfIcon.contentDescription
+                        imageVector = navigationIcon.imageIcon, contentDescription = stringResource(
+                            navigationIcon.contentDescription
                         )
                     )
                 }

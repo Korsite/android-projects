@@ -19,6 +19,17 @@ object GoodPlacesProviderCategories {
             R.string.goodPlacesCategoryName3,
             R.string.goodPlacesCategoryContentDescription3,
             R.drawable.mitsuha
+        ),
+        CategoryData(
+            R.string.goodPlacesCategoryName4,
+            R.string.goodPlacesCategoryContentDescription3,
+            R.drawable.mitsuha
+        ),
+        CategoryData(
+            R.string.goodPlacesCategoryName5,
+            R.string.goodPlacesCategoryContentDescription3,
+            R.drawable.mitsuha
+        ),
+
         )
-    )
 }

@@ -10,9 +10,7 @@
     <string name="goodPlacesCategoryContentDescription3">FPSJFSIOPFJSIOFJIOSJFOIPJDF</string>
 
 
-    <string name="goodPlacesSubCategoryName1">CoffeShop1</string>
-    <string name="goodPlacesSubCategoryName2">CoffeShop2</string>
-    <string name="goodPlacesSubCategoryName3">CoffeShop3</string>
+
     <string name="goodPlacesSubCategoryName4">CoffeShop4</string>
     <string name="goodPlacesSubCategoryName5">CoffeShop5</string>
     <string name="goodPlacesSubCategoryName6">CoffeShop6</string>
@@ -21,15 +19,4 @@
     <string name="goodPlacesSubCategoryName9">CoffeShop9</string>
 
 
-    <string name="goodPlacesSubCategorySchedule1">Lunes a viernes</string>
-    <string name="goodPlacesSubCategorySchedule2">goodPlacesSubCategorySchedule2</string>
-    <string name="goodPlacesSubCategorySchedule3">Papa Caliente</string>
-
-    <string name="goodPlacesSubCategoryClickHere1">https://rb.gy/6kstv</string>
-    <string name="goodPlacesSubCategoryClickHere2">Me como mi kk</string>
-    <string name="goodPlacesSubCategoryClickHere3">Papa Caliente</string>
-
-    <string name="goodPlacesSubCategoryAvailableNow1">Opened now</string>
-    <string name="goodPlacesSubCategoryAvailableNow2">Me como mi kk</string>
-    <string name="goodPlacesSubCategoryAvailableNow3">Papa Caliente</string>
 </resources>

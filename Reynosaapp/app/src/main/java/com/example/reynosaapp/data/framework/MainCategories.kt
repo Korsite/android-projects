@@ -5,7 +5,13 @@ import com.example.reynosaapp.R
 
 enum class MainCategories(@StringRes val Categories: List<Int>) {
     GoodPlaces(
-        listOf(R.string.goodPlacesCategoryName1, R.string.goodPlacesCategoryName2, R.string.goodPlacesCategoryName3)
+        listOf(
+            R.string.goodPlacesCategoryName1,
+            R.string.goodPlacesCategoryName2,
+            R.string.goodPlacesCategoryName3,
+            R.string.goodPlacesCategoryName4,
+            R.string.goodPlacesCategoryName5
+        )
     ),
 
     DangerousPlaces(
@@ -17,6 +23,10 @@ enum class MainCategories(@StringRes val Categories: List<Int>) {
     ),
 
     ExtraInfo(
-        listOf(R.string.extraInformationCategory1, R.string.extraInformationCategory2, R.string.extraInformationCategory3)
+        listOf(
+            R.string.extraInformationCategory1,
+            R.string.extraInformationCategory2,
+            R.string.extraInformationCategory3
+        )
     )
 }

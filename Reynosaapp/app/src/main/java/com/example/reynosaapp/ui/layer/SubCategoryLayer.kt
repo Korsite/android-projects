@@ -1,33 +1,39 @@
 package com.example.reynosaapp.ui.layer
 
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyGridState
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.lazy.grid.itemsIndexed
+import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.toMutableStateList
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.reynosaapp.R
@@ -37,16 +43,16 @@ import com.example.reynosaapp.data.checkHowMuchTimeLeftToClose
 import com.example.reynosaapp.data.checkHowMuchTimeLeftToOpen
 import com.example.reynosaapp.data.dangerousplaces.DangerousPlacesProviderSubCategories
 import com.example.reynosaapp.data.framework.SubCategoryData
-import com.example.reynosaapp.data.framework.extraOptions.ExtraCategoriesForGoodPlaces
+import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderSubCategories
-import com.example.reynosaapp.data.mainProvider
 import com.example.reynosaapp.data.opportunities.OpportunitiesProviderSubCategories
+import com.example.reynosaapp.data.returnCloseAndOpenTimeOfTheShop
 import com.example.reynosaapp.ui.HyperText
 import com.example.reynosaapp.ui.choicesToFilterGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
 import com.example.reynosaapp.ui.theme.ReynosaAppTheme
-import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.collectLatest
 import java.util.Calendar
 
 @Composable
@@ -56,32 +62,33 @@ fun subCategoryLayerLazyColumn(
     reynosaViewModel: ReynosaViewModel,
     currentItem: (Int) -> Unit,
     onClickExtraOption: (Boolean, ExtraCategoriesForGoodPlaces) -> Unit,
+    lazyGridState: LazyGridState,
     modifier: Modifier
-) {
+){
 
     Column(
         modifier = modifier
     ) {
-
-
         choicesToFilterGoodPlaces(
             reynosaUiState = reynosaUiState,
-            onClickExtraOption = onClickExtraOption
+            onClickExtraOption = onClickExtraOption,
         )
 
-        LazyColumn(
-            verticalArrangement = Arrangement.spacedBy(10.dp),
+        LazyVerticalGrid(
+            columns = GridCells.Adaptive(250.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+            contentPadding = PaddingValues(10.dp),
+            state = lazyGridState,
             modifier = modifier
-                .padding(10.dp)
-
         ) {
-            items(
+            itemsIndexed(
                 subCategories
-            ) { subCategory ->
+            ) { index, subCategory ->
                 subCategoryLayer(
                     subCategory = subCategory,
                     reynosaUiState = reynosaUiState,
-                    currentItem = { currentItem(subCategory.subCategoryName) }
+                    currentItem = { currentItem(subCategory.subCategoryName) },
+                    numberOfCard = index + 1
                 )
             }
         }
@@ -96,6 +103,7 @@ fun subCategoryLayerLazyColumn(
 fun subCategoryLayer(
     subCategory: SubCategoryData,
     reynosaUiState: ReynosaUiState,
+    numberOfCard: Int,
     currentItem: () -> Unit
 ) {
     Card(
@@ -105,6 +113,7 @@ fun subCategoryLayer(
             MainCategories.GoodPlaces -> subCategoryLayerForGoodPlaces(
                 subCategory = subCategory,
                 reynosaUiState = reynosaUiState,
+                numberOfCard = numberOfCard
             )
 
             MainCategories.DangerousPlaces -> subCategoryLayerForDangerousPlaces(
@@ -127,6 +136,7 @@ fun subCategoryLayer(
 fun subCategoryLayerForGoodPlaces(
     subCategory: SubCategoryData,
     reynosaUiState: ReynosaUiState,
+    numberOfCard: Int,
     modifier: Modifier = Modifier
 ) {
     val getInstance = reynosaUiState.currentTime
@@ -136,7 +146,6 @@ fun subCategoryLayerForGoodPlaces(
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(10.dp)
     ) {
         Row {
             Image(
@@ -153,14 +162,24 @@ fun subCategoryLayerForGoodPlaces(
                     .weight(2f)
             ) {
 
-                Text(
-                    text = stringResource(subCategory.subCategoryName),
-                    modifier = Modifier.align(Alignment.CenterHorizontally)
-                )
+                Row(
+                    horizontalArrangement = Arrangement.Center,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = stringResource(subCategory.subCategoryName),
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.weight(1f)
+                    )
 
+                    Text(
+                        text = numberOfCard.toString(),
+                    )
+                }
 
                 Text(
                     text = stringResource(subCategory.subCategoryDaysShopOpened),
+                    style = MaterialTheme.typography.bodyLarge
                 )
 
                 HyperText(
@@ -168,29 +187,32 @@ fun subCategoryLayerForGoodPlaces(
                     modifier = modifier
                 )
 
-                Spacer(modifier = Modifier.height(20.dp))
 
                 Text(
-                    text =
-                    if (subCategory.isOpenedOrClosed == R.string.openedNow) // if shop is opened
+                    text = // if shop is opened
+                    if (subCategory.isOpenedOrClosed == R.string.openedNow)
                         stringResource(
                             subCategory.isOpenedOrClosed,
                             checkHowMuchTimeLeftToClose(
-                                checkHowMinutesLefToClose(currentTime, subCategory.closeTime)
+                                checkHowMinutesLefToClose(
+                                    currentTime,
+                                    returnCloseAndOpenTimeOfTheShop(subCategory.subCategoryCompleteSchedule).component2()
+                                )
                             )
                         )
                     else { // if shop is closed
                         val resourcesToDisplay =
                             checkHowMuchTimeLeftToOpen(
-                                reynosaUiState.currentTime,
                                 subCategory.subCategoryCompleteSchedule
                             )
                         stringResource(
                             subCategory.isOpenedOrClosed,
                             resourcesToDisplay.component1(),
                             resourcesToDisplay.component2()
-                            )
-                    }
+                        )
+                    },
+                    style = MaterialTheme.typography.labelLarge
+
                 )
             }
         }
@@ -220,7 +242,7 @@ fun subCategoryLayerForDangerousPlaces(
             Image(
                 painter = painterResource(subCategory.subCategoryPicture),
                 contentDescription = stringResource(subCategory.subCategoryName),
-                modifier = Modifier.weight(1.5f),
+                modifier = Modifier.weight(2f),
                 contentScale = ContentScale.Crop
             )
         }
@@ -287,6 +309,7 @@ fun previewSubCategoryLayerForGoodPlaces() {
                 GoodPlacesProviderSubCategories.SubCategories[R.string.goodPlacesCategoryName1]?.component1()
                     ?: SubCategoryData(-1, -1),
                 reynosaUiState = ReynosaUiState(),
+                numberOfCard = 0
             )
         }
     }

@@ -1,6 +1,5 @@
 package com.example.reynosaapp
 
-import android.R
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -8,7 +7,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
-import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -17,9 +15,18 @@ import com.example.reynosaapp.ui.ReynosaApp
 import com.example.reynosaapp.ui.theme.ReynosaAppTheme
 
 class MainActivity : ComponentActivity() {
+    private val rememberScrollPositionForCoffeeShops by lazy {
+        applicationContext.getSharedPreferences("prefs", MODE_PRIVATE)
+    }
+
+    private val rememberScrollPositionForRestaurants by lazy{
+        applicationContext.getSharedPreferences("rememberPositionForRestaurants", MODE_PRIVATE)
+    }
+
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             val windowsSize = calculateWindowSizeClass(activity = this)
             ReynosaAppTheme(darkTheme = false) {
@@ -28,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     ReynosaApp(
-                        windowsSize.widthSizeClass,
+                        windowsSize.widthSizeClass, rememberScrollPositionForCoffeeShops, rememberScrollPositionForRestaurants
                     )
                 }
             }
@@ -39,9 +46,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showSystemUi = true)
 @Composable
 fun mainPreview() {
-    ReynosaAppTheme {
-        ReynosaApp(WindowWidthSizeClass.Compact)
-    }
+
 }
 
 

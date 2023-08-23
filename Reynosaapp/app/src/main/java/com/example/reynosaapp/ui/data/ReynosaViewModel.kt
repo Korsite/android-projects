@@ -1,26 +1,18 @@
 package com.example.reynosaapp.ui.data
 
-import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.toMutableStateList
+import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.lifecycle.ViewModel
 import com.example.reynosaapp.R
-import com.example.reynosaapp.data.framework.ExtraCategoriesForOpportunities
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.framework.ItemData
-import com.example.reynosaapp.data.framework.SubCategoryData
-import com.example.reynosaapp.data.framework.extraOptions.ExtraCategoriesForGoodPlaces
+import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.data.mainProvider
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import kotlin.math.absoluteValue
 
 
-class ReynosaViewModel : ViewModel() {
+class ReynosaViewModel: ViewModel() {
     private val _uiState = MutableStateFlow(ReynosaUiState())
     val uiState = _uiState.asStateFlow()
 
@@ -85,6 +77,14 @@ class ReynosaViewModel : ViewModel() {
         _uiState.update { currentState->
             currentState.copy(
                 isShowingFilters = !currentState.isShowingFilters
+            )
+        }
+    }
+
+    fun initiliazeCompactAndMediumSize(){
+        _uiState.update {currentState ->
+            currentState.copy(
+                currentCategory = 0
             )
         }
     }

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--                                SUB CATEGORIES RESOURCES                                 -->
+    <string name="goodPlacesCoffeeShopSubCategoryName1">On/Off Caffe</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName2">The Italian \nCoffee Company</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName3">Opera Coffee Shop\n(Las fuentes Colony)</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName4">Mozko Coffee And Shop</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName5">Starbucks</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName6">caffeine deli</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName7">Café Las Flores</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName8">Matinée</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName9">Casa terra</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName10">MOOTS Caffè\nPlaza H100</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName11">No Name Coffee</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName12">MOOTS Caffè\nDriveThru Hidalgo</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName13">Crepa Café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName14">Boba City</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName15">kafezuco</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName16">Sauco Cafeteria</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName17">Gelato House</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName18">Lozen Café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName19">El Eden\nCoffee Drive Thru</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName20">DISTRIBUIDORA\nDE CAFÉ GIA &amp; G</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName21">Coffe Tree\nSoriana Rio</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName22">Santo Café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName23">Cafecitos Bakery\n&amp;Coffee Shop</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName24">Cafe Tatiaxca\nVistahermosa</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName25">BOXHA cultura café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName26">Cookie Co.</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName27">I khofì</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName28">Carmeneê\nVintage Café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName29">El Punto\nCoffee Designers</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName30">Coco latte cafe\n&amp;Gelateria</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName31">La Uka Coffee\n&amp;Food</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName32">Libelula Coffee</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName33">CREPAMANIA</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName34">Roma Café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName35">Fedora Gallery\n&amp; Coffee</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName36">Cafeteria Denisse</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName37">Moots Caffe</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName38">Cafe \"AL\"</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName39">La charla Café</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName40">La Cafetera Gourmet\n(Cafe , Cafeteria)</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName41">The Italian Coffee\nCompany Periferico</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName42">Frappes Ely</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName43">Coffe Tree\nSoriana Periferico</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName44">Le petite cafe</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName45">OG2GO</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName46">Maná Cafeteria</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName47">Cafe Literario\n360 Grados</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName48">Delmi\'s Coffe</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName49">Caffeto Rex</string>
+    <string name="goodPlacesCoffeeShopSubCategoryName50">Opera coffee shop\nMall 950</string>
+
+    <string name="goodPlacesCoffeeShopSubCategorySchedule1">Every day but Tuesday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule2">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule3">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule4">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule5">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule6">(???)</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule7">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule8">Every day but Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule9">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule10">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule11">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule12">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule13">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule14">Tuesday - Sunday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule15">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule16">Tuesday - Sunday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule17">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule18">(???)</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule19">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule20">Monday - Friday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule21">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule22">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule23">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule24">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule25">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule26">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule27">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule28">Monday - Friday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule29">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule30">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule31">Monday - Friday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule32">Every day but Wednesday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule33">Tuesday - Sunday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule34">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule35">Tuesday - Sunday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule36">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule37">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule38">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule39">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule40">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule41">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule42">Thursday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule43">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule44">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule45">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule46">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule47">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule48">Monday - Saturday</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule49">Every day</string>
+    <string name="goodPlacesCoffeeShopSubCategorySchedule50">(???)</string>
+
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere1">https://www.google.com.mx/maps/place/On%2FOff+Cafe/@26.0678228,-98.3259625,14z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505bb70f907d9:0xbff852c88561916b!8m2!3d26.0678119!4d-98.3258909!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F1</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere2">https://www.google.com.mx/maps/place/The+Italian+Coffee+Company/@26.0649968,-98.3280237,14.75z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505faba575907:0xcb7d4ade5b7916bb!8m2!3d26.07402!4d-98.31898!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJMYTBwZlgzaFJSUkFC4AEA!16s%2Fg%2F11bw2fcpv8?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere3">https://www.google.com.mx/maps/place/Opera+Coffee+Shop/@26.065988,-98.3323276,15.25z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505efcaac82f7:0xafef734cc0d5050a!8m2!3d26.0699959!4d-98.3210772!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSdGRISjVNaTFCUlJBQuABAA!16s%2Fg%2F11j6vqs_kl?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere4">https://www.google.com.mx/maps/place/Mozko+Coffee+And+Shop/@26.0685423,-98.341472,14.5z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505764cd29431:0x2f310bcf29b3b9cc!8m2!3d26.0690371!4d-98.3166384!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJ0T0dWdU1XeG5SUkFC4AEA!16s%2Fg%2F11h5vbbgwn?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere5">https://www.google.com.mx/maps/place/Starbucks/@26.068574,-98.3640427,14z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505e54a80d3ab:0x78b51e0d111f3e79!8m2!3d26.0734959!4d-98.3217006!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRd2RuVnFTREpSUlJBQuABAA!16s%2Fg%2F11b7dvhdyy?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere6">https://www.google.com.mx/maps/place/caffeine+deli/@26.0727923,-98.3945245,13.5z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505f1ad98a4eb:0xfb6097d158313520!8m2!3d26.0700552!4d-98.3176941!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRkZWxp4AEA!16s%2Fg%2F1hc6xq5d4?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere7">https://www.google.com.mx/maps/place/Café+Las+Flores/@26.0719596,-98.3441294,15z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505d7deccff43:0x4e3178814e06901b!8m2!3d26.0719596!4d-98.326105!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11ssxdh0np?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere8">https://www.google.com.mx/maps/place/Matinée/@26.0730021,-98.3320636,15z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x8665055a5ab9d219:0x74595585266c9bc!8m2!3d26.0730021!4d-98.3140392!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQxlc3ByZXNzb19iYXLgAQA!16s%2Fg%2F11ssrwvg1y?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere9">https://www.google.com.mx/maps/place/Casa+Terra/@26.0652852,-98.3180356,15z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505bd025735e9:0x86c0392113098b14!8m2!3d26.0654323!4d-98.317891!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11khzsvkwd?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere10">https://www.google.com.mx/maps/place/MOOTS+Caffè+-+Plaza+H100/@26.0693299,-98.3490293,15z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505b05b7992e1:0xb27942382e572204!8m2!3d26.0693299!4d-98.3310049!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VReWFHRkRWSGhuUlJBQuABAA!16s%2Fg%2F11h1j6pc52?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere11">https://www.google.com.mx/maps/place/No+Name+Coffee/@26.0607522,-98.3180063,15z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505f53af04af5:0x210c8e3b84ee34b8!8m2!3d26.0608338!4d-98.3178893!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJLYVU5dE9FMUJFQUXgAQA!16s%2Fg%2F11rk55tnbh?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere12">https://www.google.com.mx/maps/place/MOOTS+Caffè+-+DriveThru+Hidalgo/@26.0690115,-98.3512012,15z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x8665051a024cbae3:0x5e8b3c8086cc2e1f!8m2!3d26.0690115!4d-98.3331768!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSWGQxcFRUWHAzUlJBQuABAA!16s%2Fg%2F11qfw76llb?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere13">https://www.google.com.mx/maps/place/Crepa+Café/@26.057224,-98.377178,13.5z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x866505f0e6c608d1:0x58ef4ce7e397a3c9!8m2!3d26.0674296!4d-98.3176271!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQhjcmVwZXJpZeABAA!16s%2Fg%2F11clyp71bt?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere14">https://www.google.com.mx/maps/place/Boba+City/@26.0674296,-98.3897249,13z/data=!4m10!1m2!2m1!1sCoffe+shop!3m6!1s0x8665058b980b01ff:0xe731c16c5d0e61!8m2!3d26.0697211!4d-98.3092589!15sCgtDb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11kq2lryms?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere15">https://www.google.com.mx/maps/place/kafezuco/@26.0668921,-98.3462087,16z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650507c7310e53:0xed8ee0c9a1d21506!8m2!3d26.0681739!4d-98.3374218!15sCgtjb2ZmZWUgc2hvcFoNIgtjb2ZmZWUgc2hvcJIBC2NvZmZlZV9zaG9w4AEA!16s%2Fg%2F11v172sksv?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere16">https://www.google.com.mx/maps/place/Sauco+Cafetería/@26.0628473,-98.3317324,17z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x8665057a4dc3f657:0x8f7a9c725e54f376!8m2!3d26.0631123!4d-98.3265235!15sCgtjb2ZmZWUgc2hvcFoNIgtjb2ZmZWUgc2hvcJIBC2NvZmZlZV9zaG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU50WDJWcGNsaEJFQUXgAQA!16s%2Fg%2F11p791sb6y?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere17">https://www.google.com.mx/maps/place/Gelato+House/@26.0686248,-98.3164728,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x866505f16df2a79d:0x4d0dab53ac30734!8m2!3d26.0685471!4d-98.3163287!15sCgtjb2ZmZWUgc2hvcFoNIgtjb2ZmZWUgc2hvcJIBC2NvZmZlZV9zaG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU41TTNJM2REWjNSUkFC4AEA!16s%2Fg%2F11ckb2ttrp?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere18">https://www.google.com.mx/maps/place/Lozen+Café/@26.0594405,-98.34935,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650f5def33001f:0x544b42f65bad2da8!8m2!3d26.0594405!4d-98.3081513!15sCgtjb2ZmZWUgc2hvcFoNIgtjb2ZmZWUgc2hvcJIBC2NvZmZlZV9zaG9w4AEA!16s%2Fg%2F11v0bjsjx5?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere19">https://www.google.com.mx/maps/place/El+Eden+Coffee+Drive+Thru/@26.0843593,-98.3776359,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650f9589a3d673:0x59fa2b04de4fb86f!8m2!3d26.0843593!4d-98.3055381!15sCgpjb2ZmZSBzaG9wkgELY29mZmVlX3Nob3DgAQA!16s%2Fg%2F11v64wr100?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere20">https://www.google.com.mx/maps/place/DISTRIBUIDORA+DE+CAFÉ+GIA+%26+G/@26.0929934,-98.3342109,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x866506725275ee45:0xe9d508c3b4b6afbb!8m2!3d26.0930936!4d-98.3340601!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOaE1tSnFZekpuUlJBQuABAA!16s%2Fg%2F11cn9j1cm_?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere21">https://www.google.com.mx/maps/place/Coffee+Tree/@26.0566838,-98.3631096,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650f6c734f8e9f:0x39ab154b190956bc!8m2!3d26.0566838!4d-98.2910118!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZl4AEA!16s%2Fg%2F11c5s4f0bn?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere22">https://www.google.com.mx/maps/place/Santo+Cafe/@26.0391792,-98.4257061,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x866505bac7fb20e9:0x13b7cb08ce69375f!8m2!3d26.0391792!4d-98.3536083!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11q572mgf8?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere23">https://www.google.com.mx/maps/place/Cafecitos+Bakery+%26+Coffee+Shop/@26.0597428,-98.3852046,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x866505fd68a56549:0xe3a4edab43afa0c0!8m2!3d26.0597428!4d-98.3131068!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQljYWZldGVyaWHgAQA!16s%2Fg%2F11n2y_rffz?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere24">https://www.google.com.mx/maps/place/Cafe+Tatiaxca+Reynosa+Vistahermosa/@26.0704283,-98.3598119,15z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650431d94dda9f:0xdf15e505ca827702!8m2!3d26.0704283!4d-98.3596645!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZl4AEA!16s%2Fg%2F11f315cbj2?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere25">https://www.google.com.mx/maps/place/BOXHA+cultura+café/@26.0341144,-98.4402522,12.75z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x866505886f0257a3:0x69e416e94ce831ba!8m2!3d26.0499596!4d-98.347357!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11swn0xt8m?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere26">https://www.google.com.mx/maps/place/Cookie+Co./@26.0663826,-98.3781576,12z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650f417d7fce17:0x2497a39a863e4240!8m2!3d26.0663826!4d-98.2924184!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5ETlRRdFNuZG5SUkFC4AEA!16s%2Fg%2F11f57c8wrq?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere27">https://www.google.com.mx/maps/place/I+khofì/@26.0541233,-98.3630989,15z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650589e4eba50b:0xa2ec9ba1ffd335a8!8m2!3d26.0559739!4d-98.3431003!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJWY0hadGJETkJSUkFC4AEA!16s%2Fg%2F11fkz0rldj?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere28">https://www.google.com.mx/maps/place/Carmeneê+Vintage+Cafe/@26.0742178,-98.328987,14.21z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650f44c7a77c0b:0xa02adc8455dc3800!8m2!3d26.0698622!4d-98.2970299!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZl4AEA!16s%2Fg%2F11gf9q7s0p?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere29">https://www.google.com.mx/maps/place/El+Punto+Coffee+Designers/@26.079914,-98.311412,14z/data=!3m1!5s0x86650f314100e195:0xd8d3e44999b968c3!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650f597e92d6bd:0x9f5a8bd38a93b824!8m2!3d26.079914!4d-98.2802104!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZl4AEA!16s%2Fg%2F11gjxvm4nk?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere30">https://www.google.com.mx/maps/place/Coco+latte+cafe+%26+Gelateria/@26.0405612,-98.35697,13z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650fb13c6ce75f:0x8b964684ac13ea4a!8m2!3d26.0217989!4d-98.2814391!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQRjYWZl4AEA!16s%2Fg%2F11hyh_qs29?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere31">https://www.google.com.mx/maps/place/La+Uka+Coffee+%26+Food/@26.0603824,-98.2853891,14.54z/data=!4m11!1m3!2m2!1scoffe+shop!6e5!3m6!1s0x86650ff5d9a06259:0x2ff01e61b520e68e!8m2!3d26.0602007!4d-98.2603051!15sCgpjb2ZmZSBzaG9wWgwiCmNvZmZlIHNob3CSAQljYWZldGVyaWHgAQA!16s%2Fg%2F11t5ln754v?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere32">https://www.google.com.mx/maps/place/Libélula+Coffee/@26.0627526,-98.2623784,17.5z/data=!4m10!1m2!2m1!1scoffee+shop!3m6!1s0x86650f4a8f92d46b:0x9e2446c2d9f27394!8m2!3d26.0632126!4d-98.2591313!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11kps0wdbt?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere33">https://www.google.com.mx/maps/place/CREPAMANIA/@26.0548995,-98.2611308,17z/data=!4m10!1m2!2m1!1scoffee+shop!3m6!1s0x86650fa8f7ec5c07:0xa5e1386d54073ace!8m2!3d26.0548995!4d-98.2609816!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQxlc3ByZXNzb19iYXLgAQA!16s%2Fg%2F11trgfqglb?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere34">https://www.google.com.mx/maps/place/Roma+Café/@26.0797245,-98.3503719,13z/data=!4m10!1m2!2m1!1scoffee+shop!3m6!1s0x86650faf420557f3:0x1122341835962aa7!8m2!3d26.0692971!4d-98.2734754!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQxlc3ByZXNzb19iYXLgAQA!16s%2Fg%2F11t9flp5xd?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere35">https://www.google.com.mx/maps/place/Fedora+Gallery+%26+Coffee/@26.0835023,-98.3648415,12.75z/data=!4m10!1m2!2m1!1scoffee+shop!3m6!1s0x86650f8b20ca50e3:0x668a7e80093280c8!8m2!3d26.0683918!4d-98.2679101!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOd2VXTkhSV1ZSRUFF4AEA!16s%2Fg%2F11s3v7ffb7?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere36">https://www.google.com.mx/maps/place/Cafetería+Denisse/@26.0665296,-98.5835251,10.75z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x86650f3b5fc67ac5:0x19c35061f189308e!8m2!3d26.06985!4d-98.2772608!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZl4AEA!16s%2Fg%2F1tt8cpwf?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere37">https://www.google.com.mx/maps/place/Moots+Caffé/@26.0248389,-98.3130678,14.5z/data=!4m10!1m2!2m1!1scoffee+shop!3m6!1s0x86650f9f32d48a87:0x899a56f473eca224!8m2!3d26.0297328!4d-98.2901663!15sCgtjb2ZmZWUgc2hvcFoNIgtjb2ZmZWUgc2hvcJIBC2NvZmZlZV9zaG9w4AEA!16s%2Fg%2F11t5_51_0g?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere38">https://www.google.com.mx/maps/place/Café+"AL"/@26.0776819,-98.2932468,15.5z/data=!4m6!3m5!1s0x86650f46d0793789:0xc2a2b866134984ca!8m2!3d26.0815016!4d-98.2866459!16s%2Fg%2F1thzpb3k?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere39">https://www.google.com.mx/maps/place/La+Charla+Café/@26.062955,-98.3279001,15.5z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866505c27da85199:0x5624b15b7881060b!8m2!3d26.0631808!4d-98.3155885!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQljYWZldGVyaWGaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjFiemt5VjJwQlJSQULgAQA!16s%2Fg%2F11ckjcbdr9?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere40">https://www.google.com.mx/maps/place/La+Cafetera+Gourmet+(Cafe+,+Cafeteria)/@26.0557828,-98.3928472,13z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866505946f5d8fe5:0x2fa5da51b1e60606!8m2!3d26.0557828!4d-98.3207494!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJwTkhGWWEyOW5SUkFC4AEA!16s%2Fg%2F11fqc7r18v?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere41">https://www.google.com.mx/maps/place/The+Italian+Coffee+Company/@26.0517175,-98.3835131,15z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x86650f362fd014e3:0x25a4c1eef6ed0f13!8m2!3d26.053144!4d-98.365038!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5QYW04elpWcFJFQUXgAQA!16s%2Fg%2F1tjdgmln?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere42">https://www.google.com.mx/maps/place/Frappes+Ely/@26.0622783,-98.3243839,16.04z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866505a49f239c91:0x9a1cbd9f2169c954!8m2!3d26.0565064!4d-98.3435761!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZl4AEA!16s%2Fg%2F11gn25914b?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere43">https://www.google.com.mx/maps/place/Coffee+Tree/@26.0528489,-98.3967609,14.25z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866504463f0076e7:0x1bf6ed4a8685e348!8m2!3d26.0544913!4d-98.3648188!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU56Y0hWSFh6SjNSUkFC4AEA!16s%2Fg%2F11g7z6qdqc?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere44">https://www.google.com.mx/maps/place/Le+Petite+Cafe/@26.0627807,-98.3330247,14z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x86650fe1ec6abe1f:0xb33b0a64281329f2!8m2!3d26.0618013!4d-98.3018593!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZl4AEA!16s%2Fg%2F11k599bs6p?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere45">https://www.google.com.mx/maps/place/OG2GO/@26.06275,-98.3331459,14z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x86650f44102760b9:0x5dffd36bc58bb9e3!8m2!3d26.0695208!4d-98.293212!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11c59w32ld?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere46">https://www.google.com.mx/maps/place/Maná+Cafeteria/@26.0706011,-98.3471942,14z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866505ce083309f5:0x283d6bf82f24ad39!8m2!3d26.0705593!4d-98.3471207!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQRjYWZl4AEA!16s%2Fg%2F11s9c8f7xl?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere47">https://www.google.com.mx/maps/place/Cafe+Literario+360+Grados/@26.0722781,-98.38355,14.5z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866505e70bc41471:0xbf57a93c112cc5fc!8m2!3d26.074284!4d-98.359202!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11sc0s99z_?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere48">https://www.google.com.mx/maps/place/Delmi´s+Coffee/@26.0315185,-98.3667438,15.63z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x866505099c32806f:0xfa1c7d0c9477db67!8m2!3d26.0308399!4d-98.3549859!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11trbvgtb2?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere49">https://www.google.com.mx/maps/place/Caffeto+Rex/@26.0803818,-98.3040756,15.25z/data=!4m11!1m3!2m2!1scoffee+shop!6e5!3m6!1s0x86650fef6106a9e5:0xc94f4e20722686d7!8m2!3d26.0792245!4d-98.2887226!15sCgtjb2ZmZWUgc2hvcFoIIgZjb2ZmZWWSAQxlc3ByZXNzb19iYXLgAQA!16s%2Fg%2F11v430c9qp?entry=ttu</string>
+    <string name="goodPlacesCoffeeShopSubCategoryClickHere50">https://www.google.com.mx/maps/place/Opera+coffee+shop/@26.0668,-98.3415344,20z/data=!4m10!1m3!2m2!1scoffee+shop!6e5!3m5!1s0x8665056e320ff4a9:0x3277ba1ffc30b6d!8m2!3d26.0668!4d-98.3411795!16s%2Fg%2F11sjm1wvkh?entry=ttu</string>
+
+
+    <!--                                ITEM RESOURCES                                 -->
+
+
+    <string name="goodPlacesCoffeeShopItemContentDescription1">Come and prove the delicious hot drinks, crapes, Coffee and more!\n899 944 2373</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription2">The Italian Coffee not only has amazing drinks to hang out with friends, also, delicious pieces of cake and cookies to eat\n+52 222 240 6001</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription3">If you ever need a place to surprise yourself, this shop might be your best choice, they really have great menu!\n+52 899 171 9009</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription4">The appearance of the shop inside is really attractive, crapes, coffee, frappes and more is sold!\nYou can also find nice spots to take selfies\n+52 899 202 1658</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription5">The choices you can have are more than infinite, this shop needs no presentation, some money is required if you want to buy here\n800 288-0888</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription6">Not much info about the shop\n+52 899 169 3622</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription7">A really good places to eat, for not only drinking coffee, also some delicious desserts or food instead, a complete-menu is had here!\n+52 899 632 1578</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription8">French is not spoken here, but the delicious language of excellent breakfasts is</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription9">We could say it\'s a young store, you can also find pizzas, honey and excellent frappes!\n+52 899 119 3376</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription10">Do you see the excellent picture the store took? well, the quality of their products is as good as their pictures, try the most elegant and delicious coffee shops products here!\n+52 899 824 8189</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription11">Do not surprise the size of the cake you are watching, it\'s something normal, better get surprised because not only coffee, frappes or whatever you would find in any Coffee Shop, you can also eat here!\nCheese burgers, tacos, Brisket sandwich, etc\n+52 899 144 9405</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription12">Really nice frappes, light breakfasts to start your day, and a heavy extended menu\nThis shop has drive thru, and if you want to clean your car, there is a car wash next to</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription13">How can you not already start calling right now watching the deliciousness of that picture?\nVarious options, nice play to selfies and the 1st shop (personally) I watch it cheap\n+52 899 925 8241</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription14">is it possible to save this shop because of the prices?, well, I wouldn\'t be able to tell you, but what I can tell, the shop is a really nice place to chill with friends</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription15">Sorry cor the creepy picture you see, but do not judge from it, you must prove these products which are available almost all day!, have you ever seen a store that opens at 6:00 am?\n</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription16">A coffee shop medieval style, you can also wear curious dresses to selfie\nProve the strange shop which will make you feel in a different age since a foot is in the shop!</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription17">Indulge in the ultimate coffee experience at Reynosa\'s newest coffee shop, opening its doors to caffeine enthusiasts!</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription18">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription19">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription20">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription21">Calling all coffee aficionados in Reynosa! A charming coffee haven is set to launch, serving up aromatic blends and delectable treats</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription22">Coffee lovers, rejoice! A chic and cozy coffee spot is about to make its debut in Reynosa, offering an array of caffeinated delights\n+52 899 995 0514</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription23">Prepare to embark on a journey of flavor at the grand opening of a contemporary coffee shop in Reynosa that\'s destined to impress</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription24">The wait is over! Reynosa\'s newest coffee emporium is about to open, inviting you to unwind and relish in premium coffee selections</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription25">Discover the art of coffee at Reynosa\'s upcoming coffee destination, where passion and perfection merge in every cup\n+52 899 754 1577</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription26">Are you ready to awaken your senses? Join us for the launch of a modern coffee retreat in Reynosa, where relaxation meets rich flavors\n+52 899 455 9206</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription27">The wait is over! Reynosa\'s newest coffee emporium is about to open, inviting you to unwind and relish in premium coffee selections\n+52 899 213 4479</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription28">Reynosa\'s coffee culture is evolving with a charming coffee oasis, dedicated to delivering comfort and exceptional brews\n+52 899 359 3102</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription29">Celebrate the arrival of Reynosa\'s freshest coffee spot, where community and caffeine come together harmoniously\n+52 899 922 8204</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription30">Embark on an unforgettable coffee journey as a new coffee shop emerges, offering expertly crafted brews within a cozy setting\n+52 899 202 7704</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription31">Excitement stirs as a trendy coffee haven prepares to open, promising aromatic blends and a welcoming atmosphere\n+52 899 493 4934</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription32">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription33">Elevate your mornings at the upcoming coffee hotspot, where the aroma of fresh coffee will awaken your senses</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription34">Unwind at a contemporary coffee shop about to launch, treating you to premium blends and relaxation\n+52 899 460 2566</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription35">Prepare for a flavorsome journey as a new coffee shop emerges, offering not only expertly brewed coffees but also an enticing variety of drinks, delectable food, and more. Explore the cozy setting and indulge in a range of cravings\n+52 899 480 9809</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription36">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription37">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription38">Get ready for an immersive experience as a vibrant coffee hub opens, serving up a curated selection of coffee blends, refreshing drinks, mouthwatering food, and other treats that redefine dining and coffee enjoyment\n+52 899 924 9045</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription39">As the sun rises, so does the aroma of freshly brewed coffee from an upcoming hotspot that caters to cravings. This anticipated haven not only offers coffee but also an inviting array of drinks, food, and an ambiance that beckons you to stay\n+52 899 953 5351</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription40">Immerse in flavors at the city\'s latest gem, where coffee passion meets an expansive menu of drinks, food, and more. From solitude to socializing, this spot covers your desires\n+52 899 951 9230</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription41">Taste excellence at the upcoming coffee boutique, celebrating the love for coffee with every pour\n+52 899 946 8644</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription42">Unveiling soon is a contemporary coffee shop aiming to captivate both your taste buds and senses, with dedication to sourcing beans and perfecting brewing to provide an experience that lingers beyond the cup</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription43">Coffee enthusiasts, brace yourselves for a delightful addition to the scene! An upcoming coffee spot is dedicated to curating a menu that will tantalize your taste buds and create a sense of community around the shared love for coffee\n</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription44">Immerse yourself in the enchanting world of coffee at the city\'s latest gem, where passion for coffee and cozy vibes combine to create the ultimate caffeine getaway for those seeking solace or lively conversation</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription45">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription46">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription47">Residents and lovers of culinary delights, step into a cozy oasis that\'s about to make its mark, crafting each cup, drink, and dish with care and dedication. This upcoming establishment offers respite not only for coffee aficionados but for all who seek an all-encompassing dining experience\n+52 899 245 5162</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription48">Not much info about the store</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription49">Enter a cozy oasis that crafts coffee, drinks, and dishes with care. An establishment for coffee lovers and all seeking a full dining experience\n+52 899 185 5770</string>
+    <string name="goodPlacesCoffeeShopItemContentDescription50">Not much info about the store</string>
+</resources>

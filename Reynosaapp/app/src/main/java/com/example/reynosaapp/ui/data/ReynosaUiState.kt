@@ -1,15 +1,16 @@
 package com.example.reynosaapp.ui.data
 
 import androidx.annotation.StringRes
-import androidx.compose.runtime.MutableState
+import androidx.compose.foundation.lazy.grid.LazyGridState
+import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.toMutableStateList
+import androidx.compose.ui.platform.LocalContext
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.framework.ItemData
 import com.example.reynosaapp.data.framework.SubCategoryData
-import com.example.reynosaapp.data.framework.extraOptions.ExtraCategoriesForGoodPlaces
+import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.data.mainProvider
 import java.util.Calendar
 
@@ -35,7 +36,9 @@ data class ReynosaUiState(
     val currentCategories by lazy { mainProvider.Categories[currentMainCategory]!! }
 
     val currentSubCategories by lazy {
-        mainProvider.SubCategories[currentCategory]!!
+        // to fix expanded size when initializing
+       if(currentCategory != 0) mainProvider.SubCategories[currentCategory]!!
+        else mainProvider.SubCategories[R.string.goodPlacesCategoryName1]!!
     }
 
     val showingSubCategories: Boolean by lazy { currentCategory != 0 }

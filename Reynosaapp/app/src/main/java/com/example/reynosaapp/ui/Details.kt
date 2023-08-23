@@ -1,23 +1,15 @@
 package com.example.reynosaapp.ui
 
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.annotation.StringRes
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Arrangement.Absolute.Center
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.Card
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -25,34 +17,27 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.windowsizeclass.WindowSizeClass
+import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
-import com.example.reynosaapp.data.framework.extraOptions.ExtraCategoriesForGoodPlaces
+import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
-import com.example.reynosaapp.ui.theme.ReynosaAppTheme
-import java.time.LocalDateTime
-import java.util.Calendar
 
 /**
  * Some simple components the app needs:
@@ -66,11 +51,12 @@ import java.util.Calendar
 fun topBar(
     subject: String,
     reynosaUiState: ReynosaUiState,
-    reynosaViewModel: ReynosaViewModel
+    reynosaViewModel: ReynosaViewModel,
+    windowsSize: WindowWidthSizeClass
 ) {
     CenterAlignedTopAppBar(
         title = {
-            Text(text = subject)
+            Text(text = subject, textAlign = TextAlign.Center)
         },
         actions = {
             filterIcon(reynosaUiState = reynosaUiState) {
@@ -79,14 +65,18 @@ fun topBar(
         },
         navigationIcon = {
             navigationIcon(
-                reynosaUiState = reynosaUiState
+                reynosaUiState = reynosaUiState,
+                windowsSize = windowsSize
             ) {
                 if (reynosaUiState.showingSubCategories && !reynosaUiState.showingAnItem) {
                     val currentMainCategory = reynosaUiState.currentMainCategory
                     val subject = reynosaUiState.currentMainCategoryName
                     reynosaViewModel.updateMainCategory(subject, currentMainCategory)
                 } else {
-                    val currentCategory = reynosaUiState.currentCategory
+                    val currentCategory =
+                        if(reynosaUiState.currentCategory != 0)
+                            reynosaUiState.currentCategory
+                    else reynosaUiState.currentMainCategory.Categories[0]
                     reynosaViewModel.updateCategory(currentCategory)
                 }
             }
@@ -97,9 +87,14 @@ fun topBar(
 @Composable
 fun navigationIcon(
     reynosaUiState: ReynosaUiState,
+    windowsSize: WindowWidthSizeClass,
     onClick: () -> Unit
 ) {
-    if (reynosaUiState.currentCategory != 0) {
+    if (
+        windowsSize == WindowWidthSizeClass.Compact && reynosaUiState.currentCategory != 0 ||
+        windowsSize == WindowWidthSizeClass.Medium && reynosaUiState.currentCategory != 0 ||
+        windowsSize == WindowWidthSizeClass.Expanded && reynosaUiState.showingAnItem
+    ) {
         IconButton(onClick = onClick) {
             Icon(
                 imageVector = Icons.Filled.ArrowBack,
@@ -114,9 +109,11 @@ fun filterIcon(
     reynosaUiState: ReynosaUiState,
     onClickFilterIcon: () -> Unit
 ) {
-    if (reynosaUiState.currentMainCategory == MainCategories.GoodPlaces &&
+    if (
+        reynosaUiState.currentMainCategory == MainCategories.GoodPlaces &&
         reynosaUiState.showingSubCategories &&
-        reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2
+        reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2 &&
+        !reynosaUiState.showingAnItem
     )
         IconButton(onClick = onClickFilterIcon) {
             Icon(imageVector = Icons.Filled.Settings, contentDescription = null)
@@ -165,6 +162,7 @@ fun HyperText(
                     mUriHandler.openUri(stringAnnotation.item)
                 }
         },
+        style = MaterialTheme.typography.labelLarge,
         modifier = modifier
     )
 }

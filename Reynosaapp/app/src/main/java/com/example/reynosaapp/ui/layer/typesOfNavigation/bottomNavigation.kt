@@ -12,26 +12,26 @@ import com.example.reynosaapp.ui.NavigationToDisplay
 @Composable
 fun bottomNavigation(
     selected: MainCategories,
-    navigationIcon: List<NavigationToDisplay>,
+    listOfNavigationIcons: List<NavigationToDisplay>,
     onClick: (Int, MainCategories) -> Unit,
     modifier: Modifier
 ) {
     NavigationBar(
         modifier = modifier
     ) {
-        for (navigationIcons in navigationIcon)
+        for (navigationIcon in listOfNavigationIcons)
             NavigationBarItem(
-                selected = selected == navigationIcons.category,
+                selected = selected == navigationIcon.category,
                 onClick = {
                     onClick(
-                        navigationIcons.contentDescription,
-                        navigationIcons.category,
+                        navigationIcon.contentDescription,
+                        navigationIcon.category,
                     )
                 },
                 icon = {
                     Icon(
-                        imageVector = navigationIcons.imageIcon,
-                        contentDescription = stringResource(navigationIcons.contentDescription)
+                        imageVector = navigationIcon.imageIcon,
+                        contentDescription = stringResource(navigationIcon.contentDescription)
                     )
                 }
             )
