@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val windowsSize = calculateWindowSizeClass(activity = this)
-            ReynosaAppTheme(darkTheme = false) {
+            ReynosaAppTheme(darkTheme = true) {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
