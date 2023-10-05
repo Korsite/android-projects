@@ -8,9 +8,9 @@ const val MAX_PICTURES_PER_ROUND = 10.0
 const val POINTS_PER_ROUND = 10.0
 const val POINTS_IF_HINTS_WATCHED = 2
 const val MAX_POINTS = MAX_PICTURES_PER_ROUND * POINTS_PER_ROUND
-const val MINIMUM_POINTS_REACH_MEDIUM = 10
-const val MINIMUM_POINTS_REACH_DIFFICULT = 20
-const val MINIMUM_POINTS_WIN_GAME = 30
+const val MINIMUM_POINTS_REACH_MEDIUM = 50
+const val MINIMUM_POINTS_REACH_DIFFICULT = 65
+const val MINIMUM_POINTS_WIN_GAME = 70
 
 internal data class animeInformation(
     @StringRes val hint1 : Int,

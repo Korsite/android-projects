@@ -427,11 +427,13 @@ fun AnimeAlertDialog(
 
         text = {
             Text(
-                text = "Total points: $totalScore\n" + stringResource(
+                text = stringResource(
                     messageEitherSucceedOrFailed,
+                    gameUiState.totalScore,
                     gameUiState.needingPointsToReachNextLevel
                 ),
             )
+
         },
 
         confirmButton = {

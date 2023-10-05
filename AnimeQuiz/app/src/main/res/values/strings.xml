@@ -20,14 +20,14 @@
     <string name="hit_a_hint">hit a hint if problems!</string>
     <string name="previous_character_message">the previos character was %s</string>
     <string name="appears_in">Appears in the anime </string>
-    <string name="DifficultyEasy_messageRoundSucceed">DifficultyEasy_messageRoundSucceed</string>
-    <string name="DifficultyEasy_messageRoundFailed">DifficultyEasy_messageRoundFailed you need %d points</string>
+    <string name="DifficultyEasy_messageRoundSucceed">Total %1$d \Very good! you can go to next level</string>
+    <string name="DifficultyEasy_messageRoundFailed">Total %1$d \n Oh no... you need %2$d points to go on</string>
 
-    <string name="DifficultyMedium_messageRoundSucceed">DifficultyMedium_messageRoundSucceed</string>
-    <string name="DifficultyMedium_messageRoundFailed">DifficultyMedium_messageRoundFailed you need %d points</string>
+    <string name="DifficultyMedium_messageRoundSucceed">Total %1$d \nSeems that you are an otaku! go on!!!</string>
+    <string name="DifficultyMedium_messageRoundFailed">Total %1$d \Well, you need %2$d points to advance, don\'t give up!</string>
 
-    <string name="DifficultyDifficult_messageRoundSucceed">DifficultyDifficult_messageRoundSucceed</string>
-    <string name="DifficultyDifficult_messageRoundFailed">DifficultyDifficult_messageRoundFailed you need %d points</string>
+    <string name="DifficultyDifficult_messageRoundSucceed">Total %1$d \nOh my good!, this game is yours!</string>
+    <string name="DifficultyDifficult_messageRoundFailed">Total %1$d \nAuch, you need %2$d points to beat this game!</string>
 
 
 
