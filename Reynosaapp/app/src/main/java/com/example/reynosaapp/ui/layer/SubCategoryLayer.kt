@@ -1,33 +1,25 @@
 package com.example.reynosaapp.ui.layer
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.grid.itemsIndexed
-import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -52,7 +44,6 @@ import com.example.reynosaapp.ui.choicesToFilterGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
 import com.example.reynosaapp.ui.theme.ReynosaAppTheme
-import kotlinx.coroutines.flow.collectLatest
 import java.util.Calendar
 
 @Composable
@@ -64,35 +55,49 @@ fun subCategoryLayerLazyColumn(
     onClickExtraOption: (Boolean, ExtraCategoriesForGoodPlaces) -> Unit,
     lazyGridState: LazyGridState,
     modifier: Modifier
-){
-
-    Column(
-        modifier = modifier
-    ) {
-        choicesToFilterGoodPlaces(
-            reynosaUiState = reynosaUiState,
-            onClickExtraOption = onClickExtraOption,
-        )
-
-        LazyVerticalGrid(
-            columns = GridCells.Adaptive(250.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
-            contentPadding = PaddingValues(10.dp),
-            state = lazyGridState,
-            modifier = modifier
-        ) {
-            itemsIndexed(
-                subCategories
-            ) { index, subCategory ->
-                subCategoryLayer(
-                    subCategory = subCategory,
+) {
+    LazyVerticalGrid(columns = GridCells.Adaptive(150.dp)){
+        itemsIndexed(
+            ExtraCategoriesForGoodPlaces.values().toList()
+        ) { index, extraOption ->
+            AnimatedVisibility(
+                visible =
+                reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2 // if currently, we are in Restaurants
+                        &&
+                        reynosaUiState.isShowingFilters
+            ) {
+                choicesToFilterGoodPlaces(
                     reynosaUiState = reynosaUiState,
-                    currentItem = { currentItem(subCategory.subCategoryName) },
-                    numberOfCard = index + 1
+                    onClickExtraOption = onClickExtraOption,
+                    whichFilterToShow = index,
+                    extraCategoryForGoodPlaces = extraOption
                 )
             }
         }
     }
+
+    LazyVerticalGrid(
+        columns = GridCells.Adaptive(250.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
+        contentPadding = PaddingValues(10.dp),
+        state = lazyGridState,
+        modifier = modifier
+    ) {
+
+
+        itemsIndexed(
+            subCategories
+        ) { index, subCategory ->
+            subCategoryLayer(
+                subCategory = subCategory,
+                reynosaUiState = reynosaUiState,
+                currentItem = { currentItem(subCategory.subCategoryName) },
+                numberOfCard = index + 1
+            )
+        }
+    }
+
 }
 
 /**

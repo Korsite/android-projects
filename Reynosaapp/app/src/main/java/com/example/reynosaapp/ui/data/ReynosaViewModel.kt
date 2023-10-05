@@ -1,6 +1,5 @@
 package com.example.reynosaapp.ui.data
 
-import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.lifecycle.ViewModel
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
@@ -24,7 +23,6 @@ class ReynosaViewModel: ViewModel() {
                 currentMainCategory = currentMainCategory,
                 currentMainCategoryName = subject,
                 currentCategory = 0, // this means that no category is shown
-                filter = emptyList() // this is for clearing the filter
             )
         }
     }
@@ -44,7 +42,6 @@ class ReynosaViewModel: ViewModel() {
 
     fun updateSubCategory(currentSubCategory: Int) {
         _uiState.update { currentState ->
-            currentState.extraOptionsForGoodPlaces.clear() // this is for clearing the filter
 
             currentState.copy(
                 currentItem = mainProvider.Items[currentSubCategory]

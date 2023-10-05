@@ -98,7 +98,7 @@ fun currentLayer(
                 reynosaUiState = reynosaUiState,
                 reynosaViewModel = reynosaViewModel,
                 subCategories =
-                if (reynosaUiState.extraOptionsForGoodPlaces.isNotEmpty()) reynosaUiState.filter
+                if (reynosaUiState.filtersToShow.any { it }) reynosaUiState.filter
                 else reynosaUiState.currentSubCategories,
                 currentItem = currentItem,
                 onClickExtraOption = onClickExtraOption,
@@ -169,8 +169,11 @@ fun currentLayer(
  * This is useful to save the first index shown in the lazy column in a variable type of Shared Preference
  */
 @Composable
-fun coroutineToEditLazyGridState(lazyGridStateToEdit: LazyGridState, variableToSaveTheData: SharedPreferences){
-    LaunchedEffect(lazyGridStateToEdit){
+fun coroutineToEditLazyGridState(
+    lazyGridStateToEdit: LazyGridState,
+    variableToSaveTheData: SharedPreferences
+) {
+    LaunchedEffect(lazyGridStateToEdit) {
         snapshotFlow {
             lazyGridStateToEdit.firstVisibleItemIndex
         }

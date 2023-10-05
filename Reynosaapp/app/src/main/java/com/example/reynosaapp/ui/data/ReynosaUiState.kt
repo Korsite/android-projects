@@ -1,11 +1,9 @@
 package com.example.reynosaapp.ui.data
 
 import androidx.annotation.StringRes
-import androidx.compose.foundation.lazy.grid.LazyGridState
-import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.runtime.toMutableStateList
-import androidx.compose.ui.platform.LocalContext
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.framework.ItemData
@@ -29,7 +27,7 @@ data class ReynosaUiState(
     val extraOptionsForGoodPlaces: MutableList<ExtraCategoriesForGoodPlaces> = mutableStateListOf(),
 
     val filter : List<SubCategoryData> = emptyList<SubCategoryData>().toMutableStateList(),
-
+    val filtersToShow: SnapshotStateList<Boolean> = List(12){false}.toMutableStateList(),
     val isShowingFilters : Boolean = false
 ) {
 

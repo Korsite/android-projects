@@ -17,11 +17,11 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.toMutableStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
@@ -38,6 +38,7 @@ import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
+import androidx.compose.runtime.getValue
 
 /**
  * Some simple components the app needs:
@@ -74,9 +75,9 @@ fun topBar(
                     reynosaViewModel.updateMainCategory(subject, currentMainCategory)
                 } else {
                     val currentCategory =
-                        if(reynosaUiState.currentCategory != 0)
+                        if (reynosaUiState.currentCategory != 0)
                             reynosaUiState.currentCategory
-                    else reynosaUiState.currentMainCategory.Categories[0]
+                        else reynosaUiState.currentMainCategory.Categories[0]
                     reynosaViewModel.updateCategory(currentCategory)
                 }
             }
@@ -109,6 +110,7 @@ fun filterIcon(
     reynosaUiState: ReynosaUiState,
     onClickFilterIcon: () -> Unit
 ) {
+    // filter icon is only shown in Good Places / Restaurants
     if (
         reynosaUiState.currentMainCategory == MainCategories.GoodPlaces &&
         reynosaUiState.showingSubCategories &&
@@ -171,34 +173,31 @@ fun HyperText(
 @Composable
 fun choicesToFilterGoodPlaces(
     reynosaUiState: ReynosaUiState,
-    onClickExtraOption: (Boolean, ExtraCategoriesForGoodPlaces) -> Unit
+    onClickExtraOption: (Boolean, ExtraCategoriesForGoodPlaces) -> Unit,
+    whichFilterToShow: Int,
+    extraCategoryForGoodPlaces: ExtraCategoriesForGoodPlaces,
 ) {
 
-    ExtraCategoriesForGoodPlaces.values().forEach { currentExtraCategory ->
-        if (currentExtraCategory != ExtraCategoriesForGoodPlaces.None) {
-            var checked = rememberSaveable {
-                mutableStateOf(false)
-            }
-            AnimatedVisibility(
-                visible = reynosaUiState.isShowingFilters &&
-                        reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2 // if currently, we are in Restaurants
-            ) {
-                Row(
-                    horizontalArrangement = Center,
-                    verticalAlignment = CenterVertically
-                ) {
-                    Checkbox(
-                        checked = checked.value,
-                        onCheckedChange = {
-                            checked.value = it
-                            onClickExtraOption(checked.value, currentExtraCategory)
-                        }
-                    )
+    if (extraCategoryForGoodPlaces != ExtraCategoriesForGoodPlaces.None) {
 
-                    Text(text = currentExtraCategory.name)
+        Row(
+            horizontalArrangement = Arrangement.Start,
+            verticalAlignment = CenterVertically
+        ) {
+            Checkbox(
+                checked = reynosaUiState.filtersToShow[whichFilterToShow],
+                onCheckedChange = {
+                    reynosaUiState.filtersToShow[whichFilterToShow] = it
+                    onClickExtraOption(
+                        reynosaUiState.filtersToShow[whichFilterToShow],
+                        extraCategoryForGoodPlaces
+                    )
                 }
-            }
+            )
+
+            Text(text = extraCategoryForGoodPlaces.name)
         }
+
     }
 }
 
@@ -211,6 +210,11 @@ fun previewHyperTextAndChoicesToFilterGoodPlaces() {
     ) {
         HyperText(link = R.string.good_places, modifier = Modifier)
 
-        choicesToFilterGoodPlaces(reynosaUiState = viewModel(), onClickExtraOption = { _, _ -> })
+        choicesToFilterGoodPlaces(
+            reynosaUiState = viewModel(),
+            onClickExtraOption = { _, _ -> },
+            whichFilterToShow = 0,
+            extraCategoryForGoodPlaces = ExtraCategoriesForGoodPlaces.Asian
+        )
     }
 }

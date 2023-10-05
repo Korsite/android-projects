@@ -552,14 +552,14 @@ object GoodPlacesProviderSubCategories {
             subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
             subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
             subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.American
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger
         ),
         SubCategoryData(
             subCategoryName = R.string.goodPlacesSubCategoryName5,
             subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
             subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
             subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.American
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger
         ),
         SubCategoryData(
             subCategoryName = R.string.goodPlacesSubCategoryName6,

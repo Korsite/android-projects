@@ -24,6 +24,14 @@ import com.example.reynosaapp.data.mainProvider
 import com.example.reynosaapp.ui.HyperText
 import com.example.reynosaapp.ui.theme.ReynosaAppTheme
 
+/**
+ * Properties used from Item Data instance in Item Layer for Good Places:
+ * itemDaysShopOpened
+ * itemPicture
+ * itemDescription
+ * itemSchedule
+ * itemGoogleMaps
+ */
 enum class DAYS_OF_THE_WEEK {
     Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 }
