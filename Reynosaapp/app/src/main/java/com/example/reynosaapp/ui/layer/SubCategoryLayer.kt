@@ -1,6 +1,7 @@
 package com.example.reynosaapp.ui.layer
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.withInfiniteAnimationFrameMillis
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -56,28 +57,8 @@ fun subCategoryLayerLazyColumn(
     lazyGridState: LazyGridState,
     modifier: Modifier
 ) {
-    LazyVerticalGrid(columns = GridCells.Adaptive(150.dp)){
-        itemsIndexed(
-            ExtraCategoriesForGoodPlaces.values().toList()
-        ) { index, extraOption ->
-            AnimatedVisibility(
-                visible =
-                reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2 // if currently, we are in Restaurants
-                        &&
-                        reynosaUiState.isShowingFilters
-            ) {
-                choicesToFilterGoodPlaces(
-                    reynosaUiState = reynosaUiState,
-                    onClickExtraOption = onClickExtraOption,
-                    whichFilterToShow = index,
-                    extraCategoryForGoodPlaces = extraOption
-                )
-            }
-        }
-    }
-
     LazyVerticalGrid(
-        columns = GridCells.Adaptive(250.dp),
+        columns = GridCells.Adaptive(200.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
         horizontalArrangement = Arrangement.spacedBy(6.dp),
         contentPadding = PaddingValues(10.dp),
@@ -85,16 +66,38 @@ fun subCategoryLayerLazyColumn(
         modifier = modifier
     ) {
 
+        var extraCategoriesForGoodPlacesANDSubCategories =
+            if (reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2)
+                ExtraCategoriesForGoodPlaces.values().toList().plus(subCategories)
+            else
+                subCategories
 
         itemsIndexed(
-            subCategories
-        ) { index, subCategory ->
-            subCategoryLayer(
-                subCategory = subCategory,
-                reynosaUiState = reynosaUiState,
-                currentItem = { currentItem(subCategory.subCategoryName) },
-                numberOfCard = index + 1
-            )
+            extraCategoriesForGoodPlacesANDSubCategories
+        ) { index, eitherExtraCategoryOrSubcategory ->
+            if (eitherExtraCategoryOrSubcategory is ExtraCategoriesForGoodPlaces)
+                AnimatedVisibility(
+                    visible = reynosaUiState.isShowingFilters
+                ) {
+
+                    choicesToFilterGoodPlaces(
+                        reynosaUiState = reynosaUiState,
+                        onClickExtraOption = onClickExtraOption,
+                        whichFilterToShow = index,
+                        extraCategoryForGoodPlaces = eitherExtraCategoryOrSubcategory
+                    )
+                }
+            else if (eitherExtraCategoryOrSubcategory is SubCategoryData)
+                subCategoryLayer(
+                    subCategory = eitherExtraCategoryOrSubcategory,
+                    reynosaUiState = reynosaUiState,
+                    currentItem = { currentItem(eitherExtraCategoryOrSubcategory.subCategoryName) },
+                    numberOfCard = if(
+                        extraCategoriesForGoodPlacesANDSubCategories.any { it is ExtraCategoriesForGoodPlaces }
+                    ) index - 9 else index + 1
+                    // if var has no filter then we must ignore the 9 filters to start index 1 in the 1st restaurant
+                )
+
         }
     }
 
@@ -129,8 +132,7 @@ fun subCategoryLayer(
                 subCategory = subCategory,
             )
 
-            else ->
-                subCategoryLayerForExtraInfo(subCategory = subCategory)
+            else -> subCategoryLayerForExtraInfo(subCategory = subCategory)
         }
     }
 

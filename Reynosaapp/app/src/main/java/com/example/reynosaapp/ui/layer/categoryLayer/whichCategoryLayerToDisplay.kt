@@ -40,7 +40,10 @@ fun categoryLayerLazyColumn(
             verticalArrangement = Arrangement.spacedBy(5.dp),
             horizontalArrangement = Arrangement.spacedBy(5.dp),
             modifier = modifier
-                .padding(10.dp)
+                .padding(
+                    start = 10.dp,
+                    end = 10.dp
+                    )
                 .fillMaxWidth()
         ) {
             items(

@@ -265,41 +265,29 @@ object GoodPlacesProviderItems {
 
     private val restaurantItems = listOf(
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription1,
+            itemPicture = R.drawable.goodplacesrestaurantsitempicture1,
+            itemDescription = R.string.goodPlacesRestaurantsItemContentDescription1,
 
             ),
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription2,
+            itemPicture = R.drawable.goodplacesrestaurantsitempicture2,
+            itemDescription = R.string.goodPlacesRestaurantsItemContentDescription2,
 
             ),
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCoffeeShopItemContentDescription3,
+            itemPicture = R.drawable.goodplacesrestaurantsitempicture3,
+            itemDescription = R.string.goodPlacesRestaurantsItemContentDescription3,
 
             ),
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription1,
+            itemPicture = R.drawable.goodplacesrestaurantsitempicture4,
+            itemDescription = R.string.goodPlacesRestaurantsItemContentDescription4,
 
             ),
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription2,
-
+            itemPicture = R.drawable.goodplacesrestaurantsitempicture5,
+            itemDescription = R.string.goodPlacesRestaurantsItemContentDescription5,
             ),
-        ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCoffeeShopItemContentDescription3,
-
-            )
     )
 
     private val kidFriendlyPlacesItems = listOf(

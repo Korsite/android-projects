@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         applicationContext.getSharedPreferences("prefs", MODE_PRIVATE)
     }
 
-    private val rememberScrollPositionForRestaurants by lazy{
+    private val rememberScrollPositionForRestaurants by lazy {
         applicationContext.getSharedPreferences("rememberPositionForRestaurants", MODE_PRIVATE)
     }
 
@@ -35,7 +35,9 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     ReynosaApp(
-                        windowsSize.widthSizeClass, rememberScrollPositionForCoffeeShops, rememberScrollPositionForRestaurants
+                        windowsSize.widthSizeClass,
+                        rememberScrollPositionForCoffeeShops,
+                        rememberScrollPositionForRestaurants
                     )
                 }
             }

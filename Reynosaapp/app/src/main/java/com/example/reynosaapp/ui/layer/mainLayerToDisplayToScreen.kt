@@ -143,7 +143,7 @@ fun currentLayer(
                         reynosaUiState = reynosaUiState,
                         reynosaViewModel = reynosaViewModel,
                         subCategories =
-                        if (reynosaUiState.extraOptionsForGoodPlaces.isNotEmpty()) reynosaUiState.filter
+                        if (reynosaUiState.filtersToShow.any { it }) reynosaUiState.filter
                         else reynosaUiState.currentSubCategories,
                         currentItem = currentItem,
                         onClickExtraOption = onClickExtraOption,

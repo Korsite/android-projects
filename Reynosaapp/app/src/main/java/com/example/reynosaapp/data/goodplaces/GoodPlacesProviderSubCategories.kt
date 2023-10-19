@@ -538,7 +538,8 @@ object GoodPlacesProviderSubCategories {
                 "10:00 - 20:00",
             )
         ),
-        SubCategoryData( //50
+        SubCategoryData(
+            //50
             subCategoryName = R.string.goodPlacesCoffeeShopSubCategoryName50,
             subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture30,
             subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule50,
@@ -548,48 +549,42 @@ object GoodPlacesProviderSubCategories {
 
     private val restaurants = listOf(
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName4,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger
+            subCategoryName = R.string.goodPlacesRestaurantsSubCategoryName1,
+            subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture1,
+            subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule1,
+            subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere1,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian
         ),
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName5,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger
+            subCategoryName = R.string.goodPlacesRestaurantsSubCategoryName2,
+            subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture2,
+            subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule2,
+            subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere2,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian
         ),
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName6,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Italian
+            subCategoryName = R.string.goodPlacesRestaurantsSubCategoryName3,
+            subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture3,
+            subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule3,
+            subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere3,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian
         ),
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName6,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Italian
+            subCategoryName = R.string.goodPlacesRestaurantsSubCategoryName4,
+            subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture4,
+            subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule4,
+            subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere4,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian
         ),
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName6,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Italian
+            subCategoryName = R.string.goodPlacesRestaurantsSubCategoryName5,
+            subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture5,
+            subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule5,
+            subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere5,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian
         ),
-        SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName6,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Italian
+
         )
-    )
 
     private val kidFriendlyPlaces = listOf(
         SubCategoryData(
@@ -639,3 +634,4 @@ object GoodPlacesProviderSubCategories {
 
     )
 }
+

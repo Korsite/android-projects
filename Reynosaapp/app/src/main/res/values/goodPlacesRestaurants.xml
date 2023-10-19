@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="goodPlacesRestaurantsSubCategoryName1">Argentinos Reynosa</string>
+    <string name="goodPlacesRestaurantsSubCategoryName2">Antojo Argentino</string>
+    <string name="goodPlacesRestaurantsSubCategoryName3">Todo Empanadas</string>
+    <string name="goodPlacesRestaurantsSubCategoryName4">El Pibe Restaurante Argentino</string>
+    <string name="goodPlacesRestaurantsSubCategoryName5">El Che - Empanadas Argentinas</string>
+
+    <string name="goodPlacesRestaurantsSubCategorySchedule1">Every day</string>
+    <string name="goodPlacesRestaurantsSubCategorySchedule2">Every day</string>
+    <string name="goodPlacesRestaurantsSubCategorySchedule3">Every day</string>
+    <string name="goodPlacesRestaurantsSubCategorySchedule4">Every day</string>
+    <string name="goodPlacesRestaurantsSubCategorySchedule5">Every day</string>
+
+    <string name="goodPlacesRestaurantsSubCategoryClickHere1">https://www.google.com.mx/maps/place/Argentinos+Reynosa/@26.064914,-98.3292647,15z/data=!4m13!1m5!2m4!1sRestaurantes!5m1!6sgcid:argentinian_restaurant!6e5!3m6!1s0x8665058df0b9a02b:0x59e4dcc5f6460e06!8m2!3d26.0562014!4d-98.3192743!15sCgxSZXN0YXVyYW50ZXNaGCIWcmVzdGF1cmFudGVzIGFyZ2VudGlub5IBCnJlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTlhOSE16UkdoQlJSQULgAQA!16s%2Fg%2F11csr_ngsh?entry=ttu</string>
+    <string name="goodPlacesRestaurantsSubCategoryClickHere2">https://www.google.com.mx/maps/place/Antojo+Argentino/@26.0558622,-98.3383145,14z/data=!4m13!1m5!2m4!1sRestaurantes!5m1!6sgcid:argentinian_restaurant!6e5!3m6!1s0x866505921c9a7511:0xa9f6d438bea6327e!8m2!3d26.0558622!4d-98.320805!15sCgxSZXN0YXVyYW50ZXNaGCIWcmVzdGF1cmFudGVzIGFyZ2VudGlub5IBFmFyZ2VudGluaWFuX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11c0rtc3hm?entry=ttu</string>
+    <string name="goodPlacesRestaurantsSubCategoryClickHere3">https://www.google.com.mx/maps/place/Todo+Empanadas/@26.0658353,-98.362685,14z/data=!4m13!1m5!2m4!1sRestaurantes!5m1!6sgcid:argentinian_restaurant!6e5!3m6!1s0x866505b5a74d8dff:0x295a3436e897853f!8m2!3d26.071266!4d-98.3607301!15sCgxSZXN0YXVyYW50ZXNaGCIWcmVzdGF1cmFudGVzIGFyZ2VudGlub5IBFmFyZ2VudGluaWFuX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11n08shv3q?entry=ttu</string>
+    <string name="goodPlacesRestaurantsSubCategoryClickHere4">https://www.google.com.mx/maps/place/El+Pibe+Restaurante+Argentino/@26.0692414,-98.3107253,14z/data=!4m13!1m5!2m4!1sRestaurantes!5m1!6sgcid:argentinian_restaurant!6e5!3m6!1s0x86650f9f16a0aa5d:0x99762626f28b0892!8m2!3d26.0692414!4d-98.2932158!15sCgxSZXN0YXVyYW50ZXNaGCIWcmVzdGF1cmFudGVzIGFyZ2VudGlub5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11sjbw51m5?entry=ttu</string>
+    <string name="goodPlacesRestaurantsSubCategoryClickHere5">https://www.google.com.mx/maps/place/El+Che+-+Empanadas+Argentinas+y+Más/@26.0706576,-98.3334356,14z/data=!4m13!1m5!2m4!1sRestaurantes!5m1!6sgcid:argentinian_restaurant!6e5!3m6!1s0x8665058a7ce9d62d:0xd80d1d81eee2bc2!8m2!3d26.0706576!4d-98.3159261!15sCgxSZXN0YXVyYW50ZXNaGCIWcmVzdGF1cmFudGVzIGFyZ2VudGlub5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11p0dn4ypf?entry=ttu</string>
+
+
+    <!-- ITEM DATA -->
+
+    <string name="goodPlacesRestaurantsItemContentDescription1">Come and prove the delicious hot drinks, crapes, Coffee and more!\n899 944 2373</string>
+    <string name="goodPlacesRestaurantsItemContentDescription2">Come and prove the delicious hot drinks, crapes, Coffee and more!\n899 944 2373</string>
+    <string name="goodPlacesRestaurantsItemContentDescription3">Come and prove the delicious hot drinks, crapes, Coffee and more!\n899 944 2373</string>
+    <string name="goodPlacesRestaurantsItemContentDescription4">Come and prove the delicious hot drinks, crapes, Coffee and more!\n899 944 2373</string>
+    <string name="goodPlacesRestaurantsItemContentDescription5">Come and prove the delicious hot drinks, crapes, Coffee and more!\n899 944 2373</string>
+
+
+</resources>
