@@ -1,5 +1,8 @@
 package com.example.reynosaapp.data
 
+import androidx.annotation.StringRes
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.stringResource
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.ItemData
 import com.example.reynosaapp.data.framework.SubCategoryData
@@ -7,7 +10,7 @@ import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.layer.itemLayers.DAYS_OF_THE_WEEK
 import java.util.Calendar
 
-val dayOfTodayInNumber = when (ReynosaUiState().currentTime[Calendar.DAY_OF_WEEK]) {
+private val dayOfTodayInNumber = when (ReynosaUiState().currentTime[Calendar.DAY_OF_WEEK]) {
     1 -> 6 // Sunday (6)
     2 -> 0 // Monday (0)
     3 -> 1 // Tuesday (1)
@@ -15,6 +18,18 @@ val dayOfTodayInNumber = when (ReynosaUiState().currentTime[Calendar.DAY_OF_WEEK
     5 -> 3 // Thursday (3)
     6 -> 4 // Friday (4)
     else -> 5 // Saturday (5)
+}
+
+private val dayToString: (Int) -> String = {
+     when (it){
+        0 -> "Monday"
+        1 -> "Tuesday"
+        2 -> "Wednesday"
+        3 -> "Thursday"
+        4 -> "Friday"
+        5 -> "Saturday"
+        else -> "Sunday"
+    }
 }
 
 fun returnIfShopIsCurrentlyOpenedOrClosed(openTime: Double, closeTime: Double): Int {
@@ -29,11 +44,11 @@ fun returnIfShopIsCurrentlyOpenedOrClosed(openTime: Double, closeTime: Double): 
         R.string.closedNow
 }
 
-fun returnCloseAndOpenTimeOfTheShop(completeScheduleOfTheShop: List<Pair<String, Any>>) : Pair<Double, Double> {
+fun returnCloseAndOpenTimeOfTheShop(completeScheduleOfTheShop: List<Pair<String, Any>>): Pair<Double, Double> {
     var openTime = 0.0
     var closeTime = 0.0
-    for(dayOfTomorrowAndSoOn in returnAListToCheckDaysAfter())
-        if(completeScheduleOfTheShop[dayOfTomorrowAndSoOn].component2() is String){
+    for (dayOfTomorrowAndSoOn in returnAListToCheckDaysAfter())
+        if (completeScheduleOfTheShop[dayOfTomorrowAndSoOn].component2() is String) {
             openTime = completeScheduleOfTheShop[dayOfTomorrowAndSoOn].component2()
                 .toString()
                 .split("-")
@@ -65,12 +80,11 @@ fun checkHowMinutesLefToClose(currentTime: Double, closeTime: Double): Int {
     val closeTimeInMinutes = convertTimeInMinutes(closeTime)
     return closeTimeInMinutes - currentTimeInMinutes
 }
-fun returnAListToCheckDaysAfter(removeDayOfToday: Int = dayOfTodayInNumber): List<Int> {
+
+fun returnAListToCheckDaysAfter(dayOfToday: Int = dayOfTodayInNumber): List<Int> {
     var daysOfTheWeekInNumbers = List(7) { i -> i } // creates (0, 1, 2, 3, 4, 5, 6)
-    val (list1, list2) = daysOfTheWeekInNumbers.partition { it > removeDayOfToday }
-    val someList = list1.plus(list2).toMutableList()
-    someList.removeAt(6) // removes the day of today
-    return someList
+    val (list1, list2) = daysOfTheWeekInNumbers.partition { it >= dayOfToday }
+    return list1.plus(list2)
 }
 
 fun checkHowMuchTimeLeftToOpen(
@@ -78,31 +92,28 @@ fun checkHowMuchTimeLeftToOpen(
 ): Pair<String, String> {
 
 
-    val dayOfTomorrowName = when (dayOfTodayInNumber + 1) {
-        0 -> "Monday"
-        1 -> "Tuesday"
-        2 -> "Wednesday"
-        3 -> "Thursday"
-        4 -> "Friday"
-        5 -> "Saturday"
-        else -> "Sunday"
-    }
+    val dayOfTodayName = dayToString(dayOfTodayInNumber)
+    val dayOfTomorrowName = dayToString(dayOfTodayInNumber + 1)
+
 
     val listCollector = mutableListOf<String>()
 
     for (day in returnAListToCheckDaysAfter())
         if (completeSchedule[day].component2() is String) {
-            val closesDayToBeOpened = completeSchedule[day]
-            listCollector.add(closesDayToBeOpened.component1())
-            listCollector.add(closesDayToBeOpened.component2().toString().take(5).replace(" ", ""))
+            val closestDayToBeOpened = completeSchedule[day]
+            listCollector.add(closestDayToBeOpened.component1())
+            listCollector.add(closestDayToBeOpened.component2().toString().take(5).replace(" ", ""))
             break
         }
 
     return Pair(
-        if (listCollector[0] == dayOfTomorrowName) "tomorrow"
-        else "on ${listCollector[0]}",
+        when(listCollector[0]){
+            dayOfTodayName -> "Today"
+            dayOfTomorrowName -> "Tomorrow"
+            else -> "on "
+        },
         listCollector[1]
-    ) // where 1st is day and 2nd is hour
+    )     // where 1st is day and 2nd is hour
 }
 
 
@@ -213,18 +224,5 @@ fun returnAPairDataTypeAboutTheScheduleOfAShop(
 }
 
 fun main() {
-
-    val som = returnCloseAndOpenTimeOfTheShop(
-        returnAPairDataTypeAboutTheScheduleOfAShop(
-            "8:00 - 15:00",
-            null,
-            "7:00 - 22:00",
-            "9:00 - 23:00",
-            "8:00 - 15:00",
-            "8:00 - 15:00",
-            "9:00  - 14:00"
-        )
-    )
-
-    println(som)
+    println(dayToString(3))
 }

@@ -19,7 +19,13 @@ data class SubCategoryData(
     @StringRes val subCategoryAvailableNow: Int = R.string.useForNoThing,
 
     val subCategoryCompleteSchedule: List<Pair<String, Any>> = returnAPairDataTypeAboutTheScheduleOfAShop(
-        openTimeAndClose = Pair(0.0, 0.0)
+        "0:00 - 0:00",
+        "0:00 - 0:00",
+        "0:00 - 0:00",
+        "0:00 - 0:00",
+        "0:00 - 0:00",
+        "0:00 - 0:00",
+        "0:00 - 0:00",
     ),
 
     @StringRes val isOpenedOrClosed: Int = returnIfShopIsCurrentlyOpenedOrClosed(
