@@ -1352,7 +1352,7 @@ object GoodPlacesProviderSubCategories {
             subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture42,
             subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule42,
             subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere42,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Pizza,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger,
             subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
                 "19:00 - 23:00",
                 "19:00 - 23:00",
@@ -1368,7 +1368,7 @@ object GoodPlacesProviderSubCategories {
             subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture43,
             subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule43,
             subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere43,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger,
             subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
                 null,
                 "19:00 - 23:59",
@@ -1384,7 +1384,7 @@ object GoodPlacesProviderSubCategories {
             subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture44,
             subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule44,
             subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere44,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger,
             subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
                 "18:00 - 23:00",
                 "18:00 - 23:00",
@@ -1400,7 +1400,7 @@ object GoodPlacesProviderSubCategories {
             subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture45,
             subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule45,
             subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere45,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Argentinian,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger,
             subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
                 "18:00 - 1:00",
                 "18:00 - 1:00",
@@ -1416,7 +1416,7 @@ object GoodPlacesProviderSubCategories {
             subCategoryPicture = R.drawable.goodplacesrestaurantstsubcategorypicture46,
             subCategoryDaysShopOpened = R.string.goodPlacesRestaurantsSubCategorySchedule46,
             subCategoryGoogleMaps = R.string.goodPlacesRestaurantsSubCategoryClickHere46,
-            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Pizza,
+            subCategoryTypeOfRestaurant = ExtraCategoriesForGoodPlaces.Burger,
             subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
                 "19:00 - 23:59",
                 "19:00 - 23:59",
@@ -2075,7 +2075,6 @@ object GoodPlacesProviderSubCategories {
                 "18:00 - 0:30",
                 "18:00 - 0:30",
                 "18:00 - 0:30",
-
                 )
         ),
 

@@ -21,7 +21,7 @@ private val dayOfTodayInNumber = when (ReynosaUiState().currentTime[Calendar.DAY
 }
 
 private val dayToString: (Int) -> String = {
-     when (it){
+    when (it) {
         0 -> "Monday"
         1 -> "Tuesday"
         2 -> "Wednesday"
@@ -32,16 +32,18 @@ private val dayToString: (Int) -> String = {
     }
 }
 
+
 fun returnIfShopIsCurrentlyOpenedOrClosed(openTime: Double, closeTime: Double): Int {
     val reynosaUiState = ReynosaUiState()
     val getInstance = reynosaUiState.currentTime
     val currentTime =
         getInstance[Calendar.HOUR_OF_DAY].toDouble() + getInstance[Calendar.MINUTE].toDouble() / 100
 
-    return if (currentTime in openTime..closeTime)
-        R.string.openedNow
-    else
-        R.string.closedNow
+    return when {
+        closeTime < openTime && currentTime !in closeTime..openTime -> R.string.openedNow
+        currentTime in openTime..closeTime -> R.string.openedNow
+        else -> R.string.closedNow
+    }
 }
 
 fun returnCloseAndOpenTimeOfTheShop(completeScheduleOfTheShop: List<Pair<String, Any>>): Pair<Double, Double> {
@@ -75,15 +77,37 @@ fun checkHowMuchTimeLeftToClose(minutesLeft: Int): String {
     }
 }
 
-fun checkHowMinutesLefToClose(currentTime: Double, closeTime: Double): Int {
+fun checkHowMinutesLefToClose(
+    openTime: Double,
+    closeTime: Double,
+    reynosaUiState: ReynosaUiState
+): Int {
+
+    val currentTime =
+        reynosaUiState.currentTime[Calendar.HOUR_OF_DAY].toDouble() +
+                reynosaUiState.currentTime[Calendar.MINUTE].toDouble() / 100
+
+    fun convertTimeInMinutes(hoursAndMinutes: Double): Int {
+        val totalMinutes = hoursAndMinutes - hoursAndMinutes.toInt()
+        val totalHours = hoursAndMinutes - totalMinutes
+        return (totalHours * 60 + totalMinutes * 100).toInt()
+    }
+
     val currentTimeInMinutes = convertTimeInMinutes(currentTime)
     val closeTimeInMinutes = convertTimeInMinutes(closeTime)
-    return closeTimeInMinutes - currentTimeInMinutes
+
+    return when{
+        closeTime < openTime && currentTime > openTime -> (24 * 60 + closeTimeInMinutes) - currentTimeInMinutes
+        else -> closeTimeInMinutes - currentTimeInMinutes
+    }
+
+
 }
 
-fun returnAListToCheckDaysAfter(dayOfToday: Int = dayOfTodayInNumber): List<Int> {
+fun returnAListToCheckDaysAfter(): List<Int> {
     var daysOfTheWeekInNumbers = List(7) { i -> i } // creates (0, 1, 2, 3, 4, 5, 6)
-    val (list1, list2) = daysOfTheWeekInNumbers.partition { it >= dayOfToday }
+
+    val (list1, list2) = daysOfTheWeekInNumbers.partition { it >= dayOfTodayInNumber }
     return list1.plus(list2)
 }
 
@@ -91,6 +115,34 @@ fun checkHowMuchTimeLeftToOpen(
     completeSchedule: List<Pair<String, Any>>
 ): Pair<String, String> {
 
+    val hourNow = ReynosaUiState().currentTime.get(Calendar.HOUR_OF_DAY)
+    val checkIfTodayIsStillPossibleToOpen: () -> Boolean = {
+        var itIsPossible = false
+
+        if (completeSchedule[dayOfTodayInNumber].second is String) {
+            val closeTime = completeSchedule[dayOfTodayInNumber]
+                .second
+                .toString()
+                .replace(" ", "")
+                .split("-", ":")[2]
+                .toInt()
+            itIsPossible = hourNow < closeTime
+        }
+        itIsPossible
+    }
+
+    fun returnAListToCheckDaysAfter(): List<Int> {
+        var daysOfTheWeekInNumbers = List(7) { i -> i } // creates (0, 1, 2, 3, 4, 5, 6)
+
+        val (list1, list2) = daysOfTheWeekInNumbers.partition {
+
+            if (checkIfTodayIsStillPossibleToOpen())
+                it >= dayOfTodayInNumber
+            else
+                it > dayOfTodayInNumber
+        }
+        return list1.plus(list2)
+    }
 
     val dayOfTodayName = dayToString(dayOfTodayInNumber)
     val dayOfTomorrowName = dayToString(dayOfTodayInNumber + 1)
@@ -107,21 +159,15 @@ fun checkHowMuchTimeLeftToOpen(
         }
 
     return Pair(
-        when(listCollector[0]){
+        when (listCollector[0]) {
             dayOfTodayName -> "Today"
             dayOfTomorrowName -> "Tomorrow"
-            else -> "on "
+            else -> "on ${listCollector[0]}"
         },
         listCollector[1]
     )     // where 1st is day and 2nd is hour
 }
 
-
-fun convertTimeInMinutes(hoursAndMinutes: Double): Int {
-    val totalMinutes = hoursAndMinutes - hoursAndMinutes.toInt()
-    val totalHours = hoursAndMinutes - totalMinutes
-    return (totalHours * 60 + totalMinutes * 100).toInt()
-}
 
 fun takeAListOfSubCategoriesAndItemInstanceAndReturnAMap(
     allSubCategories: List<SubCategoryData>,
@@ -224,5 +270,11 @@ fun returnAPairDataTypeAboutTheScheduleOfAShop(
 }
 
 fun main() {
-    println(dayToString(3))
+    print(
+        checkHowMinutesLefToClose(
+            8.0,
+            10.0,
+            ReynosaUiState()
+        )
+    )
 }

@@ -1,5 +1,6 @@
 package com.example.reynosaapp.ui.data
 
+import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
@@ -17,12 +18,12 @@ class ReynosaViewModel: ViewModel() {
 
     fun updateMainCategory(subject: Int, currentMainCategory: MainCategories) {
         _uiState.update { currentState ->
-            currentState.extraOptionsForGoodPlaces.clear() // this is for clearing the filter
             currentState.copy(
                 subject = subject,
                 currentMainCategory = currentMainCategory,
                 currentMainCategoryName = subject,
                 currentCategory = 0, // this means that no category is shown
+                filtersToShow = List(12){false}.toMutableStateList() // this is for clearing the filter
             )
         }
     }
@@ -77,13 +78,4 @@ class ReynosaViewModel: ViewModel() {
             )
         }
     }
-
-    fun initiliazeCompactAndMediumSize(){
-        _uiState.update {currentState ->
-            currentState.copy(
-                currentCategory = 0
-            )
-        }
-    }
-
 }

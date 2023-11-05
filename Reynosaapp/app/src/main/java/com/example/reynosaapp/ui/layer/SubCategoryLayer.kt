@@ -57,6 +57,22 @@ fun subCategoryLayerLazyColumn(
     lazyGridState: LazyGridState,
     modifier: Modifier
 ) {
+
+    if (reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2) //if it's in restaurants
+        LazyVerticalGrid(columns = GridCells.Adaptive(200.dp)) {
+            itemsIndexed(ExtraCategoriesForGoodPlaces.values().toList()) { index, extraCategory ->
+                AnimatedVisibility(
+                    visible = reynosaUiState.isShowingFilters
+                ) {
+                    choicesToFilterGoodPlaces(
+                        reynosaUiState = reynosaUiState,
+                        onClickExtraOption = onClickExtraOption,
+                        whichFilterToShow = index,
+                        extraCategoryForGoodPlaces = extraCategory
+                    )
+                }
+            }
+        }
     LazyVerticalGrid(
         columns = GridCells.Adaptive(200.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -66,41 +82,20 @@ fun subCategoryLayerLazyColumn(
         modifier = modifier
     ) {
 
-        var extraCategoriesForGoodPlacesANDSubCategories =
-            if (reynosaUiState.currentCategory == R.string.goodPlacesCategoryName2)
-                ExtraCategoriesForGoodPlaces.values().toList().plus(subCategories)
-            else
-                subCategories
-
         itemsIndexed(
-            extraCategoriesForGoodPlacesANDSubCategories
-        ) { index, eitherExtraCategoryOrSubcategory ->
-            if (eitherExtraCategoryOrSubcategory is ExtraCategoriesForGoodPlaces)
-                AnimatedVisibility(
-                    visible = reynosaUiState.isShowingFilters
-                ) {
+            subCategories
+        ) { index, subCategory ->
 
-                    choicesToFilterGoodPlaces(
-                        reynosaUiState = reynosaUiState,
-                        onClickExtraOption = onClickExtraOption,
-                        whichFilterToShow = index,
-                        extraCategoryForGoodPlaces = eitherExtraCategoryOrSubcategory
-                    )
-                }
-            else if (eitherExtraCategoryOrSubcategory is SubCategoryData)
-                subCategoryLayer(
-                    subCategory = eitherExtraCategoryOrSubcategory,
-                    reynosaUiState = reynosaUiState,
-                    currentItem = { currentItem(eitherExtraCategoryOrSubcategory.subCategoryName) },
-                    numberOfCard = if(
-                        extraCategoriesForGoodPlacesANDSubCategories.any { it is ExtraCategoriesForGoodPlaces }
-                    ) index - 9 else index + 1
-                    // if var has no filter then we must ignore the 9 filters to start index 1 in the 1st restaurant
-                )
+            subCategoryLayer(
+                subCategory = subCategory,
+                reynosaUiState = reynosaUiState,
+                currentItem = { currentItem(subCategory.subCategoryName) },
+                numberOfCard = index
+            )
+            // if var has no filter then we must ignore the 9 filters to start index 1 in the 1st restaurant
 
         }
     }
-
 }
 
 /**
@@ -146,10 +141,6 @@ fun subCategoryLayerForGoodPlaces(
     numberOfCard: Int,
     modifier: Modifier = Modifier
 ) {
-    val getInstance = reynosaUiState.currentTime
-    val currentTime =
-        getInstance[Calendar.HOUR_OF_DAY].toDouble() + getInstance[Calendar.MINUTE].toDouble() / 100
-
     Box(
         modifier = Modifier
             .fillMaxWidth()
@@ -202,8 +193,9 @@ fun subCategoryLayerForGoodPlaces(
                             subCategory.isOpenedOrClosed,
                             checkHowMuchTimeLeftToClose(
                                 checkHowMinutesLefToClose(
-                                    currentTime,
-                                    returnCloseAndOpenTimeOfTheShop(subCategory.subCategoryCompleteSchedule).component2()
+                                    returnCloseAndOpenTimeOfTheShop(subCategory.subCategoryCompleteSchedule).component1(),
+                                    returnCloseAndOpenTimeOfTheShop(subCategory.subCategoryCompleteSchedule).component2(),
+                                    reynosaUiState
                                 )
                             )
                         )
