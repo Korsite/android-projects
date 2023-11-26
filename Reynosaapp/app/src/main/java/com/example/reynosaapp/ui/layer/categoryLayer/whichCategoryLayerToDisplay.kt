@@ -5,12 +5,9 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -23,7 +20,6 @@ import com.example.reynosaapp.ui.data.ReynosaViewModel
 @Composable
 fun categoryLayerLazyColumn(
     reynosaUiState: ReynosaUiState,
-    reynosaViewModel: ReynosaViewModel,
     currentCategory: (Int) -> Unit,
     onClickExtraCategory: (Int) -> Unit,
     windowsSize: WindowWidthSizeClass,
@@ -32,7 +28,7 @@ fun categoryLayerLazyColumn(
     Column(
         modifier = modifier
     ){
-        val currentListOfSubCategory = reynosaUiState.currentCategories
+        val currentListOfCategories = reynosaUiState.currentCategories
 
 
         LazyVerticalGrid(
@@ -47,14 +43,13 @@ fun categoryLayerLazyColumn(
                 .fillMaxWidth()
         ) {
             items(
-                currentListOfSubCategory,
+                currentListOfCategories,
                 key = { category -> category.categoryName }
             ) { category ->
                 categoryLayer(
                     category = category,
                     onClick = { currentCategory(category.categoryName) },
                     extraCategories = category.extraCategoriesType,
-                    reynosaViewModel = reynosaViewModel,
                     onClickExtraCategory = onClickExtraCategory,
                     reynosaUiState = reynosaUiState,
                     windowsSize = windowsSize,
@@ -71,7 +66,6 @@ fun categoryLayer(
     @StringRes extraCategories: List<Int>,
     category: CategoryData,
     reynosaUiState: ReynosaUiState,
-    reynosaViewModel: ReynosaViewModel,
     onClick: () -> Unit,
     onClickExtraCategory: (Int) -> Unit,
     windowsSize: WindowWidthSizeClass,
@@ -95,7 +89,6 @@ fun categoryLayer(
         else -> categoryLayerForGoodPlacesBadPlaces(
             cardSelected = cardSelected,
             category = category,
-            reynosaViewModel = reynosaViewModel,
             onClick = onClick
         )
     }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--                                SUB CATEGORIES RESOURCES                                 -->
+    <string name="goodPlacesKidFriendlySubCategoryName1">Flexzone</string>
+    <string name="goodPlacesKidFriendlySubCategoryName2">La Ciudad De Las Familias Felices</string>
+    <string name="goodPlacesKidFriendlySubCategoryName3">Magic Place Reynosa</string>
+    <string name="goodPlacesKidFriendlySubCategoryName4">Kids World</string>
+    <string name="goodPlacesKidFriendlySubCategoryName5">Parque Cultural</string>
+    <string name="goodPlacesKidFriendlySubCategoryName6">KidssLandia</string>
+    <string name="goodPlacesKidFriendlySubCategoryName7">Pista de patinaje HECTORAMA 2000</string>
+    <string name="goodPlacesKidFriendlySubCategoryName8">Zoológico de Reynosa</string>
+    <string name="goodPlacesKidFriendlySubCategoryName9">Puesta De Sol</string>
+
+
+    <string name="goodPlacesKidFriendlySubCategorySchedule1">Every day</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule2">Every day but Monday</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule3">Every day</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule4">Every day</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule5">Every day</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule6">Every day but Monday</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule7">Wednesday - Sunday</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule8">Thursday - Sunday</string>
+    <string name="goodPlacesKidFriendlySubCategorySchedule9">Every day</string>
+
+
+    <string name="goodPlacesKidFriendlySubCategoryClickHere1">https://www.google.com.mx/maps/place/Flexzone/@26.0677526,-98.3419393,17z/data=!3m1!4b1!4m6!3m5!1s0x866505c5cb984aff:0xe1353c8f23916c99!8m2!3d26.0677478!4d-98.3393644!16s%2Fg%2F11f_h4dhwr?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere2">https://www.google.com.mx/maps/place/La+Ciudad+De+Las+Familias+Felices/@26.0387081,-98.338655,13z/data=!4m10!1m2!2m1!1slugares+para+niños!3m6!1s0x8665050a1225be99:0xa1a3bcbbcdd7f74a!8m2!3d26.0360932!4d-98.3351687!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgEEcGFya5oBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOemIzQlljbk5uUlJBQuABAA!16s%2Fg%2F11c1r16bvx?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere3">https://www.google.com.mx/maps/place/Magic+Place+Reynosa/@26.0387081,-98.338655,13z/data=!4m10!1m2!2m1!1slugares+para+niños!3m6!1s0x86650f61d53d6f7f:0xaca5de76f141f79f!8m2!3d26.0589816!4d-98.3086487!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgEZY2hpbGRyZW5fYW11c2VtZW50X2NlbnRlcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSQmRWb3pkbUozRUFF4AEA!16s%2Fg%2F11bv2lwg3b?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere4">https://www.google.com.mx/maps/place/Kids+World/@26.0387081,-98.338655,13z/data=!4m10!1m2!2m1!1slugares+para+niños!3m6!1s0x86650566811ee6c9:0xb1d2a23d50acab04!8m2!3d26.0439144!4d-98.3362794!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgEZY2hpbGRyZW5fYW11c2VtZW50X2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOYU4zWnFTakZuUlJBQuABAA!16s%2Fg%2F11v02mfbk4?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere5">https://www.google.com.mx/maps/place/Parque+Cultural/@26.0387081,-98.338655,13z/data=!4m10!1m2!2m1!1slugares+para+niños!3m6!1s0x86650f03a7f89b21:0xaa2781739e4619d3!8m2!3d26.0501405!4d-98.2699156!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgEPY3VsdHVyYWxfY2VudGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJITW1RMmJGTm5FQUXgAQA!16s%2Fg%2F1pzpddc3r?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere6">https://www.google.com.mx/maps/place/KidssLandia/@26.0387081,-98.338655,13z/data=!4m11!1m3!2m2!1slugares+para+niños!6e1!3m6!1s0x866505dc5aa94f99:0x4bf25f34756c52b0!8m2!3d26.0754814!4d-98.3342895!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgEXY2hpbGRyZW5zX3BhcnR5X3NlcnZpY2WaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUXRYM1Y1YkdSbkVBReABAA!16s%2Fg%2F11hbsnq1ms?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere7">https://www.google.com.mx/maps/place/Pista+de+patinaje+HECTORAMA+2000/@26.0387081,-98.338655,13z/data=!4m11!1m3!2m2!1slugares+para+niños!6e1!3m6!1s0x866508cb0adfa8e7:0xfa88dfb408c4b9c1!8m2!3d26.0896932!4d-98.282872!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgETcm9sbGVyX3NrYXRpbmdfY2x1YpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSQ2NXUlRRMVJuRUFF4AEA!16s%2Fg%2F11b7lf2sr4?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere8">https://www.google.com.mx/maps/place/Zoológico+de+Reynosa/@26.1424449,-98.37014,13z/data=!4m11!1m3!2m2!1slugares+para+niños!6e1!3m6!1s0x866507b75f3fa0e1:0xce4e7a76a9a018cc!8m2!3d26.1424449!4d-98.3351211!15sChNsdWdhcmVzIHBhcmEgbmnDsW9zIi9SLS9nZW8vdHlwZS9lc3RhYmxpc2htZW50X3BvaS93ZWxjb21lc19jaGlsZHJlbloVIhNsdWdhcmVzIHBhcmEgbmnDsW9zkgEDem9vmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIT1RsbFQweG5FQUXgAQA!16s%2Fg%2F11bvvxt3kw?entry=ttu</string>
+    <string name="goodPlacesKidFriendlySubCategoryClickHere9">https://www.google.com.mx/maps/place/Puesta+De+Sol/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866511c222fb204b:0x3bfaf7454f6e4d94!8m2!3d25.9877966!4d-98.2996425!15sCgdwYXJxdWVzkgEOYXF1YXRpY19jZW50ZXLgAQA!16s%2Fg%2F11ghp_hmy1?entry=ttu</string>
+
+    <!--                                ITEM RESOURCES                                 -->
+
+    <string name="goodPlacesKidFriendlyItemContentDescription1">Explore the exciting world of Flexzone, a perfect destination for kids in Reynosa. Fun and adventure await!</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription2">Discover the magic of "The City of Happy Families." Magic Place Reynosa offers a delightful experience for kids and families.</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription3">Let your little ones\' curiosity soar at the captivating Kids\' Playground. Every day is an adventure waiting to happen!</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription4">Step into the enchanting Kids World and let your children\'s imagination run wild. A haven for young explorers!</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription5">Immerse your family in the rich cultural experience of Parque Cultural. Education and entertainment come together in this vibrant space.</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription6">KidssLandia is where the fun never ends! Bring your little ones for a day filled with laughter, games, and exciting adventures.</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription7">Skate into joy at the Pista de patinaje HECTORAMA 2000. A perfect place for families to bond and enjoy quality time together.</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription8">Embark on a wild journey at the Zoológico de Reynosa. Explore the animal kingdom and create lasting memories with your kids.</string>
+    <string name="goodPlacesKidFriendlyItemContentDescription9">Experience the breathtaking Puesta De Sol. A serene spot for families to unwind and enjoy the beauty of nature together.</string>
+
+
+</resources>

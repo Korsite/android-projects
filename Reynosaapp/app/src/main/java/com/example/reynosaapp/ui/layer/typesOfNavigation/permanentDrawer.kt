@@ -29,8 +29,9 @@ fun permanentNavigationDrawer(
         drawerContent = {
             PermanentDrawerSheet(
                 Modifier
-                    .width(250.dp)
-                    .padding(top = 20.dp)) {
+                    .width(200.dp)
+                    .padding(top = 20.dp)
+            ) {
                 NavigationDrawerContent(
                     onClickNavigationIcon = onClickNavigationIcon,
                     selected = selected,
@@ -54,7 +55,7 @@ fun NavigationDrawerContent(
             label = {
                 Text(
                     text = stringResource(navigationIcon.contentDescription),
-                    style = MaterialTheme.typography.titleLarge,
+                    style = MaterialTheme.typography.titleMedium,
 
                 )
             },

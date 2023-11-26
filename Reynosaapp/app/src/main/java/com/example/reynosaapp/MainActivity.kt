@@ -16,11 +16,15 @@ import com.example.reynosaapp.ui.theme.ReynosaAppTheme
 
 class MainActivity : ComponentActivity() {
     private val rememberScrollPositionForCoffeeShops by lazy {
-        applicationContext.getSharedPreferences("prefs", MODE_PRIVATE)
+        applicationContext.getSharedPreferences("rememberPositionForCoffeeShops", MODE_PRIVATE)
     }
 
     private val rememberScrollPositionForRestaurants by lazy {
         applicationContext.getSharedPreferences("rememberPositionForRestaurants", MODE_PRIVATE)
+    }
+
+    private val rememberScrollPositionForParks by lazy {
+        applicationContext.getSharedPreferences("rememberPositionForParks", MODE_PRIVATE)
     }
 
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
@@ -29,7 +33,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val windowsSize = calculateWindowSizeClass(activity = this)
-            ReynosaAppTheme(darkTheme = true) {
+            ReynosaAppTheme(darkTheme = false) {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -37,7 +41,8 @@ class MainActivity : ComponentActivity() {
                     ReynosaApp(
                         windowsSize.widthSizeClass,
                         rememberScrollPositionForCoffeeShops,
-                        rememberScrollPositionForRestaurants
+                        rememberScrollPositionForRestaurants,
+                        rememberScrollPositionForParks
                     )
                 }
             }

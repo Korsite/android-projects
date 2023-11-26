@@ -8,27 +8,27 @@ object GoodPlacesProviderCategories {
         CategoryData(
             R.string.goodPlacesCategoryName1,
             R.string.goodPlacesCategoryContentDescription1,
-            R.drawable.mitsuha
+            R.drawable.goodplacescategorypicture1
         ),
         CategoryData(
             R.string.goodPlacesCategoryName2,
             R.string.goodPlacesCategoryContentDescription2,
-            R.drawable.mitsuha
+            R.drawable.goodplacescategorypicture2
         ),
         CategoryData(
             R.string.goodPlacesCategoryName3,
             R.string.goodPlacesCategoryContentDescription3,
-            R.drawable.mitsuha
+            R.drawable.goodplacescategorypicture3
         ),
         CategoryData(
             R.string.goodPlacesCategoryName4,
-            R.string.goodPlacesCategoryContentDescription3,
-            R.drawable.mitsuha
+            R.string.goodPlacesCategoryContentDescription4,
+            R.drawable.goodplacescategorypicture4
         ),
         CategoryData(
             R.string.goodPlacesCategoryName5,
-            R.string.goodPlacesCategoryContentDescription3,
-            R.drawable.mitsuha
+            R.string.goodPlacesCategoryContentDescription5,
+            R.drawable.goodplacescategorypicture5
         ),
 
         )

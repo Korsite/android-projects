@@ -5950,36 +5950,776 @@ object GoodPlacesProviderSubCategories {
 
     private val kidFriendlyPlaces = listOf(
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName7,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName1,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture1,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule1,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere1,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                "13:00 - 21:00", "13:00 - 21:00", "13:00 - 21:00", "13:00 - 21:00", "11:00 - 21:00", "11:00 - 21:00", "11:00 - 21:00",
+                )
         ),
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName8,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName2,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture2,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule2,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere2,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                null, "10:00 - 19:00", "10:00 - 19:00", "10:00 - 19:00", "10:00 - 19:00", "10:00 - 19:00", "10:00 - 19:00",
+
+            )
         ),
         SubCategoryData(
-            subCategoryName = R.string.goodPlacesSubCategoryName9,
-            subCategoryPicture = R.drawable.goodplacescoffeeshopsubcategorypicture1,
-            subCategoryDaysShopOpened = R.string.goodPlacesCoffeeShopSubCategorySchedule1,
-            subCategoryGoogleMaps = R.string.goodPlacesCoffeeShopSubCategoryClickHere1,
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName3,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture3,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule3,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere3,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                "9:00 - 17:00", "9:00 - 17:00", "9:00 - 17:00", "9:00 - 17:00", "9:00 - 17:00", "9:00 - 17:00", "9:00 - 17:00",
+
+            )
+        ),
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName4,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture4,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule4,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere4,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                "13:00 - 21:00", "13:00 - 21:00", "13:00 - 21:00", "13:00 - 21:00", "12:00 - 21:00", "12:00 - 21:00", "12:00 - 21:00",
+
+            )
+        ),
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName5,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture5,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule5,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere5,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                "6:00 - 22:00", "6:00 - 22:00", "6:00 - 22:00", "6:00 - 22:00", "6:00 - 22:00", "6:00 - 22:00", "6:00 - 22:00",
+
+            )
+        ),
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName6,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture6,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule6,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere6,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                null, "13:00 - 17:30", "13:00 - 17:30", "13:00 - 17:30", "13:00 - 17:30", "10:30 - 17:30", "9:00 - 21:00",
+
+            )
+        ),
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName7,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture7,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule7,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere7,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                null, null, "13:00 - 21:00", "13:00 - 20:00", "12:00 - 21:00", "13:00 - 21:00", "13:00 - 21:00",
+
+            )
+        ),
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName8,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture8,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule8,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere8,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                null, null, null, "9:00 - 19:00", "9:00 - 19:00", "9:00 - 19:00", "9:00 - 19:00",
+            )
+        ),
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesKidFriendlySubCategoryName9,
+            subCategoryPicture = R.drawable.goodplaceskidfriendlysubcategorypicture9,
+            subCategoryDaysShopOpened = R.string.goodPlacesKidFriendlySubCategorySchedule9,
+            subCategoryGoogleMaps = R.string.goodPlacesKidFriendlySubCategoryClickHere9,
+            subCategoryCompleteSchedule = returnAPairDataTypeAboutTheScheduleOfAShop(
+                "10:00 - 19:00", "10:00 - 19:00", "10:00 - 19:00", "9:00 - 19:01", "9:00 - 19:01", "9:00 - 19:01", "9:00 - 19:01"
+
+            )
         )
+
     )
 
     private val parks = listOf(
+
         SubCategoryData(
-            subCategoryName = R.string.useForNoThing,
-            subCategoryPicture = R.drawable.usefornothing
+            subCategoryName = R.string.goodPlacesParksSubCategoryName1,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture1,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere1
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName2,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture2,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere2
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName3,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture3,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere3
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName4,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture4,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere4
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName5,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture5,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere5
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName6,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture6,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere6
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName7,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture7,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere7
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName8,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture8,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere8
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName9,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture9,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere9
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName10,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture10,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere10
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName11,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture11,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere11
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName12,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture12,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere12
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName13,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture13,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere13
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName14,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture14,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere14
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName15,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture15,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere15
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName16,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture16,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere16
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName17,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture17,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere17
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName18,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture18,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere18
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName19,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture19,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere19
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName20,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture20,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere20
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName21,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture21,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere21
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName22,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture22,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere22
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName23,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture23,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere23
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName24,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture24,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere24
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName25,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture25,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere25
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName26,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture26,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere26
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName27,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture27,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere27
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName28,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture28,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere28
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName29,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture29,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere29
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName30,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture30,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere30
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName31,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture31,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere31
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName32,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture32,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere32
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName33,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture33,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere33
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName34,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture34,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere34
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName35,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture35,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere35
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName36,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture36,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere36
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName37,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture37,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere37
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName38,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture38,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere38
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName39,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture39,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere39
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName40,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture40,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere40
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName41,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture41,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere41
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName42,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture42,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere42
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName43,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture43,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere43
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName44,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture44,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere44
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName45,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture45,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere45
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName46,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture46,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere46
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName47,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture47,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere47
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName48,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture48,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere48
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName49,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture49,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere49
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName50,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture50,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere50
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesParksSubCategoryName51,
+            subCategoryPicture = R.drawable.goodplacesparkssubcategorypicture51,
+            subCategoryGoogleMaps = R.string.goodPlacesParksSubCategoryClickHere51
         )
     )
 
     private val shoppingCenters = listOf(
+
         SubCategoryData(
-            subCategoryName = R.string.useForNoThing,
-            subCategoryPicture = R.drawable.usefornothing
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName1,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture1,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere1
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName2,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture2,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere2
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName3,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture3,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere3
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName4,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture4,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere4
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName5,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture5,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere5
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName6,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture6,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere6
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName7,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture7,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere7
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName8,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture8,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere8
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName9,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture9,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere9
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName10,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture10,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere10
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName11,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture11,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere11
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName12,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture12,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere12
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName13,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture13,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere13
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName14,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture14,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere14
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName15,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture15,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere15
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName16,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture16,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere16
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName17,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture17,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere17
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName18,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture18,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere18
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName19,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture19,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere19
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName20,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture20,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere20
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName21,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture21,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere21
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName22,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture22,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere22
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName23,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture23,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere23
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName24,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture24,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere24
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName25,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture25,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere25
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName26,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture26,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere26
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName27,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture27,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere27
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName28,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture28,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere28
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName29,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture29,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere29
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName30,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture30,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere30
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName31,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture31,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere31
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName32,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture32,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere32
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName33,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture33,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere33
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName34,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture34,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere34
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName35,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture35,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere35
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName36,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture36,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere36
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName37,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture37,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere37
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName38,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture38,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere38
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName39,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture39,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere39
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName40,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture40,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere40
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName41,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture41,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere41
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName42,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture42,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere42
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName43,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture43,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere43
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName44,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture44,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere44
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName45,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture45,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere45
+        ),
+
+
+        SubCategoryData(
+            subCategoryName = R.string.goodPlacesShoppingCentersSubCategoryName46,
+            subCategoryPicture = R.drawable.goodplacesshoppingcenterssubcategorypicture46,
+            subCategoryGoogleMaps = R.string.goodPlacesShoppingCentersSubCategoryClickHere46
         )
     )
 

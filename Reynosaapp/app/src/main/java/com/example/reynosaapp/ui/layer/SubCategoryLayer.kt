@@ -8,7 +8,10 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyGridState
@@ -74,7 +77,7 @@ fun subCategoryLayerLazyColumn(
             }
         }
     LazyVerticalGrid(
-        columns = GridCells.Adaptive(200.dp),
+        columns = GridCells.Adaptive(250.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
         horizontalArrangement = Arrangement.spacedBy(6.dp),
         contentPadding = PaddingValues(10.dp),
@@ -90,7 +93,7 @@ fun subCategoryLayerLazyColumn(
                 subCategory = subCategory,
                 reynosaUiState = reynosaUiState,
                 currentItem = { currentItem(subCategory.subCategoryName) },
-                numberOfCard = index
+                numberOfCard = index + 1
             )
             // if var has no filter then we must ignore the 9 filters to start index 1 in the 1st restaurant
 
@@ -145,13 +148,18 @@ fun subCategoryLayerForGoodPlaces(
         modifier = Modifier
             .fillMaxWidth()
     ) {
-        Row {
+        Row(
+            modifier = Modifier
+
+        ){
             Image(
                 painter = painterResource(subCategory.subCategoryPicture),
                 contentDescription = stringResource(subCategory.subCategoryName),
+                contentScale = ContentScale.Crop,
+
                 modifier = Modifier
-                    .weight(1.5f),
-                contentScale = ContentScale.Crop
+                    .weight(1.5f)
+                    .height(150.dp)
             )
             Column(
                 horizontalAlignment = Alignment.Start,
@@ -174,11 +182,6 @@ fun subCategoryLayerForGoodPlaces(
                         text = numberOfCard.toString(),
                     )
                 }
-
-                Text(
-                    text = stringResource(subCategory.subCategoryDaysShopOpened),
-                    style = MaterialTheme.typography.bodyLarge
-                )
 
                 HyperText(
                     link = subCategory.subCategoryGoogleMaps,
@@ -305,7 +308,7 @@ fun previewSubCategoryLayerForGoodPlaces() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             subCategoryLayerForGoodPlaces(
-                GoodPlacesProviderSubCategories.SubCategories[R.string.goodPlacesCategoryName1]?.component1()
+                GoodPlacesProviderSubCategories.SubCategories[R.string.goodPlacesCategoryName1]?.get(17)
                     ?: SubCategoryData(-1, -1),
                 reynosaUiState = ReynosaUiState(),
                 numberOfCard = 0

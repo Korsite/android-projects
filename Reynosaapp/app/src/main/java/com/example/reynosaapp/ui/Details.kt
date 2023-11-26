@@ -1,11 +1,10 @@
 package com.example.reynosaapp.ui
 
 import androidx.annotation.StringRes
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Arrangement.Absolute.Center
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -19,9 +18,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.toMutableStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
@@ -32,13 +28,13 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
-import androidx.compose.runtime.getValue
 
 /**
  * Some simple components the app needs:
@@ -81,7 +77,7 @@ fun topBar(
                     reynosaViewModel.updateCategory(currentCategory)
                 }
             }
-        }
+        },
     )
 }
 
@@ -129,7 +125,7 @@ fun HyperText(
 ) {
     val hyperText = buildAnnotatedString {
         // creating a string to display in the Text
-        val string = stringResource(R.string.clickHere)
+        val string = stringResource(R.string.clickHereToGoogleMaps)
 
         // word and span to be hyperlinked
         val startIndex = 0

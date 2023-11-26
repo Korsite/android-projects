@@ -2550,44 +2550,385 @@ object GoodPlacesProviderItems {
         ),
 
 
-    )
+        )
 
     private val kidFriendlyPlacesItems = listOf(
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription1,
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture1,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription1,
+        ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture2,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription2,
+        ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture3,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription3,
+        ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture4,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription4,
+        ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture5,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription5,
+        ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture6,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription6,
+        ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture7,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription7,
+
+            ),
+
+        ItemData(
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture8,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription8,
 
             ),
         ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription2,
-
-            ),
-        ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCoffeeShopItemContentDescription3,
-
-            )
+            itemPicture = R.drawable.goodplaceskidfriendlysubitempicture9,
+            itemDescription = R.string.goodPlacesKidFriendlyItemContentDescription9,
+        )
     )
 
     private val parksItems = listOf(
-        ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription1,
-
-            )
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture1),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture2),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture3),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture4),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture5),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture6),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture7),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture8),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture9),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture10),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture11),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture12),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture13),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture14),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture15),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture16),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture17),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture18),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture19),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture20),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture21),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture22),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture23),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture24),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture25),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture26),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture27),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture28),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture29),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture30),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture31),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture32),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture33),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture34),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture35),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture36),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture37),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture38),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture39),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture40),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture41),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture42),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture43),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture44),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture45),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture46),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture47),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture48),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture49),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture50),
+        ItemData(itemPicture = R.drawable.goodplacesparksitempicturepicture51),
     )
     private val shoppingCentersItems = listOf(
-        ItemData(
-            itemName = R.string.useForNoThing,
-            itemPicture = R.drawable.usefornothing,
-            itemDescription = R.string.goodPlacesCategoryContentDescription1,
 
-            )
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture1,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription1
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture2,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription2
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture3,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription3
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture4,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription4
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture5,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription5
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture6,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription6
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture7,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription7
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture8,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription8
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture9,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription9
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture10,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription10
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture11,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription11
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture12,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription12
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture13,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription13
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture14,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription14
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture15,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription15
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture16,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription16
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture17,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription17
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture18,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription18
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture19,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription19
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture20,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription20
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture21,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription21
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture22,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription22
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture23,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription23
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture24,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription24
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture25,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription25
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture26,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription26
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture27,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription27
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture28,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription28
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture29,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription29
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture30,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription30
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture31,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription31
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture32,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription32
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture33,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription33
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture34,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription34
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture35,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription35
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture36,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription36
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture37,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription37
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture38,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription38
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture39,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription39
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture40,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription40
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture41,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription41
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture42,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription42
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture43,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription43
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture44,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription44
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture45,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription45
+        ),
+
+
+        ItemData(
+            itemPicture = R.drawable.goodplacesshoppingcentersitempicture46,
+            itemDescription = R.string.goodPlacesShoppingCentersItemContentDescription46
+        )
     )
     private val allSubCategories =
         GoodPlacesProviderSubCategories.SubCategories.flatMap { it.value }

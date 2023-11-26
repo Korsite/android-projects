@@ -21,7 +21,8 @@ fun ReynosaApp(
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
-    ) {
+    rememberScrollPositionForParks: SharedPreferences
+) {
     val reynosaViewModel: ReynosaViewModel = viewModel()
     val reynosaUiState = reynosaViewModel.uiState.collectAsState().value
     val listOfIcons = listOf(
@@ -60,8 +61,9 @@ fun ReynosaApp(
                 listOfNavigationIcons = listOfIcons,
                 windowsSize = windowsSize,
                 rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
-                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants
-                )
+                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
+                rememberScrollPositionForParks = rememberScrollPositionForParks,
+            )
         }
 
         WindowWidthSizeClass.Medium -> {
@@ -72,8 +74,9 @@ fun ReynosaApp(
                 listOfNavigationIcons = listOfIcons,
                 windowsSize = windowsSize,
                 rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
-                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants
-                )
+                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
+                rememberScrollPositionForParks = rememberScrollPositionForParks
+            )
         }
 
         else ->
@@ -83,9 +86,9 @@ fun ReynosaApp(
                 listOfNavigationIcons = listOfIcons,
                 windowsSize = windowsSize,
                 rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
-                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants
+                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
+                rememberScrollPositionForParks = rememberScrollPositionForParks
             )
-
     }
 }
 

@@ -23,7 +23,6 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.debounce
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun currentLayer(
     currentCategory: (Int) -> Unit,
@@ -33,52 +32,53 @@ fun currentLayer(
     reynosaUiState: ReynosaUiState,
     reynosaViewModel: ReynosaViewModel,
     windowsSize: WindowWidthSizeClass,
+
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
+    rememberScrollPositionForParks: SharedPreferences,
+
     modifier: Modifier,
 ) {
-    val scrollPosition = when (reynosaUiState.currentCategory) {
-        R.string.goodPlacesCategoryName1 -> rememberScrollPositionForCoffeeShops.getInt(
-            "scroll_position",
-            0
-        )
 
-        R.string.goodPlacesCategoryName2 -> rememberScrollPositionForRestaurants.getInt(
-            "scroll_position",
-            0
-        )
-
-        R.string.goodPlacesCategoryName3 -> rememberScrollPositionForCoffeeShops.getInt(
-            "scroll_position",
-            0
-        )
-
-        R.string.goodPlacesCategoryName4 -> rememberScrollPositionForCoffeeShops.getInt(
-            "scroll_position",
-            0
-        )
-
-        else -> rememberScrollPositionForCoffeeShops.getInt("scroll_position", 0)
-    }
-
-    val lazyGridStateForCoffeeShops = rememberLazyGridState(
-        initialFirstVisibleItemIndex = scrollPosition
+    val listOfScrollPosition = listOf(
+        rememberScrollPositionForCoffeeShops.getInt("rememberPositionForCoffeeShops", 0),
+        rememberScrollPositionForRestaurants.getInt("rememberPositionForRestaurants", 0),
+        rememberScrollPositionForParks.getInt("rememberPositionForParks", 0)
     )
 
-    val lazyGridStateForRestaurants = rememberLazyGridState(
-        initialFirstVisibleItemIndex = scrollPosition
+    val listOfGridStates = listOf(
+        rememberLazyGridState(initialFirstVisibleItemIndex = listOfScrollPosition[0]),
+        rememberLazyGridState(initialFirstVisibleItemIndex = listOfScrollPosition[1]),
+        rememberLazyGridState(initialFirstVisibleItemIndex = listOfScrollPosition[2])
     )
 
     when (reynosaUiState.currentCategory) {
         R.string.goodPlacesCategoryName1 -> coroutineToEditLazyGridState(
-            lazyGridStateToEdit = lazyGridStateForCoffeeShops,
-            variableToSaveTheData = rememberScrollPositionForCoffeeShops
+            lazyGridStateToEdit = listOfGridStates[0],
+            variableToSaveTheData = rememberScrollPositionForCoffeeShops,
+            name = "rememberPositionForCoffeeShops"
         )
 
         R.string.goodPlacesCategoryName2 -> coroutineToEditLazyGridState(
-            lazyGridStateToEdit = lazyGridStateForRestaurants,
-            variableToSaveTheData = rememberScrollPositionForRestaurants
+            lazyGridStateToEdit = listOfGridStates[1],
+            variableToSaveTheData = rememberScrollPositionForRestaurants,
+            name = "rememberPositionForRestaurants"
+
         )
+        R.string.goodPlacesCategoryName4 -> coroutineToEditLazyGridState(
+            lazyGridStateToEdit = listOfGridStates[2],
+            variableToSaveTheData = rememberScrollPositionForRestaurants,
+            name = "rememberPositionForParks"
+
+        )
+    }
+
+    val getTheCorrectGridState: (Int) -> LazyGridState = {
+        when(it){
+            R.string.goodPlacesCategoryName1 -> listOfGridStates[0]
+            R.string.goodPlacesCategoryName2 -> listOfGridStates[1]
+            else -> listOfGridStates[2]
+        }
     }
 
 
@@ -87,7 +87,6 @@ fun currentLayer(
         if (!reynosaUiState.showingSubCategories)
             categoryLayerLazyColumn(
                 reynosaUiState = reynosaUiState,
-                reynosaViewModel = reynosaViewModel,
                 currentCategory = currentCategory,
                 onClickExtraCategory = onClickExtraCategory,
                 windowsSize = windowsSize,
@@ -102,10 +101,7 @@ fun currentLayer(
                 else reynosaUiState.currentSubCategories,
                 currentItem = currentItem,
                 onClickExtraOption = onClickExtraOption,
-                lazyGridState = when (reynosaUiState.currentCategory) {
-                    R.string.goodPlacesCategoryName1 -> lazyGridStateForCoffeeShops
-                    else -> lazyGridStateForRestaurants
-                },
+                lazyGridState = getTheCorrectGridState(reynosaUiState.currentCategory),
                 modifier = modifier
             )
         else
@@ -120,7 +116,6 @@ fun currentLayer(
         Row {
             categoryLayerLazyColumn(
                 reynosaUiState = reynosaUiState,
-                reynosaViewModel = reynosaViewModel,
                 currentCategory = currentCategory,
                 onClickExtraCategory = onClickExtraCategory,
                 windowsSize = windowsSize,
@@ -128,7 +123,7 @@ fun currentLayer(
             )
 
             Column(
-                Modifier.weight(1f)
+                Modifier.weight(1.3f)
             ) {
 
                 topBar(
@@ -147,10 +142,7 @@ fun currentLayer(
                         else reynosaUiState.currentSubCategories,
                         currentItem = currentItem,
                         onClickExtraOption = onClickExtraOption,
-                        lazyGridState = when (reynosaUiState.currentCategory) {
-                            R.string.goodPlacesCategoryName1 -> lazyGridStateForCoffeeShops
-                            else -> lazyGridStateForRestaurants
-                        },
+                        lazyGridState = getTheCorrectGridState(reynosaUiState.currentCategory),
                         modifier = Modifier
                     )
                 } else
@@ -171,7 +163,8 @@ fun currentLayer(
 @Composable
 fun coroutineToEditLazyGridState(
     lazyGridStateToEdit: LazyGridState,
-    variableToSaveTheData: SharedPreferences
+    variableToSaveTheData: SharedPreferences,
+    name: String
 ) {
     LaunchedEffect(lazyGridStateToEdit) {
         snapshotFlow {
@@ -182,7 +175,7 @@ fun coroutineToEditLazyGridState(
             .collectLatest { index ->
 
                 variableToSaveTheData.edit()
-                    .putInt("scroll_position", index)
+                    .putInt(name, index)
                     .apply()
             }
     }

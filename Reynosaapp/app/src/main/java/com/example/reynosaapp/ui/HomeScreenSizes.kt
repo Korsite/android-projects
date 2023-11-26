@@ -25,7 +25,8 @@ fun HomeScreenForCompactSize(
     listOfNavigationIcons: List<NavigationToDisplay>,
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
-    rememberScrollPositionForRestaurants: SharedPreferences
+    rememberScrollPositionForRestaurants: SharedPreferences,
+    rememberScrollPositionForParks: SharedPreferences
 ) {
 
 
@@ -55,7 +56,9 @@ fun HomeScreenForCompactSize(
             modifier = Modifier.weight(1f),
             windowsSize = windowsSize,
             rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
-            rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants
+            rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
+            rememberScrollPositionForParks = rememberScrollPositionForParks,
+
         )
 
         bottomNavigation(
@@ -78,6 +81,7 @@ fun HomeScreenForMediumSize(
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
+    rememberScrollPositionForParks: SharedPreferences
 ) {
 
 
@@ -116,7 +120,8 @@ fun HomeScreenForMediumSize(
                 windowsSize = windowsSize,
                 modifier = Modifier.weight(1f),
                 rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
-                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants
+                rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
+                rememberScrollPositionForParks = rememberScrollPositionForParks
             )
         }
     }
@@ -130,6 +135,7 @@ fun HomeScreenForExpandedSize(
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
+    rememberScrollPositionForParks: SharedPreferences
 ) {
     permanentNavigationDrawer(
         listOfNavigationIcons = listOfNavigationIcons,
@@ -139,6 +145,7 @@ fun HomeScreenForExpandedSize(
             I also update here for the 1st [0] category of the main Category
             If main category is Opportunities, then the 1st extraCategory is shown
              */
+
             reynosaViewModel.updateMainCategory(subject, currentMainCategory)
             reynosaViewModel.updateCategory(
                 if (currentMainCategory != MainCategories.Opportunities) currentMainCategory.Categories[0]
@@ -164,6 +171,7 @@ fun HomeScreenForExpandedSize(
             windowsSize = windowsSize,
             rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
             rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
+            rememberScrollPositionForParks = rememberScrollPositionForParks,
             modifier = Modifier,
         )
     }

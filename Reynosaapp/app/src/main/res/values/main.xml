@@ -5,15 +5,9 @@
     <string name="opportunities">Opportunities</string>
     <string name="extra_info">Extra Info</string>
     <string name="back">back</string>
-    <string name="clickHere">Click here to google maps</string>
+    <string name="clickHereToGoogleMaps">Google Maps</string>
     <string name="openedNow">Opened \nCloses in %1$s</string>
     <string name="closedNow">Closed \nOpens %1$s at %2$s</string>
     <string name="useForNoThing" />
-
-
-    <array name="hola">
-        <item>Hola</item>
-        <item>pepe</item>
-    </array>
 
 </resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                                SUB CATEGORIES RESOURCES                                 -->
+
+    <string name="goodPlacesParksSubCategoryName1">Parque Jarachina II</string>
+    <string name="goodPlacesParksSubCategoryName2">Parque Jardines Coloniales</string>
+    <string name="goodPlacesParksSubCategoryName3">Parque Las Lomas</string>
+    <string name="goodPlacesParksSubCategoryName4">Parque Aztlan</string>
+    <string name="goodPlacesParksSubCategoryName5">Parque II Las Lomas</string>
+    <string name="goodPlacesParksSubCategoryName6">Parque La Cima</string>
+    <string name="goodPlacesParksSubCategoryName7">Parque Con Canchas</string>
+    <string name="goodPlacesParksSubCategoryName8">Parque Cañada</string>
+    <string name="goodPlacesParksSubCategoryName9">Parque Miguel Hidalgo</string>
+    <string name="goodPlacesParksSubCategoryName10">Parque Público</string>
+    <string name="goodPlacesParksSubCategoryName11">Parqueson</string>
+    <string name="goodPlacesParksSubCategoryName12">Parque Col. Bermudez</string>
+    <string name="goodPlacesParksSubCategoryName13">Parque Maximo Vera</string>
+    <string name="goodPlacesParksSubCategoryName14">Parque La Escondida</string>
+    <string name="goodPlacesParksSubCategoryName15">Parque De Barrio Luis Donaldo Colosio</string>
+    <string name="goodPlacesParksSubCategoryName16">Parque Rancho Grande</string>
+    <string name="goodPlacesParksSubCategoryName17">Parque De Barrio</string>
+    <string name="goodPlacesParksSubCategoryName18">Parque Las Fuentes</string>
+    <string name="goodPlacesParksSubCategoryName19">Parque Lineal</string>
+    <string name="goodPlacesParksSubCategoryName20">Parque Recreativo &quot;Marte R. Gómez&quot;</string>
+    <string name="goodPlacesParksSubCategoryName21">Parque Bienestar Paseo De Las Flores</string>
+    <string name="goodPlacesParksSubCategoryName22">Parque Cdad. de México</string>
+    <string name="goodPlacesParksSubCategoryName23">Primera plaza Valle de Bravo</string>
+    <string name="goodPlacesParksSubCategoryName24">Parque de Bienestar &quot;Villas de San Jose&quot;</string>
+    <string name="goodPlacesParksSubCategoryName25">Parque Sector 2</string>
+    <string name="goodPlacesParksSubCategoryName26">Parque de la Satelite</string>
+    <string name="goodPlacesParksSubCategoryName27">La Ciudad De Las Familias Felices</string>
+    <string name="goodPlacesParksSubCategoryName28">Plaza Pública Colonia Las Cumbres</string>
+    <string name="goodPlacesParksSubCategoryName29">PLAZA VILLA SAN ROBERTO</string>
+    <string name="goodPlacesParksSubCategoryName30">Parque &quot;Las Lomas del Pedregal&quot;</string>
+    <string name="goodPlacesParksSubCategoryName31">Parque Triangular</string>
+    <string name="goodPlacesParksSubCategoryName32">Parque de San Pedro</string>
+    <string name="goodPlacesParksSubCategoryName33">Parque Treviño Zapata</string>
+    <string name="goodPlacesParksSubCategoryName34">Parquecito</string>
+    <string name="goodPlacesParksSubCategoryName35">Parque Cultural</string>
+    <string name="goodPlacesParksSubCategoryName36">Parque Las Torres</string>
+    <string name="goodPlacesParksSubCategoryName37">Plaza Niños Heroes</string>
+    <string name="goodPlacesParksSubCategoryName38">Plaza Puerta Grande #1</string>
+    <string name="goodPlacesParksSubCategoryName39">Plaza de San José</string>
+    <string name="goodPlacesParksSubCategoryName40">Parque Actopan</string>
+    <string name="goodPlacesParksSubCategoryName41">Parque Gladiolas</string>
+    <string name="goodPlacesParksSubCategoryName42">Jardín Vecinal Col. Lázaro Cárdenas</string>
+    <string name="goodPlacesParksSubCategoryName43">Plaza Pública Módulo 2000</string>
+    <string name="goodPlacesParksSubCategoryName44">Plaza Riberena</string>
+    <string name="goodPlacesParksSubCategoryName45">Plaza del Sol</string>
+    <string name="goodPlacesParksSubCategoryName46">Parque Las Mitras</string>
+    <string name="goodPlacesParksSubCategoryName47">Plaza La Cañada</string>
+    <string name="goodPlacesParksSubCategoryName48">Parque Ampliación 1</string>
+    <string name="goodPlacesParksSubCategoryName49">Parque Sector 2</string>
+    <string name="goodPlacesParksSubCategoryName50">Parque Sector 7</string>
+    <string name="goodPlacesParksSubCategoryName51">Plaza Miguel Hidalgo</string>
+
+
+    <string name="goodPlacesParksSubCategoryClickHere1">https://www.google.com.mx/maps/place/Parque+jarachina+II/@26.0196899,-98.3670699,12.5z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650575ace23cef:0x3594ff1c912c7689!8m2!3d26.0515352!4d-98.3453733!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11kmwmzbz8?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere2">https://www.google.com.mx/maps/place/Parque/@26.0656767,-98.3381219,16z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650554c539892f:0x69e793b7e4ae4615!8m2!3d26.0661953!4d-98.334007!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11mbs0q69k?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere3">https://www.google.com.mx/maps/place/Parque/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650591798fe385:0x57a61476bcef96a5!8m2!3d26.0546706!4d-98.3228332!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c3kc6w3n?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere4">https://www.google.com.mx/maps/place/Parque/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665058daaeed929:0x8221fb2479ed307b!8m2!3d26.0584051!4d-98.3171677!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11g81wv6jh?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere5">https://www.google.com.mx/maps/place/Parque/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650593cc08458d:0xe5978c06340de3a5!8m2!3d26.0562711!4d-98.3229603!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F1hc4dxshz?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere6">https://www.google.com.mx/maps/place/Parque+La+Cima/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505dc278b411f:0xa950d4f564078854!8m2!3d26.0771335!4d-98.3464693!15sCgdwYXJxdWVzkgEJY2l0eV9wYXJr4AEA!16s%2Fg%2F11hy9q85pv?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere7">https://www.google.com.mx/maps/place/Parque+Con+Canchas/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650507c2123c09:0xed017e6ed5db2240!8m2!3d26.054241!4d-98.3263841!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11glwp9dpl?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere8">https://www.google.com.mx/maps/place/Parque+Cañada/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505f44c39d1cf:0x2047116b141519c7!8m2!3d26.0656688!4d-98.3118508!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11g6bpdjfh?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere9">https://www.google.com.mx/maps/place/Parque+Miguel+Hidalgo/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f9a02c8fc81:0xc9d51f0d1ec582da!8m2!3d26.0855817!4d-98.3055306!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11fsj8y4jd?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere10">https://www.google.com.mx/maps/place/Parque+Público/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505890e1a4d91:0x45d9b82a1225ad5d!8m2!3d26.0540266!4d-98.3123129!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c2j8bg3b?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere11">https://www.google.com.mx/maps/place/Parqueson/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665058bd7972e57:0x3cdb6cf5ae87553f!8m2!3d26.0560612!4d-98.3122147!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11bccjn6dw?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere12">https://www.google.com.mx/maps/place/Parque+Col.+Bermudez/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f6b3940b71b:0x3cdfd8efd3b2509a!8m2!3d26.0590286!4d-98.2879078!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11dymbfc_s?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere13">https://www.google.com.mx/maps/place/Parque/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665051c126333b3:0x56423d460b03fc53!8m2!3d26.058167!4d-98.3095366!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11q1kl41k3?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere14">https://www.google.com.mx/maps/place/Parque+La+Escondida/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fa9b49f34c1:0x7089bde7fe6eb996!8m2!3d26.0387153!4d-98.2731741!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c5gc0mcw?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere15">https://www.google.com.mx/maps/place/Parque+De+Barrio+Luis+Donaldo+Colosio/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f9dc9e3f079:0x7d558f30e44fc6cd!8m2!3d26.0368425!4d-98.2937705!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c1pgp355?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere16">https://www.google.com.mx/maps/place/Parque/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866506033ee0816d:0x20ee684721e326e!8m2!3d26.0957223!4d-98.3127676!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c0rpp3s8?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere17">https://www.google.com.mx/maps/place/Parque+De+Barrio/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fbd57eeddb1:0xcdfc7206140daf03!8m2!3d26.0267694!4d-98.282843!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11hblxp1td?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere18">https://www.google.com.mx/maps/place/Parque+Las+Fuentes/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665054b2ed558ad:0xfb18e8ca192ff977!8m2!3d26.0713299!4d-98.316926!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11t10qrd0x?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere19">https://www.google.com.mx/maps/place/Parque+Lineal/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fb930e332cb:0x3b91bfcd37355465!8m2!3d26.066669!4d-98.2814652!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11frmnx7dh?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere20">https://www.google.com.mx/maps/place/Parque+Recreativo+"Marte+R.+Gómez"/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fc6ceab3dc5:0xf03b868e0452d4c1!8m2!3d26.0125707!4d-98.2811182!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c328xmjy?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere21">https://www.google.com.mx/maps/place/Parque+Bienestar+Paseo+De+Las+Flores/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f036ab57e35:0x766d87b047f07909!8m2!3d25.9943025!4d-98.2715195!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11hdj97j7g?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere22">https://www.google.com.mx/maps/place/Parque+Cdad.+de+México/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665054dd77d6851:0x21ab0d65f9631cef!8m2!3d26.0538292!4d-98.3416883!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11scsp7bxy?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere23">https://www.google.com.mx/maps/place/Primera+plaza+Valle+de+Bravo/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650584dd2d81d7:0xe387fbd961fdb35!8m2!3d26.0589511!4d-98.3395856!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11q83xxmg_?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere24">https://www.google.com.mx/maps/place/Parque+de+Bienestar+"Villas+de+San+Jose"/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650502eebfed07:0x81a7411f28661ae6!8m2!3d26.0609776!4d-98.338072!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11rtr4lgz3?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere25">https://www.google.com.mx/maps/place/Parque+Sector+2/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866507f85e65cb9f:0x47ea32ab7c3aa1d7!8m2!3d26.0857146!4d-98.3402977!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11s75tdqxs?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere26">https://www.google.com.mx/maps/place/parque+de+la+satelite/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650e34414764d9:0x712aed660ffb9ffb!8m2!3d26.0136456!4d-98.2612128!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11f2wdwclf?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere27">https://www.google.com.mx/maps/place/La+Ciudad+De+Las+Familias+Felices/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665050a1225be99:0xa1a3bcbbcdd7f74a!8m2!3d26.0360932!4d-98.3351687!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c1r16bvx?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere28">https://www.google.com.mx/maps/place/Plaza+Pública+Colonia+Las+Cumbres/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505ea2caa64e3:0xce3f95f3a50b7b50!8m2!3d26.0663335!4d-98.3280213!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11cjkvyy_7?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere29">https://www.google.com.mx/maps/place/PLAZA+VILLA+SAN+ROBERTO/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665055b0231c9ed:0x543629adf9217013!8m2!3d26.0624741!4d-98.3392437!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11kpy9625m?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere30">https://www.google.com.mx/maps/place/Parque+"Las+Lomas+del+Pedregal"/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f86c490a76b:0x735f877f34879ab9!8m2!3d26.0317583!4d-98.3053118!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c0qg608l?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere31">https://www.google.com.mx/maps/place/Parque+triangular/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665050ab89a79b7:0xd5afcfec200d70b0!8m2!3d26.052476!4d-98.3181095!15sCgdwYXJxdWVzkgEJY2l0eV9wYXJr4AEA!16s%2Fg%2F11h49kxx17?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere32">https://www.google.com.mx/maps/place/Parque+de+San+Pedro/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505c5c28a7ae1:0xd75f7d3c12f86453!8m2!3d26.0419658!4d-98.3216492!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11rj_fv3rr?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere33">https://www.google.com.mx/maps/place/Parque+Treviño+Zapata/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fde543ec57d:0x693a0bc80e2a7615!8m2!3d26.0813301!4d-98.2964493!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11t29yhypl?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere34">https://www.google.com.mx/maps/place/Parquecito/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650543782c2f25:0x90db5b3971876a33!8m2!3d26.052056!4d-98.324436!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11f6cqv1zk?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere35">https://www.google.com.mx/maps/place/Parque+Cultural/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f03a7f89b21:0xaa2781739e4619d3!8m2!3d26.0501405!4d-98.2699156!15sCgdwYXJxdWVzkgEPY3VsdHVyYWxfY2VudGVy4AEA!16s%2Fg%2F1pzpddc3r?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere36">https://www.google.com.mx/maps/place/Parque+Las+Torres/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f98171776ef:0xb943fcd89363f174!8m2!3d26.0293214!4d-98.2876032!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11c48r_n44?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere37">https://www.google.com.mx/maps/place/Plaza+Niños+Heroes/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866508cb9c3fb803:0x8cadb8e526d2a2e8!8m2!3d26.0901328!4d-98.2824234!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11crx_thrc?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere38">https://www.google.com.mx/maps/place/Plaza+Puerta+Grande+%231/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505304e62243b:0x4fdf4528938020b8!8m2!3d26.0260077!4d-98.3465766!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11j0tbxfr0?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere39">https://www.google.com.mx/maps/place/Plaza+de+San+José/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505f3e0fe3abf:0xca1b3d6caa579af9!8m2!3d26.0610199!4d-98.3377325!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11q83xv1_l?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere40">https://www.google.com.mx/maps/place/Parque+Actopan/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f73051b1711:0x69c1c74f7f142f56!8m2!3d26.0126155!4d-98.2798286!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11scsrgpwf?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere41">https://www.google.com.mx/maps/place/Parque+Gladiolas/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fb68b494407:0x837e3702b1aead3f!8m2!3d25.9958183!4d-98.2630032!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11swpksrvh?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere42">https://www.google.com.mx/maps/place/Jardín+Vecinal+Col.+Lázaro+Cárdenas/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fee1d095d8b:0x5bb60b8bb92a171c!8m2!3d26.0507657!4d-98.2783742!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11r2r63tjb?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere43">https://www.google.com.mx/maps/place/Plaza+Pública+Módulo+2000/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650fafe302f90b:0x4058977d86e65ff!8m2!3d26.0655556!4d-98.3029262!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11fnt3frjp?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere44">https://www.google.com.mx/maps/place/Plaza/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650921f9fa4cd9:0x986b635d1d0917e9!8m2!3d26.090164!4d-98.2948299!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11sqkl_s5h?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere45">https://www.google.com.mx/maps/place/Plaza/@26.0094933,-98.3743274,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f636b055079:0x2217e40ea04fd4c6!8m2!3d26.0715878!4d-98.3032105!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11tsg1fd77?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere46">https://www.google.com.mx/maps/place/Salón+de+Actos+Colonia+Las+Mitras/@26.0478694,-98.3048355,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x86650f12e1c64b95:0xe277ba24d76a5b74!8m2!3d26.0478694!4d-98.3048355!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11v0crhy_7?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere47">https://www.google.com.mx/maps/place/Plaza+La+Cañada/@26.062755,-98.3102517,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665054b2ac2d48b:0x50669b315f625b3f!8m2!3d26.062755!4d-98.3102517!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11h6bqmls8?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere48">https://www.google.com.mx/maps/place/Parque+ampliación+1/@26.0203795,-98.340224,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505976fb0a68d:0x702e4b3d2cdba1de!8m2!3d26.0203795!4d-98.340224!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11kqwjm1d7?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere49">https://www.google.com.mx/maps/place/Parque+sector+2/@26.0268674,-98.341958,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x8665059d3d655f77:0xa705bf94dc2837db!8m2!3d26.0268674!4d-98.341958!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11v5dz_hc1?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere50">https://www.google.com.mx/maps/place/Parque+Sector+7/@26.0189318,-98.3483665,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866505fa489cee19:0xbd40fe08965996f!8m2!3d26.0189318!4d-98.3483665!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11v5dzyc2q?entry=ttu</string>
+    <string name="goodPlacesParksSubCategoryClickHere51">https://www.google.com.mx/maps/place/Plaza+Miguel+Hidalgo/@26.0927234,-98.2780172,12z/data=!4m11!1m3!2m2!1sparques!6e1!3m6!1s0x866508cdd9faeabd:0x7e05a21db0606bb3!8m2!3d26.0927234!4d-98.2780172!15sCgdwYXJxdWVzkgEEcGFya-ABAA!16s%2Fg%2F11dylw___5?entry=ttu</string>
+
+</resources>

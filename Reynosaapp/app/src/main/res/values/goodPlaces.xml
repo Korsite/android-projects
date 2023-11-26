@@ -4,10 +4,14 @@
     <string name="goodPlacesCategoryName1">Coffee Shops</string>
     <string name="goodPlacesCategoryName2">Restaurants</string>
     <string name="goodPlacesCategoryName3">Kid-friendly places</string>
+    <string name="goodPlacesCategoryName4">Parks</string>
+    <string name="goodPlacesCategoryName5">Shopping Centers</string>
 
-    <string name="goodPlacesCategoryContentDescription1">Papa</string>
-    <string name="goodPlacesCategoryContentDescription2">FPSJFSIOPFJSIOFJIOSJFOIPJDF</string>
-    <string name="goodPlacesCategoryContentDescription3">FPSJFSIOPFJSIOFJIOSJFOIPJDF</string>
+    <string name="goodPlacesCategoryContentDescription1">Check some of the Coffee Shops Reynosa has for you!</string>
+    <string name="goodPlacesCategoryContentDescription2">Take a look at the high varieties there are in Reynosa!</string>
+    <string name="goodPlacesCategoryContentDescription3">Unfortunately, there are not many kid places by the zone</string>
+    <string name="goodPlacesCategoryContentDescription4">Obviously opened 24hrs!</string>
+    <string name="goodPlacesCategoryContentDescription5">Did you know there was upon a time a Walmart?, well, it got exploded</string>
 
 
 
