@@ -123,11 +123,13 @@ fun subCategoryLayer(
             )
 
             MainCategories.DangerousPlaces -> subCategoryLayerForDangerousPlaces(
-                subCategory = subCategory
+                subCategory = subCategory,
+                numberOfCard = numberOfCard
             )
 
             MainCategories.Opportunities -> subCategoryLayerForOpportunities(
                 subCategory = subCategory,
+                numberOfCard = numberOfCard
             )
 
             else -> subCategoryLayerForExtraInfo(subCategory = subCategory)
@@ -185,6 +187,7 @@ fun subCategoryLayerForGoodPlaces(
 
                 HyperText(
                     link = subCategory.subCategoryGoogleMaps,
+                    message = R.string.clickHereToGoogleMaps,
                     modifier = modifier
                 )
 
@@ -223,7 +226,8 @@ fun subCategoryLayerForGoodPlaces(
 
 @Composable
 fun subCategoryLayerForDangerousPlaces(
-    subCategory: SubCategoryData
+    subCategory: SubCategoryData,
+    numberOfCard: Int
 ) {
     Box {
         Row(
@@ -233,9 +237,19 @@ fun subCategoryLayerForDangerousPlaces(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.weight(2f)
             ) {
-                Text(
-                    text = stringResource(subCategory.subCategoryName),
-                )
+                Row(
+                    horizontalArrangement = Arrangement.Center,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = numberOfCard.toString(),
+                    )
+                    Text(
+                        text = stringResource(subCategory.subCategoryName),
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.weight(1f)
+                    )
+                }
                 Text(
                     text = stringResource(subCategory.subCategoryContentDescription),
                     modifier = Modifier.align(Alignment.Start)
@@ -254,15 +268,17 @@ fun subCategoryLayerForDangerousPlaces(
 @Composable
 fun subCategoryLayerForOpportunities(
     subCategory: SubCategoryData,
+    numberOfCard: Int
 ) {
     Box {
         Row {
             Image(
                 painter = painterResource(subCategory.subCategoryPicture),
                 contentDescription = stringResource(subCategory.subCategoryName),
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .weight(1.5f),
-                contentScale = ContentScale.Crop
+                    .weight(1.5f)
+                    .height(150.dp)
             )
             Column(
                 horizontalAlignment = Alignment.Start,
@@ -271,20 +287,25 @@ fun subCategoryLayerForOpportunities(
                     .weight(2f)
             ) {
 
-                Text(
-                    text = stringResource(subCategory.subCategoryName),
-                    modifier = Modifier.align(Alignment.CenterHorizontally)
-                )
+                Row(
+                    horizontalArrangement = Arrangement.Center,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = stringResource(subCategory.subCategoryName),
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.weight(1f)
+                    )
 
-
-                Text(
-                    text = stringResource(subCategory.subCategoryContentDescription),
-                )
-
+                    Text(
+                        text = numberOfCard.toString(),
+                    )
+                }
                 Text(text = stringResource(subCategory.subCategoryIsPrivateOrPublic))
 
                 HyperText(
                     link = subCategory.subCategoryGoogleMaps,
+                    message = R.string.clickHereToGoogleMaps,
                     modifier = Modifier
                 )
             }
@@ -326,8 +347,9 @@ fun previewSubCategoryLayerForDangerousPlaces() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             subCategoryLayerForDangerousPlaces(
-                DangerousPlacesProviderSubCategories.subCategories[R.string.dangerousPlacesCategoryName1]?.component1()
-                    ?: SubCategoryData(R.string.useForNoThing, R.drawable.usefornothing)
+                subCategory = DangerousPlacesProviderSubCategories.subCategories[R.string.dangerousPlacesCategoryName1]?.component1()
+                    ?: SubCategoryData(R.string.useForNoThing, R.drawable.usefornothing),
+                numberOfCard = 1
             )
         }
     }
@@ -342,8 +364,9 @@ fun previewSubCategoryLayerForOpportunities() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             subCategoryLayerForOpportunities(
-                OpportunitiesProviderSubCategories.subCategories[R.string.opportunitiesEducationExtraCategoryName1]?.component1()
+                subCategory = OpportunitiesProviderSubCategories.subCategories[R.string.opportunitiesEducationExtraCategoryName1]?.component1()
                     ?: SubCategoryData(R.string.useForNoThing, R.drawable.usefornothing),
+                numberOfCard = 1
             )
         }
     }

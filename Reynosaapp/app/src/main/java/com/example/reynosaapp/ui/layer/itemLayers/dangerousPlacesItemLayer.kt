@@ -52,7 +52,7 @@ fun itemLayerForDangerousPlacesForCompactSize(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(item.itemPicture),
+            painter = painterResource(item.itemPictureOptional),
             contentDescription = stringResource(item.itemName),
             modifier = Modifier.fillMaxWidth(),
             contentScale = ContentScale.Crop,
@@ -61,7 +61,7 @@ fun itemLayerForDangerousPlacesForCompactSize(
         Text(text = stringResource(item.itemDescription))
         Row {
             Image(
-                painter = painterResource(item.itemPictureOptional),
+                painter = painterResource(item.itemPictureOptional2),
                 contentDescription = stringResource(item.itemName),
                 modifier = Modifier.weight(1f),
                 contentScale = ContentScale.Crop
@@ -87,7 +87,7 @@ fun itemLayerForDangerousPlacesForMediumSize(
                 modifier = Modifier.weight(1f)
             )
             Image(
-                painter = painterResource(item.itemPicture),
+                painter = painterResource(item.itemPictureOptional),
                 contentDescription = stringResource(item.itemName),
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.weight(1f)
@@ -98,7 +98,7 @@ fun itemLayerForDangerousPlacesForMediumSize(
 
         Row {
             Image(
-                painter = painterResource(item.itemPicture),
+                painter = painterResource(item.itemPictureOptional2),
                 contentDescription = stringResource(item.itemName),
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.weight(1f)

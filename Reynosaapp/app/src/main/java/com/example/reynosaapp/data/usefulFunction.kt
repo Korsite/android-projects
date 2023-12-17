@@ -179,21 +179,21 @@ fun takeAListOfSubCategoriesAndItemInstanceAndReturnAMap(
         allSubCategories.forEachIndexed { index, subCategory ->
             val currentItem = allItems[index]
 
-            var itemPicture = currentItem.itemPicture
-            var itemDescription = currentItem.itemDescription
-            var itemDescriptionOptional = currentItem.itemDescriptionOptional
-            var itemDaysShopOpened: Int = currentItem.itemDaysShopOpened
-            var itemGoogleMaps = currentItem.itemGoogleMaps
-            var itemWebSite = currentItem.itemWebsite
-            var itemPictureOptional = currentItem.itemPictureOptional
-            var itemPictureOptional2 = currentItem.itemPictureOptional2
-            var itemSchedule = currentItem.itemSchedule
+            val itemPicture = currentItem.itemPicture
+            val itemDescription = currentItem.itemDescription
+            val itemDescriptionOptional = currentItem.itemDescriptionOptional
+            val itemDaysShopOpened = currentItem.itemDaysShopOpened
+            val itemGoogleMaps = currentItem.itemGoogleMaps
+            val itemWebSite = currentItem.itemWebsite
+            val itemPictureOptional = currentItem.itemPictureOptional
+            val itemPictureOptional2 = currentItem.itemPictureOptional2
+            val itemSchedule = currentItem.itemSchedule
 
             put(
                 subCategory.subCategoryName,
                 ItemData(
                     itemName = subCategory.subCategoryName,
-                    itemPicture = itemPicture,
+                    itemPicture = if(itemPicture == R.drawable.usefornothing) subCategory.subCategoryPicture else itemPicture,
                     itemDescription = itemDescription,
                     itemDescriptionOptional = itemDescriptionOptional,
                     itemDaysShopOpened = subCategory.subCategoryDaysShopOpened,

@@ -6,7 +6,7 @@ import com.example.reynosaapp.R
 
 data class ItemData(
     @StringRes val itemName: Int = R.string.useForNoThing,
-    @DrawableRes val itemPicture: Int,
+    @DrawableRes val itemPicture: Int = R.drawable.usefornothing,
     @StringRes val itemDescription: Int = R.string.useForNoThing,
     @StringRes val itemDescriptionOptional : Int = R.string.useForNoThing,
     @StringRes val itemDaysShopOpened: Int = R.string.useForNoThing,

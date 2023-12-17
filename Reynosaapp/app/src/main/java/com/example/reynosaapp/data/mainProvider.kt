@@ -22,10 +22,10 @@ object mainProvider {
     private val extraInformationCategories = ExtraInformationProviderCategories.Categories
 
     private val allCategories =
-        goodPlacesCategories // 3
-            .plus(dangerousPlacesCategories) // 2
-            .plus(opportunitiesCategories) //2
-            .plus(extraInformationCategories) //3
+        goodPlacesCategories
+            .plus(dangerousPlacesCategories)
+            .plus(opportunitiesCategories)
+            .plus(extraInformationCategories)
 
 
     private val goodPlacesSubCategories = GoodPlacesProviderSubCategories.SubCategories

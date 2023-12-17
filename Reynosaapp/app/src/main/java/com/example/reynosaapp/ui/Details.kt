@@ -121,11 +121,12 @@ fun filterIcon(
 @Composable
 fun HyperText(
     @StringRes link: Int,
+    message: Int,
     modifier: Modifier
 ) {
     val hyperText = buildAnnotatedString {
         // creating a string to display in the Text
-        val string = stringResource(R.string.clickHereToGoogleMaps)
+        val string = stringResource(message)
 
         // word and span to be hyperlinked
         val startIndex = 0
@@ -204,7 +205,7 @@ fun previewHyperTextAndChoicesToFilterGoodPlaces() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        HyperText(link = R.string.good_places, modifier = Modifier)
+        HyperText(link = R.string.good_places, message = R.string.clickHereToGoogleMaps, modifier = Modifier)
 
         choicesToFilterGoodPlaces(
             reynosaUiState = viewModel(),

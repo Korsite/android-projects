@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="dangerousPlacesSubCategoryName1">Papa Caliente</string>
-    <string name="dangerousPlacesSubCategoryName2">Me como mi kk</string>
-    <string name="dangerousPlacesSubCategoryName3">Papa Caliente</string>
+    <string name="dangerousCategoryContentDescription1">I extremely recommend not to be here after 11:00 pm alone</string>
+    <string name="dangerousCategoryContentDescription2">Do you have an idea what I should add here? I don\'t</string>
 
-    <string name="dangerousPlacesSubCategoryContentDescription1">Papa Caliente</string>
-    <string name="dangerousPlacesSubCategoryContentDescription2">Me como mi kk</string>
-    <string name="dangerousPlacesSubCategoryContentDescription3">Papa Caliente</string>
+
+    <string name="dangerousPlacesSubCategoryName1">Downtown</string>
+    <string name="dangerousPlacesSubCategoryName2">Juarez</string>
+    <string name="dangerousPlacesSubCategoryName3">Balcones de Alcahala</string>
+    <string name="dangerousPlacesSubCategoryName4">Puerta Sur</string>
+    <string name="dangerousPlacesSubCategoryName5">San Valentin</string>
+    <string name="dangerousPlacesSubCategoryName6">Reynosa</string>
+
+    <string name="dangerousPlacesSubCategoryContentDescription1">A good and bad place at the same time</string>
+    <string name="dangerousPlacesSubCategoryContentDescription2">Nothing is going to happen to you if you only walk around over here</string>
+    <string name="dangerousPlacesSubCategoryContentDescription3">This colony is here because of one friend of mine\'s story</string>
+    <string name="dangerousPlacesSubCategoryContentDescription4">is even this colony in Reynosa?</string>
+    <string name="dangerousPlacesSubCategoryContentDescription5">Another friend of mine lives here, she says that it\'s not dangerous, shall I believe her?</string>
+    <string name="dangerousPlacesSubCategoryContentDescription6">Not even the gringos give a step here, even being next to Texas</string>
 
 
     <string name="dangerousPlacesCategoryName1">Colonies</string>
     <string name="dangerousPlacesCategoryName2">Places</string>
 
-    <string name="dangerousPlacesSubCategory1ItemDescription">this is some description for dangerous places</string>
-    <string name="dangerousPlacesSubCategory1ItemDescriptionOptional">this is some EXTRA description for dangerous places</string>
+    <string name="dangerousPlacesSubCategoryItemDescription1">It\'s the one of the best places to find something you need, but at the same time, the worst place about security</string>
+    <string name="dangerousPlacesSubCategoryItemDescriptionOptional1">if you walk around here, make sure to be where all of the people is, get worry if you are alone around, and even more if you look like a foreign</string>
+
+    <string name="dangerousPlacesSubCategoryItemDescription2">From what I can tell, not a really secure colony</string>
+    <string name="dangerousPlacesSubCategoryItemDescriptionOptional2">it is said that there used to be many shootings caused by drug dealers</string>
+
+    <string name="dangerousPlacesSubCategoryItemDescription3">One friend of mine lives over here, and from what she can tell, one day, a man was kidnapped in front of her house</string>
+    <string name="dangerousPlacesSubCategoryItemDescriptionOptional3">and it was not at night, it was in the afternoon, so everything was seen and heard by her</string>
+
+    <string name="dangerousPlacesSubCategoryItemDescription4">The answer is simple about the dangerous of this colony, it\'s almost out of Reynosa\'s border</string>
+    <string name="dangerousPlacesSubCategoryItemDescriptionOptional4">so you could be easily disappeared in the environment</string>
+
+    <string name="dangerousPlacesSubCategoryItemDescription5">Similar to what happens in Puerta sur, it\'s one of the furthest colonies in Reynosa</string>
+    <string name="dangerousPlacesSubCategoryItemDescriptionOptional5">try no to watch someone with an innocent face. You will seem to be an easy prey</string>
+
+    <string name="dangerousPlacesSubCategoryItemDescription6">Reynosa itself is a big dangerous colony, it is not recommended to be out of home after 11:00 pm alone in streets</string>
+    <string name="dangerousPlacesSubCategoryItemDescriptionOptional6">If you ever are in that situation, avoid to be at the previously colonies mentioned</string>
+
+
 
 
 </resources>

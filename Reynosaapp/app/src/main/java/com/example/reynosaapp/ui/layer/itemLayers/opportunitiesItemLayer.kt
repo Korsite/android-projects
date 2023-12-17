@@ -78,8 +78,9 @@ fun itemLayerForOpportunitiesForCompactSize(
                     .weight(1f)
             ) {
 
-                HyperText(link = item.itemWebsite, modifier = Modifier)
-                HyperText(link = item.itemGoogleMaps, modifier = Modifier)
+                if(item.itemWebsite != R.string.useForNoThing)
+                    HyperText(link = item.itemWebsite, message = R.string.goToWebsite, modifier = Modifier)
+                HyperText(link = item.itemGoogleMaps, message = R.string.clickHereToGoogleMaps, modifier = Modifier)
 
                 Image(
                     painter = painterResource(item.itemPictureOptional2),
@@ -115,11 +116,12 @@ fun itemLayerForOpportunitiesForMediumSize(
 
             Spacer(modifier = Modifier.padding(10.dp))
 
-            HyperText(link = item.itemWebsite, modifier = Modifier)
+            if(item.itemWebsite != R.string.useForNoThing)
+                HyperText(link = item.itemWebsite, message = R.string.goToWebsite, modifier = Modifier)
 
             Spacer(modifier = Modifier.padding(10.dp))
 
-            HyperText(link = item.itemGoogleMaps, modifier = Modifier)
+            HyperText(link = item.itemGoogleMaps, message = R.string.clickHereToGoogleMaps, modifier = Modifier)
         }
         Column(
             Modifier.weight(1f)

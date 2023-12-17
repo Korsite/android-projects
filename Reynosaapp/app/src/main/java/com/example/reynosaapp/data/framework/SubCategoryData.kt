@@ -10,7 +10,7 @@ import com.example.reynosaapp.data.returnIfShopIsCurrentlyOpenedOrClosed
 
 data class SubCategoryData(
     @StringRes val subCategoryName: Int,
-    @DrawableRes val subCategoryPicture: Int,
+    @DrawableRes val subCategoryPicture: Int = R.drawable.usefornothing,
     @StringRes val subCategoryContentDescription: Int = R.string.useForNoThing,
     @StringRes val subCategoryIsPrivateOrPublic: Int = R.string.useForNoThing,
     @StringRes val subCategoryDaysShopOpened: Int = R.string.useForNoThing,

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Kinder Garden -->
+    <string name="opportunitiesSubCategoryKinderGardenName1">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName2">JUSTO SIERRA MENDEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName3">MEXICO LIBRE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName4">JUAN RULFO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName5">ARTURO LERMA ANAYA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName6">OXFORD ACADEMY</string>
+    <string name="opportunitiesSubCategoryKinderGardenName7">INSTITUTO JAIME TORRES BODET</string>
+    <string name="opportunitiesSubCategoryKinderGardenName8">LAS FUENTES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName9">MARIA MONTESSORI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName10">COLEGIO PANAMERICANO DE REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName11">EUREKA KIDS COLLEGE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName12">INTEGRITY SCHOOL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName13">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName14">TAMAULIPAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName15">AMERICA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName16">PROFA GLORIA CIENFUEGOS PEZINO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName17">PUENTE DE ESPERANZA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName18">DIVERTIMUNDO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName19">NAZARITA GONZALEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName20">FRANCISCO ZARCO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName21">LIC EMILIO PORTES GIL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName22">CLUB DE LEONES CENTRO NUM 1</string>
+    <string name="opportunitiesSubCategoryKinderGardenName23">ABRAHAM CASTELLANOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName24">ANGELA PERALTA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName25">LIC LUIS DONALDO COLOSIO MURRIETA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName26">FEDERICO FROEBEL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName27">JUAN ESCUTIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName28">INDEPENDENCIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName29">RUY PEREZ TAMAYO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName30">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName31">JUAN DE LA BARRERA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName32">CLUB SOCIAL DE DAMAS DE REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName33">COLEGIO DECROLY</string>
+    <string name="opportunitiesSubCategoryKinderGardenName34">FEDERICO FROEBEL 2</string>
+    <string name="opportunitiesSubCategoryKinderGardenName35">ROSARIO CASTELLANOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName36">RAMON LOPEZ VELARDE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName37">ALBERTO CARRERA TORRES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName38">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName39">LEONARDO DA VINCI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName40">INSTITUTO NUEVO MUNDO MONTESSORI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName41">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName42">CENTRO EDUCATIVO ARCO IRIS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName43">COLEGIO DE LA CRUZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName44">LAZARO CARDENAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName45">JEAN PIAGET</string>
+    <string name="opportunitiesSubCategoryKinderGardenName46">MARIA ENRIQUETA PEREYRA DE C</string>
+    <string name="opportunitiesSubCategoryKinderGardenName47">CLUB SERTOMA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName48">JAIME TORRES BODET</string>
+    <string name="opportunitiesSubCategoryKinderGardenName49">FRANCISCO GONZALEZ BOCANEGRA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName50">GRAL IGNACIO ZARAGOZA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName51">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName52">MARIO MORENO CANTINFLAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName53">PROFA ELISA CAVAZOS LERMA DE FLORES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName54">BAMBI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName55">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName56">ALBORADA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName57">INSTITUTO PAULO FREIRE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName58">COLEGIO LIBERTAD</string>
+    <string name="opportunitiesSubCategoryKinderGardenName59">BUCARELI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName60">INSTITUTO CESAR COLL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName61">EXCELSIOR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName62">INSTITUTO NEWMAN DEL ORATORIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName63">INSTITUTO PIAGET</string>
+    <string name="opportunitiesSubCategoryKinderGardenName64">NI?OS HEROES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName65">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName66">SAFE KIDS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName67">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName68">COLEGIO SMILEY KIDS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName69">CENTRO DE DESARROLLO INTEGRAL NI?OS TAMAULIPECOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName70">JOSE VASCONCELOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName71">INSTITUTO PEDAGOGICO LINCE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName72">COLEGIO EXERANI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName73">COLEGIO JOSE MA MORELOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName74">COMUNDI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName75">COLEGIO XIPALOB</string>
+    <string name="opportunitiesSubCategoryKinderGardenName76">ENRIQUECIMIENTO EDUCATIVO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName77">COLEGIO INFANT JORDI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName78">MI ESCUELITA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName79">INSTITUTO PEDAGOGICO SAN ANGEL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName80">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName81">INSTITUTO DE EDUCACION MINITA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName82">KINDER MY CIRCUS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName83">INSTITUTO PREESCOLAR IDCE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName84">LITTLE GENIUS KINDERGARTEN</string>
+    <string name="opportunitiesSubCategoryKinderGardenName85">COLEGIO RAMANSA PLANTEL 2</string>
+    <string name="opportunitiesSubCategoryKinderGardenName86">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName87">COLEGIO INDEPENDENCIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName88">COLEGIO OXFORD</string>
+    <string name="opportunitiesSubCategoryKinderGardenName89">COLEGIO TODDLERS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName90">INSTITUTO NUEVO VICTORIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName91">LAS AMERICAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName92">BLANCA NIEVES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName93">COLEGIO ALIANZA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName94">PREESCOLAR COMUNITARIA RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName95">IGNACIO ALLENDE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName96">ALBERTO CARRERA TORRES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName97">PROFA BEATRIZ FLORESVILLAR DE FERNANDEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName98">ESTEFANIA CASTAÑEDA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName99">IGNACIO YCAZA AGUILAR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName100">ENRIQUE CARDENAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName101">COLEGIO BETHSALOM</string>
+    <string name="opportunitiesSubCategoryKinderGardenName102">INDEPENDENCIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName103">BICULTURAL DE REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName104">INSTITUTO EDUCATIVO HEBRON</string>
+    <string name="opportunitiesSubCategoryKinderGardenName105">COLEGIO MEXICANO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName106">INSTITUTO EDUCATIVO CULTURAL DE TAMAULIPAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName107">COLEGIO JAZMAR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName108">FORESTLAND</string>
+    <string name="opportunitiesSubCategoryKinderGardenName109">INSTITUTO GALBRI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName110">INSTITUTO DE EDUCACION INICIAL IEI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName111">INSTITUTO MONTESSORI DE REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName112">COLEGIO INSURGENTES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName113">COLEGIO PIERRE A LAROUSSE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName114">IGNACIO ZARAGOZA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName115">Reforma</string>
+    <string name="opportunitiesSubCategoryKinderGardenName116">LUIS DONALDO COLOSIO MURRIETA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName117">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName118">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName119">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName120">COLEGIO RAMANSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName121">COLEGIO BABY SCHOOL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName122">COLEGIO DUMONT</string>
+    <string name="opportunitiesSubCategoryKinderGardenName123">INSTITUTO NI?OS FELICES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName124">INSTITUTO EDUCATIVO FRANCO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName125">MANITAS MAGICAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName126">JOSE VASCONCELOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName127">MEXICO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName128">GABRIELA MISTRAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName129">PROFA ANA MARIA AYALA CORDOBA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName130">JAIME NUNO ROCA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName131">ELIZABETH GALVAN DE LOZANO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName132">DON JOSE MA GARZA ZAMORA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName133">JUAN CERVANTES VILLALVASO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName134">PROFA MARIA CONCEPCION MENDIOLA DE HERNANDEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName135">PROFA ROSA ELVA TAPIA ABREGO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName136">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName137">FRANCISCO JAVIER MINA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName138">DIEGO RIVERA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName139">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName140">ADOLFO LOPEZ MATEOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName141">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName142">CAMPANITA PLANTEL NUM 2</string>
+    <string name="opportunitiesSubCategoryKinderGardenName143">PREESCOLAR PEQUEÑOS GIGANTES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName144">LIC ADOLFO LOPEZ MATEOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName145">DR LUIS PASTEUR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName146">CAPITAN CARLOS CANTU</string>
+    <string name="opportunitiesSubCategoryKinderGardenName147">JUAN ESCUTIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName148">ROSAURA ZAPATA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName149">LEV S VYGOTSKI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName150">AMALIA GONZALEZ CABALLERO DE CASTILLO LEDON</string>
+    <string name="opportunitiesSubCategoryKinderGardenName151">GUADALUPE VICTORIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName152">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName153">BEATRIZ ORDOÑEZ ACUÑA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName154">JARDIN DE NIÑOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName155">RODOLFO TORRE CANTU</string>
+    <string name="opportunitiesSubCategoryKinderGardenName156">JUAN B TIJERINA VILLARREAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName157">FRANCISCO JAVIER CLAVIJERO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName158">TAMAULIPAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName159">BICENTENARIO DE LA INDEPENDENCIA DE MEXICO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName160">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName161">COLEGIO AMERICANO DE REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName162">FRANCISCO VILLA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName163">INSTITUTO DE EDUCACION PREESCOLAR ESPANA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName164">INSTITUTO ALBERT EINSTEIN</string>
+    <string name="opportunitiesSubCategoryKinderGardenName165">MI MUNDO MAGICO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName166">COLEGIO VICTORIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName167">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName168">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName169">ELEAZAR GUERRA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName170">INSTITUTO LOMBARDO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName171">Jardín de niños Kids Land</string>
+    <string name="opportunitiesSubCategoryKinderGardenName172">MARIA LAVALLE URBINA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName173">JOSEFA ORTIZ DE DOMINGUEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName174">JARDIN DE NIÑOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName175">VICTOR GARCIA HOZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName176">JOSEFINA C DE TARREGA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName177">ANITA DE ANDAR DE ALBA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName178">IGNACIO YCAZA AGUILAR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName179">REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName180">INSTITUTO DE DESARROLLO INTEGRAL SSYELDMAR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName181">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName182">INSTITUTO PEDAGOGICO YASCOR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName183">PROFESORA MARIA LUISA DIAZ DE GUERRERO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName184">COLEGIO VIDA NUEVA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName185">INSTITUTO AUROCA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName186">INSTITUTO EDUCATIVO PAVLOV</string>
+    <string name="opportunitiesSubCategoryKinderGardenName187">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName188">COLEGIO NEBRASKA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName189">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName190">OCTAVIO PAZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName191">HOMEY KINDERGARTEN</string>
+    <string name="opportunitiesSubCategoryKinderGardenName192">CENTRO EDUCATIVO BIEN ESTAR</string>
+    <string name="opportunitiesSubCategoryKinderGardenName193">ORALIA GUERRA DE VILLARREAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName194">ARQUIMEDES CABALLERO CABALLERO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName195">FIDEL VELAZQUEZ SANCHEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName196">EMMA VAZQUEZ GARCIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName197">ENRIQUE LAUBSCHER</string>
+    <string name="opportunitiesSubCategoryKinderGardenName198">FRANCISCO GABILONDO SOLER</string>
+    <string name="opportunitiesSubCategoryKinderGardenName199">CHAPULTEPEC</string>
+    <string name="opportunitiesSubCategoryKinderGardenName200">LEONARDO G DE LA CRUZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName201">NIÑOS HEROES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName202">COLEGIO REFUGIO INTERNACIONAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName203">COLEGIO LILI\'S PLANET CAMPUS AZTLAN</string>
+    <string name="opportunitiesSubCategoryKinderGardenName204">INSTITUTO BUGAMBILIAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName205">MI PEQUE?O ALFA Y OMEGA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName206">PROFA DEMETRIA ZUÑIGA GUEVARA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName207">MIGUEL HIDALGO Y COSTILLA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName208">COLEGIO HAESSKA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName209">INSTITUTO EDUCATIVO VICTORIA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName210">MI PEQUEÑO GENIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName211">INSTITUTO CULTURAL JACQUES DELORS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName212">INSTITUTO HOREB KINDER</string>
+    <string name="opportunitiesSubCategoryKinderGardenName213">AMADO NERVO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName214">SOR JUANA INES DE LA CRUZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName215">OVIDIO DECROLY</string>
+    <string name="opportunitiesSubCategoryKinderGardenName216">LEONA VICARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName217">MOISES SAENZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName218">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName219">KAYAB</string>
+    <string name="opportunitiesSubCategoryKinderGardenName220">INSTITUTO PEDAGOGICO SKINNER</string>
+    <string name="opportunitiesSubCategoryKinderGardenName221">LAURO AGUIRRE ESPINOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName222">EDUCADORAS MEXICANAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName223">PRIMER CENTENARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName224">MARGARITA MAZA DE JUAREZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName225">PROF LEONEL QUIROZ VERGARA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName226">JOSE MARIA MORELOS Y PAVON</string>
+    <string name="opportunitiesSubCategoryKinderGardenName227">GABRIEL GARCIA MARQUEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName228">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName229">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName230">COLEGIO NIÑOS HEROES PLANTEL 2</string>
+    <string name="opportunitiesSubCategoryKinderGardenName231">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName232">TERESITA MATIENZO DE RAVIZE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName233">JOSE MARIA MORELOS Y PAVON</string>
+    <string name="opportunitiesSubCategoryKinderGardenName234">GREGORIO TORRES QUINTERO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName235">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName236">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName237">PASOS SOBRE LA ROCA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName238">INSTITUTO EDUCATIVO BILINGÜE AMOR POR MEXICO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName239">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName240">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName241">INSTITUTO EDUCATIVO ARCO IRIS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName242">CAMPANITA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName243">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName244">OXFORD PETROLERA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName245">INSTITUTO EDUCATIVO BILINGÜE AMOR POR MEXICO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName246">KID\'S LAND</string>
+    <string name="opportunitiesSubCategoryKinderGardenName247">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName248">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName249">COLEGIO ANGELUS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName250">INSTITUTO PEDAGOGICO FRIDA KAHLO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName251">COLEGIO LEGACY</string>
+    <string name="opportunitiesSubCategoryKinderGardenName252">INSTITUTO GALBRI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName253">Star Kids</string>
+    <string name="opportunitiesSubCategoryKinderGardenName254">LA SEMILLA DEL SABER</string>
+    <string name="opportunitiesSubCategoryKinderGardenName255">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName256">PROFESORA LOLITA CANO TREVIÑO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName257">COLEGIO SAVIESA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName258">COLEGIO GARMON</string>
+    <string name="opportunitiesSubCategoryKinderGardenName259">COLEGIO BUCARELI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName260">MAROD SCHOOL KINDERGARTEN</string>
+    <string name="opportunitiesSubCategoryKinderGardenName261">COLEGIO FOCUS KID\'S</string>
+    <string name="opportunitiesSubCategoryKinderGardenName262">INSTITUTO DE EDUCACION Y ATENCION ESPECIAL SAN FRANCISCO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName263">ENRIQUE PESTALOZZI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName264">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName265">LIC BENITO JUAREZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName266">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName267">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName268">INSTITUTO ENRIQUE DE OSSO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName269">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName270">LICEO FRANCO MEXICANO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName271">COLEGIO SIGMUND FREUD</string>
+    <string name="opportunitiesSubCategoryKinderGardenName272">HAPPY KIDS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName273">INSTITUTO EDUCATIVO BENITEZ</string>
+    <string name="opportunitiesSubCategoryKinderGardenName274">EL ARCO DE COLORES</string>
+    <string name="opportunitiesSubCategoryKinderGardenName275">INSTITUTO ESPECIALIZADO EN EDUCACION PREESCOLAR EDUCANDOS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName276">PRIMAVERA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName277">CENTRO DE ESTUDIOS BILING?E LOWELL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName278">ESTRELLITAS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName279">DIVERTIMUNDO ABC</string>
+    <string name="opportunitiesSubCategoryKinderGardenName280">ARAJAVI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName281">JARDIN DE NIÑOS REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName282">COLONIAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName283">COLEGIO PRAXIS</string>
+    <string name="opportunitiesSubCategoryKinderGardenName284">COLEGIO KIDSVILLE</string>
+    <string name="opportunitiesSubCategoryKinderGardenName285">CLUB ROTARIO REYNOSA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName286">PROFA TEODOSIA MARTINEZ DE ARMAS DE AGUILERA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName287">PROF JUAN GRANADOS RODRIGUEZ   </string>
+    <string name="opportunitiesSubCategoryKinderGardenName288">NIÑO ARTILLERO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName289">IGNACIO MANUEL ALTAMIRANO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName290">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName291">EL TESORO DEL SABER</string>
+    <string name="opportunitiesSubCategoryKinderGardenName292">MUNDO NUEVO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName293">PREESCOLAR COMUNITARIO RURAL</string>
+    <string name="opportunitiesSubCategoryKinderGardenName294">INSTITUTO PEDAGOGICO ESMERALDA</string>
+    <string name="opportunitiesSubCategoryKinderGardenName295">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO</string>
+    <string name="opportunitiesSubCategoryKinderGardenName296">TOHUI</string>
+    <string name="opportunitiesSubCategoryKinderGardenName297">INSTITUTO COLON PREESCOLAR</string>
+
+    <string name="opportunitiesSubCategoryKinderGardenClickHere1">https://www.google.com/maps/place/Centro+de+desarrollo+infantil+niños+tamaulipecos/@26.0735544,-98.3280547,13.25z/data=!4m10!1m2!2m1!1sCENTRO+DE+ASISTENCIA+INFANTIL+COMUNITARIO!3m6!1s0x866509f9df47f693:0xa590acb322405e0b!8m2!3d26.0910397!4d-98.2819797!15sCilDRU5UUk8gREUgQVNJU1RFTkNJQSBJTkZBTlRJTCBDT01VTklUQVJJT5IBDGtpbmRlcmdhcnRlbuABAA!16s%2Fg%2F11h9gswv90?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere2">https://www.google.com/maps/place/Jardin+de+Niños:+"Justo+Sierra+Mendez"/@26.0166612,-98.2633797,18z/data=!4m10!1m2!2m1!1sJUSTO+SIERRA+MENDEZ!3m6!1s0x86650f22aaa63e31:0x20228e51aee03155!8m2!3d26.0167631!4d-98.2634317!15sChNKVVNUTyBTSUVSUkEgTUVOREVakgEJcHJlc2Nob29s4AEA!16s%2Fg%2F11hdwfh4wf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere3">https://www.google.com/maps/place/Jardin+De+Niños+Mexico+Libre/@26.0361852,-98.3449407,17z/data=!4m10!1m2!2m1!1sMEXICO+LIBRE!3m6!1s0x86650507649503eb:0x496506fcc6b8f7a7!8m2!3d26.0359291!4d-98.3452339!15sCgxNRVhJQ08gTElCUkWSAQZzY2hvb2zgAQA!16s%2Fg%2F11hbgtl2md?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere4">https://www.google.com/maps/place/Jardin+de+Niños+Juan+Rulfo/@26.1893951,-98.4702141,14z/data=!4m15!1m8!3m7!1s0x8665ab9131ec76bf:0x1e43287a80810c54!2sJardin+de+Niños+Juan+Rulfo!8m2!3d26.189135!4d-98.4705787!10e5!16s%2Fg%2F11tdtknnr_!3m5!1s0x8665ab9131ec76bf:0x1e43287a80810c54!8m2!3d26.189135!4d-98.4705787!16s%2Fg%2F11tdtknnr_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere5">https://www.google.com/maps/place/Jardin+de+Niños+Arturo+Lerma+Anaya/@26.0366032,-98.3857152,16z/data=!4m15!1m8!3m7!1s0x8665047d293e58d7:0x9fda33973b2aa3f2!2sJardin+de+Niños+Arturo+Lerma+Anaya!8m2!3d26.03666!4d-98.3859747!10e5!16s%2Fg%2F11cjnb9334!3m5!1s0x8665047d293e58d7:0x9fda33973b2aa3f2!8m2!3d26.03666!4d-98.3859747!16s%2Fg%2F11cjnb9334?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere6">https://www.google.com.mx/maps/place/The+Oxfordian+School/@26.0705914,-98.3630423,17z/data=!3m1!4b1!4m6!3m5!1s0x86650431d612ecc9:0xb48e85fd54594030!8m2!3d26.0705914!4d-98.3604727!16s%2Fg%2F11bbrn1bng?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere7">https://www.google.com.mx/maps/place/Instituto+Jaime+Torres+Bodet+Reynosa,TamaulipaS/@26.0569941,-98.3849471,17z/data=!3m1!4b1!4m6!3m5!1s0x8665046d51b4ecdf:0x7e1f8e1b56f8f407!8m2!3d26.0569941!4d-98.3849471!16s%2Fg%2F11g864z733?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere8">https://www.google.com.mx/maps/place/C.+Novena+443,+Las+Fuentes,+88740+Reynosa,+Tamps./@26.0691583,-98.326263,17z/data=!3m1!4b1!4m6!3m5!1s0x866505eee6283e4d:0xac8ab8a5b43c669!8m2!3d26.0691583!4d-98.3236934!16s%2Fg%2F11j21x08fn?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere9">https://www.google.com.mx/maps/place/Instituto+Montessori+de+Reynosa+A.C./@26.0582951,-98.2969811,13.25z/data=!4m10!1m2!2m1!1sMARIA+MONTESSORI!3m6!1s0x86650f25f37ee63f:0xadc682f0e3db1470!8m2!3d26.0755009!4d-98.271838!15sChBNQVJJQSBNT05URVNTT1JJkgEJcHJlc2Nob29s4AEA!16s%2Fg%2F1tj2cf9m?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere10">https://www.google.com.mx/maps/place/Pan+American+School+of+Reynosa/@26.0306486,-98.2619191,14z/data=!4m15!1m8!3m7!1s0x86650e525d2de46b:0xe5d4a3d05eee3903!2sPan+American+School+of+Reynosa!8m2!3d26.0310938!4d-98.2616708!10e5!16s%2Fg%2F11bx9sw67s!3m5!1s0x86650e525d2de46b:0xe5d4a3d05eee3903!8m2!3d26.0310938!4d-98.2616708!16s%2Fg%2F11bx9sw67s?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere11">https://www.google.com.mx/maps/place/C.+Diecinueve+123,+Aztlán,+88740+Reynosa,+Tamps./@26.0615916,-98.3219322,16.25z/data=!4m10!1m2!2m1!1sCALLE+19+123,+COL.+AZTLAN+CP+0,+REYNOSA,+TAMAULIPAS!3m6!1s0x866505f2babcae3b:0x8f34ae60335a329!8m2!3d26.0621031!4d-98.3189037!15sCjNDQUxMRSAxOSAxMjMsIENPTC4gQVpUTEFOIENQIDAsIFJFWU5PU0EsIFRBTUFVTElQQVOSARBnZW9jb2RlZF9hZGRyZXNz4AEA!16s%2Fg%2F11c29lwf5q?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere12">https://www.google.com.mx/maps/place/Integrity+School/@26.0658802,-98.3422083,13z/data=!4m10!1m2!2m1!1sINTEGRITY+SCHOOL!3m6!1s0x86650f424dcc1eaf:0x69aacd8f94aece6d!8m2!3d26.0656613!4d-98.3421025!15sChBJTlRFR1JJVFkgU0NIT09MkgEQYmlsaW5ndWFsX3NjaG9vbOABAA!16s%2Fg%2F1wl4r0kz?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere13">https://www.google.com.mx/maps/place/Miguel+Hidalgo,+Voluntad+y+Trabajo,+Reynosa,+Tamps./@26.0226438,-98.2521654,17z/data=!4m16!1m9!3m8!1s0x86650e465d74f3cb:0x66f3555a195db77f!2sMiguel+Hidalgo,+Voluntad+y+Trabajo,+Reynosa,+Tamps.!3b1!8m2!3d26.0226594!4d-98.252263!10e5!16s%2Fg%2F1tz71t_t!3m5!1s0x86650e465d74f3cb:0x66f3555a195db77f!8m2!3d26.0226594!4d-98.252263!16s%2Fg%2F1tz71t_t?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere14">https://www.google.com.mx/maps/place/Colegio+Tamaulipas/@26.0764579,-98.2873982,18z/data=!4m6!3m5!1s0x86650f37e78ab4d3:0x5bbc856a355ba3c1!8m2!3d26.0762411!4d-98.2859766!16s%2Fg%2F11c71bzj03?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere15">https://www.google.com.mx/maps/place/San+Luis+Potosí,+88780+Reynosa,+Tamps./@26.0396041,-98.2408347,17z/data=!3m1!4b1!4m6!3m5!1s0x86650e617c83e123:0xf99f356cd0a71477!8m2!3d26.0396041!4d-98.2382651!16s%2Fg%2F1w96h4ww?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere16">https://www.google.com.mx/maps/place/Jardín+de+Niños+Profra.+Gloria+Cienfuegos+Pezino/@26.0633105,-98.2580894,18.25z/data=!4m6!3m5!1s0x86650f5c5cbeea2b:0x61b3715786ef4f4f!8m2!3d26.0631483!4d-98.2583722!16s%2Fg%2F11kqg35jrj?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere17">https://www.google.com.mx/maps/place/Colegio+Puente+De+Esperanza/@26.0400701,-98.3743369,17z/data=!3m1!4b1!4m6!3m5!1s0x8665045e865acaa1:0x451e52365f31010d!8m2!3d26.0400701!4d-98.371762!16s%2Fg%2F11c6t9jbnb?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere18">https://www.google.com.mx/maps/place/JARDIN+DE+NIÑOS+DIVERTIMUNDO/@26.047643,-98.3799086,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x8665057c14690faf:0xffc711d697495a20!2sJARDIN+DE+NIÑOS+DIVERTIMUNDO!8m2!3d26.047643!4d-98.3799086!10e5!16s%2Fg%2F11g0lhvwm7!3m5!1s0x8665057c14690faf:0xffc711d697495a20!8m2!3d26.047643!4d-98.3799086!16s%2Fg%2F11g0lhvwm7?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere19">https://www.google.com.mx/maps/place/Jardín+de+Niños+Nazarita+González/@26.0737143,-98.298071,17z/data=!4m6!3m5!1s0x86650f455d45070d:0x8b4fb03d20db04f9!8m2!3d26.0737047!4d-98.2965797!16s%2Fg%2F1tczwcd4?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere20">https://www.los-municipios.mx/escuela-francisco-zarco-anzalduas-estacion-anzalduas.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere21">https://www.google.com.mx/maps/place/Ingeniero+Marte+R.+Gómez,+Reynosa,+Tamps./@26.0038331,-98.3292831,12.21z/data=!4m6!3m5!1s0x86650fc713ca7bdb:0x5ea52b67b17c55af!8m2!3d26.0159635!4d-98.2794225!16s%2Fg%2F1tn066r4?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere22">https://www.google.com.mx/maps/place/Jardín+de+Niños+Club+de+Leones/@26.0796848,-98.3074394,17z/data=!4m10!1m2!2m1!1sclub+de+leones+preescolar!3m6!1s0x86650f569cb532a1:0x922f61610dd80021!8m2!3d26.0794439!4d-98.3054975!15sChljbHViIGRlIGxlb25lcyBwcmVlc2NvbGFyIgOIAQGSAQlwcmVzY2hvb2zgAQA!16s%2Fg%2F1vspry7t?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere23">https://www.google.com.mx/maps/place/Jardin+De+Niños+Abraham+Castellanos/@26.0070293,-98.2636453,17z/data=!3m1!4b1!4m10!1m2!2m1!1sabraham+castellanos+escuela!3m6!1s0x86650e3295ee1697:0xafdda81b213bcd2a!8m2!3d26.0070293!4d-98.2636453!15sChthYnJhaGFtIGNhc3RlbGxhbm9zIGVzY3VlbGGSAQZzY2hvb2zgAQA!16s%2Fg%2F11gf8hx9hk?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere24">https://www.google.com.mx/maps/place/Colegio+Luis+Donaldo+Colosio+Murrieta/@26.0558035,-98.2999039,17z/data=!3m1!4b1!4m10!1m2!2m1!1sLIC+LUIS+DONALDO+COLOSIO+MURRIETA!3m6!1s0x86650f65c562e431:0xf892967518ee43ed!8m2!3d26.0558035!4d-98.2999039!15sCiFMSUMgTFVJUyBET05BTERPIENPTE9TSU8gTVVSUklFVEGSAQZzY2hvb2zgAQA!16s%2Fg%2F11f3c8ktxs?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere25">https://www.google.com.mx/maps/place/Colegio+Luis+Donaldo+Colosio+Murrieta/@26.0558035,-98.2999039,17z/data=!3m1!4b1!4m10!1m2!2m1!1sLIC+LUIS+DONALDO+COLOSIO+MURRIETA!3m6!1s0x86650f65c562e431:0xf892967518ee43ed!8m2!3d26.0558035!4d-98.2999039!15sCiFMSUMgTFVJUyBET05BTERPIENPTE9TSU8gTVVSUklFVEGSAQZzY2hvb2zgAQA!16s%2Fg%2F11f3c8ktxs?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere26">https://www.google.com.mx/maps/place/Kinder+FEDERICO+FROEBEL/@26.0790616,-98.2733888,17z/data=!3m1!4b1!4m10!1m2!2m1!1sfederico+froebel+kinder!3m6!1s0x86650f2e56700ae9:0xdeac70f48ca54dc1!8m2!3d26.0790616!4d-98.2733888!15sChdmZWRlcmljbyBmcm9lYmVsIGtpbmRlcpIBBnNjaG9vbOABAA!16s%2Fg%2F11bccglztj?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere27">https://www.google.com.mx/maps/place/Jardín+De+Niños+"Juan+Escutia"/@26.0788228,-98.2979935,17z/data=!3m1!4b1!4m10!1m2!2m1!1sJUAN+ESCUTIA!3m6!1s0x86650f5193402faf:0x41a44d4c2fd6f329!8m2!3d26.0788228!4d-98.2979935!15sCgxKVUFOIEVTQ1VUSUGSAQZzY2hvb2zgAQA!16s%2Fg%2F11dxq8zhks?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere28">https://www.google.com.mx/maps/place/Jardín+de+Niños+"Independencia"/@26.011304,-98.2631893,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x86650f6e3c6e66e1:0x1c9d81a6e4fac206!2zSmFyZMOtbiBkZSBOacOxb3MgIkluZGVwZW5kZW5jaWEi!8m2!3d26.011304!4d-98.2606144!10e5!16s%2Fg%2F11s4tm_xj9!3m5!1s0x86650f6e3c6e66e1:0x1c9d81a6e4fac206!8m2!3d26.011304!4d-98.2606144!16s%2Fg%2F11s4tm_xj9?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere29">https://www.google.com.mx/maps/place/Jardin+de+Niños+Integrador+Dr,+Ruy+Perez+Tamayo/@26.0601891,-98.3456229,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x866505c81f3d2829:0xa8defdf439d1f9e!2sJardin+de+Niños+Integrador+Dr,+Ruy+Perez+Tamayo!8m2!3d26.0601891!4d-98.343048!10e5!16s%2Fg%2F11g6rndf29!3m5!1s0x866505c81f3d2829:0xa8defdf439d1f9e!8m2!3d26.0601891!4d-98.343048!16s%2Fg%2F11g6rndf29?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere30">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0202h.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere31">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0202h.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere32">https://www.google.com.mx/maps/place/Jardin+De+Niños+Club+Social+De+Damas+De+Reynosa/@26.0474923,-98.2425579,17z/data=!3m1!4b1!4m6!3m5!1s0x86650e8b9ad475df:0xb979f2659971625f!8m2!3d26.0474923!4d-98.239983!16s%2Fg%2F11fy4yr51q?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere33">https://www.google.com.mx/maps/place/COLEGIO+INTEGRAL+DECROLY/@26.0029607,-98.25564,17z/data=!3m1!4b1!4m10!1m2!2m1!1sCOLEGIA+DECROLY!3m6!1s0x86650fa0d0ed1a89:0xd1e5044dd67cb0b3!8m2!3d26.0029607!4d-98.25564!15sCg9DT0xFR0lPIERFQ1JPTFmSAQZzY2hvb2zgAQA!16s%2Fg%2F11gmb21rzp?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere34">https://www.los-municipios.mx/escuela-federico-froebel-reynosa-tamaulipas-preescolar-28djn0130f.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere35">https://www.google.com.mx/maps/place/Jardín+De+Niños+Rosario+Castellanos/@26.0466819,-98.4116412,17z/data=!3m1!4b1!4m10!1m2!2m1!1sROSARIO+CASTELLANOS+kinder!3m6!1s0x86650390dd9a6b45:0x9d7bf74ab98be889!8m2!3d26.0466819!4d-98.4116412!15sChpST1NBUklPIENBU1RFTExBTk9TIGtpbmRlcpIBDGtpbmRlcmdhcnRlbuABAA!16s%2Fg%2F11g6b07fbz?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere36">https://www.los-municipios.mx/escuela-ramon-lopez-velarde-nuevo-santana.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere37">https://www.google.com.mx/maps/place/Kinder+Alberto+Carrera+Torres/@26.0214554,-98.223972,17z/data=!3m1!4b1!4m10!1m2!2m1!1sALBERTO+CARRERA+TORRES!3m6!1s0x86650f3dead17797:0x3ed3acd00480b1d7!8m2!3d26.0214554!4d-98.223972!15sChZBTEJFUlRPIENBUlJFUkEgVE9SUkVTkgEGc2Nob29s4AEA!16s%2Fg%2F11gtxrvcqq?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere38">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0134a.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere39">https://www.google.com.mx/maps/place/JN+LEONARDO+DA+VINCI/@25.9860358,-98.2862574,16.25z/data=!4m10!1m2!2m1!1sLEONARDO+DA+VINCI+kinder!3m6!1s0x86651023bc11bfed:0xec038956f2868f6b!8m2!3d25.9852905!4d-98.2830887!15sChhMRU9OQVJETyBEQSBWSU5DSSBraW5kZXKSAQZzY2hvb2zgAQA!16s%2Fg%2F11hd1rw5_2?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere40">https://www.google.com.mx/maps/place/Jardín+de+Niños+Mundo+Nuevo/@26.073478,-98.3469363,17z/data=!3m1!4b1!4m10!1m2!2m1!1sINSTITUTO+NUEVO+MUNDO+MONTESSORI+kinder!3m6!1s0x866505d1885e4d6b:0xa50d3697fb0288f9!8m2!3d26.073478!4d-98.3469363!15sCidJTlNUSVRVVE8gTlVFVk8gTVVORE8gTU9OVEVTU09SSSBraW5kZXKSAQlwcmVzY2hvb2zgAQA!16s%2Fg%2F1tht1ws8?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere41">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-dieciseis-de-septiembre-numero-uno.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere42">https://www.los-municipios.mx/escuela-centro-educativo-arco-iris-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere43">https://www.google.com.mx/maps/place/Colegio+De+La+Cruz/@26.0834353,-98.3220151,17z/data=!3m1!4b1!4m10!1m2!2m1!1sCOLEGIO+DE+LA+CRUZ!3m6!1s0x866505e2f3af51c3:0x71fd3bb4775651a5!8m2!3d26.0834353!4d-98.3220151!15sChJDT0xFR0lPIERFIExBIENSVVqSAQZzY2hvb2zgAQA!16s%2Fg%2F11dfr1rm2m?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere44">https://www.google.com.mx/maps/place/Jardín+De+Niños+Lázaro+Cárdenas/@26.0381631,-98.2734802,17z/data=!3m1!4b1!4m10!1m2!2m1!1sLAZARO+CARDENAS+kinder!3m6!1s0x86650fa72a423ca3:0xcda89db1fd194f02!8m2!3d26.0381631!4d-98.2734802!15sChZMQVpBUk8gQ0FSREVOQVMga2luZGVykgEGc2Nob29s4AEA!16s%2Fg%2F11gm6z944q?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere45">https://www.google.com.mx/maps/place/Instituto+Piaget/@26.0612879,-98.3261011,17z/data=!3m1!4b1!4m10!1m2!2m1!1sJEAN+PIAGET!3m6!1s0x866505ef29e281b5:0x5f310a56b992889f!8m2!3d26.0612879!4d-98.3261011!15sCgtKRUFOIFBJQUdFVJIBBnNjaG9vbOABAA!16s%2Fg%2F1v6wprrf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere46">https://www.los-municipios.mx/escuela-maria-enriqueta-pereyra-de-c-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere47">https://www.google.com.mx/maps/place/Jardín+de+Niños+Club+Sertoma/@26.0815874,-98.3123188,15z/data=!4m10!1m2!2m1!1sCLUB+SERTOMA!3m6!1s0x866505fefa6f2baf:0x428799b716aa44d3!8m2!3d26.0817889!4d-98.3122026!15sCgxDTFVCIFNFUlRPTUGSAQlwcmVzY2hvb2zgAQA!16s%2Fg%2F1wyc4r_b?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere48">https://www.los-municipios.mx/escuela-jaime-torres-bodet-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere49">https://www.los-municipios.mx/escuela-francisco-gonzalez-bocanegra-reynosa-tamaulipas-preescolar-28djn1073l.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere50">https://www.google.com.mx/maps/place/Jardín+de+niños+General+Ignacio+Zaragoza/@26.1465857,-98.3504864,17z/data=!3m1!4b1!4m10!1m2!2m1!1sGRAL+IGNACIO+ZARAGOZA+kinder!3m6!1s0x86650723da61dd9d:0x9708e251a211bb98!8m2!3d26.1465857!4d-98.3479115!15sChxHUkFMIElHTkFDSU8gWkFSQUdPWkEga2luZGVykgEJcHJlc2Nob29s4AEA!16s%2Fg%2F11j7dmwdv7?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere51">https://www.google.com.mx/maps/place/José+de+Escandón+y+Helguera,+Fundadores,+88759+Reynosa,+Tamps./@26.0480178,-98.3185317,17z/data=!3m1!4b1!4m6!3m5!1s0x86650585b470000d:0x806c7a860127fe6d!8m2!3d26.0480178!4d-98.3159568!16s%2Fg%2F1td20pqt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere52">https://www.google.com.mx/maps/place/Jardín+de+niños+Mario+Moreno+Cantinflas/@25.9878301,-98.2632981,17z/data=!4m10!1m2!2m1!1sMARIO+MORENO+CANTINFLAS!3m6!1s0x866511cb940f7c2f:0x2e62f849834b37d8!8m2!3d25.9877722!4d-98.2606606!15sChdNQVJJTyBNT1JFTk8gQ0FOVElORkxBU5IBCXByZXNjaG9vbOABAA!16s%2Fg%2F11tblyrdt9?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere53">https://www.los-municipios.mx/escuela-profa-elisa-cavazos-lerma-de-flores-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere54">https://www.google.com.mx/maps/place/Bambi/@26.0406033,-98.3564411,17z/data=!3m1!4b1!4m10!1m2!2m1!1sBambi!3m6!1s0x866504546c1d3529:0x5198b5bb517c9ae4!8m2!3d26.0406033!4d-98.3564411!15sCgVCYW1iaZIBEGVkdWNhdGlvbl9jZW50ZXLgAQA!16s%2Fg%2F11gf0mk_cp?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere55">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0188e.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere56">https://www.google.com.mx/maps/place/Jardín+de+Niños+Alborada/@26.0898334,-98.2735663,12z/data=!4m15!1m8!3m7!1s0x866509789f108787:0x59e81b2df7320252!2sJardín+de+Niños+Alborada!8m2!3d26.0902398!4d-98.2733224!10e5!16s%2Fg%2F11j03bh6wl!3m5!1s0x866509789f108787:0x59e81b2df7320252!8m2!3d26.0902398!4d-98.2733224!16s%2Fg%2F11j03bh6wl?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere57">https://www.google.com.mx/maps/place/INSTITUTO+PAULO+FREIRE/@26.0907383,-98.3267441,15z/data=!4m10!1m2!2m1!1sINSTITUTO+PAULO+FREIRE!3m6!1s0x8665060ed9fe9c79:0xacf2405f8ca3c441!8m2!3d26.0912108!4d-98.3228169!15sChZJTlNUSVRVVE8gUEFVTE8gRlJFSVJFkgEGc2Nob29s4AEA!16s%2Fg%2F11l2lm39zl?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere58">https://www.google.com.mx/maps/place/COLEGIO+LIBERTAD/@26.0291309,-98.3681521,13.25z/data=!4m15!1m8!3m7!1s0x8665052acfaf2e9d:0x5d5c53668c4c4b6c!2sCOLEGIO+LIBERTAD!8m2!3d26.0287382!4d-98.3407346!10e5!16s%2Fg%2F11k9p2f6dl!3m5!1s0x8665052acfaf2e9d:0x5d5c53668c4c4b6c!8m2!3d26.0287382!4d-98.3407346!16s%2Fg%2F11k9p2f6dl?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere59">https://www.google.com.mx/maps/place/PREESCOLAR+BUCARELI/@26.002774,-98.2559962,17z/data=!4m15!1m8!3m7!1s0x86650e2f0e52df0f:0x349fdf2e8f82f001!2sPREESCOLAR+BUCARELI!8m2!3d26.0026683!4d-98.2559505!10e5!16s%2Fg%2F11g8bqqw79!3m5!1s0x86650e2f0e52df0f:0x349fdf2e8f82f001!8m2!3d26.0026683!4d-98.2559505!16s%2Fg%2F11g8bqqw79?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere60">https://www.google.com.mx/maps/place/Instituto+Cesar+Coll/@26.026607,-98.3979114,14z/data=!4m10!1m2!2m1!1sINSTITUTO+CESAR+COLL!3m6!1s0x8665037dc382dcc3:0xf3fca86e14d2ef44!8m2!3d26.0264429!4d-98.3980511!15sChRJTlNUSVRVVE8gQ0VTQVIgQ09MTJIBBnNjaG9vbOABAA!16s%2Fg%2F11bx87dkph?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere61">https://www.google.com.mx/maps/place/Colegio+Excelsior/@26.0581117,-98.3199632,3a,75y,6.92h,90t/data=!3m7!1e1!3m5!1sAV7wbmAkqyFE2AVtXpzWOg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DAV7wbmAkqyFE2AVtXpzWOg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D6.9246373%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m11!1m2!2m1!1s+CALLE+SIERRA+PICACHOS+100,+COL.+FUENTES+SECCION+LOMAS+CP+88703,+REYNOSA,+TAMAULIPAS!3m7!1s0x866505927ee28e37:0x599273cf5d80a484!8m2!3d26.0582098!4d-98.3199444!10e5!15sClNDQUxMRSBTSUVSUkEgUElDQUNIT1MgMTAwLCBDT0wuIEZVRU5URVMgU0VDQ0lPTiBMT01BUyBDUCA4ODcwMywgUkVZTk9TQSwgVEFNQVVMSVBBU5IBDnByaXZhdGVfc2Nob29s4AEA!16s%2Fg%2F1tdxwg0l?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere62">https://www.google.com.mx/maps/place/Instituto+Newman+Del+Oratorio/@26.0660184,-98.299968,17z/data=!4m15!1m8!3m7!1s0x86650f5cf0ab69e3:0x152168af75981500!2sInstituto+Newman+Del+Oratorio!8m2!3d26.0661079!4d-98.3002957!10e5!16s%2Fg%2F1tq8j_1v!3m5!1s0x86650f5cf0ab69e3:0x152168af75981500!8m2!3d26.0661079!4d-98.3002957!16s%2Fg%2F1tq8j_1v?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere63">https://www.google.com.mx/maps/place/Instituto+Piaget/@26.0612879,-98.3261011,18z/data=!4m6!3m5!1s0x866505ef29e281b5:0x5f310a56b992889f!8m2!3d26.0612879!4d-98.3261011!16s%2Fg%2F1v6wprrf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere64">https://www.google.com.mx/maps/place/Niños+heroes/@26.0440295,-98.4098511,12.76z/data=!4m7!3m6!1s0x866503b3df6a578f:0x921ae43e7cbd7a19!8m2!3d26.0121534!4d-98.4049794!15sChNuaW5vcyBoZXJvZXMga2luZGVykgEGc2Nob29s4AEA!16s%2Fg%2F11h41l817j?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere65">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0215l.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere66">https://www.los-municipios.mx/escuela-safe-kids-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere67">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-doroteo-arango.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere68">https://www.google.com.mx/maps/place/COLEGIO+"SMILEY+KIDS"/@26.0050765,-98.4793164,11z/data=!4m6!3m5!1s0x8665038edd246d4d:0xd4682b7c30ce6e73!8m2!3d26.0483056!4d-98.4032315!16s%2Fg%2F11hb99b4v6?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere69">https://www.los-municipios.mx/escuela-centro-de-desarrollo-integral-ni-os-tamaulipecos-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere70">https://www.los-municipios.mx/escuela-jose-vasconcelos-reynosa-tamaulipas-preescolar-28pjn0340p.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere71">https://www.google.com.mx/maps/@26.0631494,-98.2879201,3a,48.5y,193.32h,108.05t/data=!3m6!1e1!3m4!1srrZABgev3UNFu-_-234Jpg!2e0!7i16384!8i8192?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere72">https://www.google.com.mx/maps/place/Colegio+Exerani/@26.020952,-98.2760846,14z/data=!4m15!1m8!3m7!1s0x86650fb763ad69ef:0x9086562f1bbb9948!2sColegio+Exerani!8m2!3d26.0207552!4d-98.2760444!10e5!16s%2Fg%2F11c2j_72f5!3m5!1s0x86650fb763ad69ef:0x9086562f1bbb9948!8m2!3d26.0207552!4d-98.2760444!16s%2Fg%2F11c2j_72f5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere73">https://www.google.com.mx/maps/place/Colegio+José+Ma.+Morelos/@26.0670115,-98.3243463,15z/data=!4m15!1m8!3m7!1s0x866505eea2f60cdd:0xc2e3bc2e2ce63ad3!2sColegio+José+Ma.+Morelos!8m2!3d26.0668609!4d-98.3242768!10e5!16s%2Fg%2F11bbrgp89_!3m5!1s0x866505eea2f60cdd:0xc2e3bc2e2ce63ad3!8m2!3d26.0668609!4d-98.3242768!16s%2Fg%2F11bbrgp89_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere74">https://www.los-municipios.mx/escuela-comundi-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere75">https://www.los-municipios.mx/escuela-colegio-xipalob-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere76">https://www.los-municipios.mx/escuela-enriquecimiento-educativo-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere77">https://www.google.com.mx/maps/place/Jardin+de+Niños+Enfant+Jordi/@26.0625213,-98.3174471,16z/data=!4m10!1m2!2m1!1sColegio+infantil+jordi!3m6!1s0x866505f2db58c81d:0x4f08c826c3c00461!8m2!3d26.0625299!4d-98.3176922!15sChZDb2xlZ2lvIGluZmFudGlsIGpvcmRpkgEGc2Nob29s4AEA!16s%2Fg%2F11gdkqzd7w?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere78">https://www.google.com.mx/maps/place/Guardería+"Mi+Escuelita"/@26.0276133,-98.2309515,13z/data=!4m15!1m8!3m7!1s0x86650f01729858ff:0x33e396a8d9f2630d!2sGuardería+"Mi+Escuelita"!8m2!3d26.0274907!4d-98.2307081!10e5!16s%2Fg%2F11txjb5pys!3m5!1s0x86650f01729858ff:0x33e396a8d9f2630d!8m2!3d26.0274907!4d-98.2307081!16s%2Fg%2F11txjb5pys?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere79">https://www.google.com.mx/maps/place/Instituto+Pedagogico+San+Angel/@26.0591433,-98.3169141,15z/data=!4m15!1m8!3m7!1s0x8665058cfdbb2cb1:0xd0832c711a9b7ac9!2sInstituto+Pedagogico+San+Angel!8m2!3d26.0589905!4d-98.3169497!10e5!16s%2Fg%2F11hzxj9qrr!3m5!1s0x8665058cfdbb2cb1:0xd0832c711a9b7ac9!8m2!3d26.0589905!4d-98.3169497!16s%2Fg%2F11hzxj9qrr?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere80">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-tlaxcala-de-xicotencatl.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere81">https://www.google.com.mx/maps/place/Instituto+Minita/@26.0627523,-98.3283998,12z/data=!4m15!1m8!3m7!1s0x866505eae45e14f9:0xd2d2681a58a652e5!2sInstituto+Minita!8m2!3d26.0628365!4d-98.3284612!10e5!16s%2Fg%2F1tgnb0xx!3m5!1s0x866505eae45e14f9:0xd2d2681a58a652e5!8m2!3d26.0628365!4d-98.3284612!16s%2Fg%2F1tgnb0xx?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere82">https://www.google.com.mx/maps/place/Estancia+Infantil+Y+Kinder+My+Circus/@26.0339766,-98.3907001,17z/data=!4m15!1m8!3m7!1s0x8665047dfee99e75:0x197400c92a9a872!2sEstancia+Infantil+Y+Kinder+My+Circus!8m2!3d26.0339636!4d-98.3908634!10e5!16s%2Fg%2F11vf1wysdz!3m5!1s0x8665047dfee99e75:0x197400c92a9a872!8m2!3d26.0339636!4d-98.3908634!16s%2Fg%2F11vf1wysdz?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere83">https://www.google.com.mx/maps/place/Instituto+Especializado+En+Educacion+Preescolar+Educandos/@26.042897,-98.3451786,15z/data=!4m15!1m8!3m7!1s0x866505a9ef568465:0xca91a7eb6187116b!2sInstituto+Especializado+En+Educacion+Preescolar+Educandos!8m2!3d26.0428502!4d-98.3451174!10e5!16s%2Fg%2F11gf0qzvd_!3m5!1s0x866505a9ef568465:0xca91a7eb6187116b!8m2!3d26.0428502!4d-98.3451174!16s%2Fg%2F11gf0qzvd_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere84">https://www.google.com.mx/maps/place/TEKS+Institute%2F+Little+Genius+Kindergarten/@26.0716585,-98.343631,17z/data=!4m6!3m5!1s0x866505cfe0ee41a7:0x26affe306a73adc4!8m2!3d26.0716474!4d-98.3434052!16s%2Fg%2F11y31g9g3?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere85">https://www.google.com.mx/maps/place/Colegio+Ramansa+Plantel+2/@26.04009,-98.356071,17z/data=!4m15!1m8!3m7!1s0x8665045442c50395:0xd444bffc15619083!2sColegio+Ramansa+Plantel+2!8m2!3d26.0400166!4d-98.3561324!10e5!16s%2Fg%2F11f1krhzmw!3m5!1s0x8665045442c50395:0xd444bffc15619083!8m2!3d26.0400166!4d-98.3561324!16s%2Fg%2F11f1krhzmw?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere86">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-el-sifon.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere87">https://www.google.com.mx/maps/place/Colegio+Independencia%2FEscuela+Activa+Independencia/@26.0536063,-98.3205242,16z/data=!4m10!1m2!2m1!1scolegio+independencia!3m6!1s0x86650454d4bfca79:0xedc643402e4fe146!8m2!3d26.0535413!4d-98.3204144!15sChVjb2xlZ2lvIGluZGVwZW5kZW5jaWGSAQdjb2xsZWdl4AEA!16s%2Fg%2F1tczqssf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere88">https://www.google.com.mx/maps/place/The+Oxford+School/@26.0638184,-98.3474828,14.04z/data=!4m10!1m2!2m1!1scolegio+oxford!3m6!1s0x866505c35bfd961b:0xda37c920a9438fcc!8m2!3d26.0716154!4d-98.33597!15sCg5jb2xlZ2lvIG94Zm9yZFoQIg5jb2xlZ2lvIG94Zm9yZJIBDnByaXZhdGVfc2Nob29smgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJsZVRSTGQzRjNSUkFC4AEA!16s%2Fg%2F1tddb8g1?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere89">https://www.los-municipios.mx/escuela-colegio-toddlers-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere90">https://www.google.com.mx/maps/place/Colegio+Victoria/@26.0236465,-98.400874,17.75z/data=!4m6!3m5!1s0x8665031848826f1f:0x51a4327dc4aaf118!8m2!3d26.0239202!4d-98.4004949!16s%2Fg%2F11j1zqr7z5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere91">https://www.google.com.mx/maps/place/COLEGIO+LAS+AMERICAS/@26.0675369,-98.3200513,15z/data=!4m10!1m2!2m1!1sLas+amercias+kinder!3m6!1s0x86650587e9dd4f3d:0x67e90289ef3aa33f!8m2!3d26.0676016!4d-98.3200141!15sChNMYXMgYW1lcmljYXMga2luZGVykgEGc2Nob29s4AEA!16s%2Fg%2F11gw0g7wh9?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere92">https://www.los-municipios.mx/escuela-blanca-nieves-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere93">https://www.google.com.mx/maps/place/Colegio+Alianza/@26.0719154,-98.3315394,17.25z/data=!4m15!1m8!3m7!1s0x866505e80641bbf3:0xf28b6e47c943f037!2sColegio+Alianza!8m2!3d26.0712265!4d-98.3297243!10e5!16s%2Fg%2F11fxb4fh5l!3m5!1s0x866505e80641bbf3:0xf28b6e47c943f037!8m2!3d26.0712265!4d-98.3297243!16s%2Fg%2F11fxb4fh5l?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere94">https://www.los-municipios.mx/escuela-preescolar-comunitaria-rural-manuel-cavazos-lerma.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere95">https://www.google.com.mx/maps/place/Jardín+de+niños+Ignacio+Allende/@26.0556465,-98.3348612,12z/data=!4m10!1m2!2m1!1sIGNACIO+ALLENDE+kinder!3m6!1s0x866505be9616e819:0xcd36ea615a81ce31!8m2!3d26.0556465!4d-98.3348612!15sChZJR05BQ0lPIEFMTEVOREUga2luZGVykgEMa2luZGVyZ2FydGVu4AEA!16s%2Fg%2F11fz33hrwq?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere96">https://www.google.com.mx/maps/place/Jardin+Alberto+Carrera+Torres/@26.0452298,-98.3863805,15.01z/data=!4m10!1m2!2m1!1sALBERTO+CARRERA+TORRES+kinder%5C!3m6!1s0x86650442b159b391:0x8690e875f95476a0!8m2!3d26.0462116!4d-98.37394!15sCh5BTEJFUlRPIENBUlJFUkEgVE9SUkVTIGtpbmRlclySAQZzY2hvb2zgAQA!16s%2Fg%2F11dxm8gvg4?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere97">https://www.google.com.mx/maps/place/Jardin+De+Niños+Beatriz+Floresvillar/@26.0570927,-98.2890508,14z/data=!4m6!3m5!1s0x86650f6c823159c3:0x78bb3e589a6dd5f0!8m2!3d26.0570437!4d-98.2892811!16s%2Fg%2F11f3wk1r9n?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere98">https://www.google.com.mx/maps/place/Jardín+de+Niños+Estefania+Castañeda/@26.0848496,-98.3087028,15z/data=!4m10!1m2!2m1!1sESTEFANIA+CASTAÑEDA+kinder!3m6!1s0x86650f55571ae2e5:0xc7aad60aeb302385!8m2!3d26.0848371!4d-98.3086227!15sChtFU1RFRkFOSUEgQ0FTVEHDkUVEQSBraW5kZXKSAQlwcmVzY2hvb2zgAQA!16s%2Fg%2F1thn5ypq?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere99">https://www.google.com.mx/maps/place/Jardín+de+niños+José+Ignacio+Ycaza+Aguilar/@26.0678854,-98.3280091,15z/data=!4m6!3m5!1s0x8665050bee625b11:0x5fa4932a794f57d2!8m2!3d26.0678906!4d-98.3281637!16s%2Fg%2F11h2blpvh5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere100">https://www.google.com.mx/maps/place/Jardín+de+Niños+Enrique+Cardenas+Gonzalez/@26.0830555,-98.3091241,15z/data=!4m10!1m2!2m1!1sENRIQUE+CARDENAS+kinder!3m6!1s0x866505ff8746e7b9:0x34712086296bb92!8m2!3d26.0829011!4d-98.3089166!15sChdFTlJJUVVFIENBUkRFTkFTIGtpbmRlcpIBBnNjaG9vbOABAA!16s%2Fg%2F11g6qzxbvf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere101">https://www.google.com.mx/maps/place/Colegio+BETHSALOM+A.C./@26.0677311,-98.2872101,17z/data=!4m15!1m8!3m7!1s0x86650f44ae1f5d47:0x3264cc0219e4e54b!2sColegio+BETHSALOM+A.C.!8m2!3d26.0678162!4d-98.2872795!10e5!16s%2Fg%2F11cs5skffc!3m5!1s0x86650f44ae1f5d47:0x3264cc0219e4e54b!8m2!3d26.0678162!4d-98.2872795!16s%2Fg%2F11cs5skffc?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere102">https://www.google.com.mx/maps/place/Río+Florida+505,+Las+Fuentes+Secc+Lomas,+88703+Reynosa,+Tamps./@26.0554085,-98.321329,15z/data=!4m16!1m9!3m8!1s0x866505918a0ea983:0x1f1b30920fa4abd0!2sRío+Florida+505,+Las+Fuentes+Secc+Lomas,+88703+Reynosa,+Tamps.!3b1!8m2!3d26.0553179!4d-98.3214096!10e5!16s%2Fg%2F11cspry1xv!3m5!1s0x866505918a0ea983:0x1f1b30920fa4abd0!8m2!3d26.0553179!4d-98.3214096!16s%2Fg%2F11cspry1xv?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere103">https://www.los-municipios.mx/escuela-bicultural-de-reynosa-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere104">https://www.google.com.mx/maps/place/Instituto+Educativo+Hebron/@26.0189405,-98.2427983,13z/data=!4m10!1m2!2m1!1sINSTITUTO+EDUCATIVO+HEBRON!3m6!1s0x86650e6aaa7f27c9:0x1a486c64a50786d9!8m2!3d26.0189815!4d-98.2432177!15sChpJTlNUSVRVVE8gRURVQ0FUSVZPIEhFQlJPTpIBF2VkdWNhdGlvbmFsX2luc3RpdHV0aW9u4AEA!16s%2Fg%2F11bv1clgq0?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere105">https://www.google.com.mx/maps/place/Colegio+Mexicano/@26.0781188,-98.2709804,17z/data=!4m15!1m8!3m7!1s0x86650f25c3de3add:0x69fbcaae9f63e95d!2sColegio+Mexicano!8m2!3d26.0780716!4d-98.2710569!10e5!16s%2Fg%2F1tfmcntg!3m5!1s0x86650f25c3de3add:0x69fbcaae9f63e95d!8m2!3d26.0780716!4d-98.2710569!16s%2Fg%2F1tfmcntg?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere106">https://www.google.com.mx/maps/place/Instituto+Educativo+Tamaulipas/@26.0573774,-98.3427066,17z/data=!4m6!3m5!1s0x866505b79c646185:0xdf4c0576a661afe4!8m2!3d26.057395!4d-98.3426637!16s%2Fg%2F1q62bwkg1?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere107">https://www.google.com.mx/maps/place/Colegio+Jazmar/@26.0840124,-98.372705,14z/data=!4m10!1m2!2m1!1sCOLEGIO+JAZMAR!3m6!1s0x8665069fa565becd:0xb4af4cddc9e7645f!8m2!3d26.0840124!4d-98.3725698!15sCg5DT0xFR0lPIEpBWk1BUpIBDnByaXZhdGVfc2Nob29s4AEA!16s%2Fg%2F11dxdxwwvt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere108">https://www.google.com.mx/maps/place/JARDIN+DE+NIÑOS+FORESTLAND/@26.0616522,-98.3085146,17z/data=!4m15!1m8!3m7!1s0x86650faaeb09dfdd:0x7c2473503dda42ec!2sJARDIN+DE+NIÑOS+FORESTLAND!8m2!3d26.0615286!4d-98.3086268!10e5!16s%2Fg%2F11j1sn4zdh!3m5!1s0x86650faaeb09dfdd:0x7c2473503dda42ec!8m2!3d26.0615286!4d-98.3086268!16s%2Fg%2F11j1sn4zdh?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere109">https://www.google.com.mx/maps/place/Instituto+GALBRI/@26.0274247,-98.3441657,13z/data=!4m6!3m5!1s0x8665056518993b9d:0xca3d36e76cdf5d2f!8m2!3d26.0274669!4d-98.3439023!16s%2Fg%2F11gxmcnqk9?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere110">https://www.los-municipios.mx/escuela-instituto-de-educacion-inicial-iei-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere111">https://www.google.com.mx/maps/place/Instituto+Montessori+de+Reynosa+A.C./@26.0562224,-98.3185517,12.04z/data=!4m15!1m8!3m7!1s0x86650f25f37ee63f:0xadc682f0e3db1470!2sInstituto+Montessori+de+Reynosa+A.C.!8m2!3d26.0755009!4d-98.271838!10e5!16s%2Fg%2F1tj2cf9m!3m5!1s0x86650f25f37ee63f:0xadc682f0e3db1470!8m2!3d26.0755009!4d-98.271838!16s%2Fg%2F1tj2cf9m?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere112">https://www.google.com.mx/maps/place/Colegio+Insurgentes/@26.0044341,-98.2445039,18.75z/data=!4m6!3m5!1s0x86650e228f86eae9:0xfcb19172cbf868c6!8m2!3d26.0046399!4d-98.2438741!16s%2Fg%2F11hb5pvb11?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere113">https://www.google.com.mx/maps/place/Colegio+Larousse/@26.063328,-98.3074611,16z/data=!4m15!1m8!3m7!1s0x86650f6013dee785:0x8f19403223601170!2sColegio+Larousse!8m2!3d26.0633458!4d-98.3076072!10e5!16s%2Fg%2F1wf228px!3m5!1s0x86650f6013dee785:0x8f19403223601170!8m2!3d26.0633458!4d-98.3076072!16s%2Fg%2F1wf228px?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere114">https://www.google.com.mx/maps/place/COLEGIO+IGNACIO+ZARAGOZA+DE+REYNOSA/@26.0728288,-98.2905394,14z/data=!4m10!1m2!2m1!1sIGNACIO+ZARAGOZA!3m6!1s0x86650f4644b90133:0x168c7d3f5b36c0ce!8m2!3d26.0729116!4d-98.290633!15sChBJR05BQ0lPIFpBUkFHT1pBkgEGc2Nob29s4AEA!16s%2Fg%2F11bzx3h37h?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere115">https://www.google.com.mx/maps/place/Colegio+Reforma/@26.0753375,-98.2924949,19z/data=!4m6!3m5!1s0x86650f4f53524569:0x28d49b4c8dc7e445!8m2!3d26.0752479!4d-98.2925916!16s%2Fg%2F1tvq4kd3?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere116">https://www.los-municipios.mx/escuela-luis-donaldo-colosio-murrieta-reynosa-tamaulipas-preescolar-28pjn0406h.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere117">https://www.google.com.mx/maps/place/CAIC+Lucio+Blanco/@26.0169227,-98.2540136,20z/data=!4m6!3m5!1s0x86650e3818759809:0xaf235e6b8243c0d!8m2!3d26.0168089!4d-98.2536677!16s%2Fg%2F11btvbb1ks?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere118">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0197m.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere119">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-reynosa-tamaulipas-preescolar-28kjn0408k.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere120">https://www.google.com.mx/maps/place/COLEGIO+RAMANSA/@26.054536,-98.3494271,13z/data=!4m10!1m2!2m1!1sCOLEGIO+RAMANSA!3m6!1s0x866505ce85f70573:0xeecde94cac31f656!8m2!3d26.0546952!4d-98.3495321!15sCg9DT0xFR0lPIFJBTUFOU0GSAQZzY2hvb2zgAQA!16s%2Fg%2F11fjw0zt3n?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere121">https://www.google.com.mx/maps/place/ESTANCIA+INFANTIL+BABY+SCHOOL/@26.0406818,-98.3591635,17z/data=!4m10!1m2!2m1!1sCOLEGIO+BABY+SCHOOL!3m6!1s0x86650453e6d8c879:0xbeadd71b35a1c751!8m2!3d26.0427902!4d-98.3577927!15sChNDT0xFR0lPIEJBQlkgU0NIT09MkgEGc2Nob29s4AEA!16s%2Fg%2F11sthkm_1v?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere122">https://www.google.com.mx/maps/place/Colegio+Particular+Dumont/@26.0383923,-98.3594449,17z/data=!4m6!3m5!1s0x866504566732ae0b:0xbecfa857d6394bec!8m2!3d26.038153!4d-98.3594452!16s%2Fg%2F1tdsk69v?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere123">https://www.los-municipios.mx/escuela-instituto-ni-os-felices-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere124">https://www.google.com.mx/maps/place/C.+Rosas+812,+Lomas+del+Real+de+Jarachina+Nte.,+88730+Reynosa,+Tamps./@26.0555141,-98.3463881,17z/data=!4m5!3m4!1s0x866505b6ecfdc41d:0x96531275a5b6679e!8m2!3d26.0558922!4d-98.3457578?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere125">https://www.google.com.mx/maps/place/Manitas+Mágicas/@26.0412267,-98.3566797,17z/data=!3m1!4b1!4m6!3m5!1s0x8665056d1389fc21:0x7140aacc698a5411!8m2!3d26.0412267!4d-98.3541101!16s%2Fg%2F11hzby8t7l?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere126">https://www.los-municipios.mx/escuela-jose-vasconcelos-reynosa-tamaulipas-preescolar-28djn0501g.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere127">https://www.los-municipios.mx/escuela-mexico-reynosa-tamaulipas-preescolar.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere128">https://www.los-municipios.mx/escuela-gabriela-mistral-reynosa-tamaulipas-preescolar-28djn0330d.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere129">https://www.google.com.mx/maps/place/Jardín+de+Niños+Jaime+Nuno/@26.0355713,-98.2922885,20.25z/data=!4m6!3m5!1s0x86650e0f2254a905:0x39491d1df5c0dc30!8m2!3d26.0354191!4d-98.2920685!16s%2Fg%2F1tdz9vq3?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere130">https://www.google.com.mx/maps/place/Jardín+de+Niños+Jaime+Nuno/@26.0351656,-98.2920844,19z/data=!4m6!3m5!1s0x86650e0f2254a905:0x39491d1df5c0dc30!8m2!3d26.0354191!4d-98.2920685!16s%2Fg%2F1tdz9vq3?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere131">https://www.google.com.mx/maps/place/Jardin+De+Niños+Elizabeth+Galván+De+Lozano/@26.0902515,-98.3289428,17z/data=!4m15!1m8!3m7!1s0x8665060c99b980a7:0x5fe674da0bca7aab!2sJardin+De+Niños+Elizabeth+Galván+De+Lozano!8m2!3d26.0907626!4d-98.3291497!10e5!16s%2Fg%2F11g6yj9rr0!3m5!1s0x8665060c99b980a7:0x5fe674da0bca7aab!8m2!3d26.0907626!4d-98.3291497!16s%2Fg%2F11g6yj9rr0?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere132">https://www.google.com.mx/maps/place/JOSE+MARÍA+GARZA+ZAMORA/@26.0384868,-98.3535403,17z/data=!4m15!1m8!3m7!1s0x8665045518779ecd:0x61e1b70465361297!2sJOSE+MARÍA+GARZA+ZAMORA!8m2!3d26.0383917!4d-98.3536009!10e5!16s%2Fg%2F11bbrmynzt!3m5!1s0x8665045518779ecd:0x61e1b70465361297!8m2!3d26.0383917!4d-98.3536009!16s%2Fg%2F11bbrmynzt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere133">https://www.google.com.mx/maps/place/Jardín+de+Niños+Juan+Cervantes+Villalvaso/@25.5605579,-98.2433514,17z/data=!3m1!4b1!4m6!3m5!1s0x8665312519b5f42d:0xdc514af9448b3bfb!8m2!3d25.5605579!4d-98.2407818!16s%2Fg%2F11gl004m3y?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere134">https://www.google.com.mx/maps/place/Jardín+de+Niños+María+Concepción+Mendiola+de+Hernández/@26.0412433,-98.3602889,16z/data=!4m6!3m5!1s0x86650456d278d919:0x203eaf46a41e402f!8m2!3d26.0409281!4d-98.3600858!16s%2Fg%2F1yh7_rbm_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere135">https://www.los-municipios.mx/escuela-gabriela-mistral-reynosa-tamaulipas-preescolar-28djn0330d.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere136">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0235z.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere137">https://www.los-municipios.mx/escuela-francisco-javier-mina-reynosa-tamaulipas-preescolar-28djn0988y.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere138">https://www.google.com.mx/maps/place/Jardín+de+Niños+"Diego+Rivera"/@26.0341868,-98.2322019,13z/data=!4m10!1m2!2m1!1sDIEGO+RIVERA+kinder!3m6!1s0x86650fbfc03684f1:0x1941ba2d0eddad13!8m2!3d26.0341644!4d-98.2320761!15sChNESUVHTyBSSVZFUkEga2luZGVykgEJcHJlc2Nob29s4AEA!16s%2Fg%2F11g0455g8g?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere139">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0186g.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere140">https://www.los-municipios.mx/escuela-adolfo-lopez-mateos-rodolfo-martin-rocha-martin-rocha.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere141">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0184i.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere142">https://www.los-municipios.mx/escuela-campanita-plantel-num-2-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere143">https://www.google.com.mx/maps/place/Preescolar+Pequeños+Gigantes/@26.0638333,-98.3791242,17z/data=!4m6!3m5!1s0x86650416a70f9e99:0x8b428754beba76f9!8m2!3d26.0639081!4d-98.3787896!16s%2Fg%2F11b6hym79h?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere144">https://www.google.com.mx/maps/place/Jardín+de+Niños+Licenciado+Adolfo+López+Mateos/@26.0964177,-98.3205324,16.25z/data=!4m10!1m2!2m1!1sLIC+ADOLFO+LOPEZ+MATEOS!3m6!1s0x8665061a8a2bb343:0x519b8bc3e4a01444!8m2!3d26.0993942!4d-98.3186826!15sChdMSUMgQURPTEZPIExPUEVaIE1BVEVPU5IBCXByZXNjaG9vbOABAA!16s%2Fg%2F1tk68374?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere145">https://www.los-municipios.mx/escuela-lic-adolfo-lopez-mateos-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere146">https://www.google.com.mx/maps/place/Jardín+de+Niños+Capitán+Carlos+Cantú/@26.0390683,-98.2900134,19z/data=!4m6!3m5!1s0x86650f9e1c87de5b:0x72ec679852cf10b9!8m2!3d26.0393565!4d-98.2900988!16s%2Fg%2F1tcxk5xf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere147">https://www.google.com.mx/maps/place/Violetas,+Simón+Rodríguez,+88670+Reynosa,+Tamps./@26.0792645,-98.2995543,17.75z/data=!4m6!3m5!1s0x86650f4e1fcab217:0x67cba6aaba37eceb!8m2!3d26.0790123!4d-98.2988448!16s%2Fg%2F1tdcgt2_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere148">https://www.google.com.mx/maps/place/Kinder+Rosaura+Zapata/@26.0803813,-98.3131327,17z/data=!3m1!4b1!4m10!1m2!2m1!1sROSAURA+ZAPATA!3m6!1s0x866505febf4ed89d:0xd3b8b352dd132a78!8m2!3d26.0803813!4d-98.3131327!15sCg5ST1NBVVJBIFpBUEFUQZIBGnZvY2F0aW9uYWxfdHJhaW5pbmdfc2Nob29s4AEA!16s%2Fg%2F11g698y0ty?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere149">https://www.google.com.mx/maps/place/Colegio+Lev+Vygotsky/@26.0756315,-98.3618317,16z/data=!4m6!3m5!1s0x8665058add1dfced:0x8d748b063e65e551!8m2!3d26.0755335!4d-98.3617522!16s%2Fg%2F11f68k6rkr?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere150">https://www.los-municipios.mx/escuela-amalia-gonzalez-caballero-de-castillo-ledon-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere151">https://www.google.com.mx/maps/place/Jardin+de+Niños+Guadalupe+Victoria/@26.0647019,-98.30371,18.75z/data=!4m6!3m5!1s0x86650ffddb9f39b7:0x1ebe55cf9e107f01!8m2!3d26.0648017!4d-98.3033908!16s%2Fg%2F11lh52zkdm?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere152">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0158k.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere153">https://www.google.com.mx/maps/place/Jardín+de+niños+"BEATRIZ+ORDOÑEZ+ACUÑA"/@26.0504979,-98.2994732,17z/data=!3m1!4b1!4m6!3m5!1s0x86650fa055d539cf:0x2189e17f15ff3167!8m2!3d26.0504979!4d-98.2969036!16s%2Fg%2F11k52vvw1f?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere154">https://www.los-municipios.mx/escuela-jardin-de-ninos-reynosa-tamaulipas-preescolar-28djn1078g.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere155">https://www.google.com.mx/maps/place/Jardín+de+Niños+Rodolfo+Torre+Cantú/@26.0065923,-98.2481947,17z/data=!4m10!1m2!2m1!1sRODOLFO+TORRE+CANTU!3m6!1s0x86650f6efbf2bee5:0x9cf22bb517552fe6!8m2!3d26.0064626!4d-98.2480393!15sChNST0RPTEZPIFRPUlJFIENBTlRVkgEMa2luZGVyZ2FydGVu4AEA!16s%2Fg%2F11rgb7blcg?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere156">https://www.google.com.mx/maps/place/Jardín+de+Niños+Juan+B.+Tijerina+Villarreal/@26.0605768,-98.3816575,19.25z/data=!4m6!3m5!1s0x8665050d4e38085d:0xe0295de48e5d0849!8m2!3d26.0604022!4d-98.3812615!16s%2Fg%2F11h9j65jjn?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere157">https://www.google.com.mx/maps/place/Jn+Francisco+Javier+clavijero/@26.093937,-98.2909636,17z/data=!3m1!4b1!4m6!3m5!1s0x866509da63e3485f:0x34c3eb98a5e4c5c3!8m2!3d26.093937!4d-98.288394!16s%2Fg%2F11trgyjh_w?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere158">https://www.google.com.mx/maps/place/Jardin+de+Niños+Tamaulipas/@26.0346404,-98.391881,19z/data=!3m1!4b1!4m6!3m5!1s0x8665047e1108f9f1:0x2e7d0543b4496e67!8m2!3d26.0346404!4d-98.391881!16s%2Fg%2F11cjn9zhrr?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere159">https://www.los-municipios.mx/escuela-bicentenario-de-la-independencia-de-mexico-reynosa-tamaulipas-preescolar-28djn1017t.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere160">https://www.google.com.mx/maps/place/Colegio+Americano+De+Reynosa/@26.118732,-98.3380278,19z/data=!3m1!4b1!4m6!3m5!1s0x86650645f1640077:0x86228ebd480d7bc2!8m2!3d26.118732!4d-98.3373854!16s%2Fg%2F11c2ls318l?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere161">https://www.google.com.mx/maps/place/Colegio+Americano+De+Reynosa/@26.0830296,-98.3194814,14.71z/data=!4m6!3m5!1s0x86650645f1640077:0x86228ebd480d7bc2!8m2!3d26.118732!4d-98.3373854!16s%2Fg%2F11c2ls318l?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere162">https://www.los-municipios.mx/escuela-francisco-villa-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere163">https://www.google.com.mx/maps/place/Colegio+españa/@26.0338181,-98.3989884,18z/data=!4m14!1m7!3m6!1s0x866503802db0dd65:0x232d3d4ba022964d!2sCalle+Sta.+Engracia+173,+88735+Reynosa,+Tamps.!3b1!8m2!3d26.0337153!4d-98.3989177!3m5!1s0x8665037a2b5ef113:0x57d0c5cdc64b5c81!8m2!3d26.0336133!4d-98.399022!16s%2Fg%2F11v66h2mwq?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere164">https://www.google.com.mx/maps/place/Instituto+Albert+Einstein/@26.0063716,-98.2658686,19z/data=!3m1!4b1!4m6!3m5!1s0x86650fcd5aebfadf:0xc7c03443ce28ebf0!8m2!3d26.0063716!4d-98.2658686!16s%2Fg%2F11f3c7rzh7?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere165">https://www.google.com.mx/maps/place/Colegio+Mi+Mundo+Magico/@26.013347,-98.279272,15z/data=!4m6!3m5!1s0x86650f1402ef6fe3:0x88c7670753f868b7!8m2!3d26.012826!4d-98.2791046!16s%2Fg%2F11h1hqfpk8?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere166">https://www.google.com.mx/maps/place/Colegio+Victoria+y+Guardería+Bambi/@26.0682994,-98.3102268,17z/data=!4m10!1m2!2m1!1sColegio+victoria!3m6!1s0x866505e2afdce929:0xa6bd8e27924e1a43!8m2!3d26.0683439!4d-98.3103217!15sChBDb2xlZ2lvIHZpY3RvcmlhkgEGc2Nob29s4AEA!16s%2Fg%2F11gt_vgd3y?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere167">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0220x.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere168">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0221w.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere169">https://www.los-municipios.mx/escuela-eleazar-guerra-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere170">https://www.los-municipios.mx/escuela-instituto-lombardo-reynosa-tamaulipas-preescolar-28pjn0669r.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere171">https://www.google.com.mx/maps/place/Jardín+de+niños+Kids+Land/@26.0784538,-98.3643462,19z/data=!4m15!1m8!3m7!1s0x866504262f44b917:0xcfca2ca24b3244d4!2sEscuela+primaria+Alicia+Lerma+Rodríguez!8m2!3d26.078615!4d-98.3640246!10e5!16s%2Fg%2F11bc8x3m54!3m5!1s0x866504262f9fa957:0x99935969c5928bb6!8m2!3d26.078469!4d-98.3640669!16s%2Fg%2F11g6pygj9h?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere172">https://www.google.com.mx/maps/place/Jardín+de+Niños+"María+Lavalle+Urbina"/@26.0369974,-98.3481936,16z/data=!4m6!3m5!1s0x8665050a40307751:0x31c5b6b564314c9!8m2!3d26.0367418!4d-98.3479856!16s%2Fg%2F11j4njrxdt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere173">https://www.google.com.mx/maps/place/Josefa+Ortiz+D+Dominguez/@26.0244643,-98.2698161,18z/data=!4m6!3m5!1s0x86650fb3eefc2a15:0x2e39b0f8d142fa21!8m2!3d26.0242447!4d-98.2695145!16s%2Fg%2F11c0p_21yt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere174">https://www.google.com.mx/maps/place/Jardín+de+Niños+Nazarita+González/@26.0737462,-98.2968775,16z/data=!4m10!1m2!2m1!1sJARDIN+DE+NIÑOS!3m6!1s0x86650f455d45070d:0x8b4fb03d20db04f9!8m2!3d26.0737047!4d-98.2965797!15sChBKQVJESU4gREUgTknDkU9TkgEJcHJlc2Nob29s4AEA!16s%2Fg%2F1tczwcd4?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere175">https://www.google.com.mx/maps/place/Jardín+de+Niños+Federal+Víctor+Garcia+Hoz/@26.0846593,-98.3783493,17z/data=!3m1!4b1!4m6!3m5!1s0x8665078c7b9f5f69:0x87f6e1aff419d4eb!8m2!3d26.0846593!4d-98.3757797!16s%2Fg%2F11kp4n9_yd?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere176">https://www.google.com.mx/maps/place/Jardín+de+Niños+Josefina+C.+de+Tarrega/@26.0795354,-98.2923509,15z/data=!4m6!3m5!1s0x86650f4eb2433055:0x712d024c354c4d1!8m2!3d26.0795819!4d-98.2926565!16s%2Fg%2F1v96m6pc?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere177">https://www.google.com.mx/maps/place/Anita+de+andar+de+alba/@25.8885895,-97.507503,16z/data=!4m6!3m5!1s0x866f953ef1cfb6c3:0x63433e5538b20d69!8m2!3d25.8885625!4d-97.5075879!16s%2Fg%2F11jdp_j9ls?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere178">https://www.google.com.mx/maps/place/Jardín+de+niños+José+Ignacio+Ycaza+Aguilar/@26.0678947,-98.3280304,14z/data=!4m10!1m2!2m1!1sIGNACIO+YCAZA+AGUILAR!3m6!1s0x8665050bee625b11:0x5fa4932a794f57d2!8m2!3d26.0678906!4d-98.3281637!15sChVJR05BQ0lPIFlDQVpBIEFHVUlMQVKSAQlwcmVzY2hvb2zgAQA!16s%2Fg%2F11h2blpvh5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere179">https://www.google.com.mx/maps/place/Jardín+de+Niños+Reynosa/@26.0423412,-98.3088572,17z/data=!4m9!1m2!2m1!1sCALLE+NI%3FOS+HEROES+102,+COL.+JACINTO+LOPEZ+I+CP+88756,+REYNOSA,+TAMAULIPAS!3m5!1s0x86650f7a07f81497:0x5de462763c576229!8m2!3d26.0426536!4d-98.308832!16s%2Fg%2F11fqqgfv0y?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere180">https://www.google.com.mx/maps/place/Instituto+de+Desarrollo+Integral+Ssyeldmar/@26.0287931,-98.2873763,19.21z/data=!4m6!3m5!1s0x8679536ae2954035:0x3b4a119d6cb916f8!8m2!3d26.0286673!4d-98.2862158!16s%2Fg%2F1tgwbbdd?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere181">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0160z.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere182">https://www.los-municipios.mx/escuela-instituto-pedagogico-yascor-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere183">https://www.los-municipios.mx/escuela-instituto-pedagogico-yascor-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere184">https://www.los-municipios.mx/escuela-instituto-pedagogico-yascor-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere185">https://www.google.com.mx/maps/place/Instituto+Auroca/@26.0658926,-98.3278904,17z/data=!4m6!3m5!1s0x866505ebc83a3877:0x35817fb92c2f4398!8m2!3d26.0657574!4d-98.3279651!16s%2Fg%2F11c5zhky17?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere186">https://www.los-municipios.mx/escuela-instituto-educativo-pavlov-reynosa-tamaulipas-preescolar-28pjn0597o.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere187">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-reynosa-tamaulipas-preescolar-28kjn1308s.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere188">https://www.google.com.mx/maps/place/COLEGIO+NEBRASKA/@26.0838386,-98.3005858,16.75z/data=!4m6!3m5!1s0x86650f5308ef2d77:0xf46ce423339b8a34!8m2!3d26.0838814!4d-98.2999693!16s%2Fg%2F1tjs5ccq?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere189">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-reynosa-tamaulipas-preescolar-28kjn1201z.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere190">https://www.los-municipios.mx/escuela-octavio-paz-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere191">https://www.los-municipios.mx/escuela-octavio-paz-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere192">https://www.los-municipios.mx/escuela-centro-educativo-bien-estar-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere193">https://www.google.com.mx/maps/place/Jardín+de+Niños+Arquimides+Caballero+Caballero/@26.0732016,-98.3430627,20.75z/data=!4m10!1m2!2m1!1sARQUIMEDES+CABALLERO+CABALLERO!3m6!1s0x866505d00caf85ef:0xad437da4f556d585!8m2!3d26.0731149!4d-98.3430455!15sCh5BUlFVSU1FREVTIENBQkFMTEVSTyBDQUJBTExFUk-SAQlwcmVzY2hvb2zgAQA!16s%2Fg%2F1vc6dv9d?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere194">https://www.google.com.mx/maps/search/ARQUIMEDES+CABALLERO+CABALLERO/@26.0395678,-98.3769198,12z/data=!3m1!4b1?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere195">https://www.google.com.mx/maps/place/Jardín+de+Niños+Fidel+Velázquez/@26.0714529,-98.2974487,20z/data=!4m10!1m2!2m1!1sFIDEL+VELAZQUEZ+SANCHEZ!3m6!1s0x86650f44d7aa0a53:0x8d565395c99299d5!8m2!3d26.0712447!4d-98.2973606!15sChdGSURFTCBWRUxBWlFVRVogU0FOQ0hFWpIBCXByZXNjaG9vbOABAA!16s%2Fg%2F1tj7wtf_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere196">https://www.google.com.mx/maps/place/Jardín+de+Niños+Emma+Vázquez+García/@26.0538236,-98.3598571,15.5z/data=!4m10!1m2!2m1!1sEMMA+VAZQUEZ+GARCIA!3m6!1s0x866504557b4f0e29:0xa2dc7a9b7f7f0269!8m2!3d26.0528858!4d-98.3536304!15sChNFTU1BIFZBWlFVRVogR0FSQ0lBkgEJcHJlc2Nob29s4AEA!16s%2Fg%2F1tfbj4gm?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere197">https://www.google.com.mx/maps/place/Jardín+de+Niños+Enrique+Laubscher/@25.9945699,-98.2675675,11z/data=!4m10!1m2!2m1!1sENRIQUE+LAUBSCHER!3m6!1s0x86650f398ba2ab0d:0x50bc3aca68daf0c!8m2!3d25.9941543!4d-98.2677178!15sChFFTlJJUVVFIExBVUJTQ0hFUpIBBnNjaG9vbOABAA!16s%2Fg%2F11f6y74x28?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere198">https://www.google.com.mx/maps/place/Jardin+De+Niños+"Gabilondo+Soler"/@26.1241857,-98.446865,10.25z/data=!4m10!1m2!2m1!1sFRANCISCO+GABILONDO+SOLER!3m6!1s0x86650596d781b331:0xd66365d3b1b46103!8m2!3d26.0521889!4d-98.325921!15sChlGUkFOQ0lTQ08gR0FCSUxPTkRPIFNPTEVSkgEJcHJlc2Nob29s4AEA!16s%2Fg%2F11c1qsdp58?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere199">https://www.google.com.mx/maps/place/preescolar+Chapultepec/@26.094006,-98.2880988,12z/data=!4m6!3m5!1s0x866508b6401aaf23:0x249efbd9d70720cd!8m2!3d26.093966!4d-98.288361!16s%2Fg%2F11f2b02s0g?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere200">https://www.los-municipios.mx/escuela-leonardo-g-de-la-cruz-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere201">https://www.los-municipios.mx/escuela-ninos-heroes-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere202">https://www.google.com.mx/maps/place/Colegio+Refugio+Internacional/@26.0558451,-98.4110876,17z/data=!4m15!1m8!3m7!1s0x866503cce7512621:0x1773833f2ced0cdd!2sColegio+Refugio+Internacional!8m2!3d26.0559145!4d-98.4109307!10e5!16s%2Fg%2F11lgsm7mp8!3m5!1s0x866503cce7512621:0x1773833f2ced0cdd!8m2!3d26.0559145!4d-98.4109307!16s%2Fg%2F11lgsm7mp8?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere203">https://www.google.com.mx/maps/place/Colegio+Lilis+Planet/@26.0615948,-98.3195948,17z/data=!4m6!3m5!1s0x866505f2ab9808ed:0x486e95d0bf8efb50!8m2!3d26.0614835!4d-98.3196024!16s%2Fg%2F11g6h_bsq7?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere204">https://www.google.com.mx/maps/place/INSTITUTO+BUGAMBILIAS/@26.0312721,-98.4011973,17z/data=!3m1!4b1!4m6!3m5!1s0x866503e416168941:0xba5d9e869e0b22a3!8m2!3d26.0312721!4d-98.3986277!16s%2Fg%2F11fmrf1vwc?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere205">https://www.google.com.mx/maps/place/Colegio+Alfa+y+Omega/@26.0885959,-98.2970221,18z/data=!4m9!1m2!2m1!1sCALLE+BERNABE+SOSA+608,+COL.+RIBERE%3FA+CP+88620,+REYNOSA,+TAMAULIPAS!3m5!1s0x866508b28ecf3543:0x2c942704833de6ed!8m2!3d26.0886316!4d-98.297002!16s%2Fg%2F11hbl9h_8x?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere206">https://www.google.com.mx/maps/place/Jardín+de+Niños+Demetria+Zúñiga+Guevara/@26.0216602,-98.2522216,16z/data=!4m6!3m5!1s0x86650e464e448701:0x4495bcb3601c033c!8m2!3d26.0215741!4d-98.2519934!16s%2Fg%2F11g68y_lxg?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere207">https://www.los-municipios.mx/escuela-miguel-hidalgo-y-costilla-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere208">https://www.google.com.mx/maps/place/ESCUELA+JARDIN+DE+NIÑOS+HAESKKKA/@26.073679,-98.3476853,20z/data=!4m6!3m5!1s0x866505d230000001:0x9dcc39a36cc4dc4e!8m2!3d26.0735806!4d-98.3477341!16s%2Fg%2F11by_pfzkx?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere209">https://www.google.com.mx/maps/place/INSTITUTO+VICTORIA+EDUCATIVO/@26.0718813,-98.3498631,17.75z/data=!4m6!3m5!1s0x866505d27caf509b:0x3350605df7cba03!8m2!3d26.0721155!4d-98.3495516!16s%2Fg%2F11bbrh88qx?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere210">https://www.google.com.mx/maps/place/Jardin+de+Niños+y+Primaria+Mi+Pequeño+Genio./@26.0397823,-98.3562332,17z/data=!3m1!4b1!4m6!3m5!1s0x866505610ba6fdb5:0x403b7fddf16b1abe!8m2!3d26.0397823!4d-98.3536636!16s%2Fg%2F11t51l5pjt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere211">https://www.google.com.mx/maps/place/Instituto+Cultural+Jacques+DeLors/@26.0408792,-98.360244,16z/data=!4m6!3m5!1s0x866505c3319d55e1:0xec5f0d742d806292!8m2!3d26.0409467!4d-98.3604078!16s%2Fg%2F11spydz541?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere212">https://www.google.com.mx/maps/place/Instituto+Horeb+Campus+Longoria/@26.0669545,-98.292971,16z/data=!4m10!1m2!2m1!1sINSTITUTO+HOREB+KINDER!3m6!1s0x86650f43dcaecf89:0x81cb538083762689!8m2!3d26.0668997!4d-98.2930267!15sChZJTlNUSVRVVE8gSE9SRUIgS0lOREVSkgEGc2Nob29s4AEA!16s%2Fg%2F11c59p1ylb?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere213">https://www.google.com.mx/maps/place/Jardín+de+Niños+Amado+Nervo/@26.0417008,-98.3786148,15z/data=!4m10!1m2!2m1!1sAMADO+NERVO!3m6!1s0x866504611a8162f5:0xb751806e7d237167!8m2!3d26.041406!4d-98.3787451!15sCgtBTUFETyBORVJWT5IBCXByZXNjaG9vbOABAA!16s%2Fg%2F1tdxfqfs?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere214">https://www.los-municipios.mx/escuela-sor-juana-ines-de-la-cruz-reynosa-tamaulipas-preescolar-28djn0076b.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere215">https://www.google.com.mx/maps/place/Jardín+de+Niños+Ovidio+Decroly/@26.0757684,-98.3482324,16z/data=!4m6!3m5!1s0x866505897a1448bb:0xf129cb405221e94c!8m2!3d26.0758201!4d-98.3484831!16s%2Fg%2F11t9w6gwqw?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere216">https://www.google.com.mx/maps/place/Jardin+De+Niños+Leona+Vicario/@26.0264732,-98.2831697,17z/data=!4m15!1m8!3m7!1s0x86650fbef5278f8d:0x4d070e87b84f170f!2sHeroes+de+la+Reforma,+Capitán+Carlos+Cantú,+88797+Reynosa,+Tamps.!3b1!8m2!3d26.0280248!4d-98.2829593!16s%2Fg%2F1tf6s6x3!3m5!1s0x86650fbcec68ea47:0x6ea245660195ec3c!8m2!3d26.0263151!4d-98.2830631!16s%2Fg%2F11c482pb7_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere217">https://www.google.com.mx/maps/place/moises+sanz/@26.063179,-98.2881772,13z/data=!4m10!1m2!2m1!1sMOISES+SAENZ!3m6!1s0x86650f6aa048cd67:0xe982c513a7f292f3!8m2!3d26.0632326!4d-98.2882377!15sCgxNT0lTRVMgU0FFTlqSAQxraW5kZXJnYXJ0ZW7gAQA!16s%2Fg%2F11g69y4844?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere218">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0159j.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere219">https://www.google.com.mx/maps/place/Colegio+Kayab/@26.081098,-98.3625743,17z/data=!4m6!3m5!1s0x86650428140452fd:0x6d0018626e569074!8m2!3d26.0811897!4d-98.3625668!16s%2Fg%2F11g6px1zqt?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere220">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0159j.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere221">https://www.google.com.mx/maps/place/Jardin+de+niños+"Lauro+Aguirre+Espinoza"/@26.0158232,-98.4076557,11z/data=!4m10!1m2!2m1!1sLAURO+AGUIRRE+ESPINOSA!3m6!1s0x86650365f8b900a7:0xd9151b64e89df337!8m2!3d26.0155051!4d-98.4073839!15sChZMQVVSTyBBR1VJUlJFIEVTUElOT1NBkgEMa2luZGVyZ2FydGVu4AEA!16s%2Fg%2F11csb1m7kb?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere222">https://www.los-municipios.mx/escuela-educadoras-mexicanas-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere223">https://www.los-municipios.mx/escuela-margarita-maza-de-juarez-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere224">https://www.los-municipios.mx/escuela-margarita-maza-de-juarez-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere225">https://www.los-municipios.mx/escuela-prof-leonel-quiroz-vergara-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere226">https://www.los-municipios.mx/escuela-jose-maria-morelos-y-pavon-reynosa-tamaulipas-preescolar-28djn0061z.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere227">https://www.google.com.mx/maps/place/Jardín+de+Niños+"Gabriel+García+Márquez"/@26.0183651,-98.5053285,11.25z/data=!4m10!1m2!2m1!1sGABRIEL+GARCIA+MARQUEZ!3m6!1s0x8665038ec841b72b:0x7a55526d65aad872!8m2!3d26.049117!4d-98.4024817!15sChZHQUJSSUVMIEdBUkNJQSBNQVJRVUVakgEGc2Nob29s4AEA!16s%2Fg%2F11hbnmmzt5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere228">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0028r.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere229">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0147e.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere230">https://www.google.com.mx/maps/place/Colegio+Niños+Héroes+plantel+2/@26.0275264,-98.3424406,19z/data=!4m6!3m5!1s0x8665053e741e7491:0x60230f448474af4f!8m2!3d26.0275681!4d-98.3424499!16s%2Fg%2F11pfzbb128?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere231">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0203g.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere232">https://www.google.com.mx/maps/place/Kinder+Teresa+Matienzo+De+Ravize/@26.0603301,-98.3002291,18z/data=!4m6!3m5!1s0x86650f67af9ecadb:0x532304e0b9b71e83!8m2!3d26.060153!4d-98.3003392!16s%2Fg%2F11c5s85nt2?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere233">https://www.los-municipios.mx/escuela-jose-maria-morelos-y-pavon-reynosa-tamaulipas-preescolar-28djn0450q.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere234">https://www.los-municipios.mx/escuela-gregorio-torres-quintero-reynosa-diaz.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere235">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-licenciado-galo-alvarez.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere236">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-la-azufrosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere237">https://www.los-municipios.mx/escuela-pasos-sobre-la-roca-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere238">https://www.google.com.mx/maps/place/Instituto+Educativo+Bilingüe+Amor+Por+México/@26.0181359,-98.2798848,17z/data=!3m1!4b1!4m6!3m5!1s0x86650fb815242f0d:0xb345d47d51709b7!8m2!3d26.0181359!4d-98.2773152!16s%2Fg%2F11gh2qw1rv?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere239">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0140l.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere240">https://www.google.com.mx/maps/place/Río+Frío+835,+Longoria,+88520+Reynosa,+Tamps./@26.0833724,-98.2943162,17z/data=!4m6!3m5!1s0x86650f4c58748ae3:0x3a40904877ced4ea!8m2!3d26.0832931!4d-98.2943875!16s%2Fg%2F11snyv2dlf?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere241">https://www.los-municipios.mx/escuela-instituto-educativo-arco-iris-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere242">https://www.google.com.mx/maps/place/Estancia+Infantil+Campanita/@26.0408326,-98.3741549,12z/data=!4m10!1m2!2m1!1sCAMPANITA!3m6!1s0x866505282dc5db9d:0xedf675d1159f1ed0!8m2!3d26.0406748!4d-98.3741969!15sCglDQU1QQU5JVEGSAQZzY2hvb2zgAQA!16s%2Fg%2F11fd5x4ql6?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere243">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-pancho-villa-francisco-villa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere244">https://www.google.com.mx/maps/place/The+Oxfordian+School+Campus+Petrolera/@26.0655896,-98.2725899,11z/data=!4m6!3m5!1s0x86650f2242e5148d:0x85cd8b0ecf217c13!8m2!3d26.0655896!4d-98.2723993!16s%2Fg%2F11c56bxx36?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere245">https://www.los-municipios.mx/escuela-instituto-educativo-bilingue-amor-por-mexico-reynosa-tamaulipas-preescolar-28pjn0025z.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere246">https://www.los-municipios.mx/escuela-instituto-educativo-bilingue-amor-por-mexico-reynosa-tamaulipas-preescolar-28pjn0025z.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere247">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0161y.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere248">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-congregacion-garza-charco-escondido.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere249">https://www.google.com.mx/maps/place/Colegio+Angelus/@26.0632652,-98.2907172,16z/data=!4m6!3m5!1s0x86650f41deb56621:0xc497b46698ba2373!8m2!3d26.0632575!4d-98.2906539!16s%2Fg%2F11fy4vk4tb?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere250">https://www.google.com.mx/maps/place/Instituto+Pedagogico+Frida+Kalo/@26.0278406,-98.3526129,17z/data=!4m6!3m5!1s0x866505110e956f11:0x76a17d29c0980e92!8m2!3d26.0278367!4d-98.3522786!16s%2Fg%2F11qswyw_8s?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere251">https://www.los-municipios.mx/escuela-colegio-legacy-reynosa-tamaulipas-preescolar-28pjn0556o.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere252">https://www.google.com.mx/maps/@26.0275156,-98.3441845,3a,80.1y,91h,86.77t/data=!3m6!1e1!3m4!1sgK48DZSki_tnjARMxwaADg!2e0!7i16384!8i8192?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere253">https://www.google.com.mx/maps/place/Instituto+Alfa/@26.0084083,-98.4065757,15z/data=!4m10!1m2!2m1!1sINSTITUTO+ALFA!3m6!1s0x866503808cd0ab81:0x2d332b876e9bd3e3!8m2!3d26.0084713!4d-98.4066717!15sCg5JTlNUSVRVVE8gQUxGQZIBEGVkdWNhdGlvbl9jZW50ZXLgAQA!16s%2Fg%2F11vhcvg3db?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere254">https://www.los-municipios.mx/escuela-la-semilla-del-saber-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere255">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-el-grullo.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere256">https://www.google.com.mx/maps/place/Jardín+de+Niños+"Profra.+Lolita+Cano+Treviño"/@26.0282227,-98.2418927,17z/data=!3m1!4b1!4m6!3m5!1s0x86650f59c76f8167:0xf54e657755600048!8m2!3d26.0282227!4d-98.2393231!16s%2Fg%2F11g1cstrzx?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere257">https://www.google.com.mx/maps/place/Colegio+Saviesa/@26.0629524,-98.2899222,11z/data=!4m6!3m5!1s0x86650f6a78daa191:0x6ffb2c5f39cdd923!8m2!3d26.0628095!4d-98.2901562!16s%2Fg%2F11clsxyf7p?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere258">https://www.google.com.mx/maps/place/COLEGIO+GARMON/@26.049913,-98.4061045,17z/data=!3m1!4b1!4m6!3m5!1s0x8665038ea162d619:0xa6446642accad996!8m2!3d26.049913!4d-98.4035349!16s%2Fg%2F11hb91pg3s?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere259">https://www.google.com.mx/maps/place/COLEGIO+BUCARELI/@31.4702918,-95.9750922,4z/data=!4m10!1m2!2m1!1sCOLEGIO+BUCARELI!3m6!1s0x86650f99c9b2815f:0xc2e98e8276f4afba!8m2!3d26.0023582!4d-98.2558298!15sChBDT0xFR0lPIEJVQ0FSRUxJkgERZWxlbWVudGFyeV9zY2hvb2zgAQA!16s%2Fg%2F11thhbj974?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere260">https://www.google.com.mx/maps/place/Marod+School+Nursery/@26.0692143,-98.3574214,12z/data=!4m6!3m5!1s0x866505e0c9ed3179:0x2679145322ef3cdd!8m2!3d26.0692781!4d-98.3575401!16s%2Fg%2F11p0vypmw5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere261">https://www.los-municipios.mx/escuela-colegio-focus-kid-s-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere262">https://www.los-municipios.mx/escuela-instituto-de-educacion-y-atencion-especial-san-francisco-reynosa-tamaulipas-preescolar-28pjn0683k.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere263">https://www.google.com.mx/maps/place/Jardín+de+Niños+Enrique+Pestalozzi/@25.9574511,-98.5647638,9z/data=!4m10!1m2!2m1!1sENRIQUE+PESTALOZZI!3m6!1s0x8665093a00b62591:0xbfa25951aa0f86a2!8m2!3d26.0984076!4d-98.2934574!15sChJFTlJJUVVFIFBFU1RBTE9aWkmSAQZzY2hvb2zgAQA!16s%2Fg%2F11t1l9p1ng?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere264">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0216k.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere265">https://www.google.com.mx/maps/place/Jardín+de+Niños+"Lic.+Benito+Juárez"/@26.0192527,-98.2876828,15z/data=!4m10!1m2!2m1!1sLIC+BENITO+JUAREZ!3m6!1s0x86650fbe44a69b8b:0x342ca100393e3219!8m2!3d26.0193619!4d-98.2877007!15sChFMSUMgQkVOSVRPIEpVQVJFWpIBEWhlYWRfc3RhcnRfY2VudGVy4AEA!16s%2Fg%2F11f5q6dcx8?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere266">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-palo-blanco.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere267">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-llorona-nueva.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere268">https://www.google.com.mx/maps/place/Instituto+Enrique+de+Ossó/@26.0952937,-98.280837,17z/data=!4m6!3m5!1s0x866508ceda6e6805:0xd1a27fa379ee1771!8m2!3d26.09534!4d-98.28074!16s%2Fg%2F11_sr4v80?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere269">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-el-guerreno.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere270">https://www.google.com.mx/maps/place/Liceo+Franco+Mexicano/@26.0889072,-98.3037888,17z/data=!4m6!3m5!1s0x866508ab81576677:0x22d3a63562a14690!8m2!3d26.0889659!4d-98.3036963!16s%2Fg%2F11h54zch1k?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere271">https://www.google.com.mx/maps/place/Colegio+Sigmundo+Freud/@26.0201623,-98.244556,17z/data=!3m1!4b1!4m6!3m5!1s0x86650e6abe4ab41f:0xbdf4db280b3c6aab!8m2!3d26.0201623!4d-98.2419864!16s%2Fg%2F11gf0pry1f?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere272">https://www.los-municipios.mx/escuela-happy-kids-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere273">https://www.los-municipios.mx/escuela-instituto-educativo-benitez-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere274">https://www.los-municipios.mx/escuela-el-arco-de-colores-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere275">https://www.google.com.mx/maps/place/Instituto+Especializado+En+Educacion+Preescolar+Educandos/@26.042897,-98.3451786,16z/data=!4m6!3m5!1s0x866505a9ef568465:0xca91a7eb6187116b!8m2!3d26.0428502!4d-98.3451174!16s%2Fg%2F11gf0qzvd_?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere276">https://www.los-municipios.mx/escuela-primavera-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere277">https://www.los-municipios.mx/escuela-centro-de-estudios-biling-e-lowell-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere278">https://www.los-municipios.mx/escuela-estrellitas-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere279">https://www.google.com.mx/maps/place/Divertimundo/@25.9973577,-98.0679394,17z/data=!4m6!3m5!1s0x86656d92c0eb449f:0x9f40c078a11b2115!8m2!3d25.9969551!4d-98.0680897!16s%2Fg%2F11h1hrjfm5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere280">https://www.los-municipios.mx/escuela-jardin-de-ninos-reynosa-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere281">https://www.los-municipios.mx/escuela-colegio-praxis-reynosa-tamaulipas-preescolar-28pjn0555p.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere282">https://www.google.com.mx/maps/place/"Club+Rotario+Reynosa+76"/@25.9854334,-98.2226533,17.25z/data=!4m15!1m8!3m7!1s0x86651202a8b0b899:0x50a4116dd122acde!2sSalud,+88795+Vamos+Tamaulipas,+Tamps.!3b1!8m2!3d25.9870047!4d-98.2210562!16s%2Fg%2F11btx5rfkv!3m5!1s0x86651202a71fc00d:0x9b00a0620d40369b!8m2!3d25.9858181!4d-98.2211322!16s%2Fg%2F11c2prf0cm?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere283">https://www.los-municipios.mx/escuela-colegio-praxis-reynosa-tamaulipas-preescolar-28pjn0555p.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere284">https://www.google.com.mx/maps/place/Colegio+Kidsville/@26.0755346,-98.364319,17z/data=!3m1!4b1!4m6!3m5!1s0x86650f376b703c7b:0xf5f70b7fbb64acc5!8m2!3d26.0755346!4d-98.3617494!16s%2Fg%2F12hkn65m1?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere285">https://www.google.com.mx/maps/place/"Club+Rotario+Reynosa+76"/@25.9863465,-98.2249374,16.75z/data=!4m10!1m2!2m1!1sCLUB+ROTARIO+REYNOSA!3m6!1s0x86651202a71fc00d:0x9b00a0620d40369b!8m2!3d25.9858181!4d-98.2211322!15sChRDTFVCIFJPVEFSSU8gUkVZTk9TQZIBBnNjaG9vbOABAA!16s%2Fg%2F11c2prf0cm?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere286">https://www.google.com.mx/maps/place/Jardín+de+niños+profa+Teodosia+Martínez+de+Armas/@26.0857871,-98.3236736,15z/data=!4m6!3m5!1s0x866507160efae1bd:0x166f1e4aef6fed6b!8m2!3d26.0856715!4d-98.3233421!16s%2Fg%2F11tf2jl69z?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere287">https://www.google.com.mx/maps/place/Juan+Granados+Rodriguez/@26.009076,-98.2479577,17z/data=!4m6!3m5!1s0x86650e3c17fe9fd1:0xf4be71858b0d9183!8m2!3d26.0119117!4d-98.2472928!16s%2Fg%2F11gbfd1t39?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere288">https://www.los-municipios.mx/escuela-nino-artillero-reynosa.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere289">https://www.los-municipios.mx/escuela-ignacio-manuel-altamirano-reynosa-tamaulipas-preescolar.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere290">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-tamaulipas-preescolar-28ejn0087g.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere291">https://www.google.com.mx/maps/place/El+Tesoro+Del+Saber/@26.0065353,-98.2537884,17z/data=!3m1!4b1!4m6!3m5!1s0x86650e24d5285e1b:0x57619c31da8e1705!8m2!3d26.0065353!4d-98.2512188!16s%2Fg%2F11j1hxzh6v?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere292">https://www.google.com.mx/maps/place/escuela+mundo+nuevo/@26.0375841,-98.393579,13z/data=!4m10!1m2!2m1!1sMUNDO+NUEVO!3m6!1s0x8665047ee3ae5985:0x47973b4340a668b6!8m2!3d26.0374573!4d-98.393553!15sCgtNVU5ETyBOVUVWT5IBBnNjaG9vbOABAA!16s%2Fg%2F11fxykgzrk?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere293">https://www.los-municipios.mx/escuela-preescolar-comunitario-rural-reynosa-tamaulipas-preescolar-28kjn0926v.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere294">https://www.google.com.mx/maps/place/Instituto+Pedagógico+Esmeralda+%2F+Unidad+Encinos/@26.0566278,-98.2888632,15z/data=!4m10!1m2!2m1!1sNSTITUTO+PEDAGOGICO+ESMERALDA!3m6!1s0x86650f6c9b2f7581:0x4d7286651bff4d25!8m2!3d26.0566164!4d-98.2890425!15sCh5JTlNUSVRVVE8gUEVEQUdPR0lDTyBFU01FUkFMREGSAQZzY2hvb2zgAQA!16s%2Fg%2F11g8xchyh2?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere295">https://www.los-municipios.mx/escuela-centro-de-asistencia-infantil-comunitario-reynosa-diaz.html</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere296">https://www.google.com.mx/maps/place/Instituto+"TOHUI"/@25.9749012,-98.605086,10.27z/data=!4m10!1m2!2m1!1sTOHUI!3m6!1s0x8665058b46dbdc79:0x797ee55de1501a29!8m2!3d26.0606574!4d-98.3131447!15sCgVUT0hVSZIBDnByaXZhdGVfc2Nob29s4AEA!16s%2Fg%2F12hlbzyx6?entry=ttu</string>
+    <string name="opportunitiesSubCategoryKinderGardenClickHere297">https://www.los-municipios.mx/escuela-instituto-colon-preescolar-reynosa.html</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite1">https://centro-de-desarrollo-infantil-ninos-tamaulipecos.negocio.site/?utm_source=gmb&amp;utm_medium=referral</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite3">https://www.facebook.com/pages/Jardin-De-Ninos-Mexico-Libre/494518000580091</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite6">https://www.oxfordreynosa.edu.mx/vistahermosa.php</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite12">https://integrity.edu.mx</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite14">http://www.colegiotamaulipas.com</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite62">https://www.oratoryschools.org</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite72">https://exerani.com/index.html</string>
+    <string name="opportunitiesItemKinderGardenWebSite73">https://www.facebook.com/profile.php?id=100063479063958</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite88">https://www.oxfordreynosa.edu.mx</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite105">https://www.colegiomexicanorey.edu.mx</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite161">http://www.asr.edu.mx</string>
+
+    <string name="opportunitiesItemKinderGardenWebSite165">https://www.facebook.com/mimundomagicoreynosa/</string>
+
+
+    <string name="opportunitiesItemDescriptionKinderGarden1">The Centro De Asistencia Infantil Comunitario School is a public school, at the Preschool educational level, and operates in the afternoon shift.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden2">The Justo Sierra Mendez School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 145 students, of which 62 are female and 83 are male, and it has 8 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden3">The Mexico Libre School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 196 students, of which 95 are female and 101 are male, and it has 7 teachers</string>
+    <string name="opportunitiesItemDescriptionKinderGarden4">The Juan Rulfo School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 16 students, of which 10 are female and 6 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden5">The Arturo Lerma Anaya School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 173 students, of which 80 are female and 93 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden6">Oxford Academy is a private school, at the Preschool educational level, and operates in the morning shift. The school has 153 students, of which 75 are female and 78 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden7">Jaime Torres Bodet Institute is a private school, at the Preschool educational level, and operates in the morning shift. The school has 26 students, of which 17 are female and 9 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden8">Las Fuentes School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 22 students, of which 9 are female and 13 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden9">Maria Montessori School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 28 students, of which 8 are female and 20 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden10">Panamerican College of Reynosa is a private school, at the Preschool educational level, and operates in the morning shift. The school has 133 students, of which 65 are female and 68 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden11">Eureka Kids College is a private school, at the Preschool educational level, and operates in the morning shift. The school has 21 students, of which 8 are female and 13 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden12">Integrity School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 62 students, of which 35 are female and 27 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden13">Centro De Asistencia Infantil Comunitario is a public school, at the Preschool educational level, and operates in the morning shift. The school has 58 students, of which 25 are female and 33 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden14">Tamaulipas School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 38 students, of which 13 are female and 25 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden15">America School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 133 students, of which 64 are female and 69 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden16">Profa Gloria Cienfuegos Pezino School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 96 students, of which 47 are female and 49 are male, and it has 4 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden17">Puente De Esperanza School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 77 students, of which 42 are female and 35 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden18">Divertimundo School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 18 students, of which 10 are female and 8 are male, and it has 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden19">Nazarita Gonzalez School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 102 students, of which 53 are female and 49 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden20">Francisco Zarco School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 14 students, of which 6 are female and 8 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden21">Lic Emilio Portes Gil School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 112 students, of which 54 are female and 58 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden22">Club De Leones Centro Num 1 School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 122 students, of which 62 are female and 60 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden23">Abraham Castellanos School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 165 students, of which 80 are female and 85 are male, and it has 7 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden24">Angela Peralta School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 18 students, of which 11 are female and 7 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden25">Lic Luis Donaldo Colosio Murrieta School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 87 students, of which 47 are female and 40 are male, and it has 4 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden26">Federico Froebel School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 104 students, of which 56 are female and 48 are male, and it has 4 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden27">Juan Escutia School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 150 students, of which 80 are female and 70 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden28">Independencia School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 144 students, of which 75 are female and 69 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden29">Ruy Perez Tamayo School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 124 students, of which 63 are female and 61 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden30">Centro De Asistencia Infantil Comunitario School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 72 students, of which 32 are female and 40 are male, and it has 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden31">Juan De La Barrera School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 69 students, of which 38 are female and 31 are male, and it has 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden32">Club Social De Damas De Reynosa School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 195 students, of which 97 are female and 98 are male, and it has 7 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden33">Colegio Decroly is a private school, at the Preschool educational level, and operates in the morning shift. The school has 83 students, of which 48 are female and 47 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden34">Federico Froebel School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 84 students, of which 54 are female and 30 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden35">Rosario Castellanos School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 162 students, of which 79 are female and 83 are male, and it has 7 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden36">Ramon Lopez Velarde School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 17 students, of which 7 are female and 10 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden37">Alberto Carrera Torres School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 63 students, of which 34 are female and 29 are male, and it has 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden38">Centro De Asistencia Infantil Comunitario School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 22 students, of which 15 are female and 7 are male, and it has 0 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden39">Leonardo Da Vinci School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 162 students, of which 86 are female and 76 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden40">Instituto Nuevo Mundo Montessori is a private school, at the Preschool educational level, and operates in the morning shift. The school has 18 students, of which 10 are female and 8 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden41">Preescolar Comunitario Rural School is a public school, at the Preschool educational level, and operates in the morning shift.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden42">Centro Educativo Arco Iris School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 106 students, of which 46 are female and 60 are male, and it has 6 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden43">Colegio De La Cruz School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 33 students, of which 18 are female and 15 are male, and it has 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden44">Lazaro Cardenas School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 32 students, of which 12 are female and 20 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden45">Jean Piaget School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 103 students, of which 53 are female and 50 are male, and it has 5 teachers. Phone: 8999528395</string>
+    <string name="opportunitiesItemDescriptionKinderGarden46">Maria Enriqueta Pereyra De C School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 208 students, of which 105 are female and 103 are male, and it has 8 teachers. Phone: 8999237264</string>
+    <string name="opportunitiesItemDescriptionKinderGarden47">Club Sertoma School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 97 students, of which 34 are female and 63 are male, and it has 4 teachers. Phone: 8999800595</string>
+    <string name="opportunitiesItemDescriptionKinderGarden48">Jaime Torres Bodet School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 108 students, of which 57 are female and 51 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden49">Francisco Gonzalez Bocanegra School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 105 students, of which 60 are female and 45 are male, and it has 4 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden50">Gral Ignacio Zaragoza School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 99 students, of which 47 are female and 52 are male, and it has 4 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden51">Centro De Asistencia Infantil Comunitario School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 16 students, of which 9 are female and 9 are male, and it has 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden52">Mario Moreno Cantinflas School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 136 students, of which 61 are female and 75 are male, and it has 5 teachers. Phone: 8999565761</string>
+    <string name="opportunitiesItemDescriptionKinderGarden53">Profa Elisa Cavazos Lerma De Flores School is a public school, at the Preschool educational level, and operates in the afternoon shift. The school has 169 students, of which 79 are female and 90 are male, and it has 7 teachers. Phone: 8999552304</string>
+    <string name="opportunitiesItemDescriptionKinderGarden54">Bambi School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 55 students, of which 28 are female and 27 are male, and it has 1 teacher. Phone: 8999292832</string>
+    <string name="opportunitiesItemDescriptionKinderGarden55">Centro De Asistencia Infantil Comunitario School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 67 students, of which 34 are female and 33 are male, and it has 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden56">Alborada School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 124 students, of which 71 are female and 53 are male, and it has 5 teachers. Phone: 8999221634</string>
+    <string name="opportunitiesItemDescriptionKinderGarden57">Instituto Paulo Freire School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 28 students, of which 10 are female and 18 are male, and it has 2 teachers. Phone: 8992731912</string>
+    <string name="opportunitiesItemDescriptionKinderGarden58">Colegio Libertad School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 13 students, of which 8 are female and 5 are male, and it has 1 teacher. Phone: 8999226529</string>
+    <string name="opportunitiesItemDescriptionKinderGarden59">Bucareli School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 48 students, of which 19 are female and 29 are male, and it has 3 teachers. Phone: 8999294796</string>
+    <string name="opportunitiesItemDescriptionKinderGarden60">Instituto Cesar Coll School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 33 students, of which 12 are female and 21 are male, and it has 2 teachers. Phone: 8999468110</string>
+    <string name="opportunitiesItemDescriptionKinderGarden61">Excelsior School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 52 students, of which 30 are female and 22 are male, and it has 4 teachers. Phone: 8999513041</string>
+    <string name="opportunitiesItemDescriptionKinderGarden62">Instituto Newman Del Oratorio School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 14 students, of which 10 are female and 4 are male, and it has 2 teachers. Phone: 8999252223</string>
+    <string name="opportunitiesItemDescriptionKinderGarden63">Instituto Piaget School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 109 students, of which 49 are female and 60 are male, and it has 5 teachers. Phone: 8999255052</string>
+    <string name="opportunitiesItemDescriptionKinderGarden64">Ninos Heroes School is a private school, at the Preschool educational level, and operates in the morning shift. The school has 58 students, of which 32 are female and 26 are male, and it has 3 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden65">Centro De Asistencia Infantil Comunitario School is a public school, at the Preschool educational level, and operates in the morning shift. The school has 156 students, of which 74 are female and 82 are male, and it has 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden66">Safe Kids School is a private preschool operating in the morning shift. The school has 27 students, with 11 females and 16 males, and is staffed by 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden67">This is a public preschool with a morning shift, and it has 23 students—13 females and 10 males—along with 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden68">Smiley Kids School is a private preschool with a morning shift. It enrolls 23 students, with 9 females and 14 males, and is supported by 3 teachers. Phone: 8996881419</string>
+    <string name="opportunitiesItemDescriptionKinderGarden69">A private preschool operating in the morning, this school has 18 students, with 12 females and 6 males, and employs 3 teachers. Phone: 8999222344</string>
+    <string name="opportunitiesItemDescriptionKinderGarden70">Jose Vasconcelos School is a private preschool in the morning shift with 26 students—14 females and 12 males—taught by 1 teacher. Phone: 8999526655</string>
+    <string name="opportunitiesItemDescriptionKinderGarden71">This private morning preschool has 33 students—11 females and 22 males—supported by 3 teachers. Phone: 8999233018</string>
+    <string name="opportunitiesItemDescriptionKinderGarden72">Colegio Exerani is a private morning preschool with 146 students—77 females and 69 males—managed by 9 teachers. Phone: 8999570072</string>
+    <string name="opportunitiesItemDescriptionKinderGarden73">A private morning preschool with 22 students—6 females and 16 males—taught by 2 teachers. Phone: 8999512807</string>
+    <string name="opportunitiesItemDescriptionKinderGarden74">Comundi is a private morning preschool with 13 students—4 females and 9 males—guided by 2 teachers. Phone: 8999238671</string>
+    <string name="opportunitiesItemDescriptionKinderGarden75">A private preschool in the morning shift with 18 students—7 females and 11 males—led by 1 teacher. Phone: 8991296527</string>
+    <string name="opportunitiesItemDescriptionKinderGarden76">A private morning preschool with 185 students—87 females and 98 males—overseen by 11 teachers. Phone: 8999237273</string>
+    <string name="opportunitiesItemDescriptionKinderGarden77">This private morning preschool has 52 students—22 females and 30 males—along with 3 teachers. Phone: 8999512730</string>
+    <string name="opportunitiesItemDescriptionKinderGarden78">Mi Escuelita is a private preschool with continuous shifts. Phone: 8991296793</string>
+    <string name="opportunitiesItemDescriptionKinderGarden79">This private morning preschool has 34 students—16 females and 18 males—supported by 3 teachers. Phone: 8999956118</string>
+    <string name="opportunitiesItemDescriptionKinderGarden80">A public preschool with 4 students—2 females and 2 males—taught by 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden81">This private morning preschool has 46 students—23 females and 23 males—guided by 2 teachers. Phone: 8999251883</string>
+    <string name="opportunitiesItemDescriptionKinderGarden82">A private morning preschool with 29 students—14 females and 15 males—taught by 2 teachers. Phone: 8992200013</string>
+    <string name="opportunitiesItemDescriptionKinderGarden83">This private preschool offers continuous shifts with 30 students—15 females and 15 males—along with 2 teachers. Phone: 8999225080</string>
+    <string name="opportunitiesItemDescriptionKinderGarden84">A private morning preschool with 31 students—19 females and 12 males—guided by 2 teachers. Phone: 8999531867</string>
+    <string name="opportunitiesItemDescriptionKinderGarden85">A private morning preschool with 16 students—9 females and 7 males—taught by 2 teachers. Phone: 8999964385</string>
+    <string name="opportunitiesItemDescriptionKinderGarden86">The Rural Community Preschool is a public school, offering Preschool education during the morning shift</string>
+    <string name="opportunitiesItemDescriptionKinderGarden87">A private morning preschool with 18 students—10 females and 8 males—led by 1 teacher. Phone: 8999955302</string>
+    <string name="opportunitiesItemDescriptionKinderGarden88">Colegio Oxford is a private morning preschool with 127 students—72 females and 55 males—overseen by 6 teachers. Phone: 8999249259</string>
+    <string name="opportunitiesItemDescriptionKinderGarden89">A private morning preschool. Phone: 8992848335</string>
+    <string name="opportunitiesItemDescriptionKinderGarden90">This private morning preschool has 34 students—17 females and 17 males—guided by 2 teachers. Phone: 8999101050</string>
+    <string name="opportunitiesItemDescriptionKinderGarden91">A private morning preschool with 81 students—35 females and 46 males—overseen by 4 teachers. Phone: 8999956286</string>
+    <string name="opportunitiesItemDescriptionKinderGarden92">This private morning preschool has 28 students—18 females and 10 males—along with 3 teachers. Phone: 8999202333</string>
+    <string name="opportunitiesItemDescriptionKinderGarden93">A private morning preschool with 48 students—24 females and 24 males—taught by 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden94">The Rural Community Preschool is a public school, providing Preschool education during the morning shift.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden95">A public morning preschool with 167 students—83 females and 84 males—managed by 7 teachers. Phone: 8999240243</string>
+    <string name="opportunitiesItemDescriptionKinderGarden96">A public morning preschool with 84 students—43 females and 41 males—guided by 3 teachers. Phone: 8992966095</string>
+    <string name="opportunitiesItemDescriptionKinderGarden97">A public morning preschool with 146 students—87 females and 59 males—overseen by 7 teachers. Phone: 8999248750</string>
+    <string name="opportunitiesItemDescriptionKinderGarden98">Estefania Castañeda School is a public school, offering Preschool education during the morning shift. The school has 40 students, with 20 girls and 20 boys, and is staffed by 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden99">Ignacio Ycaza Aguilar School is a public school, providing Preschool education during the morning shift. The school has 106 students, with 49 girls and 57 boys, and is supported by 5 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden100">Enrique Cardenas School is a public school, offering Preschool education during the evening shift. The school has 188 students, with 98 girls and 90 boys, and is staffed by 7 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden101">Bethsalom College is a private school, offering Preschool education during the morning shift. The school has 16 students, with 10 girls and 6 boys, and is supported by 2 teachers. Phone: 8999257293</string>
+    <string name="opportunitiesItemDescriptionKinderGarden102">Independencia School is a private school, providing Preschool education during the morning shift. The school has 30 students, with 12 girls and 18 boys, and is staffed by 2 teachers. Phone: 8999519150</string>
+    <string name="opportunitiesItemDescriptionKinderGarden103">Bicultural De Reynosa School is a private school, offering Preschool education during the morning shift. The school has 38 students, with 21 girls and 17 boys, and is supported by 3 teachers. Phone: 8992613131</string>
+    <string name="opportunitiesItemDescriptionKinderGarden104">Hebron Educational Institute is a private school, providing Preschool education during the morning shift. The school has 40 students, with 15 girls and 25 boys, and is staffed by 2 teachers. Phone: 8999269767</string>
+    <string name="opportunitiesItemDescriptionKinderGarden105">Mexicano College is a private school, offering Preschool education during the morning shift. The school has 168 students, with 88 girls and 80 boys, and is supported by 11 teachers. Phone: 8999203040</string>
+    <string name="opportunitiesItemDescriptionKinderGarden106">Cultural Educational Institute Of Tamaulipas is a private school, providing Preschool education during the morning shift. The school has 19 students, with 8 girls and 11 boys, and is staffed by 2 teachers. Phone: 8999259882</string>
+    <string name="opportunitiesItemDescriptionKinderGarden107">Jazmar College is a private school, offering Preschool education during the morning shift. The school has 41 students, with 12 girls and 29 boys, and is supported by 2 teachers. Phone: 8992078950</string>
+    <string name="opportunitiesItemDescriptionKinderGarden108">Forestland School is a private school, providing Preschool education during the morning shift. The school has 31 students, with 16 girls and 15 boys, and is staffed by 3 teachers. Phone: 8999243896</string>
+    <string name="opportunitiesItemDescriptionKinderGarden109">Galbri Institute is a private school, offering Preschool education during the morning shift. The school has 35 students, with 19 girls and 16 boys, and is supported by 2 teachers. Phone: 8993560870</string>
+    <string name="opportunitiesItemDescriptionKinderGarden110">Initial Education Institute Iei is a private school, offering Preschool education during the morning shift. Phone: 8999596689</string>
+    <string name="opportunitiesItemDescriptionKinderGarden111">Montessori Institute Of Reynosa is a private school, offering Preschool education during the morning shift. Phone: 8999203800</string>
+    <string name="opportunitiesItemDescriptionKinderGarden112">Insurgentes College is a private school, providing Preschool education during the morning shift. The school has 7 students, with 4 girls and 3 boys, and is staffed by 1 teacher. Phone: 8992622463</string>
+    <string name="opportunitiesItemDescriptionKinderGarden113">Pierre A Larousse College is a private school, offering Preschool education during the morning shift. The school has 19 students, with 10 girls and 9 boys, and is supported by 2 teachers. Phone: 8999953384</string>
+    <string name="opportunitiesItemDescriptionKinderGarden114">Ignacio Zaragoza School is a private school, providing Preschool education during the morning shift. The school has 39 students, with 21 girls and 18 boys, and is supported by 3 teachers. Phone: 8999233075</string>
+    <string name="opportunitiesItemDescriptionKinderGarden115">Alegria School is a private school, offering Preschool education during the morning shift. The school has 22 students, with 9 girls and 13 boys, and is supported by 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden116">Luis Donaldo Colosio Murrieta School is a private school, offering Preschool education during the morning shift. The school has 9 students, with 2 girls and 7 boys, and is staffed by 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden117">Centro De Asistencia Infantil Comunitario is a public school, providing Preschool education during the morning shift. The school has 17 students, with 7 girls and 10 boys, and is staffed by 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden118">Centro De Asistencia Infantil Comunitario is a public school, providing Preschool education during the morning shift. The school has 19 students, with 11 girls and 8 boys, and is staffed by 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden119">Rural Community Preschool is a public school, providing Preschool education during the morning shift. The school has 4 students, with 2 girls and 2 boys, and is staffed by 1 teacher.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden120">Ramansa College is a private school, offering Preschool education during the morning shift. The school has 22 students, with 9 girls and 13 boys, and is supported by 2 teachers. Phone: 8999294871</string>
+    <string name="opportunitiesItemDescriptionKinderGarden121">Baby School College is a private school, offering Preschool education during the morning shift. The school has 34 students, with 11 girls and 23 boys, and is supported by 2 teachers. Phone: 8999950064</string>
+    <string name="opportunitiesItemDescriptionKinderGarden122">Dumont College is a private school, providing Preschool education during the morning shift. The school has 26 students, with 14 girls and 12 boys, and is supported by 1 teacher. Phone: 8999292767</string>
+    <string name="opportunitiesItemDescriptionKinderGarden123">NinOs Felices Educational Institute is a private school, offering Preschool education during the morning shift. Phone: 8999956527</string>
+    <string name="opportunitiesItemDescriptionKinderGarden124">Franco Educational Institute is a private school, offering Preschool education during the morning shift. The school has 20 students, with 8 girls and 12 boys, and is supported by 2 teachers. Phone: 8999296426</string>
+    <string name="opportunitiesItemDescriptionKinderGarden125">Magical Hands School is a private school, offering Preschool education during the morning shift. The school has 24 students, with 16 girls and 8 boys, and is supported by 2 teachers. Phone:</string>
+    <string name="opportunitiesItemDescriptionKinderGarden126">Jose Vasconcelos School is a public school, offering Preschool education during the afternoon shift. The school has 95 students, with 52 girls and 43 boys, and is staffed by 3 teachers. Phone: 8999550199</string>
+    <string name="opportunitiesItemDescriptionKinderGarden127">Mexico School is a public school, providing Preschool education during the morning shift. The school has 77 students, with 34 girls and 43 boys, and is supported by 4 teachers. Phone: 8999550460</string>
+    <string name="opportunitiesItemDescriptionKinderGarden128">Gabriela Mistral School is a public school, offering Preschool education during the morning shift. The school has 105 students, with 56 girls and 49 boys, and is supported by 5 teachers. Phone: 8999237366</string>
+    <string name="opportunitiesItemDescriptionKinderGarden129">Profa Ana Maria Ayala Cordoba School is a public school, providing Preschool education during the morning shift. The school has 189 students, with 92 girls and 97 boys, and is staffed by 8 teachers. Phone: 8999266990</string>
+    <string name="opportunitiesItemDescriptionKinderGarden130">Jaime Nuno Roca School is a public school, offering Preschool education during the morning shift. The school has 143 students, with 58 girls and 85 boys, and is supported by 5 teachers. Phone: 8991298505</string>
+    <string name="opportunitiesItemDescriptionKinderGarden131">Elizabeth Galvan De Lozano School is a public school, providing Preschool education during the morning shift. The school has 75 students, with 29 girls and 46 boys, and is staffed by 2 teachers.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden132">Don Jose Ma Garza Zamora School is a public school, offering Preschool education during the morning shift. The school has 156 students, with 73 girls and 83 boys, and is supported by 6 teachers. Phone: 8999200088</string>
+    <string name="opportunitiesItemDescriptionKinderGarden133">Juan Cervantes Villalvaso School is a public school, providing Preschool education during the morning shift. The school has 86 students, with 38 girls and 48 boys, and is staffed by 4 teachers. Phone: 8998453100</string>
+    <string name="opportunitiesItemDescriptionKinderGarden134">PROFA MARIA CONCEPCION MENDIOLA DE HERNANDEZ School, a cornerstone of early education, invites your child to a morning preschool experience. Join us in nurturing young minds for a bright and promising future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden135">PROFA ROSA ELVA TAPIA ABREGO School, dedicated to fostering a love for learning, welcomes your child to a supportive morning preschool environment. Join us as we embark on a journey of educational discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden136">Join the community at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO for a comprehensive preschool experience. With morning and afternoon shifts, we provide a foundation for academic success and personal growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden137">FRANCISCO JAVIER MINA School, a beacon of knowledge, invites your child to explore the world of early education in the morning. Join us for a preschool experience that sparks curiosity and inspires lifelong learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden138">DIEGO RIVERA School, committed to excellence, offers a transformative morning preschool journey for your child. Explore the joy of learning and personal growth in our nurturing environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden139">Discover a world of learning at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO, a community-driven institution committed to nurturing young minds.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden140">Embark on a journey of education with ADOLFO LOPEZ MATEOS, where every child\'s potential is cultivated for a brighter future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden141">Immerse your child in the engaging environment of CENTRO DE ASISTENCIA INFANTIL COMUNITARIO, fostering growth and development.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden142">CAMPANITA PLANTEL NUM 2 invites your little ones to explore the wonders of education in a nurturing and supportive setting.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden143">At PREESCOLAR PEQUEÑOS GIGANTES, we believe in creating a foundation for success through early childhood education.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden144">LIC ADOLFO LOPEZ MATEOS - where education meets excellence, shaping young minds for a lifetime of achievements.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden145">DR LUIS PASTEUR - a place where knowledge blossoms, and young learners thrive in an environment of curiosity and exploration.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden146">CAPITAN CARLOS CANTU - Charting a course for educational excellence, where each child\'s journey is uniquely celebrated.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden147">JUAN ESCUTIA - Empowering young minds to reach new heights, fostering a love for learning and discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden148">ROSAURA ZAPATA - Cultivating a love for knowledge, where every child\'s potential is embraced and celebrated.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden149">LEV S VYGOTSKI - Unleashing the power of education, where young minds are inspired to dream, learn, and achieve.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden150">AMALIA GONZALEZ CABALLERO DE CASTILLO LEDON - Nurturing a love for learning, where each child\'s unique talents are celebrated.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden151">GUADALUPE VICTORIA - Inspiring young hearts and minds to soar to new heights in the journey of education.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden152">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO - A hub of learning and discovery, shaping the future leaders of tomorrow.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden153">BEATRIZ ORDOÑEZ ACUÑA - Creating a foundation for success through quality education and a supportive learning environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden154">JARDIN DE NIÑOS - Where every child\'s educational journey is carefully nurtured, fostering a love for learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden155">RODOLFO TORRE CANTU - Igniting the flame of curiosity, education at its finest, where each child\'s potential is unleashed.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden156">JUAN B TIJERINA VILLARREAL - A place where young minds blossom, fostering a love for knowledge and exploration.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden157">FRANCISCO JAVIER CLAVIJERO - Shaping bright futures, where education is a journey of excitement and discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden158">TAMAULIPAS - Discover a world of educational opportunities, where young minds flourish and dreams take flight.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden159">BICENTENARIO DE LA INDEPENDENCIA DE MEXICO - A celebration of learning, where history and education converge for a brighter future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden160">CENTRO DE ASISTENCIA INFANTIL COMUNITARIO - Where every child\'s educational journey is guided with care, compassion, and a commitment to excellence.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden161">Experience the pinnacle of education at Colegio Americano de Reynosa, where a commitment to excellence transforms learning into an extraordinary journey.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden162">Francisco Villa School: A beacon of academic excellence, dedicated to shaping resilient and enlightened individuals for a brighter tomorrow.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden163">Explore boundless possibilities at Instituto de Educacion Preescolar Esperanza, where a nurturing environment cultivates the seeds of lifelong curiosity and growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden164">Embark on a transformative educational voyage at Instituto Albert Einstein, where cutting-edge innovation meets the timeless pursuit of knowledge.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden165">My Mundo Magico offers an enchanting blend of fun and education, creating a magical realm where young minds flourish.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden166">Colegio Victoria: A bastion of education where character development is as paramount as academic achievement.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden167">Centro de Asistencia Infantil Comunitario - Focused on building a strong educational foundation for a lifetime of success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden168">Centro de Asistencia Infantil Comunitario - Committed to nurturing young minds with care, compassion, and a passion for learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden169">Eleazar Guerra School - Empowering students with a holistic approach to education, unlocking their full potential.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden170">Instituto Lombardo - A haven of academic excellence, fostering personal growth and shaping future leaders.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden171">Profa Alicia Lerma Rodriguez School - Igniting a love for learning and sparking curiosity in every child.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden172">Maria Lavalle Urbina: A haven fostering creativity and nurturing a thirst for knowledge in a supportive atmosphere.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden173">Josefa Ortiz de Dominguez School - A place where every child\'s unique abilities are recognized, celebrated, and cultivated.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden174">Jardin de Niños - A garden of knowledge where young minds blossom, flourish, and lay the foundation for future success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden175">Victor Garcia Hoz - Committed to providing a safe and stimulating environment that encourages early learners to thrive.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden176">Josefina C de Tarrega - Nurturing a passion for learning with a dedicated and caring faculty, laying the groundwork for future success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden177">Anita de Andar de Alba - Instilling values and a love for learning in the hearts of our students, shaping responsible future citizens.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden178">Ignacio Ycaza Aguilar - Shaping the future by empowering young minds through education and character development.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden179">Reynosa School - Where education meets excellence, ensuring every child is valued and encouraged to reach their full potential.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden180">Instituto de Desarrollo Integral SSYELDMAR - Dedicated to fostering holistic development in every child, preparing them for a well-rounded future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden181">Centro de Asistencia Infantil Comunitario - A community-driven school committed to educational excellence, creating a foundation for lifelong success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden182">Instituto Pedagogico YASCOR - Providing a solid educational foundation for lifelong success, guiding students towards a bright and prosperous future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden183">Profesora Maria Luisa Diaz de Guerrero - Cultivating a love for learning and a spirit of exploration, encouraging students to discover their unique talents.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden184">Colegio Vida Nueva - Shaping young minds for a future filled with knowledge, resilience, and a commitment to excellence.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden185">Instituto Auroca - Where innovation and education converge, preparing students to navigate a rapidly changing world with confidence.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden186">Instituto Educativo Pavlov - Fostering a love for learning through innovative and engaging methods, inspiring curiosity and critical thinking.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden187">Preescolar Comunitario Rural - Connecting education with the richness of rural community life, providing a unique and enriching learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden188">Colegio Nebraska - Inspiring a passion for learning and a commitment to academic excellence, guiding students towards a bright future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden189">Preescolar Comunitario Rural - Bridging education with the warmth of rural community values, creating a nurturing environment for young learners.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden190">Octavio Paz - Creating a peaceful and enriching learning environment for young minds, promoting personal and academic growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden191">Homey Kindergarten - Nurturing a home-like atmosphere for early childhood education, where every child feels valued and supported.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden192">Centro Educativo Bien Estar - Focused on the well-being and academic growth of every student, creating a foundation for lifelong success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden193">Oralia Guerra de Villarreal - Building a strong foundation for academic and personal success, instilling a love for learning in every child.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden194">Arquimedes Caballero Caballero - Igniting a passion for knowledge through engaging learning experiences, preparing students for a bright future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden195">Fidel Velazquez Sanchez - Committed to fostering a love for learning and character development, guiding students towards success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden196">Emma Vazquez Garcia - Shaping young minds with a dedication to academic excellence, providing a solid foundation for lifelong learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden197">Enrique Laubscher - Providing a supportive and nurturing environment for early learners, encouraging curiosity and exploration.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden198">Francisco Gabilondo Soler - Where education is a melody of learning and discovery, creating a harmonious environment for academic growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden199">Chapultepec School - Connecting education with the beauty and richness of our cultural heritage, fostering pride and understanding.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden200">Leonardo G de la Cruz - Dedicated to providing a solid educational foundation for lifelong success, preparing students for a bright future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden201">Fostering young heroes through quality education at NIÑOS HEROES. Join us for a journey of knowledge, character, and growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden202">Where international education meets a nurturing environment at COLEGIO REFUGIO INTERNACIONAL. Join our community for a global learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden203">A place where curiosity meets creativity at COLEGIO LILI\'S PLANET CAMPUS AZTLAN. Join us for an educational adventure that sparks imagination.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden204">Cultivating academic excellence in a vibrant setting at INSTITUTO BUGAMBILIAS. Join our institute for a holistic learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden205">Nurturing young minds for a bright future at MI PEQUEÑO ALFA Y OMEGA. Join us for an educational journey that values individuality.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden206">A school where every student\'s potential is recognized at PROFA DEMETRIA ZUÑIGA GUEVARA. Join our community for an inclusive and supportive learning environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden207">Inspiring young minds to achieve greatness at MIGUEL HIDALGO Y COSTILLA. Join us for an education that encourages exploration and discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden208">Where innovation meets tradition at COLEGIO HAESSKA. Join our community for a well-rounded and transformative learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden209">Shaping future leaders through quality education at INSTITUTO EDUCATIVO VICTORIA. Join us for a journey of academic excellence and personal growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden210">Unleashing the genius in every child at MI PEQUEÑO GENIO. Join our institute for an educational experience that sparks curiosity.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden211">Fostering a love for learning and cultural awareness at INSTITUTO CULTURAL JACQUES DELORS. Join us for an enriching educational journey.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden212">Guiding young minds with values and knowledge at INSTITUTO HOREB KINDER. Join our community for an education that instills character and integrity.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden213">A school where creativity and knowledge flourish at AMADO NERVO. Join us for an educational journey that celebrates uniqueness.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden214">Nurturing young minds with wisdom and knowledge at SOR JUANA INES DE LA CRUZ. Join our institute for a holistic and empowering learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden215">Where learning is an adventure at OVIDIO DECROLY. Join us for an educational journey that encourages exploration and creativity.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden216">Inspiring young minds to lead with compassion at LEONA VICARIO. Join our community for an education that fosters empathy and understanding.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden217">Where academic excellence meets community values at MOISES SAENZ. Join us for a well-rounded education that prepares students for the future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden218">Building a community of learners at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO. Join our institute for a supportive and inclusive educational environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden219">A place where education and character development go hand in hand at KAYAB. Join us for a well-rounded learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden220">Where each child\'s potential is unlocked at INSTITUTO PEDAGOGICO SKINNER. Join our community for a personalized and engaging educational journey.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden221">Where education transcends boundaries at LAURO AGUIRRE ESPINOSA. Join us for an inclusive and empowering learning environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden222">A school that values collaboration and creativity at EDUCADORAS MEXICANAS. Join our community for an education that inspires and transforms.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden223">Celebrating a century of educational excellence at PRIMER CENTENARIO. Join us for a journey of knowledge, tradition, and progress.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden224">Empowering young minds with knowledge and compassion at MARGARITA MAZA DE JUAREZ. Join our institute for a holistic and nurturing learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden225">Guiding young hearts and minds with care at PROF LEONEL QUIROZ VERGARA. Join us for an educational journey that values empathy and community.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden226">Inspiring a love for learning and a passion for knowledge at JOSE MARIA MORELOS Y PAVON. Join our community for an enriching and transformative educational experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden227">Where the magic of literature meets the joy of learning at GABRIEL GARCIA MARQUEZ. Join us for an educational journey that sparks imagination and creativity.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden228">Building a foundation for lifelong learning at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO. Join our community for a supportive and inclusive educational environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden229">A nurturing space for young minds to grow and flourish at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO. Join us for a journey of academic and personal development.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden230">Where heroes are made through education at COLEGIO NIÑOS HEROES PLANTEL 2. Join our community for a journey of academic excellence and personal development.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden231">A center of community-driven education at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO. Join us for a supportive and inclusive learning environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden232">Fostering excellence and growth in every child at TERESITA MATIENZO DE RAVIZE. Join our institute for a transformative and empowering learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden233">Where education meets character development at JOSE MARIA MORELOS Y PAVON. Join us for a journey of academic and personal growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden234">Guiding young minds to reach their full potential at GREGORIO TORRES QUINTERO. Join our community for an education that values curiosity and individuality.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden235">Providing quality education in rural communities at PREESCOLAR COMUNITARIO RURAL. Join us for an educational experience that values community and diversity.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden236">Fostering a love for learning in rural areas at PREESCOLAR COMUNITARIO RURAL. Join our institute for an enriching educational journey in a community-driven setting.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden237">Stepping into the future with a solid educational foundation at PASOS SOBRE LA ROCA. Join our community for a journey of academic and personal success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden238">Where bilingual education meets a love for learning at INSTITUTO EDUCATIVO BILINGÜE AMOR POR MEXICO. Join us for an enriching and diverse educational experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden239">A community-driven school with a commitment to excellence at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO. Join us for a supportive and inclusive learning environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden240">A center of community-driven education at CENTRO DE ASISTENCIA INFANTIL COMUNITARIO. Join our diverse and welcoming community for an enriching educational journey.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden241">Where education is a spectrum of possibilities at INSTITUTO EDUCATIVO ARCO IRIS. Join our community for a colorful and engaging learning experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden242">A school where every child\'s potential shines at CAMPANITA. Join us for an educational journey that celebrates individuality.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden243">Providing quality education in rural communities at PREESCOLAR COMUNITARIO RURAL. Join our institute for an educational experience that values community and diversity.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden244">Explore academic excellence at Oxford Petrolera, where learning transcends boundaries.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden245">Immerse in the bilingual experience at Instituto Educativo Bilingüe Amor Por Mexico, fostering a love for language and culture.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden246">Play and learn at Kid\'s Land, where education is an exciting journey filled with wonder and discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden247">Choose Centro de Asistencia Infantil Comunitario for quality childcare and early education in a nurturing setting.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden248">Connect with the essence of learning at Preescolar Comunitario Rural, where simplicity lays the foundation for knowledge.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden249">Enroll at Colegio Angelus for character-building education, shaping young minds with values and knowledge.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden250">Embark on a creative journey at Instituto Pedagógico Frida Kahlo, where education is an art and a science.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden251">Build your legacy at Colegio Legacy, where each student\'s path is a promise of a bright and successful future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden252">Discover holistic education at Instituto Galbri, shaping minds for a balanced and meaningful life.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden253">Embrace excellence at Instituto Alfa, where tradition meets innovation in education.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden254">Plant the seeds of knowledge at La Semilla del Saber, cultivating a love for learning in every child.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden255">Experience rural education at Preescolar Comunitario Rural, connecting children to the simplicity and depth of life.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden256">Join Profesora Lolita Cano Treviño for dedicated teaching, passion, and expertise in early childhood education.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden257">Choose Colegio Saviesa for a voyage of discovery, where each student explores and learns with enthusiasm.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden258">Foster joy in learning at Colegio Garmon, where education is a celebration of curiosity and growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden259">Experience academic excellence at Colegio Bucareli, where tradition blends seamlessly with modern pedagogy.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden260">Lay the foundation for success at Marod School Kindergarten, where early education shapes a promising future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden261">Ignite curiosity at Colegio Focus Kid\'s, tailoring education to each child\'s unique potential.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden262">Embrace inclusion at Instituto de Educación y Atención Especial San Francisco, celebrating the uniqueness of every child.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden263">Follow the educational principles of Enrique Pestalozzi, promoting progressive and holistic learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden264">Connect with a supportive community at Centro de Asistencia Infantil Comunitario, where learning is a collaborative effort.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden265">Experience excellence at Lic Benito Juarez, where a blend of tradition and modern pedagogy shapes young minds.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden266">Embrace the charm of rural education at Preescolar Comunitario Rural, where simplicity meets wisdom.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden267">Discover the essence of learning at Preescolar Comunitario Rural, where each child\'s journey is unique.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden268">Flourish in the nurturing environment of Instituto Enrique de Osso, where young minds bloom.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden269">Join the international community at Liceo Franco Mexicano, fostering cultural exchange and academic growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden270">Join the international community at Liceo Franco Mexicano, fostering cultural exchange and academic growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden271">Unlock potential at Colegio Sigmund Freud, where education is a journey of self-discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden272">Nurture happy learners at Happy Kids, where education is a joyful experience.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden273">Choose the path of knowledge at Instituto Educativo Benitez, where each child\'s potential is cultivated.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden274">Immerse in a colorful world of education at El Arco de Colores, where creativity and learning go hand in hand.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden275">Experience specialized education at Instituto Especializado en Educación Preescolar Educandos, catering to unique learning needs.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden276">Explore the vibrant learning environment at Primavera, where each day is a new discovery.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden277">Choose Centro de Estudios Bilingüe Lowell for a bilingual journey, fostering language proficiency.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden278">Estrellitas: where little stars shine bright through joyful learning experiences.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden279">Discover the world of knowledge at Divertimundo ABC, where education is an adventure.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden280">Embark on a learning expedition at Arajava, where curiosity meets academic excellence.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden281">Jardin de Niños Reynosa: Nurturing young minds with care and quality education.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden282">Colonia: Where every child\'s educational journey is crafted with personalized care.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden283">Choose Colegio Praxis for holistic education, shaping minds for a brighter future.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden284">Join Colegio Kidsville for a fun-filled educational experience, blending play and learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden285">Club Rotario Reynosa: A community of learners dedicated to excellence and growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden286">Prof. Teodosia Martinez de Armas de Aguilera: Guiding young minds towards a future of success.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden287">Prof. Juan Granados Rodriguez: Where teaching goes beyond textbooks, inspiring a love for learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden288">Niño Artillero: Fostering creativity and curiosity in a supportive educational environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden289">Ignacio Manuel Altamirano: Building a strong foundation for academic and personal growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden290">Centro de Asistencia Infantil Comunitario: A hub of community learning, connecting children to knowledge.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden291">El Tesoro del Saber: Uncover the treasures of knowledge through engaging and immersive learning.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden292">Mundo Nuevo: Where each day is an opportunity for new discoveries and growth.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden293">Preescolar Comunitario Rural: Connecting children to the simplicity and depth of life in a rural setting.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden294">Instituto Pedagógico Esmeralda: Cultivating a love for learning in a nurturing and supportive environment.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden295">Centro de Asistencia Infantil Comunitario: A collaborative community for early childhood education.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden296">Tohui: Embrace the journey of education in a setting that nurtures each child\'s unique potential.</string>
+    <string name="opportunitiesItemDescriptionKinderGarden297">Instituto Colon Preescolar: Unlock the door to a world of knowledge and discovery.</string>
+
+
+    <string name="opportunitiesSubCategoryElementarySchoolName1">Ethel Sutton</string>
+    <string name="opportunitiesSubCategoryElementarySchoolName2">Ethel Sutton</string>
+
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName1">Ethel Sutton</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName2">Ethel Sutton</string>
+
+    <string name="opportunitiesSubCategoryKinderGardenGoogleMaps1">https://www.facebook.com/people/Colegio-Ethel-Sutton/100063732386865/?locale=da_DK&amp;paipv=0&amp;eav=AfbelvhD_S1RZi-OzIHmkvTKb1mE9Ey_5uDpK20iYF8WeUQtpCpsvl8wyyVzdBbKujA&amp;_rdr</string>
+
+</resources>

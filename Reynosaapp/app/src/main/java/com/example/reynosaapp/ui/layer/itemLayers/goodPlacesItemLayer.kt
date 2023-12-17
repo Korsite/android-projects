@@ -70,7 +70,11 @@ fun itemLayerForGoodPlacesForCompactSize(
 
         displayDaysOfTheWeekAndCompleteSchedule(item = item)
 
-        HyperText(link = item.itemGoogleMaps, modifier = Modifier)
+        HyperText(
+            link = item.itemGoogleMaps,
+            message = R.string.clickHereToGoogleMaps,
+            modifier = Modifier
+        )
     }
 }
 
@@ -78,9 +82,9 @@ fun itemLayerForGoodPlacesForCompactSize(
 fun itemLayerForGoodPlacesForMediumSize(
     item: ItemData
 ) {
-    Column (
+    Column(
         horizontalAlignment = Alignment.CenterHorizontally
-    ){
+    ) {
         Text(text = stringResource(item.itemDaysShopOpened))
 
         Row {
@@ -90,16 +94,20 @@ fun itemLayerForGoodPlacesForMediumSize(
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.weight(1f)
             )
-            
+
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.weight(1f)
-            ){
+            ) {
                 Text(text = stringResource(item.itemDescription))
 
                 Spacer(modifier = Modifier.padding(10.dp))
 
-                HyperText(link = item.itemGoogleMaps, modifier = Modifier)
+                HyperText(
+                    link = item.itemGoogleMaps,
+                    message = R.string.clickHereToGoogleMaps,
+                    modifier = Modifier
+                )
             }
         }
 

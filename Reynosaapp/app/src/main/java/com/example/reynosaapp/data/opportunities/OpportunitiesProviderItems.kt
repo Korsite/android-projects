@@ -18,5 +18,4 @@ object OpportunitiesProviderItems {
         allSubCategories = allSubCategories,
         allItems = allItems
     )
-
 }
