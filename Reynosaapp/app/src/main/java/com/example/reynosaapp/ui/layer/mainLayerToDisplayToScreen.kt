@@ -3,21 +3,23 @@ package com.example.reynosaapp.ui.layer
 import android.content.SharedPreferences
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.filters.ExtraCategoriesForGoodPlaces
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.data.ReynosaViewModel
 import com.example.reynosaapp.ui.layer.categoryLayer.categoryLayerLazyColumn
 import com.example.reynosaapp.ui.layer.itemLayers.itemLayerLazyColumn
+import com.example.reynosaapp.ui.layer.subCategoryLayer.subCategoryLayerLazyColumn
 import com.example.reynosaapp.ui.topBar
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.debounce
@@ -37,6 +39,8 @@ fun currentLayer(
     rememberScrollPositionForRestaurants: SharedPreferences,
     rememberScrollPositionForParks: SharedPreferences,
 
+    onClickSwitchMode: () -> Unit,
+    isInDarkTheme: Boolean,
     modifier: Modifier,
 ) {
 
@@ -95,7 +99,6 @@ fun currentLayer(
         else if (!reynosaUiState.showingAnItem)
             subCategoryLayerLazyColumn(
                 reynosaUiState = reynosaUiState,
-                reynosaViewModel = reynosaViewModel,
                 subCategories =
                 if (reynosaUiState.filtersToShow.any { it }) reynosaUiState.filter
                 else reynosaUiState.currentSubCategories,
@@ -119,7 +122,9 @@ fun currentLayer(
                 currentCategory = currentCategory,
                 onClickExtraCategory = onClickExtraCategory,
                 windowsSize = windowsSize,
-                modifier = Modifier.weight(1f)
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(top = 15.dp)
             )
 
             Column(
@@ -130,13 +135,14 @@ fun currentLayer(
                     subject = stringResource(reynosaUiState.subject),
                     reynosaUiState = reynosaUiState,
                     reynosaViewModel = reynosaViewModel,
-                    windowsSize = windowsSize
+                    windowsSize = windowsSize,
+                    onClickSwitchMode = onClickSwitchMode,
+                    isInDarkTheme = isInDarkTheme
                 )
 
                 if (!reynosaUiState.showingAnItem) {
                     subCategoryLayerLazyColumn(
                         reynosaUiState = reynosaUiState,
-                        reynosaViewModel = reynosaViewModel,
                         subCategories =
                         if (reynosaUiState.filtersToShow.any { it }) reynosaUiState.filter
                         else reynosaUiState.currentSubCategories,

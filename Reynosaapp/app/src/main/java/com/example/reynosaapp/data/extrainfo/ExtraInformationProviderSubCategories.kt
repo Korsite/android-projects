@@ -36,4 +36,5 @@ object ExtraInformationProviderSubCategories {
 
         MainCategories.ExtraInfo.Categories[2] to subCategory3
     )
+
 }

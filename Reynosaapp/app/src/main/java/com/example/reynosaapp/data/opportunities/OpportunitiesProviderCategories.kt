@@ -9,14 +9,14 @@ object OpportunitiesProviderCategories {
         CategoryData(
             R.string.opportunitiesCategoryName1,
             R.string.opportunitiesCategoryDescription1,
-            R.drawable.mitsuha,
+            R.drawable.opportunitieseducation,
             ExtraCategoriesForOpportunities.Education.extraCategories
         ),
 
         CategoryData(
             R.string.opportunitiesCategoryName2,
             R.string.opportunitiesCategoryDescription2,
-            R.drawable.mitsuha,
+            R.drawable.work,
             ExtraCategoriesForOpportunities.Work.extraCategories
         )
     )

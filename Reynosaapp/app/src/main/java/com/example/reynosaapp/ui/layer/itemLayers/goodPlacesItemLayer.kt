@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
@@ -16,12 +17,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.ItemData
 import com.example.reynosaapp.data.mainProvider
 import com.example.reynosaapp.ui.HyperText
+import com.example.reynosaapp.ui.layer.subCategoryLayer.scheduleUnknown
 import com.example.reynosaapp.ui.theme.ReynosaAppTheme
 
 /**
@@ -39,7 +42,7 @@ enum class DAYS_OF_THE_WEEK {
 @Composable
 fun itemLayerForGoodPlaces(
     item: ItemData,
-    windowsSize: WindowWidthSizeClass
+    windowsSize: WindowWidthSizeClass,
 ) {
     when (windowsSize) {
         WindowWidthSizeClass.Compact -> itemLayerForGoodPlacesForCompactSize(item = item)
@@ -66,7 +69,9 @@ fun itemLayerForGoodPlacesForCompactSize(
                 .padding(bottom = 10.dp)
         )
 
-        Text(text = stringResource(item.itemDescription))
+        Text(text = stringResource(item.itemDescription), textAlign = TextAlign.Center)
+
+        Spacer(Modifier.height(20.dp))
 
         displayDaysOfTheWeekAndCompleteSchedule(item = item)
 
@@ -80,7 +85,7 @@ fun itemLayerForGoodPlacesForCompactSize(
 
 @Composable
 fun itemLayerForGoodPlacesForMediumSize(
-    item: ItemData
+    item: ItemData,
 ) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally
@@ -99,7 +104,11 @@ fun itemLayerForGoodPlacesForMediumSize(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.weight(1f)
             ) {
-                Text(text = stringResource(item.itemDescription))
+                Text(
+                    text = stringResource(item.itemDescription),
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(5.dp)
+                )
 
                 Spacer(modifier = Modifier.padding(10.dp))
 
@@ -119,23 +128,24 @@ fun itemLayerForGoodPlacesForMediumSize(
 
 @Composable
 fun displayDaysOfTheWeekAndCompleteSchedule(
-    item: ItemData
+    item: ItemData,
 ) {
-    item.itemSchedule.forEach { pairWhereComponent1IsDayAnd2IsHour ->
-        Row(
-            modifier = Modifier.padding(horizontal = 20.dp)
-        ) {
-            Text(text = pairWhereComponent1IsDayAnd2IsHour.component1(), Modifier.weight(1f))
+    if (item.itemSchedule != scheduleUnknown)
+        item.itemSchedule.forEach { pairWhereComponent1IsDayAnd2IsHour ->
+            Row(
+                modifier = Modifier.padding(horizontal = 20.dp)
+            ) {
+                Text(text = pairWhereComponent1IsDayAnd2IsHour.component1(), Modifier.weight(1f))
 
-            Text(
-                text =
-                if (pairWhereComponent1IsDayAnd2IsHour.second is String)
-                    pairWhereComponent1IsDayAnd2IsHour.second as String
-                else
-                    stringResource(pairWhereComponent1IsDayAnd2IsHour.second as Int),
-            )
+                Text(
+                    text =
+                    if (pairWhereComponent1IsDayAnd2IsHour.second is String)
+                        pairWhereComponent1IsDayAnd2IsHour.second as String
+                    else
+                        stringResource(pairWhereComponent1IsDayAnd2IsHour.second as Int),
+                )
+            }
         }
-    }
 }
 
 @Preview(showBackground = true)

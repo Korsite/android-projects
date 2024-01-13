@@ -8,7 +8,9 @@ enum class ExtraCategoriesForOpportunities(@StringRes val extraCategories: List<
         listOf(
             R.string.opportunitiesEducationExtraCategoryName1,
             R.string.opportunitiesEducationExtraCategoryName2,
-            R.string.opportunitiesEducationExtraCategoryName3
+            R.string.opportunitiesEducationExtraCategoryName3,
+            R.string.opportunitiesEducationExtraCategoryName4,
+            R.string.opportunitiesEducationExtraCategoryName5,
         )
     ),
 

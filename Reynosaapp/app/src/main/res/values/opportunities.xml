@@ -9,22 +9,20 @@
     <string name="opportunitiesCategoryName2">Work</string>
 
     <string name="opportunitiesCategoryDescription1">Information was obtained by google and some pages, I excuse myself if there are many schools with no pictures</string>
-    <string name="opportunitiesCategoryDescription2">pepe</string>
+    <string name="opportunitiesCategoryDescription2">I have no idea what to put here</string>
 
     <string name="opportunitiesEducationExtraCategoryName1">Kinder garden</string>
     <string name="opportunitiesEducationExtraCategoryName2">Elementary school</string>
     <string name="opportunitiesEducationExtraCategoryName3">Junior High school</string>
-    <string name="opportunitiesWorkExtraCategoryName1">Work1</string>
-    <string name="opportunitiesWorkExtraCategoryName2">Work2</string>
-    <string name="opportunitiesWorkExtraCategoryName3">Work3</string>
+    <string name="opportunitiesEducationExtraCategoryName4">High school</string>
+    <string name="opportunitiesEducationExtraCategoryName5">University</string>
+
+    <string name="opportunitiesWorkExtraCategoryName1">Nothing yet</string>
+    <string name="opportunitiesWorkExtraCategoryName2">Nothing yet</string>
+    <string name="opportunitiesWorkExtraCategoryName3">Nothing yet</string>
 
 
-    <string name="opportunitiesSubCategoryName2">Pepe</string>
-
-
-
-    <string name="opportunitiesSubCategoryContentDescription1">kinder</string>
-    <string name="opportunitiesSubCategory1ItemDescription">this is an example of item description</string>
-    <string name="opportunitiesSubCategory1ItemWebsite">https://colegioethelsutton.edu.mx</string>
+    <string name="opportunitiesSubCategoryName2">I have no idea what to put here</string>
+    
 
 </resources>

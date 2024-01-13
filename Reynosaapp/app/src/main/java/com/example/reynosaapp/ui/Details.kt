@@ -4,7 +4,8 @@ import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -18,10 +19,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -49,7 +52,9 @@ fun topBar(
     subject: String,
     reynosaUiState: ReynosaUiState,
     reynosaViewModel: ReynosaViewModel,
-    windowsSize: WindowWidthSizeClass
+    windowsSize: WindowWidthSizeClass,
+    onClickSwitchMode: () -> Unit,
+    isInDarkTheme: Boolean,
 ) {
     CenterAlignedTopAppBar(
         title = {
@@ -59,6 +64,18 @@ fun topBar(
             filterIcon(reynosaUiState = reynosaUiState) {
                 reynosaViewModel.updateFilterIsShow()
             }
+
+            if (
+                windowsSize != WindowWidthSizeClass.Expanded &&
+                !reynosaUiState.showingSubCategories &&
+                !reynosaUiState.showingAnItem
+            )
+                switchThemeMode(
+                    reynosaUiState = reynosaUiState,
+                    isInDarkTheme = isInDarkTheme,
+                    onClickSwitchMode = onClickSwitchMode
+                )
+
         },
         navigationIcon = {
             navigationIcon(
@@ -85,7 +102,7 @@ fun topBar(
 fun navigationIcon(
     reynosaUiState: ReynosaUiState,
     windowsSize: WindowWidthSizeClass,
-    onClick: () -> Unit
+    onClick: () -> Unit,
 ) {
     if (
         windowsSize == WindowWidthSizeClass.Compact && reynosaUiState.currentCategory != 0 ||
@@ -104,7 +121,7 @@ fun navigationIcon(
 @Composable
 fun filterIcon(
     reynosaUiState: ReynosaUiState,
-    onClickFilterIcon: () -> Unit
+    onClickFilterIcon: () -> Unit,
 ) {
     // filter icon is only shown in Good Places / Restaurants
     if (
@@ -122,7 +139,7 @@ fun filterIcon(
 fun HyperText(
     @StringRes link: Int,
     message: Int,
-    modifier: Modifier
+    modifier: Modifier,
 ) {
     val hyperText = buildAnnotatedString {
         // creating a string to display in the Text
@@ -166,7 +183,6 @@ fun HyperText(
     )
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun choicesToFilterGoodPlaces(
     reynosaUiState: ReynosaUiState,
@@ -198,6 +214,35 @@ fun choicesToFilterGoodPlaces(
     }
 }
 
+/**
+ * Displays the icon to switch theme, if screen is expanded, It will be displays
+ * in another location
+ * @see com.example.reynosaapp.ui.layer.typesOfNavigation.permanentNavigationDrawer
+ */
+@Composable
+fun switchThemeMode(
+    reynosaUiState: ReynosaUiState,
+    isInDarkTheme: Boolean,
+    onClickSwitchMode: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    IconButton(
+        onClick = onClickSwitchMode,
+        modifier = modifier
+            .size(35.dp)
+            .padding(end = 10.dp)
+    ) {
+        Icon(
+            painter = painterResource(
+                if (isInDarkTheme) R.drawable.dark_mode
+                else R.drawable.light_mode
+            ),
+            contentDescription = null
+        )
+    }
+}
+
+
 @Composable
 @Preview(showSystemUi = true)
 fun previewHyperTextAndChoicesToFilterGoodPlaces() {
@@ -205,13 +250,30 @@ fun previewHyperTextAndChoicesToFilterGoodPlaces() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        HyperText(link = R.string.good_places, message = R.string.clickHereToGoogleMaps, modifier = Modifier)
+        val reynosaViewModel: ReynosaViewModel = viewModel()
+
+        HyperText(
+            link = R.string.good_places,
+            message = R.string.clickHereToGoogleMaps,
+            modifier = Modifier
+        )
 
         choicesToFilterGoodPlaces(
-            reynosaUiState = viewModel(),
+            reynosaUiState = reynosaViewModel.uiState.collectAsState().value,
             onClickExtraOption = { _, _ -> },
             whichFilterToShow = 0,
             extraCategoryForGoodPlaces = ExtraCategoriesForGoodPlaces.Asian
         )
     }
+}
+
+@Composable
+@Preview(showBackground = true)
+fun previewOfSwitchLightDarkMode() {
+    val reynosaViewModel: ReynosaViewModel = viewModel()
+    switchThemeMode(
+        reynosaUiState = reynosaViewModel.uiState.collectAsState().value,
+        isInDarkTheme = false,
+        onClickSwitchMode = {}
+    )
 }

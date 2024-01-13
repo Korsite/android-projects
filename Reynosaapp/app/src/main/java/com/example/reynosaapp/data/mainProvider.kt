@@ -8,6 +8,7 @@ import com.example.reynosaapp.data.extrainfo.ExtraInformationProviderCategories
 import com.example.reynosaapp.data.extrainfo.ExtraInformationProviderSubCategories
 import com.example.reynosaapp.data.framework.ExtraCategoriesForOpportunities
 import com.example.reynosaapp.data.framework.MainCategories
+import com.example.reynosaapp.data.framework.SubCategoryData
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderCategories
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderItems
 import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderSubCategories
@@ -31,13 +32,12 @@ object mainProvider {
     private val goodPlacesSubCategories = GoodPlacesProviderSubCategories.SubCategories
     private val dangerousPlacesSubCategories = DangerousPlacesProviderSubCategories.subCategories
     private val opportunitiesSubCategories = OpportunitiesProviderSubCategories.subCategories
-    private val extraInfoSubCategories = ExtraInformationProviderSubCategories.subCategories
+    private val extraInfoSubCategories = ExtraInformationProviderSubCategories // val no necessary, cause we do not instances to display any list of any
 
     private val allSubCategories =
         goodPlacesSubCategories
             .plus(dangerousPlacesSubCategories)
             .plus(opportunitiesSubCategories)
-            .plus(extraInfoSubCategories)
 
 
     private val goodPlacesAllItems = GoodPlacesProviderItems.Items

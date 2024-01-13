@@ -8,6 +8,6 @@
     <string name="clickHereToGoogleMaps">Google Maps</string>
     <string name="openedNow">Opened \nCloses in %1$s</string>
     <string name="closedNow">Closed \nOpens %1$s at %2$s</string>
-    <string name="useForNoThing" />
+    <string name="useForNoThing"/>
 
 </resources>

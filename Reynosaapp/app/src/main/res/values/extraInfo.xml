@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="extraInformationCategory1">thing1</string>
-    <string name="extraInformationCategory2">thing2</string>
-    <string name="extraInformationCategory3">thing3</string>
+    <string name="extraInformationCategory1">History</string>
+    <string name="extraInformationCategory2">Valentin Elizalde</string>
+    <string name="extraInformationCategory3">Important places</string>
     <string name="extraInformationSubCategory1Name">VALENTIN ELIZALDE</string>
+
+    <string name="historyOfReynosaPart1">
+        The city of Reynosa was founded on March 14, 1749, according to the plans authorized by the colonizer Don José de Escandón y Helguera, Count of Sierra Gorda, with 279 inhabitants under the command of Captain Carlos Cantú
+    </string>
+
+    <string name="historyOfReynosaPart2">
+        On July 4, 1802, it was moved 8 km to the east, along the same bank of the Rio Grande, due to constant floods.\n\n
+        In 1926, it was granted city status by a decree of the State Government. This marked the beginning of its vibrant life, overcoming the challenges of the weather and integrating into the realm of civilization and modern technology. Reynosa excelled in the petroleum industry, which has been and continues to be the foundation of its wealth and a constant source of employment. Together with livestock and agriculture, it promotes the subsistence of hundreds of surrounding communities.
+    </string>
+
+    <string name="valentinElizaldePart1">
+        Valentin Elizalde, widely recognized as "El Gallo de Oro" (The Golden Rooster), was a highly acclaimed Mexican singer specializing in traditional banda music.\n\n
+        Born on February 1, 1979, in Sonora, Mexico, he quickly gained fame with his distinctive voice and emotional performances. Valentin became a prominent figure in the regional Mexican music scene, known for hits like "Vete Ya" and "Ebrio de Amor."
+    </string>
+
+    <string name="valentinElizaldePart2">
+        His career soared as he garnered numerous awards and nominations, solidifying his status as a beloved artist. However, tragedy struck on November 25, 2006, when Valentin Elizalde was brutally murdered in Reynosa, Tamaulipas, shortly after a concert.\n\n
+        His untimely death shook the music industry and left an indelible mark on the hearts of his fans, marking the end of a promising musical journey.
+    </string>
+
+    <string name="valentinElizaldePart3">
+        Valentin Elizalde\'s murder in 2006 remains shrouded in speculation and rumors. One prevalent rumor suggests that his death was linked to his involvement in narcocorridos, a genre of Mexican music that depicts the lives of drug traffickers.\n\n
+        Some believe that the content of his songs and his association with this genre might have led to conflicts with certain criminal elements.
+    </string>
+
+    <string name="importantPlacesPart1">
+        In 1992, this beautiful house was restored to open the doors of the first Historical Museum of Tamaulipas. The house itself, dating from the late 19th to early 20th centuries, is part of the museum, and you can admire the original fixtures in the backyard.\n\n
+        Inside, you will find antique furniture, archaeological pieces, farming and ranching tools, antique weapons, photographs, and other pieces of historical significance. 899-922-1512
+    </string>
+
+    <string name="importantPlacesPart2">
+        Located in a 40-hectare space surrounding the La Escondida lagoon, its mission is to promote cultural and artistic activities and implement programs for the development of arts, culture, and artistic endeavors in the municipality of Reynosa and the border region.\n\n
+        It features a theater ideal for various artistic disciplines such as theater, film, dance, opera, and concerts, equipped with state-of-the-art technology in theatrical mechanics, audio, and lighting. Additionally, it offers exhibition galleries and a Convention Center.
+    </string>
+
+    <string name="importantPlacesPart3">
+        Experience the wonders of wildlife at Reynosa Zoo! Immerse yourself in a captivating journey as you encounter a diverse range of animals, from majestic big cats to colorful birds. Our zoo is a hub of conservation and education, aimed at fostering a deep appreciation for the incredible diversity of the animal kingdom.\n\n
+        Join us for a day of exploration, where themed exhibits, knowledgeable staff, and unforgettable moments await. Reynosa Zoo is not just a destination; it\'s a gateway to connect with the beauty of the natural world. Plan your visit now and be part of the magic!
+    </string>
+
+    <string name="importanPlacesName1">Reynosa Museum</string>
+    <string name="importanPlacesName2">Parque cultural</string>
+    <string name="importanPlacesName3">Reynosa Zoo</string>
 </resources>

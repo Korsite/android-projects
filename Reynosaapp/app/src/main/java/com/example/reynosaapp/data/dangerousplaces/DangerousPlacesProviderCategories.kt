@@ -8,12 +8,12 @@ object DangerousPlacesProviderCategories {
         CategoryData(
             R.string.dangerousPlacesCategoryName1,
             R.string.dangerousCategoryContentDescription1,
-            R.drawable.mitsuha
+            R.drawable.dangerouscolonies
         ),
         CategoryData(
             R.string.dangerousPlacesCategoryName2,
             R.string.dangerousCategoryContentDescription2,
-            R.drawable.mitsuha   
+            R.drawable.dangerousplaces
         )
     )
 }

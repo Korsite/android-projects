@@ -1,11 +1,13 @@
 package com.example.reynosaapp.data
 
+import androidx.activity.OnBackPressedCallback
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import com.example.reynosaapp.R
 import com.example.reynosaapp.data.framework.ItemData
 import com.example.reynosaapp.data.framework.SubCategoryData
+import com.example.reynosaapp.data.goodplaces.GoodPlacesProviderSubCategories
 import com.example.reynosaapp.ui.data.ReynosaUiState
 import com.example.reynosaapp.ui.layer.itemLayers.DAYS_OF_THE_WEEK
 import java.util.Calendar
@@ -80,7 +82,7 @@ fun checkHowMuchTimeLeftToClose(minutesLeft: Int): String {
 fun checkHowMinutesLefToClose(
     openTime: Double,
     closeTime: Double,
-    reynosaUiState: ReynosaUiState
+    reynosaUiState: ReynosaUiState,
 ): Int {
 
     val currentTime =
@@ -96,7 +98,7 @@ fun checkHowMinutesLefToClose(
     val currentTimeInMinutes = convertTimeInMinutes(currentTime)
     val closeTimeInMinutes = convertTimeInMinutes(closeTime)
 
-    return when{
+    return when {
         closeTime < openTime && currentTime > openTime -> (24 * 60 + closeTimeInMinutes) - currentTimeInMinutes
         else -> closeTimeInMinutes - currentTimeInMinutes
     }
@@ -112,7 +114,7 @@ fun returnAListToCheckDaysAfter(): List<Int> {
 }
 
 fun checkHowMuchTimeLeftToOpen(
-    completeSchedule: List<Pair<String, Any>>
+    completeSchedule: List<Pair<String, Any>>,
 ): Pair<String, String> {
 
     val hourNow = ReynosaUiState().currentTime.get(Calendar.HOUR_OF_DAY)
@@ -168,10 +170,13 @@ fun checkHowMuchTimeLeftToOpen(
     )     // where 1st is day and 2nd is hour
 }
 
-
+/**
+ * sdf
+ *
+ */
 fun takeAListOfSubCategoriesAndItemInstanceAndReturnAMap(
     allSubCategories: List<SubCategoryData>,
-    allItems: List<ItemData>
+    allItems: List<ItemData>,
 ): Map<Int, ItemData> {
 
     val items = buildMap {
@@ -193,7 +198,7 @@ fun takeAListOfSubCategoriesAndItemInstanceAndReturnAMap(
                 subCategory.subCategoryName,
                 ItemData(
                     itemName = subCategory.subCategoryName,
-                    itemPicture = if(itemPicture == R.drawable.usefornothing) subCategory.subCategoryPicture else itemPicture,
+                    itemPicture = if (itemPicture == R.drawable.usefornothing) subCategory.subCategoryPicture else itemPicture,
                     itemDescription = itemDescription,
                     itemDescriptionOptional = itemDescriptionOptional,
                     itemDaysShopOpened = subCategory.subCategoryDaysShopOpened,
@@ -227,7 +232,7 @@ a listOf(1, 2) in exceptionDay means that every day same schedule, but Tuesday a
 fun returnAPairDataTypeAboutTheScheduleOfAShop(
     vararg scheduleOfEachDay: Any?,
     openTimeAndClose: Pair<Double, Double> = Pair(0.0, 0.0),
-    exceptionDay: List<Int> = emptyList()
+    exceptionDay: List<Int> = emptyList(),
 ): List<Pair<String, Any>> {
 
 
@@ -269,12 +274,17 @@ fun returnAPairDataTypeAboutTheScheduleOfAShop(
 
 }
 
+
+
 fun main() {
+
+    val a = GoodPlacesProviderSubCategories.SubCategories[R.string.goodPlacesCategoryName1]?.get(1)
+        ?: SubCategoryData(-1, -1)
+
+
+
     print(
-        checkHowMinutesLefToClose(
-            8.0,
-            10.0,
-            ReynosaUiState()
-        )
+        checkHowMuchTimeLeftToOpen
+            (a.subCategoryCompleteSchedule)
     )
 }

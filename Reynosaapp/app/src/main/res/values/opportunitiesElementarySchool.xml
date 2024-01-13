@@ -13,10 +13,10 @@
     <string name="opportunitiesSubCategoryElementaryClickHere4">https://www.google.com.mx/maps/place/ANDANAC+NISSAN+11/@26.0073945,-98.2645068,17z/data=!4m6!3m5!1s0x86650e32c8916d5f:0x831ea1919161143a!8m2!3d26.0073699!4d-98.26445!16s%2Fg%2F1v6qj165?entry=ttu</string>
     <string name="opportunitiesSubCategoryElementaryClickHere5">https://www.google.com.mx/maps/place/Escuela+primaria+Melchor+Ocampo+art.+123/@26.0692493,-98.2720635,19z/data=!4m6!3m5!1s0x86650f23f3c399a3:0x996515086525f6d8!8m2!3d26.0695263!4d-98.2715112!16s%2Fg%2F11c0xcrkx2?entry=ttu</string>
 
-    <string name="opportunitiesItemDescriptionKinderGarden1">The Ernesto Gomez Lira school is a public sector school, with a Primary educational level and an evening shift. The school has 425 students, of which 197 are women and 228 are men, and has 12 teachers.</string>
-    <string name="opportunitiesItemDescriptionKinderGarden2"></string>
-    <string name="opportunitiesItemDescriptionKinderGarden3"></string>
-    <string name="opportunitiesItemDescriptionKinderGarden4"></string>
-    <string name="opportunitiesItemDescriptionKinderGarden5"></string>
+    <string name="opportunitiesItemDescriptionElementary1">The Ernesto Gomez Lira school is a public sector school, with a Primary educational level and an evening shift. The school has 425 students, of which 197 are women and 228 are men, and has 12 teachers.</string>
+    <string name="opportunitiesItemDescriptionElementary2">Discover excellence at Plutarco Elias Calles Elementary—a place where learning thrives. Our dedicated faculty and innovative curriculum inspire a love for learning and critical thinking, celebrating each child\'s potential.</string>
+    <string name="opportunitiesItemDescriptionElementary3">Ethel Sutton Plantel 2 shapes young minds for a brighter future. Our vibrant community focuses on academic excellence and holistic growth, providing a supportive space for each child to blossom into a confident individual.</string>
+    <string name="opportunitiesItemDescriptionElementary4">Andanac Nissan Elementary is more than an institution; it\'s an exciting educational adventure. Embracing innovation and creativity, we nurture each student\'s potential, creating a foundation for lifelong learning and success.</string>
+    <string name="opportunitiesItemDescriptionElementary5">Melchor Ocampo Artículo 123 Elementary provides a dynamic and inclusive learning experience. With a focus on academic achievement and character development, we prepare students for a future of possibilities, fostering a love for knowledge and community.</string>
 
 </resources>

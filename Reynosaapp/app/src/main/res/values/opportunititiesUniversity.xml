@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="opportunitiesSubCategoryUniversityName1">Tecnologico</string>
+    <string name="opportunitiesSubCategoryUniversityName2">UAT Rhode</string>
+    <string name="opportunitiesSubCategoryUniversityName3">UTT</string>
+    <string name="opportunitiesSubCategoryUniversityName4">UMAN La Cima</string>
+    <string name="opportunitiesSubCategoryUniversityName5">Tec Milenio</string>
+
+    <string name="opportunitiesSubCategoryUniversityClickHere1">https://www.google.com.mx/maps/place/Tecnológico+Nacional+de+México/@26.0358752,-98.3447892,14z/data=!4m10!1m2!2m1!1sTecnologico!3m6!1s0x866505ac62d9487f:0xde0db6e4ac4b5e25!8m2!3d26.0424392!4d-98.3484696!15sCgtUZWNub2xvZ2ljb5IBCnVuaXZlcnNpdHngAQA!16s%2Fg%2F11c3q2x0rm?entry=ttu</string>
+    <string name="opportunitiesSubCategoryUniversityClickHere2">https://www.google.com.mx/maps/place/Universidad+Autónoma+de+Tamaulipas/@26.0285344,-98.2802317,17z/data=!3m1!4b1!4m6!3m5!1s0x86650fbaaa1d6295:0x4b56f15d82d8b5f1!8m2!3d26.0285345!4d-98.2756183!16s%2Fg%2F1vrqb1p1?entry=ttu</string>
+    <string name="opportunitiesSubCategoryUniversityClickHere3">https://www.google.com.mx/maps/place/Universidad+Tecnológica+de+Tamaulipas+Norte/@26.050542,-98.2637652,17z/data=!4m10!1m2!2m1!1sutt!3m6!1s0x86650efc9130a4f7:0x28d4112d239ed51f!8m2!3d26.0510005!4d-98.2605056!15sCgN1dHRaBSIDdXR0kgEKdW5pdmVyc2l0eZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNd2NXRjZTR3BCUlJBQuABAA!16s%2Fg%2F1tfjfzk5?entry=ttu</string>
+    <string name="opportunitiesSubCategoryUniversityClickHere4">https://www.google.com.mx/maps/place/UMAN/@26.0705324,-98.3504382,17z/data=!3m1!4b1!4m6!3m5!1s0x866505f277c8665d:0x3ebede0641164db4!8m2!3d26.0705324!4d-98.3478633!16s%2Fg%2F11fn2j73n7?entry=ttu</string>
+    <string name="opportunitiesSubCategoryUniversityClickHere5">https://www.google.com.mx/maps/place/Universidad+Tecmilenio/@26.0407257,-98.4229251,16z/data=!4m6!3m5!1s0x8665039f41da6cab:0xd279bf3ee1a36276!8m2!3d26.0407257!4d-98.4196929!16s%2Fm%2F0cvbxym?entry=ttu</string>
+
+    <string name="opportunitiesItemDescriptionUniversity1">Tecnologico: Embrace innovation and academic excellence at Tecnologico. Join a community dedicated to shaping future leaders through cutting-edge education and hands-on experiences.</string>
+    <string name="opportunitiesItemDescriptionUniversity2">UAT Rhode: Experience a vibrant academic journey at UAT Rhode. Our university fosters a dynamic learning environment where students explore their passions and prepare for successful futures.</string>
+    <string name="opportunitiesItemDescriptionUniversity3">UTT: Unlock your potential at UTT, where we prioritize personalized learning and practical skills. Join a community committed to nurturing creativity and fostering a spirit of discovery.</string>
+    <string name="opportunitiesItemDescriptionUniversity4">UMAN La Cima: UMAN La Cima offers a unique educational experience, blending academic rigor with a supportive atmosphere. Explore diverse opportunities and build a foundation for a successful future.</string>
+    <string name="opportunitiesItemDescriptionUniversity5">Tec Milenio: At Tec Milenio, we focus on holistic development, providing a well-rounded education that prepares students for the challenges of the modern world. Join us on a journey of academic and personal growth.</string>
+
+</resources>

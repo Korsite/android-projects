@@ -30,7 +30,6 @@ data class ReynosaUiState(
     val filtersToShow: SnapshotStateList<Boolean> = List(12){false}.toMutableStateList(),
     val isShowingFilters : Boolean = false
 ) {
-
     val currentCategories by lazy { mainProvider.Categories[currentMainCategory]!! }
 
     val currentSubCategories by lazy {

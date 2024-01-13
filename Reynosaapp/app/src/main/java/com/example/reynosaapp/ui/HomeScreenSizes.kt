@@ -26,7 +26,9 @@ fun HomeScreenForCompactSize(
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
-    rememberScrollPositionForParks: SharedPreferences
+    rememberScrollPositionForParks: SharedPreferences,
+    onClickSwitchMode: () -> Unit,
+    isInDarkTheme: Boolean
 ) {
 
 
@@ -35,7 +37,9 @@ fun HomeScreenForCompactSize(
             subject = stringResource(reynosaUiState.subject),
             reynosaUiState = reynosaUiState,
             reynosaViewModel = reynosaViewModel,
-            windowsSize = windowsSize
+            windowsSize = windowsSize,
+            onClickSwitchMode = onClickSwitchMode,
+            isInDarkTheme = isInDarkTheme
         )
 
         currentLayer(
@@ -58,7 +62,8 @@ fun HomeScreenForCompactSize(
             rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
             rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
             rememberScrollPositionForParks = rememberScrollPositionForParks,
-
+            onClickSwitchMode = onClickSwitchMode,
+            isInDarkTheme = isInDarkTheme
         )
 
         bottomNavigation(
@@ -81,7 +86,9 @@ fun HomeScreenForMediumSize(
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
-    rememberScrollPositionForParks: SharedPreferences
+    rememberScrollPositionForParks: SharedPreferences,
+    onClickSwitchMode: () -> Unit,
+    isInDarkTheme: Boolean
 ) {
 
 
@@ -100,7 +107,9 @@ fun HomeScreenForMediumSize(
                 subject = stringResource(reynosaUiState.subject),
                 reynosaUiState = reynosaUiState,
                 reynosaViewModel = reynosaViewModel,
-                windowsSize = windowsSize
+                windowsSize = windowsSize,
+                onClickSwitchMode = onClickSwitchMode,
+                isInDarkTheme = isInDarkTheme
             )
             currentLayer(
                 currentCategory = { currentCategory ->
@@ -121,7 +130,9 @@ fun HomeScreenForMediumSize(
                 modifier = Modifier.weight(1f),
                 rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
                 rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
-                rememberScrollPositionForParks = rememberScrollPositionForParks
+                rememberScrollPositionForParks = rememberScrollPositionForParks,
+                onClickSwitchMode = onClickSwitchMode,
+                isInDarkTheme = isInDarkTheme
             )
         }
     }
@@ -135,7 +146,9 @@ fun HomeScreenForExpandedSize(
     windowsSize: WindowWidthSizeClass,
     rememberScrollPositionForCoffeeShops: SharedPreferences,
     rememberScrollPositionForRestaurants: SharedPreferences,
-    rememberScrollPositionForParks: SharedPreferences
+    rememberScrollPositionForParks: SharedPreferences,
+    onClickSwitchMode: () -> Unit,
+    isInDarkTheme: Boolean
 ) {
     permanentNavigationDrawer(
         listOfNavigationIcons = listOfNavigationIcons,
@@ -151,7 +164,11 @@ fun HomeScreenForExpandedSize(
                 if (currentMainCategory != MainCategories.Opportunities) currentMainCategory.Categories[0]
                 else R.string.opportunitiesEducationExtraCategoryName1
             )
-        }
+        },
+        windowsSize = windowsSize,
+        reynosaUiState = reynosaUiState,
+        isInDarkTheme = isInDarkTheme,
+        onClickSwitchMode = onClickSwitchMode
     ) {
         currentLayer(
             currentCategory = { currentCategory ->
@@ -172,6 +189,8 @@ fun HomeScreenForExpandedSize(
             rememberScrollPositionForCoffeeShops = rememberScrollPositionForCoffeeShops,
             rememberScrollPositionForRestaurants = rememberScrollPositionForRestaurants,
             rememberScrollPositionForParks = rememberScrollPositionForParks,
+            onClickSwitchMode = onClickSwitchMode,
+            isInDarkTheme = isInDarkTheme,
             modifier = Modifier,
         )
     }

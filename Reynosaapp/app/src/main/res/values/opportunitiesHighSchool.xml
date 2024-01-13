@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="opportunitiesSubCategoryHighSchoolName1">Conalep</string>
+    <string name="opportunitiesSubCategoryHighSchoolName2">Cetis No 71</string>
+    <string name="opportunitiesSubCategoryHighSchoolName3">Cobat</string>
+    <string name="opportunitiesSubCategoryHighSchoolName4">Jose de Escandon</string>
+    <string name="opportunitiesSubCategoryHighSchoolName5">CBTA 275</string>
+
+    <string name="opportunitiesSubCategoryHighSchoolClickHere1">https://www.google.com.mx/maps/place/CONALEP+129+Reynosa/@26.0637289,-98.4766148,11z/data=!4m10!1m2!2m1!1sconalep!3m6!1s0x866505f4f044027d:0x67b75b797dfa609b!8m2!3d26.0637289!4d-98.3118199!15sCgdjb25hbGVwIgOIAQGSARdoaWdoZXJfc2Vjb25kYXJ5X3NjaG9vbOABAA!16s%2Fg%2F1hc2x6k4c?entry=ttu</string>
+    <string name="opportunitiesSubCategoryHighSchoolClickHere2">https://www.google.com.mx/maps/place/CETis+71/@26.0596879,-98.2955971,17z/data=!3m1!4b1!4m6!3m5!1s0x86650f6bba3a8345:0xa5595d6d9d5a5495!8m2!3d26.059688!4d-98.2909837!16s%2Fg%2F1vcjmp8g?entry=ttu</string>
+    <string name="opportunitiesSubCategoryHighSchoolClickHere3">https://www.google.com.mx/maps/place/CETis+71/@26.0596879,-98.2955971,17z/data=!3m1!4b1!4m6!3m5!1s0x86650f6bba3a8345:0xa5595d6d9d5a5495!8m2!3d26.059688!4d-98.2909837!16s%2Fg%2F1vcjmp8g?entry=ttu</string>
+    <string name="opportunitiesSubCategoryHighSchoolClickHere4">https://www.google.com.mx/maps/place/Escuela+Preparatoria+Federal+por+Cooperación+“José+de+Escandón”/@26.0893128,-98.2839766,16z/data=!4m10!1m2!2m1!1sprepa!3m6!1s0x866508b5ce4e245d:0xa9747bcbe747554d!8m2!3d26.0895524!4d-98.2778755!15sCgVwcmVwYZIBBnNjaG9vbOABAA!16s%2Fg%2F1vj5_myy?entry=ttu</string>
+    <string name="opportunitiesSubCategoryHighSchoolClickHere5">https://www.google.com.mx/maps/place/CBTa+275/@26.040366,-98.2711151,17z/data=!4m15!1m8!3m7!1s0x86650fa9fddfef3f:0x2149d2b876af0344!2sCBTa+275!8m2!3d26.0403851!4d-98.2710947!10e5!16s%2Fg%2F11c31nw3c7!3m5!1s0x86650fa9fddfef3f:0x2149d2b876af0344!8m2!3d26.0403851!4d-98.2710947!16s%2Fg%2F11c31nw3c7?entry=ttu</string>
+
+    <string name="opportunitiesItemDescriptionHighSchool1">Unlock your potential at Conalep, where we blend academic excellence with practical skills, preparing students for success in a rapidly changing world.</string>
+    <string name="opportunitiesItemDescriptionHighSchool2">Join a community of innovation and learning at Cetis No 71. Our focus on technology and education equips students with the skills needed for a bright future.</string>
+    <string name="opportunitiesItemDescriptionHighSchool3">Experience holistic education at Cobat, where we foster a love for learning, critical thinking, and personal development, laying the foundation for a successful life.</string>
+    <string name="opportunitiesItemDescriptionHighSchool4">Shape your journey at Jose de Escandon, where tradition meets modernity. We provide a comprehensive education that prepares students for the challenges of tomorrow.</string>
+    <string name="opportunitiesItemDescriptionHighSchool5">CBTA 275 is your pathway to success. Embrace a hands-on learning experience that integrates agriculture and technology, shaping well-rounded and prepared individuals for the future.</string>
+
+
+</resources>

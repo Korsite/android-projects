@@ -15,7 +15,6 @@ import androidx.compose.ui.unit.dp
 import com.example.reynosaapp.data.framework.CategoryData
 import com.example.reynosaapp.data.framework.MainCategories
 import com.example.reynosaapp.ui.data.ReynosaUiState
-import com.example.reynosaapp.ui.data.ReynosaViewModel
 
 @Composable
 fun categoryLayerLazyColumn(
@@ -37,8 +36,8 @@ fun categoryLayerLazyColumn(
             horizontalArrangement = Arrangement.spacedBy(5.dp),
             modifier = modifier
                 .padding(
-                    start = 10.dp,
-                    end = 10.dp
+                    start = if(windowsSize != WindowWidthSizeClass.Expanded) 10.dp else 0.dp,
+                    end = if(windowsSize != WindowWidthSizeClass.Expanded) 10.dp else 0.dp,
                     )
                 .fillMaxWidth()
         ) {
@@ -47,11 +46,11 @@ fun categoryLayerLazyColumn(
                 key = { category -> category.categoryName }
             ) { category ->
                 categoryLayer(
-                    category = category,
-                    onClick = { currentCategory(category.categoryName) },
                     extraCategories = category.extraCategoriesType,
-                    onClickExtraCategory = onClickExtraCategory,
+                    category = category,
                     reynosaUiState = reynosaUiState,
+                    onClick = { currentCategory(category.categoryName) },
+                    onClickExtraCategory = onClickExtraCategory,
                     windowsSize = windowsSize,
                     cardSelected = category.categoryName == reynosaUiState.currentCategory
                 )
@@ -69,13 +68,12 @@ fun categoryLayer(
     onClick: () -> Unit,
     onClickExtraCategory: (Int) -> Unit,
     windowsSize: WindowWidthSizeClass,
-    cardSelected: Boolean,
-    modifier: Modifier = Modifier
+    cardSelected: Boolean
 ) {
     when (reynosaUiState.currentMainCategory) {
         MainCategories.Opportunities -> categoryLayerForOpportunities(
-            category = category,
             extraCategories = extraCategories,
+            category = category,
             onClickExtraCategory = onClickExtraCategory,
             windowsSize = windowsSize,
         )

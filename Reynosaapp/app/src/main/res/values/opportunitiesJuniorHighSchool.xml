@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName1">General No 13</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName2">Telesecundaria Carlos Trevino</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName3">Eti 44</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName4">Tecnica No 89</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolName5">Jose de Escandon 1</string>
+
+    <string name="opportunitiesSubCategoryJuniorHighSchoolClickHere1">https://www.google.com.mx/maps/place/Secundaria+General+%2313+"Gumersindo+Guerrero+García"/@26.0060421,-98.2624595,14.66z/data=!4m6!3m5!1s0x86650e2550968095:0x4c743deb252d6c92!8m2!3d26.005769!4d-98.2536772!16s%2Fg%2F11cn7tg_f3?entry=ttu</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolClickHere2">https://www.google.com.mx/maps/place/Telesecundaria:+Carlos+Treviño+Rodriguez/@26.0432082,-98.2433449,17z/data=!3m1!4b1!4m6!3m5!1s0x86650e8a8f51e5ff:0xe18f55ffda1ad12f!8m2!3d26.0432082!4d-98.24077!16s%2Fg%2F11g9f3zzg4?entry=ttu</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolClickHere3">https://www.google.com.mx/maps/place/Escuela+Secundaria+Técnica+No.+44+"Ciencia+y+Progreso"/@26.053056,-98.2974585,16.29z/data=!4m6!3m5!1s0x86650f6efa0bf89f:0xf180c19210211781!8m2!3d26.0538456!4d-98.2943522!16s%2Fg%2F124t4hpt9?entry=ttu</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolClickHere4">https://www.google.com.mx/maps/place/Esc.+Sec.+Tec.+Centenario+de+la+Revolución+Mexicana/@26.0748043,-98.3496125,17z/data=!3m1!4b1!4m6!3m5!1s0x866505850740f095:0xb48450972a15d6ae!8m2!3d26.0748043!4d-98.3470376!16s%2Fg%2F11hy9qgfvw?entry=ttu</string>
+    <string name="opportunitiesSubCategoryJuniorHighSchoolClickHere5">https://www.google.com.mx/maps/place/Secundaria+1+José+de+Escandón/@26.0677647,-98.338962,14z/data=!4m10!1m2!2m1!1ssecundarias!3m6!1s0x866505fefa6f2baf:0x60851315956a26e8!8m2!3d26.0677647!4d-98.3183626!15sCgtzZWN1bmRhcmlhc1oNIgtzZWN1bmRhcmlhc5IBDW1pZGRsZV9zY2hvb2yaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjVkRGhMV1VSM0VBReABAA!16s%2Fg%2F1v3gsb78?entry=ttu</string>
+
+    <string name="opportunitiesItemDescriptionJuniorHighSchool1">Experience excellence at General No 13. Join a community fostering curiosity, critical thinking, and a love for learning.</string>
+    <string name="opportunitiesItemDescriptionJuniorHighSchool2">Join a dynamic learning community at Telesecundaria Carlos Trevino. We empower students for success through exploration and talent cultivation.</string>
+    <string name="opportunitiesItemDescriptionJuniorHighSchool3">Shape your future with education and innovation at ETI 44. We offer a unique blend of knowledge and hands-on experience.</string>
+    <string name="opportunitiesItemDescriptionJuniorHighSchool4">Discover tradition and modernity at Tecnica No 89. Our school prepares students for future challenges with academic excellence.</string>
+    <string name="opportunitiesItemDescriptionJuniorHighSchool5">Explore learning at Jose de Escandon 1, where we provide a supportive environment for academic and character development. Join us for a transformative experience.</string>
+
+
+</resources>

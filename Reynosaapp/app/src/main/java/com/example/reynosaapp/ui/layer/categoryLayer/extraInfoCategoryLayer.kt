@@ -36,7 +36,6 @@ fun categoryLayerForExtraInfo(
         colors = CardDefaults.cardColors(
             containerColor = if (cardSelected) MaterialTheme.colorScheme.primaryContainer
             else MaterialTheme.colorScheme.surfaceVariant
-
         )
     ) {
         Row(
@@ -55,8 +54,6 @@ fun categoryLayerForExtraInfo(
 @Composable
 @Preview(showSystemUi = true)
 fun previewCategoryLayerForExtraInfo() {
-    val reynosaViewModel: ReynosaViewModel = viewModel()
-    val reynosaUiState = reynosaViewModel.uiState.collectAsState().value
     ReynosaAppTheme {
         Column(
             verticalArrangement = Arrangement.Center,
