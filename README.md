@@ -1,5 +1,5 @@
 # android-projects
-These are some projects I made in android studio while studying jetpack compose
+These are some projects I made in android studio while studying jetpack compose, in order to use them, android studio is required
 
 AnimeQuiz is an application that displays pictures of different characters of anime in 3 levels -> EASY, MEDIUM and DIFFICULT;
 user has to know the name of that character in order to earn points, since a character
