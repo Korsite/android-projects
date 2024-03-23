@@ -1,4 +1,4 @@
-package com.example.quizme.composable.navigation
+package com.example.quizme.composable.navigation.rules
 
 interface NavigationDestination {
     val route: String

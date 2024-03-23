@@ -6,10 +6,11 @@ interface AppContainer{
     val repository: QuizRepository
 }
 
-class DefaultContainer(context: Context): AppContainer{
+class DefaultContainer(context: Context, dataStore: PreferencesRepository): AppContainer{
     override val repository: QuizRepository by lazy {
         DefaultRepository(
-            QuizDatabase.getDatabase(context).quizDao()
+            QuizDatabase.getDatabase(context).quizDao(),
+            dataStore
         )
     }
 }

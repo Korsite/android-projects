@@ -1,18 +1,17 @@
 package com.example.quizme.data
 
-import androidx.room.ColumnInfo
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-/**
- * TODO implement 2 columns more: resolved: Boolean, attemptsLeft: Int (ignore column) = 2
- */
+
 @Entity
 data class Question(
     @PrimaryKey(autoGenerate = true)
     val questionId: Int,
     val personId: String,
     val question: String,
+    val resolved: Boolean = false,
+    val attemptsLeft: Int = 2,
     @Embedded
     val answer: Answer,
 )
